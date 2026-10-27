@@ -1,0 +1,7 @@
+emotion,emoji_text_positive,emoji_text_total,emoji_text_prevalence_percentage,non_emoji_text_positive,non_emoji_text_total,non_emoji_text_prevalence_percentage
+anger,0,0,0.00000000,718,2226,32.25516622
+disgust,0,0,0.00000000,75,2226,3.36927224
+fear,0,0,0.00000000,109,2226,4.89667565
+joy,0,0,0.00000000,581,2226,26.10062893
+sadness,0,0,0.00000000,322,2226,14.46540881
+surprise,0,0,0.00000000,153,2226,6.87331536

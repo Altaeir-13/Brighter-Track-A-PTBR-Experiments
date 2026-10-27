@@ -1,0 +1,267 @@
+{
+  "system": "T3",
+  "source_system": "B2",
+  "source_oof": "artifacts/predictions/bertimbau_large_bce_oof.parquet",
+  "thresholded_oof": "artifacts/predictions/bertimbau_large_bce_thresholded_oof.parquet",
+  "thresholded_oof_sha256": "3afc91384f9a044eb1aa574899d8f2140d8a83230a65ac847509ee6910b1c374",
+  "fixed_metrics": {
+    "macro_f1": 0.3976347842733952,
+    "micro_f1": 0.6460732984293194,
+    "macro_precision": 0.5924359636107603,
+    "macro_recall": 0.3611441201948022,
+    "macro_average_precision": 0.5359509217554123,
+    "hamming_loss": 0.0928826600714482,
+    "jaccard_samples": 0.43147155812036275,
+    "subset_accuracy": 0.5696619950535862,
+    "gold_label_cardinality": 0.8821104699093157,
+    "predicted_label_cardinality": 0.6924979389942292,
+    "zero_label": {
+      "support": 678,
+      "exact_neutral_accuracy": 0.7064896755162242,
+      "neutral_false_positive_rate": 0.2935103244837758
+    },
+    "per_label": {
+      "anger": {
+        "precision": 0.7363387978142076,
+        "recall": 0.6945876288659794,
+        "f1": 0.7148541114058355,
+        "support": 776,
+        "predicted_positive": 732,
+        "average_precision": 0.7969142513172885,
+        "gold_prevalence": 0.31986809563066776,
+        "predicted_prevalence": 0.3017312448474856,
+        "prevalence_delta": -0.018136850783182168
+      },
+      "disgust": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 80,
+        "predicted_positive": 0,
+        "average_precision": 0.15501460118177454,
+        "gold_prevalence": 0.03297609233305853,
+        "predicted_prevalence": 0.0,
+        "prevalence_delta": -0.03297609233305853
+      },
+      "fear": {
+        "precision": 0.6666666666666666,
+        "recall": 0.03418803418803419,
+        "f1": 0.06504065040650407,
+        "support": 117,
+        "predicted_positive": 6,
+        "average_precision": 0.3101707049989153,
+        "gold_prevalence": 0.048227535037098104,
+        "predicted_prevalence": 0.00247320692497939,
+        "prevalence_delta": -0.045754328112118714
+      },
+      "joy": {
+        "precision": 0.7847682119205298,
+        "recall": 0.7371695178849145,
+        "f1": 0.7602245388933441,
+        "support": 643,
+        "predicted_positive": 604,
+        "average_precision": 0.8359483284452075,
+        "gold_prevalence": 0.26504534212695796,
+        "predicted_prevalence": 0.24896949711459193,
+        "prevalence_delta": -0.01607584501236603
+      },
+      "sadness": {
+        "precision": 0.63,
+        "recall": 0.54,
+        "f1": 0.5815384615384616,
+        "support": 350,
+        "predicted_positive": 300,
+        "average_precision": 0.6648529106707008,
+        "gold_prevalence": 0.1442704039571311,
+        "predicted_prevalence": 0.1236603462489695,
+        "prevalence_delta": -0.020610057708161586
+      },
+      "surprise": {
+        "precision": 0.7368421052631579,
+        "recall": 0.16091954022988506,
+        "f1": 0.2641509433962264,
+        "support": 174,
+        "predicted_positive": 38,
+        "average_precision": 0.4528047339185869,
+        "gold_prevalence": 0.0717230008244023,
+        "predicted_prevalence": 0.015663643858202802,
+        "prevalence_delta": -0.0560593569661995
+      }
+    },
+    "groups": {
+      "multi_label": {
+        "support": 358,
+        "macro_f1": 0.39497460464284306,
+        "micro_f1": 0.5551537070524413,
+        "jaccard_samples": 0.40432960893854747,
+        "subset_accuracy": 0.07262569832402235
+      }
+    }
+  },
+  "thresholded_metrics": {
+    "macro_f1": 0.5022780104099068,
+    "micro_f1": 0.6248156730566674,
+    "macro_precision": 0.4549055593525435,
+    "macro_recall": 0.5864689195098968,
+    "macro_average_precision": 0.5359509217554123,
+    "hamming_loss": 0.12235504259411926,
+    "jaccard_samples": 0.43658285243198675,
+    "subset_accuracy": 0.4921681780708986,
+    "gold_label_cardinality": 0.8821104699093157,
+    "predicted_label_cardinality": 1.074608408903545,
+    "zero_label": {
+      "support": 678,
+      "exact_neutral_accuracy": 0.5707964601769911,
+      "neutral_false_positive_rate": 0.42920353982300885
+    },
+    "per_label": {
+      "anger": {
+        "precision": 0.6875,
+        "recall": 0.7512886597938144,
+        "f1": 0.7179802955665024,
+        "support": 776,
+        "predicted_positive": 848,
+        "average_precision": 0.7969142513172885,
+        "gold_prevalence": 0.31986809563066776,
+        "predicted_prevalence": 0.34954657873042044,
+        "prevalence_delta": 0.029678483099752684
+      },
+      "disgust": {
+        "precision": 0.176,
+        "recall": 0.275,
+        "f1": 0.2146341463414634,
+        "support": 80,
+        "predicted_positive": 125,
+        "average_precision": 0.15501460118177454,
+        "gold_prevalence": 0.03297609233305853,
+        "predicted_prevalence": 0.05152514427040396,
+        "prevalence_delta": 0.018549051937345427
+      },
+      "fear": {
+        "precision": 0.2013888888888889,
+        "recall": 0.49572649572649574,
+        "f1": 0.28641975308641976,
+        "support": 117,
+        "predicted_positive": 288,
+        "average_precision": 0.3101707049989153,
+        "gold_prevalence": 0.048227535037098104,
+        "predicted_prevalence": 0.11871393239901072,
+        "prevalence_delta": 0.07048639736191262
+      },
+      "joy": {
+        "precision": 0.7753164556962026,
+        "recall": 0.7620528771384136,
+        "f1": 0.7686274509803922,
+        "support": 643,
+        "predicted_positive": 632,
+        "average_precision": 0.8359483284452075,
+        "gold_prevalence": 0.26504534212695796,
+        "predicted_prevalence": 0.2605111294311624,
+        "prevalence_delta": -0.00453421269579557
+      },
+      "sadness": {
+        "precision": 0.5491606714628298,
+        "recall": 0.6542857142857142,
+        "f1": 0.5971316818774446,
+        "support": 350,
+        "predicted_positive": 417,
+        "average_precision": 0.6648529106707008,
+        "gold_prevalence": 0.1442704039571311,
+        "predicted_prevalence": 0.1718878812860676,
+        "prevalence_delta": 0.02761747732893652
+      },
+      "surprise": {
+        "precision": 0.3400673400673401,
+        "recall": 0.5804597701149425,
+        "f1": 0.4288747346072187,
+        "support": 174,
+        "predicted_positive": 297,
+        "average_precision": 0.4528047339185869,
+        "gold_prevalence": 0.0717230008244023,
+        "predicted_prevalence": 0.1224237427864798,
+        "prevalence_delta": 0.050700741962077495
+      }
+    },
+    "groups": {
+      "multi_label": {
+        "support": 358,
+        "macro_f1": 0.5841525333176973,
+        "micro_f1": 0.6418672501823487,
+        "jaccard_samples": 0.49506517690875235,
+        "subset_accuracy": 0.14804469273743018
+      }
+    }
+  },
+  "thresholds_by_fold": [
+    {
+      "system": "T3",
+      "outer_fold": 0,
+      "anger": 0.35,
+      "disgust": 0.14,
+      "fear": 0.11,
+      "joy": 0.48,
+      "sadness": 0.28,
+      "surprise": 0.12
+    },
+    {
+      "system": "T3",
+      "outer_fold": 1,
+      "anger": 0.29,
+      "disgust": 0.17,
+      "fear": 0.09,
+      "joy": 0.41,
+      "sadness": 0.39,
+      "surprise": 0.13
+    },
+    {
+      "system": "T3",
+      "outer_fold": 2,
+      "anger": 0.27,
+      "disgust": 0.1,
+      "fear": 0.12,
+      "joy": 0.39,
+      "sadness": 0.29,
+      "surprise": 0.15
+    },
+    {
+      "system": "T3",
+      "outer_fold": 3,
+      "anger": 0.47,
+      "disgust": 0.15,
+      "fear": 0.1,
+      "joy": 0.5,
+      "sadness": 0.27,
+      "surprise": 0.12
+    },
+    {
+      "system": "T3",
+      "outer_fold": 4,
+      "anger": 0.21,
+      "disgust": 0.2,
+      "fear": 0.11,
+      "joy": 0.43,
+      "sadness": 0.33,
+      "surprise": 0.14
+    }
+  ],
+  "inner_training_seconds_total": 13629.377663300082,
+  "wall_seconds_this_invocation": 13844.0766726,
+  "dataset_hashes": {
+    "train": "3fe02f1a979dde450a883c97b8aa648528c1f5d2dd70eaec1d7d1e8aeac2cb91",
+    "dev": "4d23f9d2dedbfeb99c5fcb68001b01a6de30d897a8663d4bd505839f030105ba"
+  },
+  "completed_timestamp_utc": "2026-08-27T15:03:32+00:00",
+  "protocol": {
+    "outer_folds": 5,
+    "inner_folds": 3,
+    "inner_seed": 42,
+    "grid": [
+      0.01,
+      0.99,
+      0.01
+    ],
+    "tie_break": "largest_threshold",
+    "objective": "independent_per_label_f1"
+  },
+  "test_policy": "SEALED — NOT LOADED OR EVALUATED"
+}

@@ -1,0 +1,59 @@
+{
+  "state_before": "FROZEN_PRE_TEST",
+  "state_at_recovery_start": "FINAL_TEST_FAILED_AFTER_ACCESS",
+  "state_after": "TEST_EVALUATED",
+  "test_accessed": true,
+  "inference_completed": true,
+  "metrics_completed": true,
+  "reporting_failure": true,
+  "reporting_failure_reason": "Matplotlib global font-cache permission error",
+  "reporting_recovered": true,
+  "recovery_mode": "REPORTING_ONLY",
+  "models_loaded_during_recovery": false,
+  "test_dataset_loaded_during_recovery": false,
+  "inference_executed_during_recovery": false,
+  "parameters_modified": false,
+  "authorization_sha256": "81233bb1357551518f0b045c617013b4a4f4c5ff33941bfa3334509e2f9cbb92",
+  "model_hashes": {
+    "T2": "5b845ab4988c02ed8bbf1d1fee7551cd64cdbdac213c19f5ebd24823e79a612a",
+    "T3": "aa25ca2517e262281ab60fee0fd161a48b57fc46967c0bba7955e03c98f4255d"
+  },
+  "config_hashes": {
+    "final_en2.yaml": "71f1cb1b486380bd7a07537dc7eafb6bcce144a84325a45e2d52114a80c5f8ef",
+    "final_t2_standalone.yaml": "3a8152b86c7a34b404faf495a49f615f5a6270ab27193ffeac48c7b9679d85be"
+  },
+  "dataset_revision": "419566ac8f46f951b51584be36c13e5363008144",
+  "test_instances": 2226,
+  "probability_and_prediction_hashes": {
+    "artifacts/predictions/final/t2_test_probabilities.parquet": "debc6061276d022c955d610218e7a6e0c13ba3d4d90c0e693b9d8efba071231e",
+    "artifacts/predictions/final/t3_component_test_probabilities.parquet": "f33aed250c959d757234297b0d06e58e768c31d0397e2edd63817f2e9dee5ad0",
+    "artifacts/predictions/final/en2_test_probabilities.parquet": "6d54bbb511a00f12c5d1de9f31295ec74170cc60ac1d7ba5e6c12e67fbb5f2b9",
+    "artifacts/predictions/final/t2_test_predictions.parquet": "23ca4212656ab02f57ccb783723081889d7f8f967730fe87466153b41ed3c3bd",
+    "artifacts/predictions/final/en2_test_predictions.parquet": "5ed3c25279fd41fc6328fb6802c7ccc5400002f919c73388ee05e90463aabf65",
+    "artifacts/predictions/final/en2_test_submission.csv": "123458dc1a18251a23eb1f063608d02c6fd718039fbf2551aca9a9e5e4b52abd",
+    "artifacts/predictions/final/t2_test_submission.csv": "257bf6e20f4861266cdfb6173f9cba80b8ef7a7df6ccb22177607b936cd6d0b5"
+  },
+  "final_metrics_sha256": "e39d9a3919fd6019a39e032057bf74f4b27125377a7a106137e2029abfe02d43",
+  "timestamp_final_test_start_utc": "2026-08-27T22:49:48+00:00",
+  "timestamp_final_test_metrics_utc": "2026-08-27T22:50:53+00:00",
+  "timestamp_reporting_recovery_utc": "2026-08-28T00:31:40+00:00",
+  "reporting_artifact_hashes": {
+    "reports/brighter_ptbr/final/final_test_results.md": "bc6c0428dd5b77f03adbae49aa0d7aee4eb2f604ca731d808a879be45eb6ab49",
+    "reports/brighter_ptbr/final/final_test_incident.md": "31c0ca80e58f3cbe81ffaeafc4a4b1fedecef22964eb18e6f8f91afe85ff0d0e",
+    "reports/brighter_ptbr/experiments/experiment_registry.csv": "0a0d727ceeee14da9fb973299128291a63e630119e30c2cb2ee5a10d9e833281",
+    "reports/brighter_ptbr/final/latex/final_main_results.tex": "78394459feb400da2da5f59394e28d69639b45d782e1b2c0a94539b301380ae4",
+    "reports/brighter_ptbr/final/latex/final_multilabel_results.tex": "fd964da4aef2af6ddd660dcf78ee243113be267322a95f00176a27746df9bad9",
+    "reports/brighter_ptbr/final/latex/final_neutral_cardinality.tex": "7761960a18a963cf586a1ff4d3fe3f2261509781fb528366e8db7eab5a9f9828",
+    "reports/brighter_ptbr/final/latex/final_per_label_results.tex": "e06d2d51592a82254b8e85e19c03a96d37523a96ac13bf90896407a997ea84cb",
+    "figures/brighter_ptbr/final/final_en2_confusion_matrices.pdf": "dfc0dcaa84889dd0cc1b8de8b87c163210d524e1a2e6757815dbaf7deca73d33",
+    "figures/brighter_ptbr/final/final_en2_confusion_matrices.png": "a8e4a9ee45c79e60a9c195bd5a2fe69dabcc339b02a8087da1ef8b86f041e841",
+    "figures/brighter_ptbr/final/final_en2_prevalence.pdf": "36d012864d3523d4569696789e8592d732fdf8aaafb7abd7c2f8192f622319c4",
+    "figures/brighter_ptbr/final/final_en2_prevalence.png": "6575953576714be7ddcdf657e7a5905fa62a5ba4b078a793bda5eb76ef5b496e",
+    "figures/brighter_ptbr/final/final_macro_f1.pdf": "eb32a0350601efbe3b8687f5dfd2e808cb7a27a80aa5a9266fef0c82e89b833a",
+    "figures/brighter_ptbr/final/final_macro_f1.png": "1ea04cc9777af856141813f7b0eea403f874d7c92b3ba71aeab55a43211fb2fa",
+    "figures/brighter_ptbr/final/final_per_label_f1.pdf": "ea10e5594a8941e0cfd28bd5add7f1eef6345af034d63da1b2c9a4e0ce896b02",
+    "figures/brighter_ptbr/final/final_per_label_f1.png": "c317d30621356d87de32e8b7cc4624a1910e27afb4b0f3cf765658df78feadbb"
+  },
+  "search_space": "CLOSED",
+  "further_tuning_allowed": false
+}

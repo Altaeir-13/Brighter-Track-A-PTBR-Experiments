@@ -1,0 +1,84 @@
+{
+  "development_examples": 2426,
+  "folds": 5,
+  "threshold": 0.5,
+  "test_policy": "SEALED — NOT LOADED OR EVALUATED",
+  "selected_losses": [
+    "asl",
+    "weighted_focal"
+  ],
+  "experiments": {
+    "L1": {
+      "experiment_id": "L1_BERTIMBAU_BASE_WEIGHTED_BCE",
+      "config_sha256": "55f4d3ee2565fe3a3337221b71986d94abb8c8ed740a6d414a2706ba530c33d3",
+      "oof_path": "artifacts/predictions/bertimbau_base_weighted_bce_oof.parquet",
+      "oof_sha256": "67ea4733fcb4d7406d1dd85ce0fd664dbc10d8d5ac97445a8e77319485241c57",
+      "macro_f1_oof": 0.4470282549085128,
+      "macro_f1_cv": {
+        "mean": 0.44822655529127314,
+        "std": 0.006534261754300216
+      },
+      "cost": {
+        "training_seconds_total": 448.322825500014,
+        "inference_seconds_total": 3.888280700019095,
+        "peak_gpu_memory_bytes": 2057214976,
+        "parameters": 108927750
+      }
+    },
+    "L2": {
+      "experiment_id": "L2_BERTIMBAU_BASE_FOCAL",
+      "config_sha256": "a71a7a873f84744480a12f404dfea404fe69d2081ca3820ca7714897746a92cb",
+      "oof_path": "artifacts/predictions/bertimbau_base_focal_oof.parquet",
+      "oof_sha256": "af44e40093381ee95a71cf4903ee8ed7915ab38c3f1901ec211d16cfd37730ee",
+      "macro_f1_oof": 0.3788797600430264,
+      "macro_f1_cv": {
+        "mean": 0.3785823908532589,
+        "std": 0.008118950094225936
+      },
+      "cost": {
+        "training_seconds_total": 450.67919189998065,
+        "inference_seconds_total": 3.937531899980968,
+        "peak_gpu_memory_bytes": 2057214464,
+        "parameters": 108927750
+      }
+    },
+    "L3": {
+      "experiment_id": "L3_BERTIMBAU_BASE_WEIGHTED_FOCAL",
+      "config_sha256": "1476829c91a21738571cb0dbf96e31b1fb516be91b3391c674866acc8695970d",
+      "oof_path": "artifacts/predictions/bertimbau_base_weighted_focal_oof.parquet",
+      "oof_sha256": "495ec8f9b2954bfd13833cc257c80ebedf11b014205c14137fa93558ca30dfb9",
+      "macro_f1_oof": 0.40235533655901956,
+      "macro_f1_cv": {
+        "mean": 0.40039601956842874,
+        "std": 0.023824989322853683
+      },
+      "cost": {
+        "training_seconds_total": 466.9718218999915,
+        "inference_seconds_total": 4.08455200001481,
+        "peak_gpu_memory_bytes": 2057214464,
+        "parameters": 108927750
+      }
+    },
+    "L4": {
+      "experiment_id": "L4_BERTIMBAU_BASE_ASL",
+      "config_sha256": "0a53253b3bbd4df69cfe5ac764fe0ce8d6d71a38ec7c133e798f076a88d3e4a8",
+      "oof_path": "artifacts/predictions/bertimbau_base_asl_oof.parquet",
+      "oof_sha256": "0ecbc00a00f7268cc6522b14b2dff56b30467d2641a9678ab2f2b5f2dd9d2633",
+      "macro_f1_oof": 0.4617199198901151,
+      "macro_f1_cv": {
+        "mean": 0.46242622976071746,
+        "std": 0.01996921344870742
+      },
+      "cost": {
+        "training_seconds_total": 457.58409910002956,
+        "inference_seconds_total": 3.892645199986873,
+        "peak_gpu_memory_bytes": 2057214464,
+        "parameters": 108927750
+      }
+    }
+  },
+  "artifact_hashes": {
+    "fold_metrics": "20ba150d230117d45c14e8ab9bbae47f05cb3bd22a65ebfbbf3a3d85dd686bae",
+    "per_label": "8ba23dce80742cb0c01969353d1855dc78c80d0583239f0740a12c496970dd05"
+  }
+}

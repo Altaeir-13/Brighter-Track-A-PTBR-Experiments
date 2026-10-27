@@ -28,4 +28,10 @@ Não foi observada diferença de conteúdo científico entre os dois serviços n
 
 As fontes incluem relatórios de execução, manifests de congelamento, parâmetros decisórios, métricas finais, diagnósticos sobre probabilidades congeladas, configurações e implementação. A documentação conserva a diferença entre a seleção aninhada de limiares/pesos e a seleção anterior de modelos/perdas, entre desenvolvimento e teste, e entre o ambiente de treinamento e o ambiente de apresentação do notebook.
 
-O repositório original é confirmado como origem do material anonimizado. Seu único commit histórico não contém o código completo de treinamento nem uma cronologia Git das execuções; não se atribui a esse commit uma garantia de reprodutibilidade ou de versionamento integral do pipeline. A atualização documental não altera essa limitação.
+O repositório original é confirmado como origem do material anonimizado. O commit inicial do notebook não contém o código completo de treinamento nem uma cronologia Git das execuções anteriores à publicação; não se atribui a ele essa garantia histórica.
+
+## Ampliação do pipeline
+
+A nova distribuição acrescenta o material científico preservado posteriormente, sem reescrever o histórico. [source_file_manifest.json](../metadata/publication/source_file_manifest.json) registra 652 arquivos copiados, hashes de origem/cópia e as três redações mínimas de privacidade. Também registra exclusões, como dados brutos, citações literais do corpus e pesos volumosos. `.gitattributes` preserva os bytes e finais de linha originais.
+
+Os auxiliares novos de isolamento, aquisição restrita e verificação estão identificados nos docstrings e no [guia](guia_reproducao.md); não são apresentados como código executado nos experimentos históricos. O [registro de verificação](verificacao_executada.md) descreve execuções novas limitadas, sem substituir resultados, parâmetros ou manifests históricos. Alguns caminhos da transcrição documental anterior agora estão publicados; outros, como o manuscrito, continuam apenas referências locais de procedência.

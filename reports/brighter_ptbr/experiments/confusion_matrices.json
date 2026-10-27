@@ -1,0 +1,166 @@
+{
+  "rows": [
+    {
+      "experiment_id": "B0_TFIDF_LOGREG",
+      "model": "TF-IDF + Logistic Regression",
+      "emotion": "anger",
+      "tn": 1569,
+      "fp": 81,
+      "fn": 545,
+      "tp": 231
+    },
+    {
+      "experiment_id": "B0_TFIDF_LOGREG",
+      "model": "TF-IDF + Logistic Regression",
+      "emotion": "disgust",
+      "tn": 2346,
+      "fp": 0,
+      "fn": 80,
+      "tp": 0
+    },
+    {
+      "experiment_id": "B0_TFIDF_LOGREG",
+      "model": "TF-IDF + Logistic Regression",
+      "emotion": "fear",
+      "tn": 2309,
+      "fp": 0,
+      "fn": 117,
+      "tp": 0
+    },
+    {
+      "experiment_id": "B0_TFIDF_LOGREG",
+      "model": "TF-IDF + Logistic Regression",
+      "emotion": "joy",
+      "tn": 1751,
+      "fp": 32,
+      "fn": 439,
+      "tp": 204
+    },
+    {
+      "experiment_id": "B0_TFIDF_LOGREG",
+      "model": "TF-IDF + Logistic Regression",
+      "emotion": "sadness",
+      "tn": 2073,
+      "fp": 3,
+      "fn": 325,
+      "tp": 25
+    },
+    {
+      "experiment_id": "B0_TFIDF_LOGREG",
+      "model": "TF-IDF + Logistic Regression",
+      "emotion": "surprise",
+      "tn": 2252,
+      "fp": 0,
+      "fn": 174,
+      "tp": 0
+    },
+    {
+      "experiment_id": "B1_BERTIMBAU_BASE_BCE",
+      "model": "BERTimbau Base + BCE",
+      "emotion": "anger",
+      "tn": 1447,
+      "fp": 203,
+      "fn": 270,
+      "tp": 506
+    },
+    {
+      "experiment_id": "B1_BERTIMBAU_BASE_BCE",
+      "model": "BERTimbau Base + BCE",
+      "emotion": "disgust",
+      "tn": 2346,
+      "fp": 0,
+      "fn": 80,
+      "tp": 0
+    },
+    {
+      "experiment_id": "B1_BERTIMBAU_BASE_BCE",
+      "model": "BERTimbau Base + BCE",
+      "emotion": "fear",
+      "tn": 2309,
+      "fp": 0,
+      "fn": 117,
+      "tp": 0
+    },
+    {
+      "experiment_id": "B1_BERTIMBAU_BASE_BCE",
+      "model": "BERTimbau Base + BCE",
+      "emotion": "joy",
+      "tn": 1635,
+      "fp": 148,
+      "fn": 161,
+      "tp": 482
+    },
+    {
+      "experiment_id": "B1_BERTIMBAU_BASE_BCE",
+      "model": "BERTimbau Base + BCE",
+      "emotion": "sadness",
+      "tn": 1994,
+      "fp": 82,
+      "fn": 203,
+      "tp": 147
+    },
+    {
+      "experiment_id": "B1_BERTIMBAU_BASE_BCE",
+      "model": "BERTimbau Base + BCE",
+      "emotion": "surprise",
+      "tn": 2252,
+      "fp": 0,
+      "fn": 174,
+      "tp": 0
+    },
+    {
+      "experiment_id": "B2_BERTIMBAU_LARGE_BCE",
+      "model": "BERTimbau Large + BCE",
+      "emotion": "anger",
+      "tn": 1457,
+      "fp": 193,
+      "fn": 237,
+      "tp": 539
+    },
+    {
+      "experiment_id": "B2_BERTIMBAU_LARGE_BCE",
+      "model": "BERTimbau Large + BCE",
+      "emotion": "disgust",
+      "tn": 2346,
+      "fp": 0,
+      "fn": 80,
+      "tp": 0
+    },
+    {
+      "experiment_id": "B2_BERTIMBAU_LARGE_BCE",
+      "model": "BERTimbau Large + BCE",
+      "emotion": "fear",
+      "tn": 2307,
+      "fp": 2,
+      "fn": 113,
+      "tp": 4
+    },
+    {
+      "experiment_id": "B2_BERTIMBAU_LARGE_BCE",
+      "model": "BERTimbau Large + BCE",
+      "emotion": "joy",
+      "tn": 1653,
+      "fp": 130,
+      "fn": 169,
+      "tp": 474
+    },
+    {
+      "experiment_id": "B2_BERTIMBAU_LARGE_BCE",
+      "model": "BERTimbau Large + BCE",
+      "emotion": "sadness",
+      "tn": 1965,
+      "fp": 111,
+      "fn": 161,
+      "tp": 189
+    },
+    {
+      "experiment_id": "B2_BERTIMBAU_LARGE_BCE",
+      "model": "BERTimbau Large + BCE",
+      "emotion": "surprise",
+      "tn": 2242,
+      "fp": 10,
+      "fn": 146,
+      "tp": 28
+    }
+  ]
+}

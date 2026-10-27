@@ -1,0 +1,32 @@
+{
+  "fixture": "two artificial software-test strings",
+  "official_test_used": false,
+  "t2_shape": [
+    2,
+    6
+  ],
+  "t3_shape": [
+    2,
+    6
+  ],
+  "ensemble_shape": [
+    2,
+    6
+  ],
+  "predictions_shape": [
+    2,
+    6
+  ],
+  "alpha_t2": 0.7,
+  "thresholds": {
+    "anger": 0.67,
+    "disgust": 0.36,
+    "fear": 0.43,
+    "joy": 0.65,
+    "sadness": 0.58,
+    "surprise": 0.49
+  },
+  "finite_probabilities": true,
+  "completed_timestamp_utc": "2026-08-27T16:40:12+00:00",
+  "test_policy": "SEALED — NOT LOADED OR EVALUATED"
+}

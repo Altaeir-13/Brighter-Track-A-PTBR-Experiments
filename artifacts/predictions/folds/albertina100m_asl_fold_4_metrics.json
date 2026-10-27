@@ -1,0 +1,178 @@
+{
+  "fold": 4,
+  "config_sha256": "6797b8bd6b246e00218c15f73695e9334bd459aa5aee0724fcc00648fe32bbcd",
+  "threshold": 0.5,
+  "macro_f1": 0.3886145705210417,
+  "micro_f1": 0.5236051502145923,
+  "macro_average_precision": 0.39302874150676964,
+  "macro_precision": 0.30705459945301966,
+  "macro_recall": 0.5427437388193201,
+  "hamming_loss": 0.19072164948453607,
+  "jaccard_samples": 0.39443298969072166,
+  "subset_accuracy": 0.3154639175257732,
+  "gold_label_cardinality": 0.8865979381443299,
+  "predicted_label_cardinality": 1.5154639175257731,
+  "per_label": {
+    "anger": {
+      "precision": 0.5245901639344263,
+      "recall": 0.8205128205128205,
+      "f1": 0.64,
+      "support": 156,
+      "average_precision": 0.689968660012115,
+      "gold_prevalence": 0.3216494845360825,
+      "predicted_prevalence": 0.5030927835051546,
+      "prevalence_delta": 0.18144329896907213,
+      "confusion": {
+        "tn": 213,
+        "fp": 116,
+        "fn": 28,
+        "tp": 128
+      }
+    },
+    "disgust": {
+      "precision": 0.15625,
+      "recall": 0.3125,
+      "f1": 0.20833333333333334,
+      "support": 16,
+      "average_precision": 0.11839154750383651,
+      "gold_prevalence": 0.032989690721649485,
+      "predicted_prevalence": 0.06597938144329897,
+      "prevalence_delta": 0.032989690721649485,
+      "confusion": {
+        "tn": 442,
+        "fp": 27,
+        "fn": 11,
+        "tp": 5
+      }
+    },
+    "fear": {
+      "precision": 0.0967741935483871,
+      "recall": 0.125,
+      "f1": 0.10909090909090909,
+      "support": 24,
+      "average_precision": 0.13596976840017966,
+      "gold_prevalence": 0.049484536082474224,
+      "predicted_prevalence": 0.06391752577319587,
+      "prevalence_delta": 0.014432989690721647,
+      "confusion": {
+        "tn": 433,
+        "fp": 28,
+        "fn": 21,
+        "tp": 3
+      }
+    },
+    "joy": {
+      "precision": 0.533678756476684,
+      "recall": 0.7984496124031008,
+      "f1": 0.639751552795031,
+      "support": 129,
+      "average_precision": 0.735194038428503,
+      "gold_prevalence": 0.26597938144329897,
+      "predicted_prevalence": 0.3979381443298969,
+      "prevalence_delta": 0.1319587628865979,
+      "confusion": {
+        "tn": 266,
+        "fp": 90,
+        "fn": 26,
+        "tp": 103
+      }
+    },
+    "sadness": {
+      "precision": 0.3310344827586207,
+      "recall": 0.6857142857142857,
+      "f1": 0.44651162790697674,
+      "support": 70,
+      "average_precision": 0.39041210380780644,
+      "gold_prevalence": 0.14432989690721648,
+      "predicted_prevalence": 0.29896907216494845,
+      "prevalence_delta": 0.15463917525773196,
+      "confusion": {
+        "tn": 318,
+        "fp": 97,
+        "fn": 22,
+        "tp": 48
+      }
+    },
+    "surprise": {
+      "precision": 0.2,
+      "recall": 0.5142857142857142,
+      "f1": 0.288,
+      "support": 35,
+      "average_precision": 0.28823633088817735,
+      "gold_prevalence": 0.07216494845360824,
+      "predicted_prevalence": 0.18556701030927836,
+      "prevalence_delta": 0.11340206185567012,
+      "confusion": {
+        "tn": 378,
+        "fp": 72,
+        "fn": 17,
+        "tp": 18
+      }
+    }
+  },
+  "zero_label": {
+    "support": 140,
+    "exact_neutral_accuracy": 0.2,
+    "neutral_false_positive_rate": 0.8
+  },
+  "groups": {
+    "single_label": {
+      "support": 270,
+      "macro_f1": 0.3683586389593254,
+      "micro_f1": 0.6014598540145986,
+      "subset_accuracy": 0.4148148148148148,
+      "jaccard_samples": 0.5685185185185185,
+      "hamming_loss": 0.1685185185185185
+    },
+    "multi_label": {
+      "support": 75,
+      "macro_f1": 0.5307266087753892,
+      "micro_f1": 0.6305732484076433,
+      "subset_accuracy": 0.17333333333333334,
+      "jaccard_samples": 0.504,
+      "hamming_loss": 0.2577777777777778
+    }
+  },
+  "cost": {
+    "training_seconds": 189.80687239998952,
+    "inference_seconds": 2.1412226000102237,
+    "examples_per_second": 226.5061091722478,
+    "parameters": 139196934,
+    "peak_gpu_memory_bytes": 2483364352,
+    "model_revision": "d2a39d3d82408cc2a2618beb57a4fe908ee44b27",
+    "training_fold_class_statistics": {
+      "positive": [
+        620.0,
+        64.0,
+        93.0,
+        514.0,
+        280.0,
+        139.0
+      ],
+      "negative": [
+        1321.0,
+        1877.0,
+        1848.0,
+        1427.0,
+        1661.0,
+        1802.0
+      ],
+      "pos_weight": [
+        2.1306451612903228,
+        29.328125,
+        19.870967741935484,
+        2.7762645914396886,
+        5.932142857142857,
+        12.964028776978417
+      ],
+      "focal_alpha": [
+        0.521774193548387,
+        5.0546875,
+        3.478494623655914,
+        0.6293774319066148,
+        1.1553571428571427,
+        2.327338129496403
+      ]
+    }
+  }
+}

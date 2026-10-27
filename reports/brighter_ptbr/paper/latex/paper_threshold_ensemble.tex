@@ -1,0 +1,17 @@
+\begin{table}[t]
+\centering
+\small
+\caption{Leakage-safe threshold calibration and ensemble results.}
+\label{tab:threshold-ensemble}
+\begin{tabular}{lrrrrr}
+\toprule
+ID & Decision & Macro-F1 & Micro-F1 & Neutral FP & Cardinality \\
+\midrule
+T1 & nested per-label thresholds & 0.5152 & 0.6197 & 0.6180 & 1.2370 \\
+T2 & nested per-label thresholds & 0.5585 & 0.6750 & 0.4425 & 1.1014 \\
+T3 & nested per-label thresholds & 0.5023 & 0.6248 & 0.4292 & 1.0746 \\
+EN1 & equal-weight soft ensemble + nested thresholds & 0.5548 & 0.6657 & 0.4971 & 1.2131 \\
+EN2 & tuned-weight soft ensemble + nested thresholds & 0.5691 & 0.6846 & 0.4159 & 1.0639 \\
+\bottomrule
+\end{tabular}
+\end{table}

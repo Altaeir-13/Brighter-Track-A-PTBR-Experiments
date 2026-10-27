@@ -1,0 +1,28 @@
+{
+  "experiment_id": "FINAL_T3_BERTIMBAU_LARGE_BCE",
+  "artifact_slug": "final_bertimbau_large_bce",
+  "model_type": "transformer",
+  "model_name": "neuralmind/bert-large-portuguese-cased",
+  "loss": "BCEWithLogitsLoss",
+  "seed": 42,
+  "folds": 5,
+  "threshold": 0.5,
+  "max_length": 128,
+  "imbalance_method": "none",
+  "training": {
+    "learning_rate": 2e-05,
+    "epochs": 4,
+    "optimizer": "AdamW",
+    "weight_decay": 0.01,
+    "warmup_ratio": 0.1,
+    "scheduler": "linear",
+    "physical_batch_size": 1,
+    "gradient_accumulation_steps": 16,
+    "effective_batch_size": 16,
+    "eval_batch_size": 2,
+    "mixed_precision": "fp16",
+    "gradient_checkpointing": true,
+    "max_grad_norm": 1.0,
+    "dynamic_padding": true
+  }
+}

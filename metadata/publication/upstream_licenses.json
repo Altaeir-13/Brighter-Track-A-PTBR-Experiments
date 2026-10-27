@@ -1,0 +1,90 @@
+{
+  "audit_date": "2026-10-26",
+  "sources": [
+    {
+      "kind": "dataset",
+      "repository": "brighter-dataset/BRIGHTER-emotion-categories",
+      "revision": "419566ac8f46f951b51584be36c13e5363008144",
+      "metadata_url": "https://huggingface.co/api/datasets/brighter-dataset/BRIGHTER-emotion-categories/revision/419566ac8f46f951b51584be36c13e5363008144",
+      "readme_url": "https://huggingface.co/datasets/brighter-dataset/BRIGHTER-emotion-categories/raw/419566ac8f46f951b51584be36c13e5363008144/README.md",
+      "resolved_sha": "419566ac8f46f951b51584be36c13e5363008144",
+      "gated": false,
+      "private": false,
+      "card_license": "cc-by-4.0",
+      "license_or_notice_files": [],
+      "readme_sha256": "c573b3e4d6dd0a0c4b0ee8daac4e28e354d078b56918e4f992feaf4caa4d382f",
+      "license_lines": [
+        "license: cc-by-4.0",
+        "## License",
+        "This dataset is licensed under CC-BY 4.0."
+      ]
+    },
+    {
+      "kind": "model",
+      "repository": "melll-uff/bertweetbr",
+      "revision": "7b95f2097a9e37046cca243cc1aeca45b0849fce",
+      "metadata_url": "https://huggingface.co/api/models/melll-uff/bertweetbr/revision/7b95f2097a9e37046cca243cc1aeca45b0849fce",
+      "readme_url": "https://huggingface.co/melll-uff/bertweetbr/raw/7b95f2097a9e37046cca243cc1aeca45b0849fce/README.md",
+      "resolved_sha": "7b95f2097a9e37046cca243cc1aeca45b0849fce",
+      "gated": false,
+      "private": false,
+      "card_license": "apache-2.0",
+      "license_or_notice_files": [],
+      "readme_sha256": "9e2d55f0bfc0a59e903ec02e7167c2d7461917e1d77c76e418e7a8584bc1ebc9",
+      "license_lines": [
+        "license: apache-2.0"
+      ]
+    },
+    {
+      "kind": "model",
+      "repository": "neuralmind/bert-large-portuguese-cased",
+      "revision": "aa302f6ea73b759f7df9cad58bd272127b67ec28",
+      "metadata_url": "https://huggingface.co/api/models/neuralmind/bert-large-portuguese-cased/revision/aa302f6ea73b759f7df9cad58bd272127b67ec28",
+      "readme_url": "https://huggingface.co/neuralmind/bert-large-portuguese-cased/raw/aa302f6ea73b759f7df9cad58bd272127b67ec28/README.md",
+      "resolved_sha": "aa302f6ea73b759f7df9cad58bd272127b67ec28",
+      "gated": false,
+      "private": false,
+      "card_license": "mit",
+      "license_or_notice_files": [],
+      "readme_sha256": "4bd7c7d876ff7663a01163662d7750b564a96244b3b874ee4c651de6c525b461",
+      "license_lines": [
+        "license: mit"
+      ]
+    },
+    {
+      "kind": "model",
+      "repository": "neuralmind/bert-base-portuguese-cased",
+      "revision": "94d69c95f98f7d5b2a8700c420230ae10def0baa",
+      "metadata_url": "https://huggingface.co/api/models/neuralmind/bert-base-portuguese-cased/revision/94d69c95f98f7d5b2a8700c420230ae10def0baa",
+      "readme_url": "https://huggingface.co/neuralmind/bert-base-portuguese-cased/raw/94d69c95f98f7d5b2a8700c420230ae10def0baa/README.md",
+      "resolved_sha": "94d69c95f98f7d5b2a8700c420230ae10def0baa",
+      "gated": false,
+      "private": false,
+      "card_license": "mit",
+      "license_or_notice_files": [],
+      "readme_sha256": "5d6b9daa0639405621d8a6f0ae31b1cb0a8e4bc2fa1a2667312ce51e976786aa",
+      "license_lines": [
+        "license: mit"
+      ]
+    },
+    {
+      "kind": "model",
+      "repository": "PORTULAN/albertina-100m-portuguese-ptbr-encoder",
+      "revision": "d2a39d3d82408cc2a2618beb57a4fe908ee44b27",
+      "metadata_url": "https://huggingface.co/api/models/PORTULAN/albertina-100m-portuguese-ptbr-encoder/revision/d2a39d3d82408cc2a2618beb57a4fe908ee44b27",
+      "readme_url": "https://huggingface.co/PORTULAN/albertina-100m-portuguese-ptbr-encoder/raw/d2a39d3d82408cc2a2618beb57a4fe908ee44b27/README.md",
+      "resolved_sha": "d2a39d3d82408cc2a2618beb57a4fe908ee44b27",
+      "gated": false,
+      "private": false,
+      "card_license": "mit",
+      "license_or_notice_files": [],
+      "readme_sha256": "4308eb0de9586e109b749a6b41d367c3347bd52eb3d23857ef0ea7f6f0dcbf93",
+      "license_lines": [
+        "license: mit",
+        "It is distributed free of charge and under a most permissible license.",
+        "Albertina-PT-BR base is distributed under an [MIT license](https://huggingface.co/PORTULAN/albertina-ptpt/blob/main/LICENSE).",
+        "DeBERTa is distributed under an [MIT license](https://github.com/microsoft/DeBERTa/blob/master/LICENSE)."
+      ]
+    }
+  ]
+}

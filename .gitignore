@@ -1,0 +1,22 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.cache/
+.venv/
+*.egg-info/
+runs/
+reproduction_artifacts/
+data/raw/
+data/interim/
+data/curated/
+# Never add weights automatically. Only the research provenance below is public.
+artifacts/models/*
+!artifacts/models/final/
+artifacts/models/final/*
+!artifacts/models/final/t2_bertweetbr_asl/
+!artifacts/models/final/t3_bertimbau_large_bce/
+artifacts/models/final/t2_bertweetbr_asl/*
+artifacts/models/final/t3_bertimbau_large_bce/*
+!artifacts/models/final/*/final_training_manifest.json
+!artifacts/models/final/*/training_config.json
+!artifacts/models/final/*/labels.json

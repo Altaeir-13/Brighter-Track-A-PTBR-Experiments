@@ -1,0 +1,258 @@
+{
+  "date": "2026-10-26",
+  "kind": "NEW LIMITED SOFTWARE/RECONSTRUCTION VERIFICATION; NOT HISTORICAL TRAINING",
+  "installation": {
+    "python": "3.12.14",
+    "platform": "Windows",
+    "package_versions": {
+      "torch": "2.13.0+cpu",
+      "transformers": "5.16.1",
+      "tokenizers": "0.23.1",
+      "datasets": "4.8.5",
+      "huggingface-hub": "1.28.0",
+      "numpy": "1.26.4",
+      "pandas": "2.3.3",
+      "pyarrow": "23.0.1",
+      "scikit-learn": "1.9.0",
+      "iterative-stratification": "0.1.9",
+      "matplotlib": "3.8.4",
+      "pytest": "9.1.1"
+    },
+    "modules_imported": [
+      "curation",
+      "download",
+      "eda",
+      "encoder_reporting",
+      "ensemble",
+      "ensemble_reporting",
+      "experiment_reporting",
+      "experiments",
+      "final_reporting",
+      "final_test",
+      "finalization",
+      "generalization_analysis",
+      "imbalance_reporting",
+      "losses",
+      "manifest",
+      "paper_evidence",
+      "threshold_calibration",
+      "threshold_diagnostics",
+      "threshold_reporting",
+      "validation"
+    ],
+    "configs_validated": [
+      "albertina100m_asl.yaml",
+      "albertina100m_bce.yaml",
+      "albertina100m_weighted_focal.yaml",
+      "baseline_bertimbau_base_bce.yaml",
+      "baseline_bertimbau_large_bce.yaml",
+      "baseline_tfidf_logreg.yaml",
+      "bertimbau_base_asl.yaml",
+      "bertimbau_base_focal.yaml",
+      "bertimbau_base_weighted_bce.yaml",
+      "bertimbau_base_weighted_focal.yaml",
+      "bertweetbr_asl.yaml",
+      "bertweetbr_bce.yaml",
+      "bertweetbr_weighted_focal.yaml",
+      "final_en2.yaml",
+      "final_t2_standalone.yaml"
+    ],
+    "outer_assignment_count": 2426,
+    "inner_manifests_validated": 15,
+    "dataset_read": false,
+    "models_loaded": false,
+    "official_test_evaluated": false
+  },
+  "pip_check": "No broken requirements found.",
+  "unit_groups": [
+    {
+      "record": "unit_synthetic.xml",
+      "tests": 27,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    {
+      "record": "unit_protocol.xml",
+      "tests": 22,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    {
+      "record": "unit_distribution.xml",
+      "tests": 15,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    }
+  ],
+  "unit_tests_passed": 64,
+  "original_protocol_tests_deselected": 29,
+  "synthetic_metric_warning": "Four sklearn warnings for synthetic arrays with absent positive labels; no failures.",
+  "development_oof_metrics": {
+    "scope": "Frozen development OOF decisions only; no model execution or parameter selection",
+    "official_test_opened": false,
+    "results": [
+      {
+        "system": "CT1",
+        "rows": 2426,
+        "macro_f1": 0.5152489719084659,
+        "micro_f1": 0.6197237891460805
+      },
+      {
+        "system": "CT2",
+        "rows": 2426,
+        "macro_f1": 0.5585138660403824,
+        "micro_f1": 0.6749792186201163
+      },
+      {
+        "system": "CT3",
+        "rows": 2426,
+        "macro_f1": 0.5022780104099068,
+        "micro_f1": 0.6248156730566674
+      },
+      {
+        "system": "EN1",
+        "rows": 2426,
+        "macro_f1": 0.5548468557155537,
+        "micro_f1": 0.6657485736769624
+      },
+      {
+        "system": "EN2",
+        "rows": 2426,
+        "macro_f1": 0.5691254630769899,
+        "micro_f1": 0.6846007201864012
+      }
+    ]
+  },
+  "aggregate_report_rebuild": {
+    "system_rows": 20,
+    "evidence_claims": 369,
+    "all_master_csv_cells_identical": true,
+    "copied_historical_inputs_changed": [],
+    "historical_sources_unchanged": true
+  },
+  "development_acquisition": {
+    "purpose": "PINNED_DEVELOPMENT_ONLY_ACQUISITION",
+    "dataset": "brighter-dataset/BRIGHTER-emotion-categories",
+    "revision": "419566ac8f46f951b51584be36c13e5363008144",
+    "downloaded_files": [
+      "README.md",
+      "ptbr/train-00000-of-00001.parquet",
+      "ptbr/dev-00000-of-00001.parquet"
+    ],
+    "raw_sha256": {
+      "README.md": "c573b3e4d6dd0a0c4b0ee8daac4e28e354d078b56918e4f992feaf4caa4d382f",
+      "ptbr/train-00000-of-00001.parquet": "dd3e4cb0df63e30d96f9ae8378eaf50208a48c8fb6cc6b60b58d2adda39d32e2",
+      "ptbr/dev-00000-of-00001.parquet": "b33aeba9913bcbd06cb258c4e6f7eaaa6fc758389d92b104ef14d0dda20a9c61"
+    },
+    "raw_hash_provenance": "Historical hf_snapshot/.brighter_snapshot.json and reference_final_experiment_manifest.json dataset.hashes.raw",
+    "interim_sha256": {
+      "train": "8cf1abc2c2d44af52ad0ebe3f3f12ac33b897afd28987bcfa4d932afe9a71787",
+      "dev": "ae460f230714046559769c876d240aab195ca06fc06e46eca270fae0d20ca3ca"
+    },
+    "curated_sha256": {
+      "train": "43f9669b649b2d05075451edcba63316f79392624111d0f15f0917268b1226d2",
+      "dev": "e37c0f9197da992e4a7718ac3b373f8a791b176216a2abbed2a083626e55dcf8"
+    },
+    "historical_curated_sha256": {
+      "train": "3fe02f1a979dde450a883c97b8aa648528c1f5d2dd70eaec1d7d1e8aeac2cb91",
+      "dev": "4d23f9d2dedbfeb99c5fcb68001b01a6de30d897a8663d4bd505839f030105ba"
+    },
+    "source_fidelity": {
+      "train": {
+        "source_track_a_rows": 2226,
+        "curated_rows": 2226,
+        "id_sets_equal": true,
+        "all_source_columns_equal": true,
+        "texts_unchanged": true,
+        "labels_unchanged": true,
+        "no_synthetic_rows": true,
+        "provenance_valid": true
+      },
+      "dev": {
+        "source_track_a_rows": 200,
+        "curated_rows": 200,
+        "id_sets_equal": true,
+        "all_source_columns_equal": true,
+        "texts_unchanged": true,
+        "labels_unchanged": true,
+        "no_synthetic_rows": true,
+        "provenance_valid": true
+      }
+    },
+    "development_rows": 2426,
+    "reference_manifest_sha256": {
+      "dataset": "3167c1f66e2bba918df9c82ee631e317afdc06471aacc2441b7e285c2a20b55e",
+      "track_a": "e3fb08f92ae264b255c3e9f1039f68b7a7d88ddd613fa19ff035438734225c2c",
+      "freeze": "218c47b27606949c3bc6a99253a55aac8843250f6ca9bfae19bcdc0b89053bdc",
+      "folds": "7cfee060a669fb0e06adbd7e339830cebc6e12e2a561e921a9820dd32fbda06b"
+    },
+    "test_downloaded": false,
+    "test_read": false,
+    "models_loaded": false,
+    "training_executed": false,
+    "official_test_evaluated": false,
+    "software_versions": {
+      "python": "3.12.14",
+      "datasets": "4.8.5",
+      "huggingface-hub": "1.28.0",
+      "pandas": "2.3.3",
+      "pyarrow": "23.0.1"
+    },
+    "status": "DEVELOPMENT_READY",
+    "fold_assignments_modified": false,
+    "operational_fold_fingerprints_reconstructed": true,
+    "operational_development_metadata_sha256": {
+      "data/raw/brighter_ptbr/419566ac8f46f951b51584be36c13e5363008144/hf_snapshot/.brighter_snapshot.json": "6d2d640011a581d57562d63a342626de6db4cd2d7bcadf03b6a369ba25000cd1",
+      "metadata/brighter_ptbr/dataset_manifest.json": "7857d7e7a8579004745d8c7018e0f260ed2f332f77be146b1f1cbf87952658ad",
+      "metadata/brighter_ptbr/track_a_manifest.json": "66fcb212bd31a440efef3e0c9fe08142b99866c3c20eb5fb7e972b7810357d26"
+    },
+    "historical_reference_manifests_unchanged": true
+  },
+  "semantic_comparison": {
+    "semantic_data_comparison": {
+      "train": {
+        "rows": 2226,
+        "all_values_and_row_order_equal_to_original": true
+      },
+      "dev": {
+        "rows": 200,
+        "all_values_and_row_order_equal_to_original": true
+      }
+    },
+    "outer_folds_validated": 5,
+    "inner_assignments_regenerated_equal_outer_folds": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "test_files_present": false,
+    "test_evaluated": false,
+    "model_training_executed": false,
+    "historical_manifests_modified": false
+  },
+  "source_files_verified": 652,
+  "redactions": [
+    "metadata/brighter_ptbr/dataset_schema.json",
+    "reports/brighter_ptbr/final/final_test_incident.md",
+    "src/brighter/final_reporting.py"
+  ],
+  "notebook_sha256": "c6048c163c7af753e31b75fd209df0c037cab63956a1cd8cf7e9b0433309789e",
+  "official_test_guard_closed_before_data_access": true,
+  "model_training_executed": false,
+  "pretrained_models_loaded": false,
+  "official_test_re_evaluated": false,
+  "original_experimental_results_replaced": false,
+  "manuscript_changed": false,
+  "not_verified": [
+    "Full CUDA training",
+    "Inference with final checkpoints",
+    "Jupyter kernel execution of historical notebook",
+    "Bitwise reconstruction of historical Parquet files",
+    "External distribution of final weights"
+  ]
+}

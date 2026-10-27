@@ -4,9 +4,11 @@ Documentação científica do artigo aceito no **ERCEMAPI 2026**, de **Randerson
 
 ## Material disponível
 
-O [notebook BRIGHTER_PTBR_Experiment.ipynb](BRIGHTER_PTBR_Experiment.ipynb) contém a narrativa experimental, código de leitura de artefatos e resultados incorporados: 55 células e 41 outputs preservados. Sua publicação original está fixada no commit [`3ea7669fd4782afccd097e934fc1ab2f4cf2ab81`](https://github.com/Altaeir-13/Brighter-Track-A-PTBR-Experiments/commit/3ea7669fd4782afccd097e934fc1ab2f4cf2ab81). Esta atualização acrescenta documentação; não modifica o notebook histórico.
+O [notebook BRIGHTER_PTBR_Experiment.ipynb](BRIGHTER_PTBR_Experiment.ipynb) contém a narrativa experimental, código de leitura de artefatos e resultados incorporados: 55 células e 41 outputs preservados. Sua publicação original está fixada no commit [`3ea7669fd4782afccd097e934fc1ab2f4cf2ab81`](https://github.com/Altaeir-13/Brighter-Track-A-PTBR-Experiments/commit/3ea7669fd4782afccd097e934fc1ab2f4cf2ab81). Esta ampliação acrescenta o pipeline e sua documentação, preservando o notebook histórico.
 
-**A distribuição não é autossuficiente para reproduzir o experimento completo.** Código de treinamento, dados, pesos finais, folds e os arquivos externos lidos pelo notebook não estão integralmente publicados. Os outputs podem ser consultados sem executar células. A [auditoria de disponibilidade](docs/reprodutibilidade.md) discrimina o que existe no workspace preservado e o que falta na distribuição pública.
+Esta distribuição também disponibiliza o **código original do pipeline, 15 configurações YAML, partições externas e internas, manifests, resultados congelados, 245 artefatos de predição sem texto e figuras agregadas**. Os arquivos científicos foram preservados por hash, com três redações de privacidade documentadas. Os textos do dataset são obtidos da fonte oficial na revisão fixa; os pesos finais ainda dependem de distribuição externa.
+
+Comece pela [instalação verificada em CPU](docs/instalacao.md), pelo [guia de reprodução](docs/guia_reproducao.md) e pela [verificação executada](docs/verificacao_executada.md). **A inferência histórica a partir dos mesmos pesos e o treinamento completo em CUDA não foram reproduzidos nesta ampliação.** Consulte os [limites e a disponibilidade](docs/reprodutibilidade.md).
 
 ## Contexto, dados e objetivo
 
@@ -38,26 +40,41 @@ Os resultados não isolaram uma causa única para a queda. Retreinamento, exempl
 
 Os registros históricos de hardware, Python, PyTorch, CUDA, dependências e configurações de treinamento estão em [Ambiente computacional](docs/ambiente.md). A documentação distingue telemetria, campos declarados e diferenças entre aquisição, treinamento e apresentação do notebook; não oferece um lockfile integral reconstruído como se fosse histórico.
 
-Para consultar o código hoje publicado, abra o notebook no GitHub. O código completo do pipeline permanece no workspace experimental e não acompanha esta atualização documental. Não é necessário executar o notebook para inspecionar as tabelas salvas. O teste oficial está encerrado; não se propõe nova avaliação nem novo ajuste sobre ele.
+O código está em `src/brighter/`, suas interfaces em `scripts/` e as configurações em `configs/`. Use uma árvore nova preparada pelo auxiliar do guia para treinar: mudar somente o diretório atual não isola as saídas dos scripts originais. Para inspecionar as tabelas salvas do notebook, não é necessário executá-lo. O teste oficial está encerrado; não se propõe nova avaliação nem novo ajuste sobre ele.
 
 ## Estrutura desta distribuição
 
 ```text
-BRIGHTER_PTBR_Experiment.ipynb    # notebook histórico, com outputs preservados
-README.md                       # apresentação e referência ao artigo
-docs/
-  ambiente.md                   # ambiente histórico e hiperparâmetros
-  metodologia.md                # protocolo efetivamente executado
-  resultados.md                 # resultados e limites de interpretação
-  reprodutibilidade.md          # disponibilidade e arquivos ausentes
-  proveniencia.md               # identidade e rastreabilidade documental
-  evidencias_documentais.json   # transcrição selecionada e hashes das fontes
+BRIGHTER_PTBR_Experiment.ipynb    # notebook histórico inalterado
+src/brighter/                   # implementação original
+scripts/                        # interfaces originais e auxiliares novos identificados
+configs/                        # 13 configurações de treino + 2 finais
+tests/                          # testes originais e guardas dos auxiliares
+metadata/brighter_ptbr/          # folds, versões, parâmetros e manifests históricos
+metadata/publication/            # hashes da distribuição, redações e verificação nova
+reports/brighter_ptbr/           # resultados e tabelas congelados
+artifacts/predictions/           # OOF internas/externas e saídas finais sem texto
+artifacts/models/final/          # somente manifests/configuração de treino/rótulos
+figures/brighter_ptbr/           # figuras agregadas originais
+requirements/                   # perfil reconstruído CPU, separado do histórico
+docs/                           # método, resultados, instalação, licenças e reprodução
+LICENSE                         # MIT para o código original
 ```
 
-Diretórios do projeto completo mencionados no notebook, como `src/`, `configs/`, `data/`, `metadata/` e `artifacts/`, não devem ser presumidos presentes nesta árvore. [Procedência e hashes](docs/proveniencia.md) documentam a correspondência do notebook com o material originalmente anonimizado.
+`data/` e checkpoints não são distribuídos no Git. O auxiliar de aquisição obtém somente treino/dev oficiais e os seleciona por IDs da Track A na revisão fixa; a aquisição do teste não integra a verificação desta distribuição. [Procedência e hashes](docs/proveniencia.md) identificam o material original e as cópias públicas. [Artefatos externos](docs/artefatos_externos.md) registra tamanhos, hashes e pendências dos dois checkpoints, sem prometer URLs de download ainda inexistentes.
+
+## Verificação sem repetir o teste
+
+```bash
+python scripts/check_installation.py
+python scripts/verify_frozen_development.py --output ../oof-verificadas.json
+python scripts/rebuild_frozen_reports.py --destination ../relatorios-reproduzidos
+```
+
+Os dois destinos devem ser novos e ficar fora do checkout. As verificações executadas incluem imports dos 20 módulos, validação das 15 configurações e dos folds, testes sintéticos selecionados, recálculo do F1 das OOF de desenvolvimento e regeneração de 20 linhas de sistemas e 369 evidências a partir dos agregados congelados. Não houve inferência, retreinamento ou nova seleção no teste. Detalhes e limites estão no [registro de verificação](docs/verificacao_executada.md).
 
 ## Referência ao artigo
 
 NUNES, Randerson Sousa de Sá; ANCHIÊTA, Rafael Torres. **Do Desenvolvimento ao Teste: Perfil de Erros no Reconhecimento Multirrótulo de Emoções em PT-BR**. ERCEMAPI, 2026. Artigo aceito; dados bibliográficos finais ainda não informados nesta documentação.
 
-DOI, paginação e endereço dos anais serão acrescentados quando confirmados. A licença declarada pelo snapshot BRIGHTER não se estende automaticamente ao código ou ao notebook; nenhum arquivo de licença do projeto foi identificado no commit original.
+DOI, paginação e endereço dos anais serão acrescentados quando confirmados. O código original está sob [MIT](LICENSE), conforme autorização do responsável. IDs e rótulos derivados do BRIGHTER conservam as obrigações CC-BY-4.0; modelos-base possuem licenças próprias. Consulte [licenças e atribuições](docs/licencas_dados_modelos.md). A licença do código não substitui essas condições.

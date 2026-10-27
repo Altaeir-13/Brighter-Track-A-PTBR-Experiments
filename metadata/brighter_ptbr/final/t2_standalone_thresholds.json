@@ -1,0 +1,32 @@
+{
+  "system": "T2 standalone final",
+  "dataset_revision": "419566ac8f46f951b51584be36c13e5363008144",
+  "development_examples": 2426,
+  "thresholds": {
+    "anger": 0.66,
+    "disgust": 0.53,
+    "fear": 0.52,
+    "joy": 0.75,
+    "sadness": 0.65,
+    "surprise": 0.57
+  },
+  "selection_source": "cross-fitted T2 OOF predictions over full development pool",
+  "deployment_calibration": {
+    "macro_f1": 0.5787498908447,
+    "warning": "DEPLOYMENT CALIBRATION ONLY — HYPERPARAMETERS SELECTED ON THE SAME OOF SET. NOT AN UNBIASED PERFORMANCE ESTIMATE."
+  },
+  "deployment_calibration_score_is_unbiased": false,
+  "performance_estimate": {
+    "method": "nested leakage-safe outer evaluation",
+    "macro_f1": 0.5585138660403824
+  },
+  "label_order": [
+    "anger",
+    "disgust",
+    "fear",
+    "joy",
+    "sadness",
+    "surprise"
+  ],
+  "test_policy": "SEALED — NOT LOADED OR EVALUATED"
+}

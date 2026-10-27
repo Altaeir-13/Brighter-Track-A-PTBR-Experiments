@@ -1,0 +1,168 @@
+{
+  "analysis": "POST_HOC_GENERALIZATION_GAP",
+  "read_only": true,
+  "models_loaded": false,
+  "raw_test_loaded": false,
+  "new_inference": false,
+  "new_training": false,
+  "threshold_tuning": false,
+  "parameters_modified": false,
+  "search_space": "CLOSED",
+  "frozen_output_hashes": {
+    "artifacts/predictions/final/t2_test_probabilities.parquet": "debc6061276d022c955d610218e7a6e0c13ba3d4d90c0e693b9d8efba071231e",
+    "artifacts/predictions/final/t3_component_test_probabilities.parquet": "f33aed250c959d757234297b0d06e58e768c31d0397e2edd63817f2e9dee5ad0",
+    "artifacts/predictions/final/en2_test_probabilities.parquet": "6d54bbb511a00f12c5d1de9f31295ec74170cc60ac1d7ba5e6c12e67fbb5f2b9",
+    "artifacts/predictions/final/t2_test_predictions.parquet": "23ca4212656ab02f57ccb783723081889d7f8f967730fe87466153b41ed3c3bd",
+    "artifacts/predictions/final/en2_test_predictions.parquet": "5ed3c25279fd41fc6328fb6802c7ccc5400002f919c73388ee05e90463aabf65",
+    "artifacts/predictions/final/en2_test_submission.csv": "123458dc1a18251a23eb1f063608d02c6fd718039fbf2551aca9a9e5e4b52abd",
+    "artifacts/predictions/final/t2_test_submission.csv": "257bf6e20f4861266cdfb6173f9cba80b8ef7a7df6ccb22177607b936cd6d0b5"
+  },
+  "final_metrics_sha256": "e39d9a3919fd6019a39e032057bf74f4b27125377a7a106137e2029abfe02d43",
+  "gold_cardinality": {
+    "development": 0.8821104699093157,
+    "test": 0.8823000898472596,
+    "absolute_delta": 0.00018961993794386345
+  },
+  "main_results": [
+    {
+      "system": "EN2",
+      "nested_development_macro_f1": 0.5691254630769899,
+      "final_test_macro_f1": 0.2851799354682137,
+      "difference": -0.28394552760877617
+    },
+    {
+      "system": "T2",
+      "nested_development_macro_f1": 0.5585138660403824,
+      "final_test_macro_f1": 0.15691169825594717,
+      "difference": -0.40160216778443525
+    }
+  ],
+  "predicted_cardinality": [
+    {
+      "system": "EN2",
+      "development": 1.063891178895301,
+      "test": 0.34591194968553457,
+      "absolute_delta": -0.7179792292097664,
+      "relative_delta": -0.6748615304389358,
+      "test_dev_ratio": 0.32513846956106424
+    },
+    {
+      "system": "T2",
+      "development": 1.101401483924155,
+      "test": 0.36163522012578614,
+      "absolute_delta": -0.7397662637983689,
+      "relative_delta": -0.6716590404097466,
+      "test_dev_ratio": 0.3283409595902534
+    }
+  ],
+  "macro_calibration": [
+    {
+      "system": "EN2",
+      "split": "development",
+      "label": "MACRO",
+      "average_precision": 0.600249917343447,
+      "brier_score": 0.12753886619995616,
+      "ece_10_bin": 0.24955485637681082
+    },
+    {
+      "system": "EN2",
+      "split": "test",
+      "label": "MACRO",
+      "average_precision": 0.5041886031754256,
+      "brier_score": 0.12147442077800913,
+      "ece_10_bin": 0.1964848735202719
+    },
+    {
+      "system": "T2",
+      "split": "development",
+      "label": "MACRO",
+      "average_precision": 0.6017500046574954,
+      "brier_score": 0.14876650250538812,
+      "ece_10_bin": 0.2851960715761254
+    },
+    {
+      "system": "T2",
+      "split": "test",
+      "label": "MACRO",
+      "average_precision": 0.25908513564440244,
+      "brier_score": 0.18450735814901834,
+      "ece_10_bin": 0.2468186765619115
+    }
+  ],
+  "hypotheses": [
+    {
+      "hypothesis": "H1 label prevalence shift",
+      "evidence_supporting": "Largest absolute per-label prevalence change was 0.0157.",
+      "evidence_against": "Gold cardinality changed only +0.000190; prevalence changes are modest relative to the performance gap.",
+      "status": "NOT SUPPORTED"
+    },
+    {
+      "hypothesis": "H2 probability calibration shift",
+      "evidence_supporting": "Mean score shifts averaged -0.0286 for EN2 and predicted cardinality fell -0.7180; crossing rates collapsed for most labels.",
+      "evidence_against": "EN2 macro Brier did not deteriorate (0.1275→0.1215), and score movement conflates retraining with test-distribution effects.",
+      "status": "PARTIALLY SUPPORTED"
+    },
+    {
+      "hypothesis": "H3 ranking degradation",
+      "evidence_supporting": "EN2 macro AP changed 0.6002→0.5042, so threshold-free ranking also degraded.",
+      "evidence_against": "Some labels, especially surprise and joy, retained materially better ranking/recall than the rare conservative labels.",
+      "status": "PARTIALLY SUPPORTED"
+    },
+    {
+      "hypothesis": "H4 final-model retraining shift",
+      "evidence_supporting": "Frozen final models moved probability scales relative to fold OOF: mean shifts T2=-0.0379, T3=-0.0070.",
+      "evidence_against": "No matched inference of fold and final models on the same held-out texts exists, so retraining cannot be isolated from test shift.",
+      "status": "PARTIALLY SUPPORTED"
+    },
+    {
+      "hypothesis": "H5 T2-specific failure",
+      "evidence_supporting": "T2 had the largest standalone test gap and mean score shift -0.0379, versus only -0.0070 for T3.",
+      "evidence_against": "EN2 also remained conservative and some T2 labels shifted upward, so the failure was heterogeneous rather than uniformly T2-wide.",
+      "status": "PARTIALLY SUPPORTED"
+    },
+    {
+      "hypothesis": "H6 ensemble failure",
+      "evidence_supporting": "The frozen fusion inherited low component scores and remained far below nested development.",
+      "evidence_against": "EN2 test Macro-F1 0.2852 exceeded T2 0.1569; T3 therefore mitigated rather than solely caused T2 conservatism.",
+      "status": "NOT SUPPORTED"
+    },
+    {
+      "hypothesis": "H7 textual/domain shift",
+      "evidence_supporting": "Development-to-test score and ranking changes are compatible with covariate/domain differences.",
+      "evidence_against": "No permitted frozen text-level representation supports direct covariate analysis in this task.",
+      "status": "INCONCLUSIVE"
+    }
+  ],
+  "report": "reports/brighter_ptbr/final/generalization_gap_analysis.md",
+  "tables": {
+    "generalization_main": "reports/brighter_ptbr/final/generalization_main.csv",
+    "generalization_per_label": "reports/brighter_ptbr/final/generalization_per_label.csv",
+    "generalization_cardinality": "reports/brighter_ptbr/final/generalization_cardinality.csv",
+    "generalization_prevalence": "reports/brighter_ptbr/final/generalization_prevalence.csv",
+    "generalization_probability_shift": "reports/brighter_ptbr/final/generalization_probability_shift.csv",
+    "generalization_threshold_crossing": "reports/brighter_ptbr/final/generalization_threshold_crossing.csv",
+    "generalization_calibration": "reports/brighter_ptbr/final/generalization_calibration.csv",
+    "generalization_probability_summary": "reports/brighter_ptbr/final/generalization_probability_summary.csv",
+    "generalization_score_by_gold_class": "reports/brighter_ptbr/final/generalization_score_by_gold_class.csv"
+  },
+  "figures": [
+    "figures/brighter_ptbr/final/generalization_gap/01_macro_f1_dev_vs_test.pdf",
+    "figures/brighter_ptbr/final/generalization_gap/01_macro_f1_dev_vs_test.png",
+    "figures/brighter_ptbr/final/generalization_gap/02_predicted_cardinality_dev_vs_test.pdf",
+    "figures/brighter_ptbr/final/generalization_gap/02_predicted_cardinality_dev_vs_test.png",
+    "figures/brighter_ptbr/final/generalization_gap/03_prevalence_development.pdf",
+    "figures/brighter_ptbr/final/generalization_gap/03_prevalence_development.png",
+    "figures/brighter_ptbr/final/generalization_gap/04_prevalence_test.pdf",
+    "figures/brighter_ptbr/final/generalization_gap/04_prevalence_test.png",
+    "figures/brighter_ptbr/final/generalization_gap/05_probability_ecdf_dev_vs_test.pdf",
+    "figures/brighter_ptbr/final/generalization_gap/05_probability_ecdf_dev_vs_test.png",
+    "figures/brighter_ptbr/final/generalization_gap/06_threshold_crossing_dev_vs_test.pdf",
+    "figures/brighter_ptbr/final/generalization_gap/06_threshold_crossing_dev_vs_test.png",
+    "figures/brighter_ptbr/final/generalization_gap/07_f1_dev_vs_test.pdf",
+    "figures/brighter_ptbr/final/generalization_gap/07_f1_dev_vs_test.png",
+    "figures/brighter_ptbr/final/generalization_gap/08_recall_dev_vs_test.pdf",
+    "figures/brighter_ptbr/final/generalization_gap/08_recall_dev_vs_test.png",
+    "figures/brighter_ptbr/final/generalization_gap/09_brier_dev_vs_test.pdf",
+    "figures/brighter_ptbr/final/generalization_gap/09_brier_dev_vs_test.png"
+  ]
+}

@@ -1,0 +1,3 @@
+# Frozen scientific evidence keeps its original bytes, including CRLF or LF.
+# Historical hashes must not change because of checkout/commit normalization.
+* -text

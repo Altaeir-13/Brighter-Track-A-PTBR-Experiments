@@ -1,0 +1,7779 @@
+{
+  "system": "T1",
+  "outer_fold": 3,
+  "inner_folds": 3,
+  "seed": 42,
+  "calibration_scope": "outer_train_only",
+  "outer_train_count": 1941,
+  "outer_validation_count": 485,
+  "outer_train_ids_sha256": "a0d3eee2b2d202f93721feae10dcd7ddc64eeacf6fee943cd3aa18a3352bbb7d",
+  "outer_validation_ids_sha256": "6cc7c3c205e0d3c52c4f4b803d29c2c73ce85572fb1abc1fbd0fb9931ef371e8",
+  "outer_validation_excluded_from_assignments": true,
+  "assignments": [
+    {
+      "id": "ptbr_train_track_a_00001",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_00002",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_00003",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_00005",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_00006",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_00007",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_00009",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_00010",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_00012",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_00013",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_00015",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_00016",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_00017",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_00018",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_00019",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_00020",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_00021",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_00022",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_00023",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_00025",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_00026",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_00027",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_00028",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_00029",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_00031",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_00032",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_00033",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_00034",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_00035",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_00036",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_00037",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_00038",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_00040",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_00041",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_00042",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_00044",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_00045",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_00046",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_00047",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_00048",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_00049",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_00050",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_00051",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_00052",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_00053",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_00054",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_00055",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_00056",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_00058",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_00059",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_00061",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_00062",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_00063",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_00064",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_00065",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_00066",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_00068",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_00069",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_00071",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_00073",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_00074",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_00076",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_00077",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_00078",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_00079",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_00080",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_00082",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_00083",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_00084",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_00085",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_00086",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_00087",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_00088",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_00089",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_00090",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_00091",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_00092",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_00093",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_00094",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_00097",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_00098",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_00099",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_00100",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_00101",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_00102",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_00103",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_00104",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_00105",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_00106",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_00107",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_00109",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_00112",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_00113",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_00114",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_00115",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_00117",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_00118",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_00120",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_00121",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_00122",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_00123",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_00124",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_00125",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_00126",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_00128",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_00129",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_00130",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_00131",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_00132",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_00133",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_00134",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_00138",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_00139",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_00140",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_00141",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_00142",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_00144",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_00145",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_00146",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_00147",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_00148",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_00149",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_00150",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_00151",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_00152",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_00154",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_00155",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_00156",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_00157",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_00158",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_00160",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_00161",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_00163",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_00164",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_00165",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_00166",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_00167",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_00168",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_00169",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_00170",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_00171",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_00172",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_00173",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_00174",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_00175",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_00176",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_00177",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_00178",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_00180",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_00182",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_00183",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_00184",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_00186",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_00187",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_00188",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_00189",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_00190",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_00191",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_00192",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_00193",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_00194",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_00195",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_00196",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_00197",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_00199",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_00200",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_00202",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_00203",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_00205",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_00208",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_00209",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_00210",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_00212",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_00213",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_00214",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_00215",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_00216",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_00218",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_00219",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_00220",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_00222",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_00223",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_00224",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_00226",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_00227",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_00229",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_00230",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_00231",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_00232",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_00233",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_00234",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_00235",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_00238",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_00239",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_00240",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_00241",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_00242",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_00243",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_00244",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_00247",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_00248",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_00249",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_00251",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_00253",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_00254",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_00256",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_00257",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_00258",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_00259",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_00261",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_00262",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_00263",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_00265",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_00266",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_00268",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_00269",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_00270",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_00271",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_00272",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_00273",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_00274",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_00275",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_00276",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_00277",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_00278",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_00279",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_00280",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_00281",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_00282",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_00283",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_00284",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_00285",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_00286",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_00288",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_00289",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_00290",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_00292",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_00293",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_00294",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_00298",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_00299",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_00300",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_00301",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_00302",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_00304",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_00305",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_00306",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_00308",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_00309",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_00310",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_00312",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_00313",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_00314",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_00316",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_00317",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_00318",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_00319",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_00320",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_00321",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_00322",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_00323",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_00324",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_00325",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_00327",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_00328",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_00329",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_00331",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_00334",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_00335",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_00336",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_00337",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_00338",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_00339",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_00340",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_00342",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_00343",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_00344",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_00345",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_00346",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_00347",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_00348",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_00349",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_00352",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_00353",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_00355",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_00356",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_00357",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_00358",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_00359",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_00360",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_00362",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_00363",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_00364",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_00365",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_00366",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_00367",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_00368",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_00369",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_00370",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_00371",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_00373",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_00374",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_00376",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_00378",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_00379",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_00380",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_00383",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_00384",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_00385",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_00386",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_00387",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_00388",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_00389",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_00390",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_00391",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_00393",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_00394",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_00395",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_00396",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_00397",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_00398",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_00399",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_00400",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_00401",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_00402",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_00405",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_00406",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_00409",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_00410",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_00411",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_00412",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_00413",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_00414",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_00416",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_00417",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_00418",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_00419",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_00421",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_00422",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_00424",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_00426",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_00427",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_00428",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_00430",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_00432",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_00433",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_00437",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_00438",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_00439",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_00440",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_00441",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_00442",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_00444",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_00445",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_00449",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_00451",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_00452",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_00455",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_00456",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_00459",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_00460",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_00461",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_00462",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_00463",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_00464",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_00465",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_00466",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_00467",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_00468",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_00471",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_00472",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_00473",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_00474",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_00475",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_00476",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_00477",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_00478",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_00479",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_00481",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_00484",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_00485",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_00486",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_00488",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_00490",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_00491",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_00492",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_00493",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_00494",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_00495",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_00496",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_00497",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_00500",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_00501",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_00502",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_00503",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_00504",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_00506",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_00507",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_00508",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_00509",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_00510",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_00511",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_00512",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_00515",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_00518",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_00519",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_00520",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_00522",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_00524",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_00525",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_00526",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_00527",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_00528",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_00529",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_00530",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_00532",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_00534",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_00536",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_00537",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_00538",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_00539",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_00540",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_00542",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_00543",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_00544",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_00545",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_00546",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_00547",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_00548",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_00549",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_00550",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_00552",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_00553",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_00554",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_00555",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_00557",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_00558",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_00561",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_00562",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_00563",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_00565",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_00566",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_00568",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_00569",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_00571",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_00572",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_00573",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_00575",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_00577",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_00579",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_00580",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_00581",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_00582",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_00583",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_00584",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_00585",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_00586",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_00587",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_00588",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_00589",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_00590",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_00592",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_00593",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_00595",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_00596",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_00597",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_00599",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_00600",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_00601",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_00603",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_00604",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_00605",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_00606",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_00607",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_00608",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_00609",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_00610",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_00611",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_00612",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_00613",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_00614",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_00615",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_00616",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_00618",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_00620",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_00621",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_00622",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_00623",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_00624",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_00626",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_00627",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_00628",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_00629",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_00630",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_00631",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_00632",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_00633",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_00634",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_00635",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_00637",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_00638",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_00639",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_00640",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_00641",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_00642",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_00643",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_00644",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_00645",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_00646",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_00647",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_00648",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_00649",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_00650",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_00651",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_00652",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_00653",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_00654",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_00658",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_00660",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_00661",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_00662",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_00664",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_00665",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_00668",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_00669",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_00670",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_00671",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_00672",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_00673",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_00674",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_00675",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_00679",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_00680",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_00682",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_00683",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_00684",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_00685",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_00686",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_00688",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_00689",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_00691",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_00692",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_00693",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_00694",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_00695",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_00696",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_00697",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_00698",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_00699",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_00700",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_00702",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_00703",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_00704",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_00705",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_00706",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_00707",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_00708",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_00710",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_00711",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_00712",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_00713",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_00714",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_00715",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_00716",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_00717",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_00718",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_00719",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_00721",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_00722",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_00724",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_00725",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_00726",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_00727",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_00728",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_00730",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_00733",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_00734",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_00735",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_00736",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_00737",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_00739",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_00740",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_00741",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_00742",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_00743",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_00744",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_00745",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_00746",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_00747",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_00748",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_00749",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_00750",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_00751",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_00752",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_00753",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_00754",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_00755",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_00756",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_00757",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_00758",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_00759",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_00761",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_00762",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_00763",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_00764",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_00765",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_00767",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_00768",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_00769",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_00770",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_00771",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_00772",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_00773",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_00775",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_00776",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_00777",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_00778",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_00779",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_00780",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_00781",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_00782",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_00783",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_00784",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_00785",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_00786",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_00787",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_00788",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_00789",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_00790",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_00791",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_00792",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_00794",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_00795",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_00796",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_00797",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_00798",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_00799",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_00800",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_00801",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_00802",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_00804",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_00805",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_00806",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_00807",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_00808",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_00809",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_00810",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_00811",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_00812",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_00813",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_00814",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_00815",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_00816",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_00817",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_00819",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_00820",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_00821",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_00822",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_00823",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_00824",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_00825",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_00826",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_00828",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_00829",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_00830",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_00831",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_00832",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_00833",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_00834",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_00835",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_00837",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_00838",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_00840",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_00841",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_00844",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_00846",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_00847",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_00849",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_00850",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_00852",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_00853",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_00854",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_00856",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_00857",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_00858",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_00859",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_00860",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_00861",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_00864",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_00866",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_00867",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_00868",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_00869",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_00870",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_00871",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_00872",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_00873",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_00874",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_00875",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_00876",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_00877",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_00878",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_00879",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_00880",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_00881",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_00882",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_00884",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_00885",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_00886",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_00887",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_00888",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_00889",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_00891",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_00892",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_00893",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_00894",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_00896",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_00897",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_00898",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_00899",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_00900",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_00901",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_00902",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_00903",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_00904",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_00905",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_00906",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_00907",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_00908",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_00909",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_00910",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_00912",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_00914",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_00915",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_00917",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_00918",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_00920",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_00921",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_00922",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_00923",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_00924",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_00926",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_00927",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_00928",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_00930",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_00931",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_00933",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_00934",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_00935",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_00936",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_00937",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_00938",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_00939",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_00940",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_00941",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_00942",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_00943",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_00944",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_00945",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_00946",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_00947",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_00948",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_00949",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_00950",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_00951",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_00952",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_00953",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_00955",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_00956",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_00957",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_00959",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_00960",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_00961",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_00963",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_00964",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_00965",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_00967",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_00968",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_00970",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_00971",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_00972",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_00973",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_00974",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_00976",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_00977",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_00978",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_00979",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_00981",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_00982",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_00983",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_00984",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_00987",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_00988",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_00991",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_00992",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_00993",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_00994",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_00995",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_00996",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_00997",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_00999",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_01000",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_01002",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_01003",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_01004",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_01006",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_01007",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_01008",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_01009",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_01010",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_01011",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_01012",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_01014",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_01015",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_01016",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_01017",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_01018",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_01019",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_01020",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_01021",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_01022",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_01023",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_01024",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_01025",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_01026",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_01027",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_01028",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_01029",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_01030",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_01031",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_01032",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_01033",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_01035",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_01036",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_01037",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_01039",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_01041",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_01042",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_01044",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_01045",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_01046",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_01048",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_01049",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_01050",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_01051",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_01052",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_01053",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_01055",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_01056",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_01057",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_01060",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_01061",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_01062",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_01064",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_01065",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_01066",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_01067",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_01068",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_01069",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_01070",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_01071",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_01072",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_01073",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_01074",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_01075",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_01078",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_01080",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_01081",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_01082",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_01083",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_01084",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_01086",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_01087",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_01088",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_01089",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_01090",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_01093",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_01094",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_01095",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_01096",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_01097",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_01099",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_01100",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_01101",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_01102",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_01103",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_01104",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_01105",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_01106",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_01108",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_01109",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_01110",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_01111",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_01112",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_01113",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_01114",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_01115",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_01118",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_01120",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_01121",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_01122",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_01123",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_01124",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_01126",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_01127",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_01128",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_01131",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_01132",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_01133",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_01134",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_01135",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_01137",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_01138",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_01141",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_01142",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_01143",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_01144",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_01145",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_01146",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_01148",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_01149",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_01150",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_01151",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_01152",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_01153",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_01154",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_01155",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_01156",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_01157",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_01158",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_01160",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_01162",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_01163",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_01165",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_01166",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_01168",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_01171",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_01172",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_01173",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_01174",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_01176",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_01178",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_01179",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_01180",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_01181",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_01182",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_01183",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_01184",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_01186",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_01187",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_01188",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_01189",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_01191",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_01194",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_01195",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_01197",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_01198",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_01200",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_01201",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_01202",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_01203",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_01204",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_01205",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_01206",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_01207",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_01208",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_01209",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_01210",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_01211",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_01212",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_01213",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_01214",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_01215",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_01222",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_01223",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_01224",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_01226",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_01227",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_01228",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_01230",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_01231",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_01232",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_01233",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_01234",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_01235",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_01236",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_01237",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_01239",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_01240",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_01242",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_01243",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_01244",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_01245",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_01246",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_01247",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_01248",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_01249",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_01250",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_01251",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_01252",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_01253",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_01254",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_01256",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_01258",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_01260",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_01261",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_01262",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_01263",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_01264",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_01265",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_01267",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_01269",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_01270",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_01271",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_01272",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_01273",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_01275",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_01277",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_01278",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_01279",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_01280",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_01282",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_01284",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_01285",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_01286",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_01287",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_01288",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_01289",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_01290",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_01291",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_01292",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_01293",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_01294",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_01295",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_01297",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_01299",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_01300",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_01301",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_01302",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_01303",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_01305",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_01306",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_01308",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_01309",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_01310",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_01311",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_01312",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_01313",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_01314",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_01315",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_01316",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_01317",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_01320",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_01321",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_01323",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_01324",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_01325",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_01326",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_01327",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_01328",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_01329",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_01330",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_01331",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_01332",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_01334",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_01336",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_01337",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_01339",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_01340",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_01341",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_01342",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_01343",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_01344",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_01345",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_01346",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_01347",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_01348",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_01351",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_01352",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_01354",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_01355",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_01356",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_01357",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_01358",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_01359",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_01361",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_01362",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_01364",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_01367",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_01368",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_01369",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_01371",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_01373",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_01374",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_01375",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_01376",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_01377",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_01378",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_01380",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_01381",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_01382",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_01383",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_01384",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_01385",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_01386",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_01387",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_01388",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_01389",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_01390",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_01391",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_01392",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_01393",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_01394",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_01395",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_01396",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_01398",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_01399",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_01400",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_01401",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_01402",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_01403",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_01404",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_01406",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_01407",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_01408",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_01409",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_01411",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_01412",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_01413",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_01415",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_01416",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_01419",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_01421",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_01422",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_01424",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_01425",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_01426",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_01427",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_01428",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_01429",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_01430",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_01431",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_01432",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_01433",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_01434",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_01436",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_01437",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_01439",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_01440",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_01441",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_01443",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_01444",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_01445",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_01446",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_01447",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_01448",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_01449",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_01450",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_01451",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_01452",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_01453",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_01455",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_01456",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_01457",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_01458",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_01459",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_01462",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_01463",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_01464",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_01465",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_01466",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_01467",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_01468",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_01469",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_01470",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_01471",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_01472",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_01474",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_01476",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_01477",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_01478",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_01479",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_01480",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_01481",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_01482",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_01483",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_01485",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_01486",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_01487",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_01488",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_01489",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_01490",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_01491",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_01492",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_01493",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_01494",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_01495",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_01496",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_01497",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_01498",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_01499",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_01500",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_01501",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_01502",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_01503",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_01504",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_01505",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_01506",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_01508",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_01511",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_01512",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_01513",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_01514",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_01515",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_01517",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_01518",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_01520",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_01521",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_01523",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_01524",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_01525",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_01526",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_01527",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_01528",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_01529",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_01530",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_01531",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_01535",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_01537",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_01539",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_01540",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_01541",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_01542",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_01543",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_01544",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_01546",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_01547",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_01548",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_01550",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_01551",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_01552",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_01553",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_01554",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_01555",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_01557",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_01559",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_01560",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_01561",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_01562",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_01565",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_01569",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_01570",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_01571",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_01572",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_01573",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_01574",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_01575",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_01576",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_01577",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_01578",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_01579",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_01581",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_01582",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_01583",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_01585",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_01586",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_01587",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_01589",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_01591",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_01592",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_01594",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_01595",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_01596",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_01599",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_01600",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_01601",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_01602",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_01603",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_01604",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_01605",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_01606",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_01607",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_01609",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_01610",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_01611",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_01612",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_01614",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_01615",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_01616",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_01617",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_01618",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_01619",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_01621",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_01622",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_01623",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_01624",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_01626",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_01627",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_01630",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_01631",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_01632",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_01633",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_01634",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_01635",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_01636",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_01637",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_01638",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_01639",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_01640",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_01643",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_01644",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_01645",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_01646",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_01647",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_01648",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_01649",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_01650",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_01651",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_01653",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_01654",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_01655",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_01657",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_01658",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_01659",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_01661",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_01662",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_01663",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_01664",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_01665",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_01666",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_01667",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_01668",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_01669",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_01670",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_01671",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_01672",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_01673",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_01675",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_01676",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_01677",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_01678",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_01679",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_01680",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_01682",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_01683",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_01684",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_01685",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_01686",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_01687",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_01688",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_01689",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_01690",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_01691",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_01692",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_01693",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_01694",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_01695",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_01696",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_01698",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_01699",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_01700",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_01701",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_01702",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_01703",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_01704",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_01707",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_01708",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_01709",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_01710",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_01711",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_01712",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_01713",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_01714",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_01715",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_01716",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_01717",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_01718",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_01719",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_01721",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_01722",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_01723",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_01724",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_01725",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_01726",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_01727",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_01728",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_01729",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_01731",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_01732",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_01733",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_01734",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_01737",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_01738",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_01739",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_01740",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_01742",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_01745",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_01747",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_01748",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_01749",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_01750",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_01751",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_01753",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_01754",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_01755",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_01756",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_01757",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_01758",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_01759",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_01760",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_01761",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_01762",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_01763",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_01764",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_01765",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_01768",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_01772",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_01773",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_01775",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_01776",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_01777",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_01778",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_01779",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_01780",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_01781",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_01782",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_01783",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_01784",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_01786",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_01787",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_01788",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_01789",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_01790",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_01791",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_01792",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_01793",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_01794",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_01795",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_01796",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_01798",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_01799",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_01800",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_01801",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_01804",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_01805",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_01806",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_01808",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_01809",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_01811",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_01812",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_01813",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_01814",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_01815",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_01816",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_01817",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_01818",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_01820",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_01821",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_01822",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_01823",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_01824",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_01825",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_01826",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_01827",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_01828",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_01829",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_01831",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_01832",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_01833",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_01834",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_01835",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_01836",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_01837",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_01838",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_01839",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_01840",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_01842",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_01843",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_01844",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_01845",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_01846",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_01848",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_01849",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_01850",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_01851",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_01855",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_01856",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_01857",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_01859",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_01860",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_01862",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_01864",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_01867",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_01869",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_01870",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_01871",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_01872",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_01874",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_01875",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_01877",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_01878",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_01879",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_01880",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_01881",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_01882",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_01883",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_01884",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_01887",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_01889",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_01891",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_01892",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_01893",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_01894",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_01895",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_01896",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_01897",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_01898",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_01899",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_01900",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_01901",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_01902",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_01903",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_01905",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_01906",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_01908",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_01910",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_01911",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_01913",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_01915",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_01916",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_01918",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_01919",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_01920",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_01921",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_01922",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_01923",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_01924",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_01925",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_01926",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_01927",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_01929",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_01930",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_01931",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_01933",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_01934",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_01935",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_01936",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_01938",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_01940",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_01941",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_01942",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_01943",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_01944",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_01945",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_01946",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_01948",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_01950",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_01951",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_01952",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_01953",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_01954",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_01955",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_01957",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_01958",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_01959",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_01960",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_01961",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_01962",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_01963",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_01964",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_01966",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_01967",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_01968",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_01970",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_01971",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_01972",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_01973",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_01974",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_01975",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_01976",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_01977",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_01979",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_01980",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_01981",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_01982",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_01983",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_01985",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_01986",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_01987",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_01989",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_01990",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_01991",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_01992",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_01993",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_01995",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_01996",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_01998",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_01999",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_02001",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_02003",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_02004",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_02007",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_02008",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_02009",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_02010",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_02011",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_02012",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_02014",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_02015",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_02016",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_02017",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_02018",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_02019",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_02020",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_02021",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_02024",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_02025",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_02026",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_02027",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_02028",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_02030",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_02032",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_02033",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_02034",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_02035",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_02036",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_02037",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_02038",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_02039",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_02040",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_02041",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_02042",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_02043",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_02044",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_02045",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_02046",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_02047",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_02048",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_02050",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_02051",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_02052",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_02053",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_02054",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_02055",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_02056",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_02058",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_02059",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_02060",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_02062",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_02063",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_02064",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_02066",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_02067",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_02068",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_02071",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_02072",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_02073",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_02075",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_02076",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_02077",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_02079",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_02080",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_02081",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_02083",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_02084",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_02086",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_02087",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_02088",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_02089",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_02090",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_02091",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_02093",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_02094",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_02095",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_02097",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_02098",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_02099",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_02100",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_02101",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_02102",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_02103",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_02104",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_02106",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_02107",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_02108",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_02109",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_02111",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_02112",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_02114",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_02116",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_02117",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_02118",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_02119",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_02120",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_02121",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_02122",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_02123",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_02125",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_02127",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_02129",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_02130",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_02131",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_02133",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_02134",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_02135",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_02137",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_02138",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_02139",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_02140",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_02141",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_02142",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_02143",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_02144",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_02145",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_02147",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_02148",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_02149",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_02150",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_02151",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_02152",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_02153",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_02154",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_02155",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_02157",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_02158",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_02160",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_02161",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_02162",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_02163",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_02164",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_02165",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_02166",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_02167",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_02168",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_02171",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_02172",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_02173",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_02175",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_02176",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_02178",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_02179",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_02180",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_02181",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_02182",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_02184",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_02185",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_02187",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_02188",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_02189",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_02191",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_02192",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_02193",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_02194",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_02195",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_02196",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_02197",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_02198",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_02199",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_02200",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_02201",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_02202",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_02203",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_02205",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_02206",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_02207",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_02208",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_02209",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_02210",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_02211",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_02212",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_02213",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_02214",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_02215",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_02216",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_02217",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_02218",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_02219",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_02220",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_02222",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_02223",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_train_track_a_02224",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_train_track_a_02225",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_train_track_a_02226",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_dev_track_a_00001",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_dev_track_a_00004",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_dev_track_a_00005",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_dev_track_a_00006",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_dev_track_a_00007",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_dev_track_a_00010",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_dev_track_a_00011",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_dev_track_a_00012",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_dev_track_a_00013",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_dev_track_a_00014",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_dev_track_a_00015",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_dev_track_a_00017",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_dev_track_a_00018",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_dev_track_a_00019",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_dev_track_a_00020",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_dev_track_a_00021",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_dev_track_a_00022",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_dev_track_a_00023",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_dev_track_a_00024",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_dev_track_a_00025",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_dev_track_a_00026",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_dev_track_a_00027",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_dev_track_a_00028",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_dev_track_a_00029",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_dev_track_a_00030",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_dev_track_a_00031",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_dev_track_a_00032",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_dev_track_a_00033",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_dev_track_a_00034",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_dev_track_a_00035",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_dev_track_a_00036",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_dev_track_a_00037",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_dev_track_a_00038",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_dev_track_a_00039",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_dev_track_a_00040",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_dev_track_a_00041",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_dev_track_a_00042",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_dev_track_a_00043",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_dev_track_a_00044",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_dev_track_a_00046",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_dev_track_a_00047",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_dev_track_a_00048",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_dev_track_a_00050",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_dev_track_a_00051",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_dev_track_a_00052",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_dev_track_a_00053",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_dev_track_a_00054",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_dev_track_a_00057",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_dev_track_a_00058",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_dev_track_a_00063",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_dev_track_a_00066",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_dev_track_a_00068",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_dev_track_a_00069",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_dev_track_a_00070",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_dev_track_a_00071",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_dev_track_a_00072",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_dev_track_a_00073",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_dev_track_a_00075",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_dev_track_a_00076",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_dev_track_a_00077",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_dev_track_a_00078",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_dev_track_a_00079",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_dev_track_a_00080",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_dev_track_a_00081",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_dev_track_a_00082",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_dev_track_a_00083",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_dev_track_a_00084",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_dev_track_a_00085",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_dev_track_a_00086",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_dev_track_a_00088",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_dev_track_a_00092",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_dev_track_a_00093",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_dev_track_a_00095",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_dev_track_a_00096",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_dev_track_a_00097",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_dev_track_a_00098",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_dev_track_a_00101",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_dev_track_a_00102",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_dev_track_a_00103",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_dev_track_a_00104",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_dev_track_a_00105",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_dev_track_a_00106",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_dev_track_a_00107",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_dev_track_a_00108",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_dev_track_a_00109",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_dev_track_a_00110",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_dev_track_a_00111",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_dev_track_a_00112",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_dev_track_a_00113",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_dev_track_a_00114",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_dev_track_a_00115",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_dev_track_a_00116",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_dev_track_a_00117",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_dev_track_a_00119",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_dev_track_a_00121",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_dev_track_a_00122",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_dev_track_a_00123",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_dev_track_a_00124",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_dev_track_a_00125",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_dev_track_a_00126",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_dev_track_a_00127",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_dev_track_a_00129",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_dev_track_a_00130",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_dev_track_a_00131",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_dev_track_a_00132",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_dev_track_a_00135",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_dev_track_a_00136",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_dev_track_a_00137",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_dev_track_a_00138",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_dev_track_a_00139",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_dev_track_a_00140",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_dev_track_a_00141",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_dev_track_a_00143",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_dev_track_a_00145",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_dev_track_a_00146",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_dev_track_a_00147",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_dev_track_a_00151",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_dev_track_a_00152",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_dev_track_a_00153",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_dev_track_a_00155",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_dev_track_a_00156",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_dev_track_a_00157",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_dev_track_a_00158",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_dev_track_a_00161",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_dev_track_a_00162",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_dev_track_a_00163",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_dev_track_a_00164",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_dev_track_a_00165",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_dev_track_a_00166",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_dev_track_a_00167",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_dev_track_a_00168",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_dev_track_a_00169",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_dev_track_a_00170",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_dev_track_a_00171",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_dev_track_a_00173",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_dev_track_a_00174",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_dev_track_a_00175",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_dev_track_a_00176",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_dev_track_a_00177",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_dev_track_a_00178",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_dev_track_a_00179",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_dev_track_a_00180",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_dev_track_a_00181",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_dev_track_a_00182",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_dev_track_a_00184",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_dev_track_a_00186",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_dev_track_a_00187",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_dev_track_a_00188",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_dev_track_a_00190",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_dev_track_a_00191",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_dev_track_a_00192",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_dev_track_a_00193",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_dev_track_a_00194",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_dev_track_a_00195",
+      "inner_fold": 2
+    },
+    {
+      "id": "ptbr_dev_track_a_00196",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_dev_track_a_00197",
+      "inner_fold": 1
+    },
+    {
+      "id": "ptbr_dev_track_a_00198",
+      "inner_fold": 0
+    },
+    {
+      "id": "ptbr_dev_track_a_00199",
+      "inner_fold": 1
+    }
+  ],
+  "test_policy": "SEALED — NOT LOADED OR EVALUATED"
+}

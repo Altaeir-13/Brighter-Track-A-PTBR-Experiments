@@ -1,0 +1,106 @@
+{
+  "system": "EN2",
+  "dataset_revision": "419566ac8f46f951b51584be36c13e5363008144",
+  "development_examples": 2426,
+  "alpha_t2": 0.7,
+  "weight_t3": 0.30000000000000004,
+  "thresholds": {
+    "anger": 0.67,
+    "disgust": 0.36,
+    "fear": 0.43,
+    "joy": 0.65,
+    "sadness": 0.58,
+    "surprise": 0.49
+  },
+  "selection_source": "paired cross-fitted OOF predictions over full development pool",
+  "selection_protocol": {
+    "alpha_grid": [
+      0.0,
+      1.0,
+      0.05
+    ],
+    "threshold_grid": [
+      0.01,
+      0.99,
+      0.01
+    ],
+    "objective": "per-label F1 / Macro-F1",
+    "alpha_tie_break": "closest_to_0.5_then_larger_T2",
+    "threshold_tie_break": "largest_threshold"
+  },
+  "performance_estimate": {
+    "method": "nested leakage-safe outer evaluation",
+    "macro_f1": 0.5691254630769899
+  },
+  "deployment_calibration": {
+    "macro_f1": 0.5896568184803863,
+    "warning": "DEPLOYMENT CALIBRATION ONLY — HYPERPARAMETERS SELECTED ON THE SAME OOF SET. NOT AN UNBIASED PERFORMANCE ESTIMATE."
+  },
+  "deployment_calibration_score_is_unbiased": false,
+  "nested_consistency": {
+    "alpha_within_range": false,
+    "nested_alpha_mean": 0.8699999999999999,
+    "nested_alpha_sd": 0.07582875444051551,
+    "nested_alpha_min": 0.75,
+    "nested_alpha_max": 0.95,
+    "thresholds": {
+      "anger": {
+        "final": 0.67,
+        "nested_mean": 0.692,
+        "nested_sd": 0.04549725266430929,
+        "nested_min": 0.62,
+        "nested_max": 0.74,
+        "within_nested_range": true
+      },
+      "disgust": {
+        "final": 0.36,
+        "nested_mean": 0.454,
+        "nested_sd": 0.04335896677735759,
+        "nested_min": 0.39,
+        "nested_max": 0.49,
+        "within_nested_range": false
+      },
+      "fear": {
+        "final": 0.43,
+        "nested_mean": 0.46399999999999997,
+        "nested_sd": 0.0391152144312159,
+        "nested_min": 0.41,
+        "nested_max": 0.51,
+        "within_nested_range": true
+      },
+      "joy": {
+        "final": 0.65,
+        "nested_mean": 0.694,
+        "nested_sd": 0.033615472627943205,
+        "nested_min": 0.64,
+        "nested_max": 0.73,
+        "within_nested_range": true
+      },
+      "sadness": {
+        "final": 0.58,
+        "nested_mean": 0.6,
+        "nested_sd": 0.0406201920231798,
+        "nested_min": 0.54,
+        "nested_max": 0.65,
+        "within_nested_range": true
+      },
+      "surprise": {
+        "final": 0.49,
+        "nested_mean": 0.472,
+        "nested_sd": 0.030331501776206204,
+        "nested_min": 0.43,
+        "nested_max": 0.51,
+        "within_nested_range": true
+      }
+    }
+  },
+  "label_order": [
+    "anger",
+    "disgust",
+    "fear",
+    "joy",
+    "sadness",
+    "surprise"
+  ],
+  "test_policy": "SEALED — NOT LOADED OR EVALUATED"
+}

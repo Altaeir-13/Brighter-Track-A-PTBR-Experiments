@@ -1,0 +1,24 @@
+# Reconstruction input, 2026-10-26. NOT a historical lockfile.
+# Install torch==2.13.0+cpu separately from the official PyTorch CPU index.
+# Versions below are historical final-stage records where available;
+# remaining dependencies are resolved within the original pyproject ranges.
+numpy==1.26.4
+pandas==2.3.3
+pyarrow==23.0.1
+transformers==5.16.1
+tokenizers==0.23.1
+scikit-learn==1.9.0
+huggingface-hub==1.28.0
+datasets==4.8.5
+iterative-stratification==0.1.9
+matplotlib>=3.8,<3.9
+scipy>=1.11,<1.17
+accelerate>=1,<2
+emoji>=2.12,<3
+psutil>=6,<8
+pyyaml>=6,<7
+upsetplot>=0.9,<1
+pytest>=8,<10
+ipython
+nbformat
+nbclient

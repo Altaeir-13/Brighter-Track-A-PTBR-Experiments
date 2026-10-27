@@ -1,0 +1,208 @@
+{
+  "dataset": "brighter-dataset/BRIGHTER-emotion-categories",
+  "configuration": "ptbr",
+  "revision": "419566ac8f46f951b51584be36c13e5363008144",
+  "experimental_track": "A",
+  "curation_timestamp_utc": "2026-08-26T15:58:04+00:00",
+  "track_identification_method": {
+    "type": "explicit_original_id_pattern",
+    "pattern": "^(?P<configuration>[a-z0-9]+)_(?P<split>train|dev|test)_track_(?P<track>[a-z])_(?P<number>\\d+)$",
+    "selection": "parsed track component equals A and parsed split equals source split",
+    "text_deduplication_used_for_selection": false
+  },
+  "source_rows": {
+    "train": 2226,
+    "dev": 400,
+    "test": 4452
+  },
+  "curated_rows": {
+    "train": 2226,
+    "dev": 200,
+    "test": 2226
+  },
+  "track_c_rows_excluded": {
+    "train": 0,
+    "dev": 200,
+    "test": 2226
+  },
+  "duplicate_validation": {
+    "dev": {
+      "total_rows": 400,
+      "unique_texts": 200,
+      "duplicate_groups": 200,
+      "groups_size_2": 200,
+      "groups_size_gt_2": 0,
+      "same_text_same_labels": 200,
+      "same_text_different_labels": 0,
+      "exact_row_duplicate": 0,
+      "other": 0,
+      "identical_emotions": 200,
+      "track_a_track_c_pairs": 200,
+      "groups_differing_only_by_id": 200
+    },
+    "test": {
+      "total_rows": 4452,
+      "unique_texts": 2226,
+      "duplicate_groups": 2226,
+      "groups_size_2": 2226,
+      "groups_size_gt_2": 0,
+      "same_text_same_labels": 2226,
+      "same_text_different_labels": 0,
+      "exact_row_duplicate": 0,
+      "other": 0,
+      "identical_emotions": 2226,
+      "track_a_track_c_pairs": 2226,
+      "groups_differing_only_by_id": 2226
+    }
+  },
+  "label_conflict_groups": 0,
+  "cross_split_overlap_detected": 1,
+  "cross_split_overlap_removed": 0,
+  "text_processing": "none",
+  "balancing": "none",
+  "augmentation": "none",
+  "synthetic_instances": 0,
+  "provenance_columns_added": [
+    "source_split",
+    "source_track",
+    "source_revision"
+  ],
+  "original_columns_preserved": [
+    "id",
+    "text",
+    "text_raw",
+    "anger",
+    "disgust",
+    "fear",
+    "joy",
+    "sadness",
+    "surprise",
+    "emotions"
+  ],
+  "curated_columns": [
+    "id",
+    "text",
+    "text_raw",
+    "anger",
+    "disgust",
+    "fear",
+    "joy",
+    "sadness",
+    "surprise",
+    "emotions",
+    "source_split",
+    "source_track",
+    "source_revision"
+  ],
+  "fidelity": {
+    "train": {
+      "source_track_a_rows": 2226,
+      "curated_rows": 2226,
+      "id_sets_equal": true,
+      "all_source_columns_equal": true,
+      "texts_unchanged": true,
+      "labels_unchanged": true,
+      "no_synthetic_rows": true,
+      "provenance_valid": true
+    },
+    "dev": {
+      "source_track_a_rows": 200,
+      "curated_rows": 200,
+      "id_sets_equal": true,
+      "all_source_columns_equal": true,
+      "texts_unchanged": true,
+      "labels_unchanged": true,
+      "no_synthetic_rows": true,
+      "provenance_valid": true
+    },
+    "test": {
+      "source_track_a_rows": 2226,
+      "curated_rows": 2226,
+      "id_sets_equal": true,
+      "all_source_columns_equal": true,
+      "texts_unchanged": true,
+      "labels_unchanged": true,
+      "no_synthetic_rows": true,
+      "provenance_valid": true
+    }
+  },
+  "source_integrity": {
+    "immutable_snapshot_hashes_verified": true,
+    "raw_to_interim_all_columns_equal": true,
+    "curated_ids_equal_explicit_track_a_ids": true,
+    "curated_original_columns_equal_source": true,
+    "texts_unchanged": true,
+    "labels_unchanged": true,
+    "synthetic_rows_added": 0
+  },
+  "statistics": {
+    "train": {
+      "rows": 2226,
+      "unique_ids": 2226,
+      "unique_texts": 2226,
+      "duplicate_texts": 0,
+      "label_positives": {
+        "anger": 718,
+        "disgust": 75,
+        "fear": 109,
+        "joy": 581,
+        "sadness": 322,
+        "surprise": 153
+      },
+      "zero_label_instances": 632
+    },
+    "dev": {
+      "rows": 200,
+      "unique_ids": 200,
+      "unique_texts": 200,
+      "duplicate_texts": 0,
+      "label_positives": {
+        "anger": 58,
+        "disgust": 5,
+        "fear": 8,
+        "joy": 62,
+        "sadness": 28,
+        "surprise": 21
+      },
+      "zero_label_instances": 46
+    },
+    "test": {
+      "rows": 2226,
+      "unique_ids": 2226,
+      "unique_texts": 2226,
+      "duplicate_texts": 0,
+      "label_positives": {
+        "anger": 699,
+        "disgust": 71,
+        "fear": 139,
+        "joy": 555,
+        "sadness": 343,
+        "surprise": 157
+      },
+      "zero_label_instances": 616
+    }
+  },
+  "curated_files": {
+    "train": {
+      "path": "data/curated/brighter_ptbr/419566ac8f46f951b51584be36c13e5363008144/track_a/train.parquet",
+      "sha256": "3fe02f1a979dde450a883c97b8aa648528c1f5d2dd70eaec1d7d1e8aeac2cb91",
+      "bytes": 395139
+    },
+    "dev": {
+      "path": "data/curated/brighter_ptbr/419566ac8f46f951b51584be36c13e5363008144/track_a/dev.parquet",
+      "sha256": "4d23f9d2dedbfeb99c5fcb68001b01a6de30d897a8663d4bd505839f030105ba",
+      "bytes": 42177
+    },
+    "test": {
+      "path": "data/curated/brighter_ptbr/419566ac8f46f951b51584be36c13e5363008144/track_a/test.parquet",
+      "sha256": "6e12c6df679189bc2343506f7902baf2daa0c336a990a3d9551589d47efea278",
+      "bytes": 385240
+    }
+  },
+  "audit_artifacts": {
+    "duplicate_groups": "metadata/brighter_ptbr/duplicate_groups.jsonl",
+    "track_id_analysis": "reports/brighter_ptbr/track_id_analysis.md",
+    "duplicate_analysis": "reports/brighter_ptbr/duplicate_analysis.md",
+    "cross_split_leakage": "reports/brighter_ptbr/cross_split_leakage.md"
+  }
+}

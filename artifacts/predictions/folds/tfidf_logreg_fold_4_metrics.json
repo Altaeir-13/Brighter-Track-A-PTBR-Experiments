@@ -1,0 +1,118 @@
+{
+  "fold": 4,
+  "threshold": 0.5,
+  "macro_f1": 0.15520743772116016,
+  "micro_f1": 0.30597014925373134,
+  "macro_precision": 0.41469622331691297,
+  "macro_recall": 0.1015198625663742,
+  "hamming_loss": 0.12783505154639174,
+  "jaccard_samples": 0.14810996563573883,
+  "subset_accuracy": 0.38762886597938145,
+  "per_label": {
+    "anger": {
+      "precision": 0.7,
+      "recall": 0.3141025641025641,
+      "f1": 0.4336283185840708,
+      "support": 156,
+      "average_precision": 0.6185511065399815,
+      "confusion": {
+        "tn": 308,
+        "fp": 21,
+        "fn": 107,
+        "tp": 49
+      }
+    },
+    "disgust": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "support": 16,
+      "average_precision": 0.09287207060203351,
+      "confusion": {
+        "tn": 469,
+        "fp": 0,
+        "fn": 16,
+        "tp": 0
+      }
+    },
+    "fear": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "support": 24,
+      "average_precision": 0.11393436325605992,
+      "confusion": {
+        "tn": 461,
+        "fp": 0,
+        "fn": 24,
+        "tp": 0
+      }
+    },
+    "joy": {
+      "precision": 0.9310344827586207,
+      "recall": 0.20930232558139536,
+      "f1": 0.34177215189873417,
+      "support": 129,
+      "average_precision": 0.693420684848641,
+      "confusion": {
+        "tn": 354,
+        "fp": 2,
+        "fn": 102,
+        "tp": 27
+      }
+    },
+    "sadness": {
+      "precision": 0.8571428571428571,
+      "recall": 0.08571428571428572,
+      "f1": 0.15584415584415584,
+      "support": 70,
+      "average_precision": 0.4358263856003894,
+      "confusion": {
+        "tn": 414,
+        "fp": 1,
+        "fn": 64,
+        "tp": 6
+      }
+    },
+    "surprise": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "support": 35,
+      "average_precision": 0.2746758313172497,
+      "confusion": {
+        "tn": 450,
+        "fp": 0,
+        "fn": 35,
+        "tp": 0
+      }
+    }
+  },
+  "zero_label": {
+    "support": 140,
+    "exact_neutral_accuracy": 0.9,
+    "neutral_false_positive_rate": 0.09999999999999998
+  },
+  "groups": {
+    "single_label": {
+      "support": 270,
+      "subset_accuracy": 0.22962962962962963,
+      "jaccard_samples": 0.22962962962962963,
+      "hamming_loss": 0.1345679012345679
+    },
+    "multi_label": {
+      "support": 75,
+      "subset_accuracy": 0.0,
+      "jaccard_samples": 0.1311111111111111,
+      "hamming_loss": 0.3111111111111111
+    }
+  },
+  "cost": {
+    "training_seconds": 0.4778474999766331,
+    "inference_seconds": 0.06212640000740066,
+    "examples_per_second": 7806.665120499909,
+    "parameters": null,
+    "peak_gpu_memory_bytes": null
+  },
+  "config_sha256": "01367d45b1825b633d79ef13690f98ece2bf5f5000b5ee84bfa58b260069063f"
+}

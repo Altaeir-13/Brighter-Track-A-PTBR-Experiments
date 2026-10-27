@@ -1,0 +1,23 @@
+experiment_id: B0_TFIDF_LOGREG
+artifact_slug: tfidf_logreg
+model_type: tfidf_logreg
+model_name: TF-IDF word+character / One-vs-Rest Logistic Regression
+loss: logistic_loss
+seed: 42
+folds: 5
+threshold: 0.5
+max_length: null
+imbalance_method: none
+features:
+  word_ngram_range: [1, 2]
+  char_ngram_range: [3, 5]
+  min_df: 2
+  word_max_features: 50000
+  char_max_features: 75000
+  lowercase: false
+  strip_accents: null
+classifier:
+  C: 1.0
+  solver: liblinear
+  max_iter: 2000
+  class_weight: null

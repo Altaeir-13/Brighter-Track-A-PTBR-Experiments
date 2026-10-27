@@ -1,0 +1,1159 @@
+{
+  "experiment_id": "E6_ALBERTINA100M_ASL",
+  "artifact_slug": "albertina100m_asl",
+  "revision": "419566ac8f46f951b51584be36c13e5363008144",
+  "development_examples": 2426,
+  "test_policy": "SEALED — NOT LOADED OR EVALUATED",
+  "config": {
+    "experiment_id": "E6_ALBERTINA100M_ASL",
+    "artifact_slug": "albertina100m_asl",
+    "model_type": "transformer",
+    "model_name": "PORTULAN/albertina-100m-portuguese-ptbr-encoder",
+    "architecture_family": "DeBERTa",
+    "loss": "asl",
+    "loss_config": {
+      "gamma_pos": 0.0,
+      "gamma_neg": 4.0,
+      "clip": 0.05
+    },
+    "seed": 42,
+    "folds": 5,
+    "threshold": 0.5,
+    "max_length": 128,
+    "imbalance_method": "none",
+    "technical_exception": "fp32_required_due_deberta_attention_mask_overflow_under_fp16_and_bf16",
+    "data_policy": {
+      "track": "A",
+      "preprocessing": "none",
+      "sampling": "none",
+      "augmentation": "none",
+      "external_data": "none",
+      "track_b": "not_used"
+    },
+    "training": {
+      "learning_rate": 2e-05,
+      "epochs": 4,
+      "optimizer": "AdamW",
+      "weight_decay": 0.01,
+      "warmup_ratio": 0.1,
+      "scheduler": "linear",
+      "physical_batch_size": 8,
+      "gradient_accumulation_steps": 2,
+      "effective_batch_size": 16,
+      "eval_batch_size": 16,
+      "mixed_precision": "fp32",
+      "gradient_checkpointing": true,
+      "max_grad_norm": 1.0,
+      "dynamic_padding": true
+    }
+  },
+  "config_sha256": "6797b8bd6b246e00218c15f73695e9334bd459aa5aee0724fcc00648fe32bbcd",
+  "fold_metrics": [
+    {
+      "fold": 0,
+      "config_sha256": "6797b8bd6b246e00218c15f73695e9334bd459aa5aee0724fcc00648fe32bbcd",
+      "threshold": 0.5,
+      "macro_f1": 0.37515144897920205,
+      "micro_f1": 0.5086206896551724,
+      "macro_average_precision": 0.375739711180284,
+      "macro_precision": 0.2986529890886737,
+      "macro_recall": 0.5216392631737127,
+      "hamming_loss": 0.1958762886597938,
+      "jaccard_samples": 0.3913058419243986,
+      "subset_accuracy": 0.3154639175257732,
+      "gold_label_cardinality": 0.8804123711340206,
+      "predicted_label_cardinality": 1.511340206185567,
+      "per_label": {
+        "anger": {
+          "precision": 0.4730290456431535,
+          "recall": 0.7354838709677419,
+          "f1": 0.5757575757575758,
+          "support": 155,
+          "average_precision": 0.6394513818110561,
+          "gold_prevalence": 0.31958762886597936,
+          "predicted_prevalence": 0.49690721649484537,
+          "prevalence_delta": 0.17731958762886602,
+          "confusion": {
+            "tn": 203,
+            "fp": 127,
+            "fn": 41,
+            "tp": 114
+          }
+        },
+        "disgust": {
+          "precision": 0.08333333333333333,
+          "recall": 0.0625,
+          "f1": 0.07142857142857142,
+          "support": 16,
+          "average_precision": 0.09531660424855368,
+          "gold_prevalence": 0.032989690721649485,
+          "predicted_prevalence": 0.024742268041237112,
+          "prevalence_delta": -0.008247422680412373,
+          "confusion": {
+            "tn": 458,
+            "fp": 11,
+            "fn": 15,
+            "tp": 1
+          }
+        },
+        "fear": {
+          "precision": 0.15,
+          "recall": 0.2608695652173913,
+          "f1": 0.19047619047619047,
+          "support": 23,
+          "average_precision": 0.12599571411221555,
+          "gold_prevalence": 0.04742268041237113,
+          "predicted_prevalence": 0.08247422680412371,
+          "prevalence_delta": 0.03505154639175258,
+          "confusion": {
+            "tn": 428,
+            "fp": 34,
+            "fn": 17,
+            "tp": 6
+          }
+        },
+        "joy": {
+          "precision": 0.53,
+          "recall": 0.828125,
+          "f1": 0.6463414634146342,
+          "support": 128,
+          "average_precision": 0.7127117026611622,
+          "gold_prevalence": 0.2639175257731959,
+          "predicted_prevalence": 0.41237113402061853,
+          "prevalence_delta": 0.14845360824742265,
+          "confusion": {
+            "tn": 263,
+            "fp": 94,
+            "fn": 22,
+            "tp": 106
+          }
+        },
+        "sadness": {
+          "precision": 0.2916666666666667,
+          "recall": 0.7,
+          "f1": 0.4117647058823529,
+          "support": 70,
+          "average_precision": 0.4324614381767986,
+          "gold_prevalence": 0.14432989690721648,
+          "predicted_prevalence": 0.3463917525773196,
+          "prevalence_delta": 0.2020618556701031,
+          "confusion": {
+            "tn": 296,
+            "fp": 119,
+            "fn": 21,
+            "tp": 49
+          }
+        },
+        "surprise": {
+          "precision": 0.2638888888888889,
+          "recall": 0.5428571428571428,
+          "f1": 0.35514018691588783,
+          "support": 35,
+          "average_precision": 0.2485014260719175,
+          "gold_prevalence": 0.07216494845360824,
+          "predicted_prevalence": 0.14845360824742268,
+          "prevalence_delta": 0.07628865979381444,
+          "confusion": {
+            "tn": 397,
+            "fp": 53,
+            "fn": 16,
+            "tp": 19
+          }
+        }
+      },
+      "zero_label": {
+        "support": 133,
+        "exact_neutral_accuracy": 0.18045112781954886,
+        "neutral_false_positive_rate": 0.8195488721804511
+      },
+      "groups": {
+        "single_label": {
+          "support": 285,
+          "macro_f1": 0.37711960408392015,
+          "micro_f1": 0.5855728429985856,
+          "subset_accuracy": 0.4105263157894737,
+          "jaccard_samples": 0.5482456140350878,
+          "hamming_loss": 0.17134502923976608
+        },
+        "multi_label": {
+          "support": 67,
+          "macro_f1": 0.4943697090755914,
+          "micro_f1": 0.6330935251798561,
+          "subset_accuracy": 0.1791044776119403,
+          "jaccard_samples": 0.5004975124378109,
+          "hamming_loss": 0.2537313432835821
+        }
+      },
+      "cost": {
+        "training_seconds": 197.52218820000417,
+        "inference_seconds": 2.1129260000016075,
+        "examples_per_second": 229.5395106121232,
+        "parameters": 139196934,
+        "peak_gpu_memory_bytes": 2484973056,
+        "model_revision": "d2a39d3d82408cc2a2618beb57a4fe908ee44b27",
+        "training_fold_class_statistics": {
+          "positive": [
+            621.0,
+            64.0,
+            94.0,
+            515.0,
+            280.0,
+            139.0
+          ],
+          "negative": [
+            1320.0,
+            1877.0,
+            1847.0,
+            1426.0,
+            1661.0,
+            1802.0
+          ],
+          "pos_weight": [
+            2.1256038647342996,
+            29.328125,
+            19.648936170212767,
+            2.7689320388349516,
+            5.932142857142857,
+            12.964028776978417
+          ],
+          "focal_alpha": [
+            0.5209339774557166,
+            5.0546875,
+            3.4414893617021276,
+            0.6281553398058253,
+            1.1553571428571427,
+            2.327338129496403
+          ]
+        }
+      }
+    },
+    {
+      "fold": 1,
+      "config_sha256": "6797b8bd6b246e00218c15f73695e9334bd459aa5aee0724fcc00648fe32bbcd",
+      "threshold": 0.5,
+      "macro_f1": 0.38570707344790534,
+      "micro_f1": 0.536047497879559,
+      "macro_average_precision": 0.40969493977772764,
+      "macro_precision": 0.31228378626111736,
+      "macro_recall": 0.5379441061245703,
+      "hamming_loss": 0.1879725085910653,
+      "jaccard_samples": 0.4270446735395189,
+      "subset_accuracy": 0.29690721649484536,
+      "gold_label_cardinality": 0.8824742268041237,
+      "predicted_label_cardinality": 1.5484536082474227,
+      "per_label": {
+        "anger": {
+          "precision": 0.5,
+          "recall": 0.8258064516129032,
+          "f1": 0.6228710462287105,
+          "support": 155,
+          "average_precision": 0.7179907535013413,
+          "gold_prevalence": 0.31958762886597936,
+          "predicted_prevalence": 0.5278350515463918,
+          "prevalence_delta": 0.2082474226804124,
+          "confusion": {
+            "tn": 202,
+            "fp": 128,
+            "fn": 27,
+            "tp": 128
+          }
+        },
+        "disgust": {
+          "precision": 0.16666666666666666,
+          "recall": 0.125,
+          "f1": 0.14285714285714285,
+          "support": 16,
+          "average_precision": 0.10939358707139292,
+          "gold_prevalence": 0.032989690721649485,
+          "predicted_prevalence": 0.024742268041237112,
+          "prevalence_delta": -0.008247422680412373,
+          "confusion": {
+            "tn": 459,
+            "fp": 10,
+            "fn": 14,
+            "tp": 2
+          }
+        },
+        "fear": {
+          "precision": 0.19230769230769232,
+          "recall": 0.4166666666666667,
+          "f1": 0.2631578947368421,
+          "support": 24,
+          "average_precision": 0.17254185093966698,
+          "gold_prevalence": 0.049484536082474224,
+          "predicted_prevalence": 0.10721649484536082,
+          "prevalence_delta": 0.057731958762886594,
+          "confusion": {
+            "tn": 419,
+            "fp": 42,
+            "fn": 14,
+            "tp": 10
+          }
+        },
+        "joy": {
+          "precision": 0.4978165938864629,
+          "recall": 0.8837209302325582,
+          "f1": 0.6368715083798883,
+          "support": 129,
+          "average_precision": 0.8143052998392581,
+          "gold_prevalence": 0.26597938144329897,
+          "predicted_prevalence": 0.47216494845360824,
+          "prevalence_delta": 0.20618556701030927,
+          "confusion": {
+            "tn": 241,
+            "fp": 115,
+            "fn": 15,
+            "tp": 114
+          }
+        },
+        "sadness": {
+          "precision": 0.32941176470588235,
+          "recall": 0.8,
+          "f1": 0.4666666666666667,
+          "support": 70,
+          "average_precision": 0.5010973218877114,
+          "gold_prevalence": 0.14432989690721648,
+          "predicted_prevalence": 0.35051546391752575,
+          "prevalence_delta": 0.20618556701030927,
+          "confusion": {
+            "tn": 301,
+            "fp": 114,
+            "fn": 14,
+            "tp": 56
+          }
+        },
+        "surprise": {
+          "precision": 0.1875,
+          "recall": 0.17647058823529413,
+          "f1": 0.18181818181818182,
+          "support": 34,
+          "average_precision": 0.14284082542699533,
+          "gold_prevalence": 0.07010309278350516,
+          "predicted_prevalence": 0.06597938144329897,
+          "prevalence_delta": -0.004123711340206185,
+          "confusion": {
+            "tn": 425,
+            "fp": 26,
+            "fn": 28,
+            "tp": 6
+          }
+        }
+      },
+      "zero_label": {
+        "support": 138,
+        "exact_neutral_accuracy": 0.028985507246376812,
+        "neutral_false_positive_rate": 0.9710144927536232
+      },
+      "groups": {
+        "single_label": {
+          "support": 270,
+          "macro_f1": 0.3810518353700172,
+          "micro_f1": 0.6283185840707964,
+          "subset_accuracy": 0.46296296296296297,
+          "jaccard_samples": 0.6108024691358025,
+          "hamming_loss": 0.15555555555555556
+        },
+        "multi_label": {
+          "support": 77,
+          "macro_f1": 0.5357999062638018,
+          "micro_f1": 0.673202614379085,
+          "subset_accuracy": 0.19480519480519481,
+          "jaccard_samples": 0.5480519480519482,
+          "hamming_loss": 0.21645021645021645
+        }
+      },
+      "cost": {
+        "training_seconds": 196.3780162000039,
+        "inference_seconds": 2.0911386999941897,
+        "examples_per_second": 231.93105268500247,
+        "parameters": 139196934,
+        "peak_gpu_memory_bytes": 2490352128,
+        "model_revision": "d2a39d3d82408cc2a2618beb57a4fe908ee44b27",
+        "training_fold_class_statistics": {
+          "positive": [
+            621.0,
+            64.0,
+            93.0,
+            514.0,
+            280.0,
+            140.0
+          ],
+          "negative": [
+            1320.0,
+            1877.0,
+            1848.0,
+            1427.0,
+            1661.0,
+            1801.0
+          ],
+          "pos_weight": [
+            2.1256038647342996,
+            29.328125,
+            19.870967741935484,
+            2.7762645914396886,
+            5.932142857142857,
+            12.864285714285714
+          ],
+          "focal_alpha": [
+            0.5209339774557166,
+            5.0546875,
+            3.478494623655914,
+            0.6293774319066148,
+            1.1553571428571427,
+            2.3107142857142855
+          ]
+        }
+      }
+    },
+    {
+      "fold": 2,
+      "config_sha256": "6797b8bd6b246e00218c15f73695e9334bd459aa5aee0724fcc00648fe32bbcd",
+      "threshold": 0.5,
+      "macro_f1": 0.40121419710193446,
+      "micro_f1": 0.5445205479452054,
+      "macro_average_precision": 0.4188568057387012,
+      "macro_precision": 0.3160752504090617,
+      "macro_recall": 0.556981044562383,
+      "hamming_loss": 0.18244170096021947,
+      "jaccard_samples": 0.40610425240054865,
+      "subset_accuracy": 0.31069958847736623,
+      "gold_label_cardinality": 0.8806584362139918,
+      "predicted_label_cardinality": 1.522633744855967,
+      "per_label": {
+        "anger": {
+          "precision": 0.5477178423236515,
+          "recall": 0.8516129032258064,
+          "f1": 0.6666666666666666,
+          "support": 155,
+          "average_precision": 0.6912928556582644,
+          "gold_prevalence": 0.31893004115226337,
+          "predicted_prevalence": 0.49588477366255146,
+          "prevalence_delta": 0.1769547325102881,
+          "confusion": {
+            "tn": 222,
+            "fp": 109,
+            "fn": 23,
+            "tp": 132
+          }
+        },
+        "disgust": {
+          "precision": 0.1,
+          "recall": 0.1875,
+          "f1": 0.13043478260869565,
+          "support": 16,
+          "average_precision": 0.09585368024492702,
+          "gold_prevalence": 0.03292181069958848,
+          "predicted_prevalence": 0.06172839506172839,
+          "prevalence_delta": 0.02880658436213991,
+          "confusion": {
+            "tn": 443,
+            "fp": 27,
+            "fn": 13,
+            "tp": 3
+          }
+        },
+        "fear": {
+          "precision": 0.1111111111111111,
+          "recall": 0.21739130434782608,
+          "f1": 0.14705882352941177,
+          "support": 23,
+          "average_precision": 0.09708894123983541,
+          "gold_prevalence": 0.047325102880658436,
+          "predicted_prevalence": 0.09259259259259259,
+          "prevalence_delta": 0.04526748971193415,
+          "confusion": {
+            "tn": 423,
+            "fp": 40,
+            "fn": 18,
+            "tp": 5
+          }
+        },
+        "joy": {
+          "precision": 0.5147058823529411,
+          "recall": 0.813953488372093,
+          "f1": 0.6306306306306306,
+          "support": 129,
+          "average_precision": 0.7672249277646397,
+          "gold_prevalence": 0.2654320987654321,
+          "predicted_prevalence": 0.41975308641975306,
+          "prevalence_delta": 0.15432098765432095,
+          "confusion": {
+            "tn": 258,
+            "fp": 99,
+            "fn": 24,
+            "tp": 105
+          }
+        },
+        "sadness": {
+          "precision": 0.35625,
+          "recall": 0.8142857142857143,
+          "f1": 0.4956521739130435,
+          "support": 70,
+          "average_precision": 0.5801485034361784,
+          "gold_prevalence": 0.1440329218106996,
+          "predicted_prevalence": 0.3292181069958848,
+          "prevalence_delta": 0.18518518518518517,
+          "confusion": {
+            "tn": 313,
+            "fp": 103,
+            "fn": 13,
+            "tp": 57
+          }
+        },
+        "surprise": {
+          "precision": 0.26666666666666666,
+          "recall": 0.45714285714285713,
+          "f1": 0.3368421052631579,
+          "support": 35,
+          "average_precision": 0.28153192608836214,
+          "gold_prevalence": 0.0720164609053498,
+          "predicted_prevalence": 0.12345679012345678,
+          "prevalence_delta": 0.051440329218106984,
+          "confusion": {
+            "tn": 407,
+            "fp": 44,
+            "fn": 19,
+            "tp": 16
+          }
+        }
+      },
+      "zero_label": {
+        "support": 138,
+        "exact_neutral_accuracy": 0.21014492753623187,
+        "neutral_false_positive_rate": 0.7898550724637681
+      },
+      "groups": {
+        "single_label": {
+          "support": 276,
+          "macro_f1": 0.3968580049207149,
+          "micro_f1": 0.6134453781512605,
+          "subset_accuracy": 0.39492753623188404,
+          "jaccard_samples": 0.5736714975845411,
+          "hamming_loss": 0.16666666666666666
+        },
+        "multi_label": {
+          "support": 72,
+          "macro_f1": 0.5377796045954614,
+          "micro_f1": 0.6644295302013423,
+          "subset_accuracy": 0.18055555555555555,
+          "jaccard_samples": 0.5421296296296296,
+          "hamming_loss": 0.23148148148148148
+        }
+      },
+      "cost": {
+        "training_seconds": 194.75596870001755,
+        "inference_seconds": 2.11512020000373,
+        "examples_per_second": 229.77417548144211,
+        "parameters": 139196934,
+        "peak_gpu_memory_bytes": 2488009216,
+        "model_revision": "d2a39d3d82408cc2a2618beb57a4fe908ee44b27",
+        "training_fold_class_statistics": {
+          "positive": [
+            621.0,
+            64.0,
+            94.0,
+            514.0,
+            280.0,
+            139.0
+          ],
+          "negative": [
+            1319.0,
+            1876.0,
+            1846.0,
+            1426.0,
+            1660.0,
+            1801.0
+          ],
+          "pos_weight": [
+            2.1239935587761676,
+            29.3125,
+            19.638297872340427,
+            2.77431906614786,
+            5.928571428571429,
+            12.956834532374101
+          ],
+          "focal_alpha": [
+            0.5206655931293612,
+            5.052083333333333,
+            3.4397163120567376,
+            0.62905317769131,
+            1.1547619047619047,
+            2.326139088729017
+          ]
+        }
+      }
+    },
+    {
+      "fold": 3,
+      "config_sha256": "6797b8bd6b246e00218c15f73695e9334bd459aa5aee0724fcc00648fe32bbcd",
+      "threshold": 0.5,
+      "macro_f1": 0.40904165349678084,
+      "micro_f1": 0.5485307212822796,
+      "macro_average_precision": 0.43794906419573426,
+      "macro_precision": 0.32808262251767195,
+      "macro_recall": 0.5488362907399987,
+      "hamming_loss": 0.17422680412371133,
+      "jaccard_samples": 0.4179037800687285,
+      "subset_accuracy": 0.354639175257732,
+      "gold_label_cardinality": 0.8804123711340206,
+      "predicted_label_cardinality": 1.4350515463917526,
+      "per_label": {
+        "anger": {
+          "precision": 0.5338983050847458,
+          "recall": 0.8129032258064516,
+          "f1": 0.6445012787723785,
+          "support": 155,
+          "average_precision": 0.6748539270344746,
+          "gold_prevalence": 0.31958762886597936,
+          "predicted_prevalence": 0.4865979381443299,
+          "prevalence_delta": 0.16701030927835053,
+          "confusion": {
+            "tn": 220,
+            "fp": 110,
+            "fn": 29,
+            "tp": 126
+          }
+        },
+        "disgust": {
+          "precision": 0.15151515151515152,
+          "recall": 0.3125,
+          "f1": 0.20408163265306123,
+          "support": 16,
+          "average_precision": 0.22965733510254877,
+          "gold_prevalence": 0.032989690721649485,
+          "predicted_prevalence": 0.06804123711340206,
+          "prevalence_delta": 0.03505154639175257,
+          "confusion": {
+            "tn": 441,
+            "fp": 28,
+            "fn": 11,
+            "tp": 5
+          }
+        },
+        "fear": {
+          "precision": 0.11627906976744186,
+          "recall": 0.21739130434782608,
+          "f1": 0.15151515151515152,
+          "support": 23,
+          "average_precision": 0.11568657881820844,
+          "gold_prevalence": 0.04742268041237113,
+          "predicted_prevalence": 0.088659793814433,
+          "prevalence_delta": 0.04123711340206186,
+          "confusion": {
+            "tn": 424,
+            "fp": 38,
+            "fn": 18,
+            "tp": 5
+          }
+        },
+        "joy": {
+          "precision": 0.5752688172043011,
+          "recall": 0.8359375,
+          "f1": 0.6815286624203821,
+          "support": 128,
+          "average_precision": 0.7761414025213376,
+          "gold_prevalence": 0.2639175257731959,
+          "predicted_prevalence": 0.3835051546391753,
+          "prevalence_delta": 0.1195876288659794,
+          "confusion": {
+            "tn": 278,
+            "fp": 79,
+            "fn": 21,
+            "tp": 107
+          }
+        },
+        "sadness": {
+          "precision": 0.3851851851851852,
+          "recall": 0.7428571428571429,
+          "f1": 0.5073170731707317,
+          "support": 70,
+          "average_precision": 0.5446695595915212,
+          "gold_prevalence": 0.14432989690721648,
+          "predicted_prevalence": 0.27835051546391754,
+          "prevalence_delta": 0.13402061855670105,
+          "confusion": {
+            "tn": 332,
+            "fp": 83,
+            "fn": 18,
+            "tp": 52
+          }
+        },
+        "surprise": {
+          "precision": 0.20634920634920634,
+          "recall": 0.37142857142857144,
+          "f1": 0.2653061224489796,
+          "support": 35,
+          "average_precision": 0.28668558210631495,
+          "gold_prevalence": 0.07216494845360824,
+          "predicted_prevalence": 0.12989690721649486,
+          "prevalence_delta": 0.057731958762886615,
+          "confusion": {
+            "tn": 400,
+            "fp": 50,
+            "fn": 22,
+            "tp": 13
+          }
+        }
+      },
+      "zero_label": {
+        "support": 129,
+        "exact_neutral_accuracy": 0.2713178294573643,
+        "neutral_false_positive_rate": 0.7286821705426356
+      },
+      "groups": {
+        "single_label": {
+          "support": 289,
+          "macro_f1": 0.3929052047441209,
+          "micro_f1": 0.6130374479889042,
+          "subset_accuracy": 0.43252595155709345,
+          "jaccard_samples": 0.5798731257208766,
+          "hamming_loss": 0.16089965397923875
+        },
+        "multi_label": {
+          "support": 67,
+          "macro_f1": 0.5591923508590175,
+          "micro_f1": 0.651685393258427,
+          "subset_accuracy": 0.1791044776119403,
+          "jaccard_samples": 0.5238805970149253,
+          "hamming_loss": 0.23134328358208955
+        }
+      },
+      "cost": {
+        "training_seconds": 194.65314119998948,
+        "inference_seconds": 1.9903742000169586,
+        "examples_per_second": 243.67277268559232,
+        "parameters": 139196934,
+        "peak_gpu_memory_bytes": 2485812736,
+        "model_revision": "d2a39d3d82408cc2a2618beb57a4fe908ee44b27",
+        "training_fold_class_statistics": {
+          "positive": [
+            621.0,
+            64.0,
+            94.0,
+            515.0,
+            280.0,
+            139.0
+          ],
+          "negative": [
+            1320.0,
+            1877.0,
+            1847.0,
+            1426.0,
+            1661.0,
+            1802.0
+          ],
+          "pos_weight": [
+            2.1256038647342996,
+            29.328125,
+            19.648936170212767,
+            2.7689320388349516,
+            5.932142857142857,
+            12.964028776978417
+          ],
+          "focal_alpha": [
+            0.5209339774557166,
+            5.0546875,
+            3.4414893617021276,
+            0.6281553398058253,
+            1.1553571428571427,
+            2.327338129496403
+          ]
+        }
+      }
+    },
+    {
+      "fold": 4,
+      "config_sha256": "6797b8bd6b246e00218c15f73695e9334bd459aa5aee0724fcc00648fe32bbcd",
+      "threshold": 0.5,
+      "macro_f1": 0.3886145705210417,
+      "micro_f1": 0.5236051502145923,
+      "macro_average_precision": 0.39302874150676964,
+      "macro_precision": 0.30705459945301966,
+      "macro_recall": 0.5427437388193201,
+      "hamming_loss": 0.19072164948453607,
+      "jaccard_samples": 0.39443298969072166,
+      "subset_accuracy": 0.3154639175257732,
+      "gold_label_cardinality": 0.8865979381443299,
+      "predicted_label_cardinality": 1.5154639175257731,
+      "per_label": {
+        "anger": {
+          "precision": 0.5245901639344263,
+          "recall": 0.8205128205128205,
+          "f1": 0.64,
+          "support": 156,
+          "average_precision": 0.689968660012115,
+          "gold_prevalence": 0.3216494845360825,
+          "predicted_prevalence": 0.5030927835051546,
+          "prevalence_delta": 0.18144329896907213,
+          "confusion": {
+            "tn": 213,
+            "fp": 116,
+            "fn": 28,
+            "tp": 128
+          }
+        },
+        "disgust": {
+          "precision": 0.15625,
+          "recall": 0.3125,
+          "f1": 0.20833333333333334,
+          "support": 16,
+          "average_precision": 0.11839154750383651,
+          "gold_prevalence": 0.032989690721649485,
+          "predicted_prevalence": 0.06597938144329897,
+          "prevalence_delta": 0.032989690721649485,
+          "confusion": {
+            "tn": 442,
+            "fp": 27,
+            "fn": 11,
+            "tp": 5
+          }
+        },
+        "fear": {
+          "precision": 0.0967741935483871,
+          "recall": 0.125,
+          "f1": 0.10909090909090909,
+          "support": 24,
+          "average_precision": 0.13596976840017966,
+          "gold_prevalence": 0.049484536082474224,
+          "predicted_prevalence": 0.06391752577319587,
+          "prevalence_delta": 0.014432989690721647,
+          "confusion": {
+            "tn": 433,
+            "fp": 28,
+            "fn": 21,
+            "tp": 3
+          }
+        },
+        "joy": {
+          "precision": 0.533678756476684,
+          "recall": 0.7984496124031008,
+          "f1": 0.639751552795031,
+          "support": 129,
+          "average_precision": 0.735194038428503,
+          "gold_prevalence": 0.26597938144329897,
+          "predicted_prevalence": 0.3979381443298969,
+          "prevalence_delta": 0.1319587628865979,
+          "confusion": {
+            "tn": 266,
+            "fp": 90,
+            "fn": 26,
+            "tp": 103
+          }
+        },
+        "sadness": {
+          "precision": 0.3310344827586207,
+          "recall": 0.6857142857142857,
+          "f1": 0.44651162790697674,
+          "support": 70,
+          "average_precision": 0.39041210380780644,
+          "gold_prevalence": 0.14432989690721648,
+          "predicted_prevalence": 0.29896907216494845,
+          "prevalence_delta": 0.15463917525773196,
+          "confusion": {
+            "tn": 318,
+            "fp": 97,
+            "fn": 22,
+            "tp": 48
+          }
+        },
+        "surprise": {
+          "precision": 0.2,
+          "recall": 0.5142857142857142,
+          "f1": 0.288,
+          "support": 35,
+          "average_precision": 0.28823633088817735,
+          "gold_prevalence": 0.07216494845360824,
+          "predicted_prevalence": 0.18556701030927836,
+          "prevalence_delta": 0.11340206185567012,
+          "confusion": {
+            "tn": 378,
+            "fp": 72,
+            "fn": 17,
+            "tp": 18
+          }
+        }
+      },
+      "zero_label": {
+        "support": 140,
+        "exact_neutral_accuracy": 0.2,
+        "neutral_false_positive_rate": 0.8
+      },
+      "groups": {
+        "single_label": {
+          "support": 270,
+          "macro_f1": 0.3683586389593254,
+          "micro_f1": 0.6014598540145986,
+          "subset_accuracy": 0.4148148148148148,
+          "jaccard_samples": 0.5685185185185185,
+          "hamming_loss": 0.1685185185185185
+        },
+        "multi_label": {
+          "support": 75,
+          "macro_f1": 0.5307266087753892,
+          "micro_f1": 0.6305732484076433,
+          "subset_accuracy": 0.17333333333333334,
+          "jaccard_samples": 0.504,
+          "hamming_loss": 0.2577777777777778
+        }
+      },
+      "cost": {
+        "training_seconds": 189.80687239998952,
+        "inference_seconds": 2.1412226000102237,
+        "examples_per_second": 226.5061091722478,
+        "parameters": 139196934,
+        "peak_gpu_memory_bytes": 2483364352,
+        "model_revision": "d2a39d3d82408cc2a2618beb57a4fe908ee44b27",
+        "training_fold_class_statistics": {
+          "positive": [
+            620.0,
+            64.0,
+            93.0,
+            514.0,
+            280.0,
+            139.0
+          ],
+          "negative": [
+            1321.0,
+            1877.0,
+            1848.0,
+            1427.0,
+            1661.0,
+            1802.0
+          ],
+          "pos_weight": [
+            2.1306451612903228,
+            29.328125,
+            19.870967741935484,
+            2.7762645914396886,
+            5.932142857142857,
+            12.964028776978417
+          ],
+          "focal_alpha": [
+            0.521774193548387,
+            5.0546875,
+            3.478494623655914,
+            0.6293774319066148,
+            1.1553571428571427,
+            2.327338129496403
+          ]
+        }
+      }
+    }
+  ],
+  "cross_validation": {
+    "macro_f1": {
+      "mean": 0.3919457887093729,
+      "std": 0.013325168072720248
+    },
+    "micro_f1": {
+      "mean": 0.5322649213953617,
+      "std": 0.016302805314089022
+    },
+    "macro_average_precision": {
+      "mean": 0.4070538524798433,
+      "std": 0.0238646094554853
+    },
+    "macro_precision": {
+      "mean": 0.31242984954590886,
+      "std": 0.010920334029472628
+    },
+    "macro_recall": {
+      "mean": 0.5416288886839971,
+      "std": 0.013248027927648452
+    },
+    "hamming_loss": {
+      "mean": 0.1862477903638652,
+      "std": 0.008286864222431476
+    },
+    "jaccard_samples": {
+      "mean": 0.4073583075247832,
+      "std": 0.015207548662250808
+    },
+    "subset_accuracy": {
+      "mean": 0.318634763056298,
+      "std": 0.021514410844279953
+    },
+    "gold_label_cardinality": {
+      "mean": 0.8821110686860972,
+      "std": 0.0026526010442482102
+    },
+    "predicted_label_cardinality": {
+      "mean": 1.5065886046412964,
+      "std": 0.04251183555929133
+    }
+  },
+  "oof_aggregate": {
+    "threshold": 0.5,
+    "macro_f1": 0.3953111111089953,
+    "micro_f1": 0.5321829163071613,
+    "macro_average_precision": 0.3967232440712462,
+    "macro_precision": 0.3133400454105852,
+    "macro_recall": 0.5419239092395495,
+    "hamming_loss": 0.18624622148942016,
+    "jaccard_samples": 0.40735779060181365,
+    "subset_accuracy": 0.31863149216817804,
+    "gold_label_cardinality": 0.8821104699093157,
+    "predicted_label_cardinality": 1.5065952184666116,
+    "per_label": {
+      "anger": {
+        "precision": 0.5155993431855501,
+        "recall": 0.8092783505154639,
+        "f1": 0.629889669007021,
+        "support": 776,
+        "average_precision": 0.6731431466886987,
+        "gold_prevalence": 0.31986809563066776,
+        "predicted_prevalence": 0.5020610057708161,
+        "prevalence_delta": 0.18219291014014838,
+        "confusion": {
+          "tn": 1060,
+          "fp": 590,
+          "fn": 148,
+          "tp": 628
+        }
+      },
+      "disgust": {
+        "precision": 0.13445378151260504,
+        "recall": 0.2,
+        "f1": 0.16080402010050251,
+        "support": 80,
+        "average_precision": 0.11418677384671219,
+        "gold_prevalence": 0.03297609233305853,
+        "predicted_prevalence": 0.04905193734542457,
+        "prevalence_delta": 0.016075845012366037,
+        "confusion": {
+          "tn": 2243,
+          "fp": 103,
+          "fn": 64,
+          "tp": 16
+        }
+      },
+      "fear": {
+        "precision": 0.13744075829383887,
+        "recall": 0.24786324786324787,
+        "f1": 0.17682926829268292,
+        "support": 117,
+        "average_precision": 0.11911723579527027,
+        "gold_prevalence": 0.048227535037098104,
+        "predicted_prevalence": 0.08697444352844189,
+        "prevalence_delta": 0.03874690849134378,
+        "confusion": {
+          "tn": 2127,
+          "fp": 182,
+          "fn": 88,
+          "tp": 29
+        }
+      },
+      "joy": {
+        "precision": 0.5286561264822134,
+        "recall": 0.8320373250388803,
+        "f1": 0.6465256797583081,
+        "support": 643,
+        "average_precision": 0.7493647128386226,
+        "gold_prevalence": 0.26504534212695796,
+        "predicted_prevalence": 0.4171475680131904,
+        "prevalence_delta": 0.15210222588623246,
+        "confusion": {
+          "tn": 1306,
+          "fp": 477,
+          "fn": 108,
+          "tp": 535
+        }
+      },
+      "sadness": {
+        "precision": 0.33676092544987146,
+        "recall": 0.7485714285714286,
+        "f1": 0.4645390070921986,
+        "support": 350,
+        "average_precision": 0.48523549340681893,
+        "gold_prevalence": 0.1442704039571311,
+        "predicted_prevalence": 0.32069249793899424,
+        "prevalence_delta": 0.17642209398186315,
+        "confusion": {
+          "tn": 1560,
+          "fp": 516,
+          "fn": 88,
+          "tp": 262
+        }
+      },
+      "surprise": {
+        "precision": 0.22712933753943218,
+        "recall": 0.41379310344827586,
+        "f1": 0.29327902240325865,
+        "support": 174,
+        "average_precision": 0.23929210185135497,
+        "gold_prevalence": 0.0717230008244023,
+        "predicted_prevalence": 0.13066776586974443,
+        "prevalence_delta": 0.05894476504534213,
+        "confusion": {
+          "tn": 2007,
+          "fp": 245,
+          "fn": 102,
+          "tp": 72
+        }
+      }
+    },
+    "zero_label": {
+      "support": 678,
+      "exact_neutral_accuracy": 0.17699115044247787,
+      "neutral_false_positive_rate": 0.8230088495575221
+    },
+    "groups": {
+      "single_label": {
+        "support": 1390,
+        "macro_f1": 0.3849649609469495,
+        "micro_f1": 0.6082738944365192,
+        "subset_accuracy": 0.42302158273381296,
+        "jaccard_samples": 0.5759592326139088,
+        "hamming_loss": 0.16462829736211032
+      },
+      "multi_label": {
+        "support": 358,
+        "macro_f1": 0.5388802058358272,
+        "micro_f1": 0.6507177033492823,
+        "subset_accuracy": 0.18156424581005587,
+        "jaccard_samples": 0.5242085661080074,
+        "hamming_loss": 0.2378957169459963
+      }
+    }
+  },
+  "cost": {
+    "training_seconds_total": 973.1161867000046,
+    "inference_seconds_total": 10.45078170002671,
+    "peak_gpu_memory_bytes": 2490352128,
+    "parameters": 139196934
+  },
+  "oof_path": "artifacts/predictions/albertina100m_asl_oof.parquet",
+  "oof_sha256": "d15c1a0da1ee4ffb5972014166aa2e48ce33e24edcb48ed2dbd8d4df197e3cfa",
+  "environment": {
+    "python": "3.12.13",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "packages": {
+      "torch": "2.13.0+cu130",
+      "transformers": "5.16.1",
+      "datasets": "4.8.5",
+      "scikit-learn": "1.9.0",
+      "iterative-stratification": "0.1.9"
+    },
+    "cuda": "13.0",
+    "cudnn": 92000,
+    "gpu": "NVIDIA GeForce RTX 3060 Ti",
+    "gpu_total_memory_bytes": 8589279232,
+    "cpu": "AMD64 Family 25 Model 33 Stepping 2, AuthenticAMD",
+    "physical_cpu_cores": 6,
+    "logical_cpu_cores": 12,
+    "ram_bytes": 34262110208,
+    "determinism": "Seeds fixed; deterministic algorithms requested with warn_only=True. Exact GPU bitwise reproducibility is not guaranteed across hardware, drivers, CUDA, cuDNN, or library versions."
+  },
+  "completed_timestamp_utc": "2026-08-27T02:19:35+00:00",
+  "methods": {
+    "loss": "asl",
+    "class_weights": false,
+    "threshold": 0.5
+  },
+  "prohibited_methods": {
+    "threshold_optimization": false,
+    "sampling": false,
+    "augmentation": false,
+    "preprocessing": false
+  }
+}

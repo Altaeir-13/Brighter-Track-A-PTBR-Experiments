@@ -1,0 +1,178 @@
+{
+  "fold": 0,
+  "config_sha256": "70ce268975b8b3bad546563b845e19dd72c9c2765a574c483a4ccdb3647fd372",
+  "threshold": 0.5,
+  "macro_f1": 0.34462805923993134,
+  "micro_f1": 0.6446280991735537,
+  "macro_average_precision": 0.4655596272712561,
+  "macro_precision": 0.3950399456375811,
+  "macro_recall": 0.313636472734255,
+  "hamming_loss": 0.088659793814433,
+  "jaccard_samples": 0.42182130584192434,
+  "subset_accuracy": 0.5711340206185567,
+  "gold_label_cardinality": 0.8804123711340206,
+  "predicted_label_cardinality": 0.6164948453608248,
+  "per_label": {
+    "anger": {
+      "precision": 0.7883211678832117,
+      "recall": 0.6967741935483871,
+      "f1": 0.7397260273972602,
+      "support": 155,
+      "average_precision": 0.8089954705776996,
+      "gold_prevalence": 0.31958762886597936,
+      "predicted_prevalence": 0.2824742268041237,
+      "prevalence_delta": -0.03711340206185565,
+      "confusion": {
+        "tn": 301,
+        "fp": 29,
+        "fn": 47,
+        "tp": 108
+      }
+    },
+    "disgust": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "support": 16,
+      "average_precision": 0.15348737636473025,
+      "gold_prevalence": 0.032989690721649485,
+      "predicted_prevalence": 0.0,
+      "prevalence_delta": -0.032989690721649485,
+      "confusion": {
+        "tn": 469,
+        "fp": 0,
+        "fn": 16,
+        "tp": 0
+      }
+    },
+    "fear": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "support": 23,
+      "average_precision": 0.13602851040552633,
+      "gold_prevalence": 0.04742268041237113,
+      "predicted_prevalence": 0.0,
+      "prevalence_delta": -0.04742268041237113,
+      "confusion": {
+        "tn": 462,
+        "fp": 0,
+        "fn": 23,
+        "tp": 0
+      }
+    },
+    "joy": {
+      "precision": 0.7661290322580645,
+      "recall": 0.7421875,
+      "f1": 0.753968253968254,
+      "support": 128,
+      "average_precision": 0.8464410045767602,
+      "gold_prevalence": 0.2639175257731959,
+      "predicted_prevalence": 0.2556701030927835,
+      "prevalence_delta": -0.008247422680412397,
+      "confusion": {
+        "tn": 328,
+        "fp": 29,
+        "fn": 33,
+        "tp": 95
+      }
+    },
+    "sadness": {
+      "precision": 0.8157894736842105,
+      "recall": 0.44285714285714284,
+      "f1": 0.5740740740740741,
+      "support": 70,
+      "average_precision": 0.6589884782141028,
+      "gold_prevalence": 0.14432989690721648,
+      "predicted_prevalence": 0.07835051546391752,
+      "prevalence_delta": -0.06597938144329896,
+      "confusion": {
+        "tn": 408,
+        "fp": 7,
+        "fn": 39,
+        "tp": 31
+      }
+    },
+    "surprise": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "support": 35,
+      "average_precision": 0.18941692348871747,
+      "gold_prevalence": 0.07216494845360824,
+      "predicted_prevalence": 0.0,
+      "prevalence_delta": -0.07216494845360824,
+      "confusion": {
+        "tn": 450,
+        "fp": 0,
+        "fn": 35,
+        "tp": 0
+      }
+    }
+  },
+  "zero_label": {
+    "support": 133,
+    "exact_neutral_accuracy": 0.7218045112781954,
+    "neutral_false_positive_rate": 0.27819548872180455
+  },
+  "groups": {
+    "single_label": {
+      "support": 285,
+      "macro_f1": 0.380745963354659,
+      "micro_f1": 0.7463917525773196,
+      "subset_accuracy": 0.624561403508772,
+      "jaccard_samples": 0.6298245614035087,
+      "hamming_loss": 0.07192982456140351
+    },
+    "multi_label": {
+      "support": 67,
+      "macro_f1": 0.30483870967741933,
+      "micro_f1": 0.5196078431372549,
+      "subset_accuracy": 0.04477611940298507,
+      "jaccard_samples": 0.3743781094527363,
+      "hamming_loss": 0.24378109452736318
+    }
+  },
+  "cost": {
+    "training_seconds": 101.69452449999517,
+    "inference_seconds": 0.8305600000021514,
+    "examples_per_second": 583.9433635122613,
+    "parameters": 134907654,
+    "peak_gpu_memory_bytes": 2466001920,
+    "model_revision": "7b95f2097a9e37046cca243cc1aeca45b0849fce",
+    "training_fold_class_statistics": {
+      "positive": [
+        621.0,
+        64.0,
+        94.0,
+        515.0,
+        280.0,
+        139.0
+      ],
+      "negative": [
+        1320.0,
+        1877.0,
+        1847.0,
+        1426.0,
+        1661.0,
+        1802.0
+      ],
+      "pos_weight": [
+        2.1256038647342996,
+        29.328125,
+        19.648936170212767,
+        2.7689320388349516,
+        5.932142857142857,
+        12.964028776978417
+      ],
+      "focal_alpha": [
+        0.5209339774557166,
+        5.0546875,
+        3.4414893617021276,
+        0.6281553398058253,
+        1.1553571428571427,
+        2.327338129496403
+      ]
+    }
+  }
+}

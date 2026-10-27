@@ -82,4 +82,8 @@ Lotes físicos pequenos, acumulação de gradientes e gradient checkpointing per
 
 O código fixa sementes de Python, NumPy e PyTorch, solicita algoritmos determinísticos com `warn_only=True`, habilita cuDNN determinístico e desabilita `benchmark`. Os próprios relatórios alertam que igualdade bit a bit não é garantida entre hardwares, drivers, CUDA, cuDNN ou bibliotecas diferentes. Uma única semente também limita a avaliação de variabilidade do treinamento.
 
-O acervo local conserva predições em Parquet, métricas/manifests/hashes em JSON, tabelas em CSV e relatórios em Markdown. A existência local de código, modelos e dados não comprova sua disponibilidade pública. O notebook contém outputs salvos para inspeção, mas depende de arquivos externos do projeto para reexecutar suas células; a documentação do ambiente não remove essa limitação de reprodução.
+O acervo usa predições em Parquet, métricas/manifests/hashes em JSON, tabelas em CSV e relatórios em Markdown. A ampliação distribui código e artefatos revisados sem texto; dados brutos e pesos finais não foram incluídos. A disponibilidade atual é discriminada em [Reprodutibilidade](reprodutibilidade.md).
+
+## Ambiente reconstruído para verificação
+
+A [instalação CPU](instalacao.md) foi verificada separadamente em Python 3.12.14 e PyTorch 2.13.0+cpu. Os outros pacotes e o escopo executado estão no [registro de verificação](verificacao_executada.md) e em `requirements/`. Esse novo perfil não é um lockfile histórico, não comprova o runtime CUDA original e não substitui as versões experimentais registradas acima. Nenhum treinamento ou inferência dos checkpoints históricos foi executado nessa verificação.

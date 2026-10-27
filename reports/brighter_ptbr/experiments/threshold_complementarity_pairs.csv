@@ -1,0 +1,4 @@
+system_a,system_b,examples_with_any_disagreement,example_disagreement_rate,label_disagreement_rate,a_exact_correct_b_wrong,b_exact_correct_a_wrong,both_exact_correct,both_exact_wrong,probability_correlation_flat,error_correlation_flat,multilabel_example_disagreement_rate,multilabel_a_correct_b_wrong,multilabel_b_correct_a_wrong
+T1,T2,1040,0.42868920,0.09034075,203,398,871,954,0.77983547,0.58029104,0.52793296,26,39
+T1,T3,1302,0.53668590,0.12915636,322,442,752,910,0.71851273,0.42349111,0.70391061,57,29
+T2,T3,1130,0.46578730,0.11026381,359,284,910,873,0.79189563,0.45942075,0.67877095,62,21

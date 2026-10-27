@@ -1,0 +1,285 @@
+{
+  "source_columns": [
+    "id",
+    "text",
+    "anger",
+    "disgust",
+    "fear",
+    "joy",
+    "sadness",
+    "surprise",
+    "emotions"
+  ],
+  "local_columns": [
+    "id",
+    "text",
+    "text_raw",
+    "anger",
+    "disgust",
+    "fear",
+    "joy",
+    "sadness",
+    "surprise",
+    "emotions"
+  ],
+  "columns": [
+    {
+      "name": "id",
+      "dtype": "str",
+      "missing_values": 0,
+      "missing_values_by_split": {
+        "train": 0,
+        "dev": 0,
+        "test": 0
+      },
+      "example": "ptbr_train_track_a_00001",
+      "inferred_role": "id",
+      "source_column": true
+    },
+    {
+      "name": "text",
+      "dtype": "str",
+      "missing_values": 0,
+      "missing_values_by_split": {
+        "train": 0,
+        "dev": 0,
+        "test": 0
+      },
+      "example": "[CORPUS EXAMPLE OMITTED IN PUBLIC DISTRIBUTION]",
+      "inferred_role": "text",
+      "source_column": true
+    },
+    {
+      "name": "text_raw",
+      "dtype": "str",
+      "missing_values": 0,
+      "missing_values_by_split": {
+        "train": 0,
+        "dev": 0,
+        "test": 0
+      },
+      "example": "[CORPUS EXAMPLE OMITTED IN PUBLIC DISTRIBUTION]",
+      "inferred_role": "text",
+      "source_column": false
+    },
+    {
+      "name": "anger",
+      "dtype": "int64",
+      "missing_values": 0,
+      "missing_values_by_split": {
+        "train": 0,
+        "dev": 0,
+        "test": 0
+      },
+      "example": 0,
+      "inferred_role": "label",
+      "source_column": true
+    },
+    {
+      "name": "disgust",
+      "dtype": "int64",
+      "missing_values": 0,
+      "missing_values_by_split": {
+        "train": 0,
+        "dev": 0,
+        "test": 0
+      },
+      "example": 0,
+      "inferred_role": "label",
+      "source_column": true
+    },
+    {
+      "name": "fear",
+      "dtype": "int64",
+      "missing_values": 0,
+      "missing_values_by_split": {
+        "train": 0,
+        "dev": 0,
+        "test": 0
+      },
+      "example": 0,
+      "inferred_role": "label",
+      "source_column": true
+    },
+    {
+      "name": "joy",
+      "dtype": "int64",
+      "missing_values": 0,
+      "missing_values_by_split": {
+        "train": 0,
+        "dev": 0,
+        "test": 0
+      },
+      "example": 0,
+      "inferred_role": "label",
+      "source_column": true
+    },
+    {
+      "name": "sadness",
+      "dtype": "int64",
+      "missing_values": 0,
+      "missing_values_by_split": {
+        "train": 0,
+        "dev": 0,
+        "test": 0
+      },
+      "example": 0,
+      "inferred_role": "label",
+      "source_column": true
+    },
+    {
+      "name": "surprise",
+      "dtype": "int64",
+      "missing_values": 0,
+      "missing_values_by_split": {
+        "train": 0,
+        "dev": 0,
+        "test": 0
+      },
+      "example": 0,
+      "inferred_role": "label",
+      "source_column": true
+    },
+    {
+      "name": "emotions",
+      "dtype": "object",
+      "missing_values": 0,
+      "missing_values_by_split": {
+        "train": 0,
+        "dev": 0,
+        "test": 0
+      },
+      "example": "[]",
+      "inferred_role": "metadata",
+      "source_column": true
+    }
+  ],
+  "dataset": "brighter-dataset/BRIGHTER-emotion-categories",
+  "configuration": "ptbr",
+  "huggingface_revision": "419566ac8f46f951b51584be36c13e5363008144",
+  "huggingface_features_by_split": {
+    "train": {
+      "id": {
+        "dtype": "string",
+        "_type": "Value"
+      },
+      "text": {
+        "dtype": "string",
+        "_type": "Value"
+      },
+      "anger": {
+        "dtype": "int64",
+        "_type": "Value"
+      },
+      "disgust": {
+        "dtype": "int64",
+        "_type": "Value"
+      },
+      "fear": {
+        "dtype": "int64",
+        "_type": "Value"
+      },
+      "joy": {
+        "dtype": "int64",
+        "_type": "Value"
+      },
+      "sadness": {
+        "dtype": "int64",
+        "_type": "Value"
+      },
+      "surprise": {
+        "dtype": "int64",
+        "_type": "Value"
+      },
+      "emotions": {
+        "feature": {
+          "dtype": "string",
+          "_type": "Value"
+        },
+        "_type": "List"
+      }
+    },
+    "dev": {
+      "id": {
+        "dtype": "string",
+        "_type": "Value"
+      },
+      "text": {
+        "dtype": "string",
+        "_type": "Value"
+      },
+      "anger": {
+        "dtype": "int64",
+        "_type": "Value"
+      },
+      "disgust": {
+        "dtype": "int64",
+        "_type": "Value"
+      },
+      "fear": {
+        "dtype": "int64",
+        "_type": "Value"
+      },
+      "joy": {
+        "dtype": "int64",
+        "_type": "Value"
+      },
+      "sadness": {
+        "dtype": "int64",
+        "_type": "Value"
+      },
+      "surprise": {
+        "dtype": "int64",
+        "_type": "Value"
+      },
+      "emotions": {
+        "feature": {
+          "dtype": "string",
+          "_type": "Value"
+        },
+        "_type": "List"
+      }
+    },
+    "test": {
+      "id": {
+        "dtype": "string",
+        "_type": "Value"
+      },
+      "text": {
+        "dtype": "string",
+        "_type": "Value"
+      },
+      "anger": {
+        "dtype": "int64",
+        "_type": "Value"
+      },
+      "disgust": {
+        "dtype": "int64",
+        "_type": "Value"
+      },
+      "fear": {
+        "dtype": "int64",
+        "_type": "Value"
+      },
+      "joy": {
+        "dtype": "int64",
+        "_type": "Value"
+      },
+      "sadness": {
+        "dtype": "int64",
+        "_type": "Value"
+      },
+      "surprise": {
+        "dtype": "int64",
+        "_type": "Value"
+      },
+      "emotions": {
+        "feature": {
+          "dtype": "string",
+          "_type": "Value"
+        },
+        "_type": "List"
+      }
+    }
+  }
+}

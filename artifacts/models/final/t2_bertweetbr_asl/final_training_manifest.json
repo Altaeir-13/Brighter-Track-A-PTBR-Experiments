@@ -1,0 +1,78 @@
+{
+  "system": "T2",
+  "experiment_id": "FINAL_T2_BERTWEETBR_ASL",
+  "completed": true,
+  "trained_on": "official train+dev only",
+  "development_examples": 2426,
+  "source_split_counts": {
+    "train": 2226,
+    "dev": 200
+  },
+  "training_ids_sha256": "d1e2b0b539c5085e7e67eda3708ff05d301a387bf956f5e2a412c82718b7916b",
+  "dataset_revision": "419566ac8f46f951b51584be36c13e5363008144",
+  "dataset_hashes": {
+    "train": "3fe02f1a979dde450a883c97b8aa648528c1f5d2dd70eaec1d7d1e8aeac2cb91",
+    "dev": "4d23f9d2dedbfeb99c5fcb68001b01a6de30d897a8663d4bd505839f030105ba"
+  },
+  "config_sha256": "9a19ef2d5c1b72c9262bf118135de46c16bb1dd04c06a0682763b867ecc5182e",
+  "seed": 42,
+  "epochs": 4,
+  "label_order": [
+    "anger",
+    "disgust",
+    "fear",
+    "joy",
+    "sadness",
+    "surprise"
+  ],
+  "loss": "asl",
+  "loss_config": {
+    "gamma_pos": 0.0,
+    "gamma_neg": 4.0,
+    "clip": 0.05
+  },
+  "model_name": "melll-uff/bertweetbr",
+  "model_revision": "7b95f2097a9e37046cca243cc1aeca45b0849fce",
+  "training_seconds": 138.01396040001418,
+  "epoch_seconds": [
+    33.8060395999928,
+    34.07858020000276,
+    35.1224028999859,
+    35.00389799999539
+  ],
+  "peak_vram_bytes": 2472825344,
+  "parameters": 134907654,
+  "physical_batch": 8,
+  "gradient_accumulation": 2,
+  "effective_batch": 16,
+  "software_versions": {
+    "python": "3.12.13",
+    "torch": "2.13.0+cu130",
+    "transformers": "5.16.1",
+    "tokenizers": "0.23.1",
+    "numpy": "1.26.4",
+    "pandas": "2.3.3",
+    "scikit-learn": "1.9.0",
+    "pyarrow": "23.0.1",
+    "huggingface-hub": "1.28.0"
+  },
+  "hardware": {
+    "cuda_available": true,
+    "gpu": "NVIDIA GeForce RTX 3060 Ti",
+    "cuda": "13.0",
+    "cudnn": 92000,
+    "ram_gb": 32,
+    "declared_vram_gb": 8
+  },
+  "test_ids_loaded": false,
+  "test_policy": "SEALED — NOT LOADED OR EVALUATED",
+  "completed_timestamp_utc": "2026-08-27T16:02:47+00:00",
+  "file_hashes": {
+    "added_tokens.json": "7f4090fce4035d7473d72040b067ff14a40ca4a6e5ccb63b4400a1585b4d07f8",
+    "bpe.codes": "04fce3525fb3130a0c6cd373261603ef4c277caf02966c64c0525b8e02ea8569",
+    "config.json": "de3060fd094f7c063f07ce695edc6b8d5f34ab2500cbefb2b8dd2ee7e0061804",
+    "model.safetensors": "5b845ab4988c02ed8bbf1d1fee7551cd64cdbdac213c19f5ebd24823e79a612a",
+    "tokenizer_config.json": "4c4345c43b5cd50518be9cf3f2c5272fa32813a2298acf75dd35a94c396dedfe",
+    "vocab.txt": "1adc77855013712e9ef006e54157fe48ba0ad87ded3ec26eb95c555cafb4d740"
+  }
+}

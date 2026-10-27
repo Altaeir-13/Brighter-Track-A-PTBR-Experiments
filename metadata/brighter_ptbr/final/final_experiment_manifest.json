@@ -1,0 +1,128 @@
+{
+  "experiment_status": "FROZEN_PRE_TEST",
+  "dataset": {
+    "id": "brighter-dataset/BRIGHTER-emotion-categories",
+    "configuration": "ptbr",
+    "track": "A",
+    "revision": "419566ac8f46f951b51584be36c13e5363008144",
+    "development_examples": 2426,
+    "hashes": {
+      "raw": {
+        "train": {
+          "expected": "dd3e4cb0df63e30d96f9ae8378eaf50208a48c8fb6cc6b60b58d2adda39d32e2",
+          "observed": "dd3e4cb0df63e30d96f9ae8378eaf50208a48c8fb6cc6b60b58d2adda39d32e2",
+          "match": true
+        },
+        "dev": {
+          "expected": "b33aeba9913bcbd06cb258c4e6f7eaaa6fc758389d92b104ef14d0dda20a9c61",
+          "observed": "b33aeba9913bcbd06cb258c4e6f7eaaa6fc758389d92b104ef14d0dda20a9c61",
+          "match": true
+        }
+      },
+      "interim": {
+        "train": {
+          "expected": "30d576f161a701466f2e59c285642665f86be92786910d780e794c61984a9f2a",
+          "observed": "30d576f161a701466f2e59c285642665f86be92786910d780e794c61984a9f2a",
+          "match": true
+        },
+        "dev": {
+          "expected": "46818c761ae4f89ef7ba16ccfa5ac9ae5c633dd7630a4d1302a97a8952453def",
+          "observed": "46818c761ae4f89ef7ba16ccfa5ac9ae5c633dd7630a4d1302a97a8952453def",
+          "match": true
+        }
+      },
+      "curated": {
+        "train": {
+          "expected": "3fe02f1a979dde450a883c97b8aa648528c1f5d2dd70eaec1d7d1e8aeac2cb91",
+          "observed": "3fe02f1a979dde450a883c97b8aa648528c1f5d2dd70eaec1d7d1e8aeac2cb91",
+          "match": true
+        },
+        "dev": {
+          "expected": "4d23f9d2dedbfeb99c5fcb68001b01a6de30d897a8663d4bd505839f030105ba",
+          "observed": "4d23f9d2dedbfeb99c5fcb68001b01a6de30d897a8663d4bd505839f030105ba",
+          "match": true
+        }
+      }
+    },
+    "development_ids_sha256": "d1e2b0b539c5085e7e67eda3708ff05d301a387bf956f5e2a412c82718b7916b"
+  },
+  "primary": "EN2",
+  "secondary": "T2_STANDALONE",
+  "performance_estimate": {
+    "method": "nested leakage-safe outer evaluation",
+    "macro_f1": 0.5691254630769899
+  },
+  "deployment": {
+    "alpha_t2": 0.7,
+    "weight_t3": 0.30000000000000004,
+    "thresholds": {
+      "anger": 0.67,
+      "disgust": 0.36,
+      "fear": 0.43,
+      "joy": 0.65,
+      "sadness": 0.58,
+      "surprise": 0.49
+    },
+    "calibration_score_is_unbiased": false
+  },
+  "label_order": [
+    "anger",
+    "disgust",
+    "fear",
+    "joy",
+    "sadness",
+    "surprise"
+  ],
+  "models": {
+    "T2": {
+      "path": "artifacts/models/final/t2_bertweetbr_asl",
+      "file_hashes": {
+        "added_tokens.json": "7f4090fce4035d7473d72040b067ff14a40ca4a6e5ccb63b4400a1585b4d07f8",
+        "bpe.codes": "04fce3525fb3130a0c6cd373261603ef4c277caf02966c64c0525b8e02ea8569",
+        "config.json": "de3060fd094f7c063f07ce695edc6b8d5f34ab2500cbefb2b8dd2ee7e0061804",
+        "model.safetensors": "5b845ab4988c02ed8bbf1d1fee7551cd64cdbdac213c19f5ebd24823e79a612a",
+        "tokenizer_config.json": "4c4345c43b5cd50518be9cf3f2c5272fa32813a2298acf75dd35a94c396dedfe",
+        "vocab.txt": "1adc77855013712e9ef006e54157fe48ba0ad87ded3ec26eb95c555cafb4d740"
+      },
+      "manifest_sha256": "ca9a9d55c72e224e9c893cf200f111373ff2dfba52903da4e5afede3932be01b"
+    },
+    "T3": {
+      "path": "artifacts/models/final/t3_bertimbau_large_bce",
+      "file_hashes": {
+        "config.json": "c07dd2e9cb45c95de88a23d755805a847d8d9f1a7eaf8435a13f1f2a84fa80b7",
+        "model.safetensors": "aa25ca2517e262281ab60fee0fd161a48b57fc46967c0bba7955e03c98f4255d",
+        "tokenizer.json": "774545b24c278999ff02e62dc9d6a990ddbcae722a0952bb85aae529adb6ace6",
+        "tokenizer_config.json": "c27efea0abd8dbd28d6ae76a7c50d33e2f20b7b7ef3dc16fe3583f1a954c87d0"
+      },
+      "manifest_sha256": "9002c34f5e31282ad4599d87fe3cb86797859de1fc3e87f2aebd46fe13ec5549"
+    }
+  },
+  "config_hashes": {
+    "final_en2.yaml": "71f1cb1b486380bd7a07537dc7eafb6bcce144a84325a45e2d52114a80c5f8ef",
+    "final_t2_standalone.yaml": "3a8152b86c7a34b404faf495a49f615f5a6270ab27193ffeac48c7b9679d85be"
+  },
+  "software_versions": {
+    "python": "3.12.13",
+    "torch": "2.13.0+cu130",
+    "transformers": "5.16.1",
+    "tokenizers": "0.23.1",
+    "numpy": "1.26.4",
+    "pandas": "2.3.3",
+    "scikit-learn": "1.9.0",
+    "pyarrow": "23.0.1",
+    "huggingface-hub": "1.28.0"
+  },
+  "hardware": {
+    "cuda_available": true,
+    "gpu": "NVIDIA GeForce RTX 3060 Ti",
+    "cuda": "13.0",
+    "cudnn": 92000,
+    "ram_gb": 32,
+    "declared_vram_gb": 8
+  },
+  "seed": 42,
+  "test_accessed": false,
+  "test_policy": "SEALED — NOT LOADED OR EVALUATED",
+  "space_of_search": "CLOSED",
+  "timestamp_utc": "2026-08-27T16:40:12+00:00"
+}

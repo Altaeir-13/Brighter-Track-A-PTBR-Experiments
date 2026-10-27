@@ -1,0 +1,19 @@
+{
+  "authorized": true,
+  "scope": "FINAL_TEST_ONCE",
+  "primary_system": "EN2",
+  "secondary_system": "T2_STANDALONE",
+  "search_space_closed": true,
+  "config_changes_after_test": false,
+  "timestamp_utc": "2026-08-27T22:49:41+00:00",
+  "config_hashes": {
+    "final_en2.yaml": "71f1cb1b486380bd7a07537dc7eafb6bcce144a84325a45e2d52114a80c5f8ef",
+    "final_t2_standalone.yaml": "3a8152b86c7a34b404faf495a49f615f5a6270ab27193ffeac48c7b9679d85be"
+  },
+  "model_hashes": {
+    "T2": "5b845ab4988c02ed8bbf1d1fee7551cd64cdbdac213c19f5ebd24823e79a612a",
+    "T3": "aa25ca2517e262281ab60fee0fd161a48b57fc46967c0bba7955e03c98f4255d"
+  },
+  "manifest_sha256": "218c47b27606949c3bc6a99253a55aac8843250f6ca9bfae19bcdc0b89053bdc",
+  "dataset_revision": "419566ac8f46f951b51584be36c13e5363008144"
+}

@@ -1,0 +1,74 @@
+{
+  "dataset": "brighter-dataset/BRIGHTER-emotion-categories",
+  "configuration": "ptbr",
+  "huggingface_revision": "419566ac8f46f951b51584be36c13e5363008144",
+  "download_timestamp_utc": "2026-08-26T02:44:11+00:00",
+  "huggingface_url": "https://huggingface.co/datasets/brighter-dataset/BRIGHTER-emotion-categories/tree/419566ac8f46f951b51584be36c13e5363008144",
+  "splits": {
+    "train": 2226,
+    "dev": 400,
+    "test": 4452
+  },
+  "columns": [
+    "id",
+    "text",
+    "text_raw",
+    "anger",
+    "disgust",
+    "fear",
+    "joy",
+    "sadness",
+    "surprise",
+    "emotions"
+  ],
+  "source_columns": [
+    "id",
+    "text",
+    "anger",
+    "disgust",
+    "fear",
+    "joy",
+    "sadness",
+    "surprise",
+    "emotions"
+  ],
+  "label_columns": [
+    "anger",
+    "disgust",
+    "fear",
+    "joy",
+    "sadness",
+    "surprise"
+  ],
+  "id_column": "id",
+  "text_source_column": "text",
+  "text_raw_column": "text_raw",
+  "format": "parquet",
+  "processing": "none",
+  "text_preservation": "text_raw is an exact copy of the source text column",
+  "snapshot_path": "data/raw/brighter_ptbr/419566ac8f46f951b51584be36c13e5363008144/hf_snapshot",
+  "parquet_files": {
+    "train": {
+      "path": "data/interim/brighter_ptbr/419566ac8f46f951b51584be36c13e5363008144/train.parquet",
+      "sha256": "30d576f161a701466f2e59c285642665f86be92786910d780e794c61984a9f2a",
+      "bytes": 393320
+    },
+    "dev": {
+      "path": "data/interim/brighter_ptbr/419566ac8f46f951b51584be36c13e5363008144/dev.parquet",
+      "sha256": "46818c761ae4f89ef7ba16ccfa5ac9ae5c633dd7630a4d1302a97a8952453def",
+      "bytes": 42157
+    },
+    "test": {
+      "path": "data/interim/brighter_ptbr/419566ac8f46f951b51584be36c13e5363008144/test.parquet",
+      "sha256": "67a5fad30eb595ede9d719e5820fe20c27cba38d3937bb7b92e6d06bcdb8731b",
+      "bytes": 408528
+    }
+  },
+  "software_versions": {
+    "python": "3.12.13",
+    "datasets": "4.8.5",
+    "huggingface_hub": "1.28.0",
+    "pandas": "3.0.5",
+    "pyarrow": "23.0.1"
+  }
+}

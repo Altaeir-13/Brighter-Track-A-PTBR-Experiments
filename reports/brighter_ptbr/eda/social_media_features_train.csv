@@ -1,0 +1,15 @@
+feature,count,percentage
+url,0,0.00000000
+mention,0,0.00000000
+hashtag,0,0.00000000
+emoji,0,0.00000000
+text_emoticon,159,7.14285714
+uppercase_character,0,0.00000000
+uppercase_word,0,0.00000000
+repeated_exclamation,67,3.00988320
+repeated_question,58,2.60557053
+mixed_question_exclamation,10,0.44923630
+line_break,0,0.00000000
+number,260,11.68014376
+non_ascii,1719,77.22371968
+possible_html_entity,18,0.80862534

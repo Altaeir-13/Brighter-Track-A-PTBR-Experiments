@@ -1,0 +1,17 @@
+{
+  "state": "TEST_EVALUATED",
+  "primary": "EN2",
+  "secondary": "T2_STANDALONE",
+  "test_accessed": true,
+  "test_policy": "TEST_EVALUATED — SEARCH SPACE CLOSED",
+  "space_of_search": "CLOSED",
+  "manifest_sha256": "218c47b27606949c3bc6a99253a55aac8843250f6ca9bfae19bcdc0b89053bdc",
+  "updated_at": "2026-08-28T00:33:18+00:00",
+  "search_space": "CLOSED",
+  "further_tuning_allowed": false,
+  "test_first_access_timestamp_utc": "2026-08-27T22:49:48+00:00",
+  "inference_completed": true,
+  "metrics_completed": true,
+  "reporting_completed": true,
+  "reporting_recovery_mode": "REPORTING_ONLY"
+}

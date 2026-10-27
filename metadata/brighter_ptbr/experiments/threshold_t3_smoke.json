@@ -1,0 +1,17 @@
+{
+  "timestamp_utc": "2026-08-27T11:12:38+00:00",
+  "system": "T3",
+  "model": "neuralmind/bert-large-portuguese-cased",
+  "revision": "aa302f6ea73b759f7df9cad58bd272127b67ec28",
+  "source_scope": "outer_train_only",
+  "batch": 1,
+  "max_length": 128,
+  "output_shape": [
+    1,
+    6
+  ],
+  "forward": "ok",
+  "backward": "ok",
+  "peak_gpu_memory_bytes": 2692634624,
+  "test_policy": "SEALED — NOT LOADED OR EVALUATED"
+}

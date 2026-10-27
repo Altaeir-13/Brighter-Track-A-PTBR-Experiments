@@ -1,0 +1,26 @@
+{
+  "irlbl": {
+    "anger": 1.0,
+    "disgust": 9.573333333333334,
+    "fear": 6.587155963302752,
+    "joy": 1.2358003442340793,
+    "sadness": 2.229813664596273,
+    "surprise": 4.69281045751634
+  },
+  "mean_ir": 4.21981896049713,
+  "scumble": 0.037881607840401725,
+  "scumble_lbl": {
+    "anger": 0.06757554397818538,
+    "disgust": 0.3355281775300542,
+    "fear": 0.10900158220898147,
+    "joy": 0.016275141031044344,
+    "sadness": 0.049990257131330575,
+    "surprise": 0.11522545013002035
+  },
+  "zero_label_policy": "excluded from SCUMBLE denominator; no active labels",
+  "minority_labels": [
+    "disgust",
+    "fear",
+    "surprise"
+  ]
+}

@@ -1,0 +1,5 @@
+max_length,truncated_examples,truncated_percentage
+64,191,8.58041330
+128,28,1.25786164
+256,6,0.26954178
+512,2,0.08984726

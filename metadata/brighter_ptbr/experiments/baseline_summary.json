@@ -1,0 +1,45 @@
+{
+  "revision": "419566ac8f46f951b51584be36c13e5363008144",
+  "development_examples": 2426,
+  "folds": 5,
+  "threshold": 0.5,
+  "test_policy": "SEALED — NOT LOADED OR EVALUATED",
+  "experiments": {
+    "B0_TFIDF_LOGREG": {
+      "macro_f1": {
+        "mean": 0.16939594538318542,
+        "std": 0.012027025372848195
+      },
+      "micro_f1": {
+        "mean": 0.3385476637347001,
+        "std": 0.021822616921243414
+      },
+      "oof_path": "artifacts/predictions/tfidf_logreg_oof.parquet",
+      "oof_rows": 2426
+    },
+    "B1_BERTIMBAU_BASE_BCE": {
+      "macro_f1": {
+        "mean": 0.3238360417879861,
+        "std": 0.020405513193598752
+      },
+      "micro_f1": {
+        "mean": 0.6118928514796959,
+        "std": 0.0290393915038362
+      },
+      "oof_path": "artifacts/predictions/bertimbau_base_bce_oof.parquet",
+      "oof_rows": 2426
+    },
+    "B2_BERTIMBAU_LARGE_BCE": {
+      "macro_f1": {
+        "mean": 0.3957662266893664,
+        "std": 0.02116121223007095
+      },
+      "micro_f1": {
+        "mean": 0.6459488492103184,
+        "std": 0.01647424952213606
+      },
+      "oof_path": "artifacts/predictions/bertimbau_large_bce_oof.parquet",
+      "oof_rows": 2426
+    }
+  }
+}

@@ -1,0 +1,302 @@
+{
+  "schema_version": 1,
+  "audit_date": "2026-10-26",
+  "status": "FINAL_CHECKPOINTS_NOT_PUBLISHED",
+  "original_code_license": "MIT",
+  "code_license_does_not_relicense_third_party_data_or_model_weights": true,
+  "dataset": {
+    "repository": "brighter-dataset/BRIGHTER-emotion-categories",
+    "configuration": "ptbr",
+    "revision": "419566ac8f46f951b51584be36c13e5363008144",
+    "license": "CC-BY-4.0",
+    "source_url": "https://huggingface.co/datasets/brighter-dataset/BRIGHTER-emotion-categories/tree/419566ac8f46f951b51584be36c13e5363008144",
+    "raw_dataset_redistributed_in_this_github": false,
+    "attribution_applies_to_reused_ids_and_gold_labels": true
+  },
+  "upstream_sources": [
+    {
+      "kind": "dataset",
+      "repository": "brighter-dataset/BRIGHTER-emotion-categories",
+      "revision": "419566ac8f46f951b51584be36c13e5363008144",
+      "declared_license": "cc-by-4.0",
+      "metadata_url": "https://huggingface.co/api/datasets/brighter-dataset/BRIGHTER-emotion-categories/revision/419566ac8f46f951b51584be36c13e5363008144",
+      "readme_url": "https://huggingface.co/datasets/brighter-dataset/BRIGHTER-emotion-categories/raw/419566ac8f46f951b51584be36c13e5363008144/README.md",
+      "readme_sha256": "c573b3e4d6dd0a0c4b0ee8daac4e28e354d078b56918e4f992feaf4caa4d382f",
+      "revision_resolved_exactly": true,
+      "gated": false,
+      "private": false
+    },
+    {
+      "kind": "model",
+      "repository": "melll-uff/bertweetbr",
+      "revision": "7b95f2097a9e37046cca243cc1aeca45b0849fce",
+      "declared_license": "apache-2.0",
+      "metadata_url": "https://huggingface.co/api/models/melll-uff/bertweetbr/revision/7b95f2097a9e37046cca243cc1aeca45b0849fce",
+      "readme_url": "https://huggingface.co/melll-uff/bertweetbr/raw/7b95f2097a9e37046cca243cc1aeca45b0849fce/README.md",
+      "readme_sha256": "9e2d55f0bfc0a59e903ec02e7167c2d7461917e1d77c76e418e7a8584bc1ebc9",
+      "revision_resolved_exactly": true,
+      "gated": false,
+      "private": false
+    },
+    {
+      "kind": "model",
+      "repository": "neuralmind/bert-large-portuguese-cased",
+      "revision": "aa302f6ea73b759f7df9cad58bd272127b67ec28",
+      "declared_license": "mit",
+      "metadata_url": "https://huggingface.co/api/models/neuralmind/bert-large-portuguese-cased/revision/aa302f6ea73b759f7df9cad58bd272127b67ec28",
+      "readme_url": "https://huggingface.co/neuralmind/bert-large-portuguese-cased/raw/aa302f6ea73b759f7df9cad58bd272127b67ec28/README.md",
+      "readme_sha256": "4bd7c7d876ff7663a01163662d7750b564a96244b3b874ee4c651de6c525b461",
+      "revision_resolved_exactly": true,
+      "gated": false,
+      "private": false
+    },
+    {
+      "kind": "model",
+      "repository": "neuralmind/bert-base-portuguese-cased",
+      "revision": "94d69c95f98f7d5b2a8700c420230ae10def0baa",
+      "declared_license": "mit",
+      "metadata_url": "https://huggingface.co/api/models/neuralmind/bert-base-portuguese-cased/revision/94d69c95f98f7d5b2a8700c420230ae10def0baa",
+      "readme_url": "https://huggingface.co/neuralmind/bert-base-portuguese-cased/raw/94d69c95f98f7d5b2a8700c420230ae10def0baa/README.md",
+      "readme_sha256": "5d6b9daa0639405621d8a6f0ae31b1cb0a8e4bc2fa1a2667312ce51e976786aa",
+      "revision_resolved_exactly": true,
+      "gated": false,
+      "private": false
+    },
+    {
+      "kind": "model",
+      "repository": "PORTULAN/albertina-100m-portuguese-ptbr-encoder",
+      "revision": "d2a39d3d82408cc2a2618beb57a4fe908ee44b27",
+      "declared_license": "mit",
+      "metadata_url": "https://huggingface.co/api/models/PORTULAN/albertina-100m-portuguese-ptbr-encoder/revision/d2a39d3d82408cc2a2618beb57a4fe908ee44b27",
+      "readme_url": "https://huggingface.co/PORTULAN/albertina-100m-portuguese-ptbr-encoder/raw/d2a39d3d82408cc2a2618beb57a4fe908ee44b27/README.md",
+      "readme_sha256": "4308eb0de9586e109b749a6b41d367c3347bd52eb3d23857ef0ea7f6f0dcbf93",
+      "revision_resolved_exactly": true,
+      "gated": false,
+      "private": false
+    }
+  ],
+  "final_components": [
+    {
+      "artifact_id": "t2_bertweetbr_asl",
+      "artifact_system": "T2",
+      "article_system": "CT2",
+      "status": "NOT_DISTRIBUTED_PENDING_DESTINATION_AND_RELEASE_NOTICES",
+      "model_base": {
+        "repository": "melll-uff/bertweetbr",
+        "revision": "7b95f2097a9e37046cca243cc1aeca45b0849fce",
+        "license": "Apache-2.0",
+        "url": "https://huggingface.co/melll-uff/bertweetbr/tree/7b95f2097a9e37046cca243cc1aeca45b0849fce"
+      },
+      "final_checkpoint_download_url": null,
+      "external_repository": null,
+      "external_revision": null,
+      "total_bytes": 541332835,
+      "files": [
+        {
+          "filename": "added_tokens.json",
+          "expected_install_path": "artifacts/models/final/t2_bertweetbr_asl/added_tokens.json",
+          "bytes": 25,
+          "sha256": "7f4090fce4035d7473d72040b067ff14a40ca4a6e5ccb63b4400a1585b4d07f8",
+          "hash_source": "historical final_training_manifest.json",
+          "sha256_verified_from_local_bytes": true,
+          "download_url": null
+        },
+        {
+          "filename": "bpe.codes",
+          "expected_install_path": "artifacts/models/final/t2_bertweetbr_asl/bpe.codes",
+          "bytes": 764614,
+          "sha256": "04fce3525fb3130a0c6cd373261603ef4c277caf02966c64c0525b8e02ea8569",
+          "hash_source": "historical final_training_manifest.json",
+          "sha256_verified_from_local_bytes": true,
+          "download_url": null
+        },
+        {
+          "filename": "config.json",
+          "expected_install_path": "artifacts/models/final/t2_bertweetbr_asl/config.json",
+          "bytes": 1159,
+          "sha256": "de3060fd094f7c063f07ce695edc6b8d5f34ab2500cbefb2b8dd2ee7e0061804",
+          "hash_source": "historical final_training_manifest.json",
+          "sha256_verified_from_local_bytes": true,
+          "download_url": null
+        },
+        {
+          "filename": "final_training_manifest.json",
+          "expected_install_path": "artifacts/models/final/t2_bertweetbr_asl/final_training_manifest.json",
+          "bytes": 2448,
+          "sha256": "ca9a9d55c72e224e9c893cf200f111373ff2dfba52903da4e5afede3932be01b",
+          "hash_source": "computed during audit for small metadata",
+          "sha256_verified_from_local_bytes": true,
+          "download_url": null
+        },
+        {
+          "filename": "labels.json",
+          "expected_install_path": "artifacts/models/final/t2_bertweetbr_asl/labels.json",
+          "bytes": 108,
+          "sha256": "0666e91062b4a91e807bbbd3ff6dd901e2a07bc9c77ac005d9c98a4983a3cb29",
+          "hash_source": "computed during audit for small metadata",
+          "sha256_verified_from_local_bytes": true,
+          "download_url": null
+        },
+        {
+          "filename": "model.safetensors",
+          "expected_install_path": "artifacts/models/final/t2_bertweetbr_asl/model.safetensors",
+          "bytes": 539654760,
+          "sha256": "5b845ab4988c02ed8bbf1d1fee7551cd64cdbdac213c19f5ebd24823e79a612a",
+          "hash_source": "historical final_training_manifest.json",
+          "sha256_verified_from_local_bytes": true,
+          "download_url": null
+        },
+        {
+          "filename": "tokenizer_config.json",
+          "expected_install_path": "artifacts/models/final/t2_bertweetbr_asl/tokenizer_config.json",
+          "bytes": 1279,
+          "sha256": "4c4345c43b5cd50518be9cf3f2c5272fa32813a2298acf75dd35a94c396dedfe",
+          "hash_source": "historical final_training_manifest.json",
+          "sha256_verified_from_local_bytes": true,
+          "download_url": null
+        },
+        {
+          "filename": "training_config.json",
+          "expected_install_path": "artifacts/models/final/t2_bertweetbr_asl/training_config.json",
+          "bytes": 996,
+          "sha256": "e4f3a4dc455d8bee5f2f6d3f6df0fd3525c5058ba60a978df626adbac9f7352e",
+          "hash_source": "computed during audit for small metadata",
+          "sha256_verified_from_local_bytes": true,
+          "download_url": null
+        },
+        {
+          "filename": "vocab.txt",
+          "expected_install_path": "artifacts/models/final/t2_bertweetbr_asl/vocab.txt",
+          "bytes": 907446,
+          "sha256": "1adc77855013712e9ef006e54157fe48ba0ad87ded3ec26eb95c555cafb4d740",
+          "hash_source": "historical final_training_manifest.json",
+          "sha256_verified_from_local_bytes": true,
+          "download_url": null
+        }
+      ]
+    },
+    {
+      "artifact_id": "t3_bertimbau_large_bce",
+      "artifact_system": "T3",
+      "article_system": "CT3",
+      "status": "NOT_DISTRIBUTED_PENDING_DESTINATION_AND_RELEASE_NOTICES",
+      "model_base": {
+        "repository": "neuralmind/bert-large-portuguese-cased",
+        "revision": "aa302f6ea73b759f7df9cad58bd272127b67ec28",
+        "license": "MIT",
+        "url": "https://huggingface.co/neuralmind/bert-large-portuguese-cased/tree/aa302f6ea73b759f7df9cad58bd272127b67ec28"
+      },
+      "final_checkpoint_download_url": null,
+      "external_repository": null,
+      "external_revision": null,
+      "total_bytes": 1338339911,
+      "files": [
+        {
+          "filename": "config.json",
+          "expected_install_path": "artifacts/models/final/t3_bertimbau_large_bce/config.json",
+          "bytes": 1258,
+          "sha256": "c07dd2e9cb45c95de88a23d755805a847d8d9f1a7eaf8435a13f1f2a84fa80b7",
+          "hash_source": "historical final_training_manifest.json",
+          "sha256_verified_from_local_bytes": true,
+          "download_url": null
+        },
+        {
+          "filename": "final_training_manifest.json",
+          "expected_install_path": "artifacts/models/final/t3_bertimbau_large_bce/final_training_manifest.json",
+          "bytes": 2252,
+          "sha256": "9002c34f5e31282ad4599d87fe3cb86797859de1fc3e87f2aebd46fe13ec5549",
+          "hash_source": "computed during audit for small metadata",
+          "sha256_verified_from_local_bytes": true,
+          "download_url": null
+        },
+        {
+          "filename": "labels.json",
+          "expected_install_path": "artifacts/models/final/t3_bertimbau_large_bce/labels.json",
+          "bytes": 108,
+          "sha256": "0666e91062b4a91e807bbbd3ff6dd901e2a07bc9c77ac005d9c98a4983a3cb29",
+          "hash_source": "computed during audit for small metadata",
+          "sha256_verified_from_local_bytes": true,
+          "download_url": null
+        },
+        {
+          "filename": "model.safetensors",
+          "expected_install_path": "artifacts/models/final/t3_bertimbau_large_bce/model.safetensors",
+          "bytes": 1337657272,
+          "sha256": "aa25ca2517e262281ab60fee0fd161a48b57fc46967c0bba7955e03c98f4255d",
+          "hash_source": "historical final_training_manifest.json",
+          "sha256_verified_from_local_bytes": true,
+          "download_url": null
+        },
+        {
+          "filename": "tokenizer.json",
+          "expected_install_path": "artifacts/models/final/t3_bertimbau_large_bce/tokenizer.json",
+          "bytes": 677888,
+          "sha256": "774545b24c278999ff02e62dc9d6a990ddbcae722a0952bb85aae529adb6ace6",
+          "hash_source": "historical final_training_manifest.json",
+          "sha256_verified_from_local_bytes": true,
+          "download_url": null
+        },
+        {
+          "filename": "tokenizer_config.json",
+          "expected_install_path": "artifacts/models/final/t3_bertimbau_large_bce/tokenizer_config.json",
+          "bytes": 394,
+          "sha256": "c27efea0abd8dbd28d6ae76a7c50d33e2f20b7b7ef3dc16fe3583f1a954c87d0",
+          "hash_source": "historical final_training_manifest.json",
+          "sha256_verified_from_local_bytes": true,
+          "download_url": null
+        },
+        {
+          "filename": "training_config.json",
+          "expected_install_path": "artifacts/models/final/t3_bertimbau_large_bce/training_config.json",
+          "bytes": 739,
+          "sha256": "0b169eb4ee048fdaa76764a0094100378b38ca8d9ee5a17b3341361872386494",
+          "hash_source": "computed during audit for small metadata",
+          "sha256_verified_from_local_bytes": true,
+          "download_url": null
+        }
+      ]
+    }
+  ],
+  "combined_final_component_bytes": 1879672746,
+  "frozen_en2_rule": {
+    "source_path": "metadata/brighter_ptbr/final/deployment_decision_parameters.json",
+    "source_sha256": "9d147c1fb7f7b8a234adc27f0d3bcce644eddb67c1f1b63bcd83b60318381fe9",
+    "alpha_CT2": 0.7,
+    "weight_CT3": 0.30000000000000004,
+    "label_order": [
+      "anger",
+      "disgust",
+      "fear",
+      "joy",
+      "sadness",
+      "surprise"
+    ],
+    "thresholds": [
+      0.67,
+      0.36,
+      0.43,
+      0.65,
+      0.58,
+      0.49
+    ]
+  },
+  "storage_options": [
+    "Hugging Face Model Hub with immutable revision",
+    "Git LFS after quota and account approval",
+    "GitHub Releases after asset-limit and account approval"
+  ],
+  "pending_decisions": [
+    "Choose external hosting account, names and destination",
+    "Prepare third-party licenses and notices and identify supervised adaptation",
+    "Approve final-model release package before uploading"
+  ],
+  "integrity_audit": {
+    "model_files_rehashed": 16,
+    "weight_files_rehashed": 2,
+    "all_expected_historical_hashes_match": true,
+    "models_loaded": false,
+    "inference_executed": false,
+    "official_test_evaluation_executed": false,
+    "files_uploaded": false
+  }
+}

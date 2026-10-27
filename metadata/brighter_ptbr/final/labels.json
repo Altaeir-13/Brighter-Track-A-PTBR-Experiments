@@ -1,0 +1,12 @@
+{
+  "label_order": [
+    "anger",
+    "disgust",
+    "fear",
+    "joy",
+    "sadness",
+    "surprise"
+  ],
+  "num_labels": 6,
+  "sha256": "2093ceac6c06649489d5ebd5d1a8de1a7e18f5dea80e23bceaf73172849ada9d"
+}

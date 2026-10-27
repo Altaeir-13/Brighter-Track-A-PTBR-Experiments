@@ -1,0 +1,93 @@
+{
+  "timestamp_utc": "2026-08-27T00:57:44+00:00",
+  "real_training_examples": 8,
+  "fold": 0,
+  "max_length": 128,
+  "physical_batch": 8,
+  "test_policy": "SEALED — NOT LOADED OR EVALUATED",
+  "encoders": [
+    {
+      "model_name": "melll-uff/bertweetbr",
+      "revision": "7b95f2097a9e37046cca243cc1aeca45b0849fce",
+      "architecture": "roberta",
+      "tokenizer_class": "BertweetTokenizer",
+      "tokenizer_normalization": false,
+      "model_input_names": [
+        "input_ids",
+        "attention_mask"
+      ],
+      "batch_shape": [
+        8,
+        6
+      ],
+      "losses": [
+        {
+          "loss": "bce",
+          "value": 0.6970295310020447,
+          "backward": "ok"
+        },
+        {
+          "loss": "weighted_focal",
+          "value": 0.397250235080719,
+          "backward": "ok"
+        },
+        {
+          "loss": "asl",
+          "value": 0.11015930771827698,
+          "backward": "ok"
+        }
+      ],
+      "master_weight_dtype": "float32",
+      "mixed_precision": "fp16",
+      "peak_gpu_memory_bytes": 1104519168,
+      "parameters": 134907654,
+      "checkpoint_reload": "ok",
+      "reload_shape": [
+        2,
+        6
+      ]
+    },
+    {
+      "model_name": "PORTULAN/albertina-100m-portuguese-ptbr-encoder",
+      "revision": "d2a39d3d82408cc2a2618beb57a4fe908ee44b27",
+      "architecture": "deberta",
+      "tokenizer_class": "DebertaTokenizer",
+      "tokenizer_normalization": null,
+      "model_input_names": [
+        "input_ids",
+        "attention_mask",
+        "token_type_ids"
+      ],
+      "batch_shape": [
+        8,
+        6
+      ],
+      "losses": [
+        {
+          "loss": "bce",
+          "value": 0.693912148475647,
+          "backward": "ok"
+        },
+        {
+          "loss": "weighted_focal",
+          "value": 0.3881991505622864,
+          "backward": "ok"
+        },
+        {
+          "loss": "asl",
+          "value": 0.10258962959051132,
+          "backward": "ok"
+        }
+      ],
+      "master_weight_dtype": "float32",
+      "mixed_precision": "fp32",
+      "peak_gpu_memory_bytes": 1771292672,
+      "parameters": 139196934,
+      "checkpoint_reload": "ok",
+      "reload_shape": [
+        2,
+        6
+      ]
+    }
+  ]
+}

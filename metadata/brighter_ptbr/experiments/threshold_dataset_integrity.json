@@ -1,0 +1,53 @@
+{
+  "revision": "419566ac8f46f951b51584be36c13e5363008144",
+  "verified_train_dev_only": true,
+  "test_content_read": false,
+  "hashes": {
+    "raw": {
+      "train": {
+        "expected": "dd3e4cb0df63e30d96f9ae8378eaf50208a48c8fb6cc6b60b58d2adda39d32e2",
+        "observed": "dd3e4cb0df63e30d96f9ae8378eaf50208a48c8fb6cc6b60b58d2adda39d32e2",
+        "match": true
+      },
+      "dev": {
+        "expected": "b33aeba9913bcbd06cb258c4e6f7eaaa6fc758389d92b104ef14d0dda20a9c61",
+        "observed": "b33aeba9913bcbd06cb258c4e6f7eaaa6fc758389d92b104ef14d0dda20a9c61",
+        "match": true
+      }
+    },
+    "interim": {
+      "train": {
+        "expected": "30d576f161a701466f2e59c285642665f86be92786910d780e794c61984a9f2a",
+        "observed": "30d576f161a701466f2e59c285642665f86be92786910d780e794c61984a9f2a",
+        "match": true
+      },
+      "dev": {
+        "expected": "46818c761ae4f89ef7ba16ccfa5ac9ae5c633dd7630a4d1302a97a8952453def",
+        "observed": "46818c761ae4f89ef7ba16ccfa5ac9ae5c633dd7630a4d1302a97a8952453def",
+        "match": true
+      }
+    },
+    "curated": {
+      "train": {
+        "expected": "3fe02f1a979dde450a883c97b8aa648528c1f5d2dd70eaec1d7d1e8aeac2cb91",
+        "observed": "3fe02f1a979dde450a883c97b8aa648528c1f5d2dd70eaec1d7d1e8aeac2cb91",
+        "match": true
+      },
+      "dev": {
+        "expected": "4d23f9d2dedbfeb99c5fcb68001b01a6de30d897a8663d4bd505839f030105ba",
+        "observed": "4d23f9d2dedbfeb99c5fcb68001b01a6de30d897a8663d4bd505839f030105ba",
+        "match": true
+      }
+    }
+  },
+  "data_policy": {
+    "text_preprocessing": "none",
+    "label_modification": "none",
+    "sampling": "none",
+    "augmentation": "none",
+    "translation": "none",
+    "synthetic_data": "none",
+    "external_data": "none",
+    "track_b": "OUT OF SCOPE BY EXPERIMENTAL DESIGN"
+  }
+}

@@ -1,0 +1,25 @@
+experiment_id: L1_BERTIMBAU_BASE_WEIGHTED_BCE
+artifact_slug: bertimbau_base_weighted_bce
+model_type: transformer
+model_name: neuralmind/bert-base-portuguese-cased
+loss: weighted_bce
+seed: 42
+folds: 5
+threshold: 0.5
+max_length: 128
+imbalance_method: loss_weighting
+training: &base_training
+  learning_rate: 0.00002
+  epochs: 4
+  optimizer: AdamW
+  weight_decay: 0.01
+  warmup_ratio: 0.1
+  scheduler: linear
+  physical_batch_size: 8
+  gradient_accumulation_steps: 2
+  effective_batch_size: 16
+  eval_batch_size: 16
+  mixed_precision: fp16
+  gradient_checkpointing: true
+  max_grad_norm: 1.0
+  dynamic_padding: true

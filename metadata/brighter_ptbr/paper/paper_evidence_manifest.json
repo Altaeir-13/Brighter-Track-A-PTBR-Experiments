@@ -1,0 +1,3706 @@
+{
+  "package": "BRIGHTER_PTBR_PAPER_EVIDENCE_FREEZE",
+  "experiment_state": "TEST_EVALUATED",
+  "search_space": "CLOSED",
+  "further_tuning_allowed": false,
+  "scientific_status_vocabulary": [
+    "DEPLOYMENT_CALIBRATION_ONLY",
+    "DESCRIPTIVE",
+    "FINAL_TEST",
+    "LEAKAGE_SAFE_ESTIMATE",
+    "POST_HOC_DIAGNOSTIC"
+  ],
+  "claims": [
+    {
+      "claim_id": "C_DATA_TRAIN_N",
+      "description": "Official Track A train examples",
+      "value": 2226,
+      "unit": "examples",
+      "source_file": "metadata/brighter_ptbr/eda/eda_summary.json",
+      "source_field": "splits.train.rows",
+      "experimental_protocol": "corpus audit",
+      "scientific_status": "DESCRIPTIVE"
+    },
+    {
+      "claim_id": "C_DATA_DEV_N",
+      "description": "Official Track A dev examples",
+      "value": 200,
+      "unit": "examples",
+      "source_file": "metadata/brighter_ptbr/eda/eda_summary.json",
+      "source_field": "splits.dev.rows",
+      "experimental_protocol": "corpus audit",
+      "scientific_status": "DESCRIPTIVE"
+    },
+    {
+      "claim_id": "C_DATA_TEST_N",
+      "description": "Official Track A test examples",
+      "value": 2226,
+      "unit": "examples",
+      "source_file": "metadata/brighter_ptbr/eda/eda_summary.json",
+      "source_field": "splits.test.rows",
+      "experimental_protocol": "corpus audit",
+      "scientific_status": "DESCRIPTIVE"
+    },
+    {
+      "claim_id": "C_EDA_ZERO_LABEL_EXAMPLES",
+      "description": "Train zero-label examples",
+      "value": 632,
+      "unit": "examples",
+      "source_file": "metadata/brighter_ptbr/eda/eda_summary.json",
+      "source_field": "splits.train.zero_label_examples",
+      "experimental_protocol": "descriptive train EDA",
+      "scientific_status": "DESCRIPTIVE"
+    },
+    {
+      "claim_id": "C_EDA_ZERO_LABEL_PERCENTAGE",
+      "description": "Train zero-label rate",
+      "value": 28.39173405211141,
+      "unit": "percent",
+      "source_file": "metadata/brighter_ptbr/eda/eda_summary.json",
+      "source_field": "splits.train.zero_label_percentage",
+      "experimental_protocol": "descriptive train EDA",
+      "scientific_status": "DESCRIPTIVE"
+    },
+    {
+      "claim_id": "C_EDA_SINGLE_LABEL_EXAMPLES",
+      "description": "Train single-label examples",
+      "value": 1261,
+      "unit": "examples",
+      "source_file": "metadata/brighter_ptbr/eda/eda_summary.json",
+      "source_field": "splits.train.single_label_examples",
+      "experimental_protocol": "descriptive train EDA",
+      "scientific_status": "DESCRIPTIVE"
+    },
+    {
+      "claim_id": "C_EDA_MULTI_LABEL_EXAMPLES",
+      "description": "Train multilabel examples",
+      "value": 333,
+      "unit": "examples",
+      "source_file": "metadata/brighter_ptbr/eda/eda_summary.json",
+      "source_field": "splits.train.multi_label_examples",
+      "experimental_protocol": "descriptive train EDA",
+      "scientific_status": "DESCRIPTIVE"
+    },
+    {
+      "claim_id": "C_EDA_MULTI_LABEL_PERCENTAGE",
+      "description": "Train multilabel rate",
+      "value": 14.959568733153638,
+      "unit": "percent",
+      "source_file": "metadata/brighter_ptbr/eda/eda_summary.json",
+      "source_field": "splits.train.multi_label_percentage",
+      "experimental_protocol": "descriptive train EDA",
+      "scientific_status": "DESCRIPTIVE"
+    },
+    {
+      "claim_id": "C_EDA_LABEL_CARDINALITY",
+      "description": "Train label cardinality",
+      "value": 0.8796046720575023,
+      "unit": "labels/example",
+      "source_file": "metadata/brighter_ptbr/eda/eda_summary.json",
+      "source_field": "splits.train.label_cardinality",
+      "experimental_protocol": "descriptive train EDA",
+      "scientific_status": "DESCRIPTIVE"
+    },
+    {
+      "claim_id": "C_EDA_LABEL_DENSITY",
+      "description": "Train label density",
+      "value": 0.14660077867625038,
+      "unit": "ratio",
+      "source_file": "metadata/brighter_ptbr/eda/eda_summary.json",
+      "source_field": "splits.train.label_density",
+      "experimental_protocol": "descriptive train EDA",
+      "scientific_status": "DESCRIPTIVE"
+    },
+    {
+      "claim_id": "C_EDA_MEANIR",
+      "description": "Training MeanIR",
+      "value": 4.21981896049713,
+      "unit": "ratio",
+      "source_file": "metadata/brighter_ptbr/eda/eda_summary.json",
+      "source_field": "mean_ir",
+      "experimental_protocol": "descriptive train EDA",
+      "scientific_status": "DESCRIPTIVE"
+    },
+    {
+      "claim_id": "C_EDA_SCUMBLE",
+      "description": "Training SCUMBLE",
+      "value": 0.037881607840401725,
+      "unit": "score",
+      "source_file": "metadata/brighter_ptbr/eda/eda_summary.json",
+      "source_field": "scumble",
+      "experimental_protocol": "descriptive train EDA",
+      "scientific_status": "DESCRIPTIVE"
+    },
+    {
+      "claim_id": "C_EDA_LABELSETS_OBSERVED",
+      "description": "Observed train labelsets",
+      "value": 32,
+      "unit": "labelsets",
+      "source_file": "metadata/brighter_ptbr/eda/eda_summary.json",
+      "source_field": "labelsets.train.observed",
+      "experimental_protocol": "descriptive train EDA",
+      "scientific_status": "DESCRIPTIVE"
+    },
+    {
+      "claim_id": "C_EDA_LABELSETS_POSSIBLE",
+      "description": "Possible labelsets for six labels",
+      "value": 64,
+      "unit": "labelsets",
+      "source_file": "metadata/brighter_ptbr/eda/eda_summary.json",
+      "source_field": "labelsets.train.possible",
+      "experimental_protocol": "descriptive train EDA",
+      "scientific_status": "DESCRIPTIVE"
+    },
+    {
+      "claim_id": "C_EDA_DISGUST_POSITIVE_EXAMPLES",
+      "description": "Train disgust positives",
+      "value": 75,
+      "unit": "examples",
+      "source_file": "metadata/brighter_ptbr/eda/eda_summary.json",
+      "source_field": "imbalance.minority_concurrence[disgust].positive_examples",
+      "experimental_protocol": "descriptive train EDA",
+      "scientific_status": "DESCRIPTIVE"
+    },
+    {
+      "claim_id": "C_EDA_DISGUST_WITH_MAJORITY_LABEL",
+      "description": "Train disgust positives co-occurring with a majority label",
+      "value": 65,
+      "unit": "examples",
+      "source_file": "metadata/brighter_ptbr/eda/eda_summary.json",
+      "source_field": "imbalance.minority_concurrence[disgust].with_majority_label",
+      "experimental_protocol": "descriptive train EDA",
+      "scientific_status": "DESCRIPTIVE"
+    },
+    {
+      "claim_id": "C_EDA_DISGUST_MOST_FREQUENT_CO_LABEL_COUNT",
+      "description": "Train disgust positives co-occurring with anger",
+      "value": 60,
+      "unit": "examples",
+      "source_file": "metadata/brighter_ptbr/eda/eda_summary.json",
+      "source_field": "imbalance.minority_concurrence[disgust].most_frequent_co_label_count",
+      "experimental_protocol": "descriptive train EDA",
+      "scientific_status": "DESCRIPTIVE"
+    },
+    {
+      "claim_id": "C_B0_MACRO_F1",
+      "description": "B0 macro_f1",
+      "value": 0.16939594538318542,
+      "unit": "score",
+      "source_file": "metadata/brighter_ptbr/experiments/baseline_summary.json",
+      "source_field": "experiments.B0_TFIDF_LOGREG.macro_f1.mean",
+      "experimental_protocol": "5-fold iterative multilabel CV; fold mean",
+      "scientific_status": "LEAKAGE_SAFE_ESTIMATE"
+    },
+    {
+      "claim_id": "C_B0_MACRO_F1_STD",
+      "description": "B0 macro_f1_std",
+      "value": 0.012027025372848195,
+      "unit": "score",
+      "source_file": "metadata/brighter_ptbr/experiments/baseline_summary.json",
+      "source_field": "experiments.B0_TFIDF_LOGREG.macro_f1.std",
+      "experimental_protocol": "5-fold iterative multilabel CV; fold mean",
+      "scientific_status": "LEAKAGE_SAFE_ESTIMATE"
+    },
+    {
+      "claim_id": "C_B0_MICRO_F1",
+      "description": "B0 micro_f1",
+      "value": 0.3385476637347001,
+      "unit": "score",
+      "source_file": "metadata/brighter_ptbr/experiments/baseline_summary.json",
+      "source_field": "experiments.B0_TFIDF_LOGREG.micro_f1.mean",
+      "experimental_protocol": "5-fold iterative multilabel CV; fold mean",
+      "scientific_status": "LEAKAGE_SAFE_ESTIMATE"
+    },
+    {
+      "claim_id": "C_B0_NEUTRAL_FP",
+      "description": "B0 neutral_fp",
+      "value": 0.0885,
+      "unit": "score",
+      "source_file": "reports/brighter_ptbr/experiments/baseline_results.md",
+      "source_field": "B0.neutral_fp",
+      "experimental_protocol": "5-fold iterative multilabel CV; fold mean",
+      "scientific_status": "LEAKAGE_SAFE_ESTIMATE"
+    },
+    {
+      "claim_id": "C_B0_DISGUST_F1",
+      "description": "B0 disgust_f1",
+      "value": 0.0,
+      "unit": "score",
+      "source_file": "reports/brighter_ptbr/experiments/per_label_baselines.csv",
+      "source_field": "experiment_id=B0_TFIDF_LOGREG; emotion=disgust; f1",
+      "experimental_protocol": "5-fold iterative multilabel CV; fold mean",
+      "scientific_status": "LEAKAGE_SAFE_ESTIMATE"
+    },
+    {
+      "claim_id": "C_B0_FEAR_F1",
+      "description": "B0 fear_f1",
+      "value": 0.0,
+      "unit": "score",
+      "source_file": "reports/brighter_ptbr/experiments/per_label_baselines.csv",
+      "source_field": "experiment_id=B0_TFIDF_LOGREG; emotion=fear; f1",
+      "experimental_protocol": "5-fold iterative multilabel CV; fold mean",
+      "scientific_status": "LEAKAGE_SAFE_ESTIMATE"
+    },
+    {
+      "claim_id": "C_B0_SURPRISE_F1",
+      "description": "B0 surprise_f1",
+      "value": 0.0,
+      "unit": "score",
+      "source_file": "reports/brighter_ptbr/experiments/per_label_baselines.csv",
+      "source_field": "experiment_id=B0_TFIDF_LOGREG; emotion=surprise; f1",
+      "experimental_protocol": "5-fold iterative multilabel CV; fold mean",
+      "scientific_status": "LEAKAGE_SAFE_ESTIMATE"
+    },
+    {
+      "claim_id": "C_B0_TRAINING_SECONDS",
+      "description": "B0 training_seconds",
+      "value": 2.459584,
+      "unit": "score",
+      "source_file": "reports/brighter_ptbr/experiments/computational_cost.csv",
+      "source_field": "experiment_id=B0_TFIDF_LOGREG; training_seconds",
+      "experimental_protocol": "5-fold iterative multilabel CV; fold mean",
+      "scientific_status": "LEAKAGE_SAFE_ESTIMATE"
+    },
+    {
+      "claim_id": "C_B1_MACRO_F1",
+      "description": "B1 macro_f1",
+      "value": 0.3238360417879861,
+      "unit": "score",
+      "source_file": "metadata/brighter_ptbr/experiments/baseline_summary.json",
+      "source_field": "experiments.B1_BERTIMBAU_BASE_BCE.macro_f1.mean",
+      "experimental_protocol": "5-fold iterative multilabel CV; fold mean",
+      "scientific_status": "LEAKAGE_SAFE_ESTIMATE"
+    },
+    {
+      "claim_id": "C_B1_MACRO_F1_STD",
+      "description": "B1 macro_f1_std",
+      "value": 0.020405513193598752,
+      "unit": "score",
+      "source_file": "metadata/brighter_ptbr/experiments/baseline_summary.json",
+      "source_field": "experiments.B1_BERTIMBAU_BASE_BCE.macro_f1.std",
+      "experimental_protocol": "5-fold iterative multilabel CV; fold mean",
+      "scientific_status": "LEAKAGE_SAFE_ESTIMATE"
+    },
+    {
+      "claim_id": "C_B1_MICRO_F1",
+      "description": "B1 micro_f1",
+      "value": 0.6118928514796959,
+      "unit": "score",
+      "source_file": "metadata/brighter_ptbr/experiments/baseline_summary.json",
+      "source_field": "experiments.B1_BERTIMBAU_BASE_BCE.micro_f1.mean",
+      "experimental_protocol": "5-fold iterative multilabel CV; fold mean",
+      "scientific_status": "LEAKAGE_SAFE_ESTIMATE"
+    },
+    {
+      "claim_id": "C_B1_NEUTRAL_FP",
+      "description": "B1 neutral_fp",
+      "value": 0.2847,
+      "unit": "score",
+      "source_file": "reports/brighter_ptbr/experiments/baseline_results.md",
+      "source_field": "B1.neutral_fp",
+      "experimental_protocol": "5-fold iterative multilabel CV; fold mean",
+      "scientific_status": "LEAKAGE_SAFE_ESTIMATE"
+    },
+    {
+      "claim_id": "C_B1_PREDICTED_CARDINALITY",
+      "description": "B1 predicted_cardinality",
+      "value": 0.64633141,
+      "unit": "score",
+      "source_file": "reports/brighter_ptbr/experiments/encoder_cardinality.csv",
+      "source_field": "model=B1; predicted_label_cardinality",
+      "experimental_protocol": "5-fold iterative multilabel CV; fold mean",
+      "scientific_status": "LEAKAGE_SAFE_ESTIMATE"
+    },
+    {
+      "claim_id": "C_B1_DISGUST_F1",
+      "description": "B1 disgust_f1",
+      "value": 0.0,
+      "unit": "score",
+      "source_file": "reports/brighter_ptbr/experiments/per_label_baselines.csv",
+      "source_field": "experiment_id=B1_BERTIMBAU_BASE_BCE; emotion=disgust; f1",
+      "experimental_protocol": "5-fold iterative multilabel CV; fold mean",
+      "scientific_status": "LEAKAGE_SAFE_ESTIMATE"
+    },
+    {
+      "claim_id": "C_B1_FEAR_F1",
+      "description": "B1 fear_f1",
+      "value": 0.0,
+      "unit": "score",
+      "source_file": "reports/brighter_ptbr/experiments/per_label_baselines.csv",
+      "source_field": "experiment_id=B1_BERTIMBAU_BASE_BCE; emotion=fear; f1",
+      "experimental_protocol": "5-fold iterative multilabel CV; fold mean",
+      "scientific_status": "LEAKAGE_SAFE_ESTIMATE"
+    },
+    {
+      "claim_id": "C_B1_SURPRISE_F1",
+      "description": "B1 surprise_f1",
+      "value": 0.0,
+      "unit": "score",
+      "source_file": "reports/brighter_ptbr/experiments/per_label_baselines.csv",
+      "source_field": "experiment_id=B1_BERTIMBAU_BASE_BCE; emotion=surprise; f1",
+      "experimental_protocol": "5-fold iterative multilabel CV; fold mean",
+      "scientific_status": "LEAKAGE_SAFE_ESTIMATE"
+    },
+    {
+      "claim_id": "C_B1_TRAINING_SECONDS",
+      "description": "B1 training_seconds",
+      "value": 506.9357951,
+      "unit": "score",
+      "source_file": "reports/brighter_ptbr/experiments/computational_cost.csv",
+      "source_field": "experiment_id=B1_BERTIMBAU_BASE_BCE; training_seconds",
+      "experimental_protocol": "5-fold iterative multilabel CV; fold mean",
+      "scientific_status": "LEAKAGE_SAFE_ESTIMATE"
+    },
+    {
+      "claim_id": "C_B1_PARAMETER_COUNT",
+      "description": "B1 parameter_count",
+      "value": 108927750.0,
+      "unit": "score",
+      "source_file": "reports/brighter_ptbr/experiments/computational_cost.csv",
+      "source_field": "experiment_id=B1_BERTIMBAU_BASE_BCE; parameters",
+      "experimental_protocol": "5-fold iterative multilabel CV; fold mean",
+      "scientific_status": "LEAKAGE_SAFE_ESTIMATE"
+    },
+    {
+      "claim_id": "C_B2_MACRO_F1",
+      "description": "B2 macro_f1",
+      "value": 0.3957662266893664,
+      "unit": "score",
+      "source_file": "metadata/brighter_ptbr/experiments/baseline_summary.json",
+      "source_field": "experiments.B2_BERTIMBAU_LARGE_BCE.macro_f1.mean",
+      "experimental_protocol": "5-fold iterative multilabel CV; fold mean",
+      "scientific_status": "LEAKAGE_SAFE_ESTIMATE"
+    },
+    {
+      "claim_id": "C_B2_MACRO_F1_STD",
+      "description": "B2 macro_f1_std",
+      "value": 0.02116121223007095,
+      "unit": "score",
+      "source_file": "metadata/brighter_ptbr/experiments/baseline_summary.json",
+      "source_field": "experiments.B2_BERTIMBAU_LARGE_BCE.macro_f1.std",
+      "experimental_protocol": "5-fold iterative multilabel CV; fold mean",
+      "scientific_status": "LEAKAGE_SAFE_ESTIMATE"
+    },
+    {
+      "claim_id": "C_B2_MICRO_F1",
+      "description": "B2 micro_f1",
+      "value": 0.6459488492103184,
+      "unit": "score",
+      "source_file": "metadata/brighter_ptbr/experiments/baseline_summary.json",
+      "source_field": "experiments.B2_BERTIMBAU_LARGE_BCE.micro_f1.mean",
+      "experimental_protocol": "5-fold iterative multilabel CV; fold mean",
+      "scientific_status": "LEAKAGE_SAFE_ESTIMATE"
+    },
+    {
+      "claim_id": "C_B2_NEUTRAL_FP",
+      "description": "B2 neutral_fp",
+      "value": 0.2935,
+      "unit": "score",
+      "source_file": "reports/brighter_ptbr/experiments/baseline_results.md",
+      "source_field": "B2.neutral_fp",
+      "experimental_protocol": "5-fold iterative multilabel CV; fold mean",
+      "scientific_status": "LEAKAGE_SAFE_ESTIMATE"
+    },
+    {
+      "claim_id": "C_B2_PREDICTED_CARDINALITY",
+      "description": "B2 predicted_cardinality",
+      "value": 0.69249794,
+      "unit": "score",
+      "source_file": "reports/brighter_ptbr/experiments/encoder_cardinality.csv",
+      "source_field": "model=B2; predicted_label_cardinality",
+      "experimental_protocol": "5-fold iterative multilabel CV; fold mean",
+      "scientific_status": "LEAKAGE_SAFE_ESTIMATE"
+    },
+    {
+      "claim_id": "C_B2_DISGUST_F1",
+      "description": "B2 disgust_f1",
+      "value": 0.0,
+      "unit": "score",
+      "source_file": "reports/brighter_ptbr/experiments/per_label_baselines.csv",
+      "source_field": "experiment_id=B2_BERTIMBAU_LARGE_BCE; emotion=disgust; f1",
+      "experimental_protocol": "5-fold iterative multilabel CV; fold mean",
+      "scientific_status": "LEAKAGE_SAFE_ESTIMATE"
+    },
+    {
+      "claim_id": "C_B2_FEAR_F1",
+      "description": "B2 fear_f1",
+      "value": 0.06504065,
+      "unit": "score",
+      "source_file": "reports/brighter_ptbr/experiments/per_label_baselines.csv",
+      "source_field": "experiment_id=B2_BERTIMBAU_LARGE_BCE; emotion=fear; f1",
+      "experimental_protocol": "5-fold iterative multilabel CV; fold mean",
+      "scientific_status": "LEAKAGE_SAFE_ESTIMATE"
+    },
+    {
+      "claim_id": "C_B2_SURPRISE_F1",
+      "description": "B2 surprise_f1",
+      "value": 0.26415094,
+      "unit": "score",
+      "source_file": "reports/brighter_ptbr/experiments/per_label_baselines.csv",
+      "source_field": "experiment_id=B2_BERTIMBAU_LARGE_BCE; emotion=surprise; f1",
+      "experimental_protocol": "5-fold iterative multilabel CV; fold mean",
+      "scientific_status": "LEAKAGE_SAFE_ESTIMATE"
+    },
+    {
+      "claim_id": "C_B2_TRAINING_SECONDS",
+      "description": "B2 training_seconds",
+      "value": 6803.4496097,
+      "unit": "score",
+      "source_file": "reports/brighter_ptbr/experiments/computational_cost.csv",
+      "source_field": "experiment_id=B2_BERTIMBAU_LARGE_BCE; training_seconds",
+      "experimental_protocol": "5-fold iterative multilabel CV; fold mean",
+      "scientific_status": "LEAKAGE_SAFE_ESTIMATE"
+    },
+    {
+      "claim_id": "C_B2_PARAMETER_COUNT",
+      "description": "B2 parameter_count",
+      "value": 334402566.0,
+      "unit": "score",
+      "source_file": "reports/brighter_ptbr/experiments/computational_cost.csv",
+      "source_field": "experiment_id=B2_BERTIMBAU_LARGE_BCE; parameters",
+      "experimental_protocol": "5-fold iterative multilabel CV; fold mean",
+      "scientific_status": "LEAKAGE_SAFE_ESTIMATE"
+    },
+    {
+      "claim_id": "C_L1_MACRO_F1",
+      "description": "L1 macro_f1",
+      "value": 0.4470282549085128,
+      "unit": "score",
+      "source_file": "metadata/brighter_ptbr/experiments/imbalance_loss_summary.json",
+      "source_field": "experiments.L1.macro_f1",
+      "experimental_protocol": "5-fold OOF aggregate",
+      "scientific_status": "LEAKAGE_SAFE_ESTIMATE"
+    },
+    {
+      "claim_id": "C_L1_MACRO_F1_STD",
+      "description": "L1 macro_f1_std",
+      "value": 0.006534261754300216,
+      "unit": "score",
+      "source_file": "metadata/brighter_ptbr/experiments/imbalance_loss_summary.json",
+      "source_field": "experiments.L1.macro_f1_std",
+      "experimental_protocol": "5-fold OOF aggregate",
+      "scientific_status": "LEAKAGE_SAFE_ESTIMATE"
+    },
+    {
+      "claim_id": "C_L1_MICRO_F1",
+      "description": "L1 micro_f1",
+      "value": 0.5432098765432098,
+      "unit": "score",
+      "source_file": "reports/brighter_ptbr/experiments/imbalance_loss_per_label.csv",
+      "source_field": "model=L1; micro_f1",
+      "experimental_protocol": "5-fold OOF aggregate",
+      "scientific_status": "LEAKAGE_SAFE_ESTIMATE"
+    },
+    {
+      "claim_id": "C_L1_NEUTRAL_FP",
+      "description": "L1 neutral_fp",
+      "value": 0.7684365781710915,
+      "unit": "score",
+      "source_file": "reports/brighter_ptbr/experiments/imbalance_loss_per_label.csv",
+      "source_field": "model=L1; neutral_fp",
+      "experimental_protocol": "5-fold OOF aggregate",
+      "scientific_status": "LEAKAGE_SAFE_ESTIMATE"
+    },
+    {
+      "claim_id": "C_L1_PREDICTED_CARDINALITY",
+      "description": "L1 predicted_cardinality",
+      "value": 1.62201155,
+      "unit": "score",
+      "source_file": "reports/brighter_ptbr/experiments/imbalance_loss_per_label.csv",
+      "source_field": "model=L1; predicted_cardinality",
+      "experimental_protocol": "5-fold OOF aggregate",
+      "scientific_status": "LEAKAGE_SAFE_ESTIMATE"
+    },
+    {
+      "claim_id": "C_L1_DISGUST_F1",
+      "description": "L1 disgust_f1",
+      "value": 0.18526316,
+      "unit": "score",
+      "source_file": "reports/brighter_ptbr/experiments/imbalance_loss_per_label.csv",
+      "source_field": "model=L1; disgust_f1",
+      "experimental_protocol": "5-fold OOF aggregate",
+      "scientific_status": "LEAKAGE_SAFE_ESTIMATE"
+    },
+    {
+      "claim_id": "C_L1_FEAR_F1",
+      "description": "L1 fear_f1",
+      "value": 0.23011844,
+      "unit": "score",
+      "source_file": "reports/brighter_ptbr/experiments/imbalance_loss_per_label.csv",
+      "source_field": "model=L1; fear_f1",
+      "experimental_protocol": "5-fold OOF aggregate",
+      "scientific_status": "LEAKAGE_SAFE_ESTIMATE"
+    },
+    {
+      "claim_id": "C_L1_SURPRISE_F1",
+      "description": "L1 surprise_f1",
+      "value": 0.36638655,
+      "unit": "score",
+      "source_file": "reports/brighter_ptbr/experiments/imbalance_loss_per_label.csv",
+      "source_field": "model=L1; surprise_f1",
+      "experimental_protocol": "5-fold OOF aggregate",
+      "scientific_status": "LEAKAGE_SAFE_ESTIMATE"
+    },
+    {
+      "claim_id": "C_L1_TRAINING_SECONDS",
+      "description": "L1 training_seconds",
+      "value": 448.322825500014,
+      "unit": "score",
+      "source_file": "metadata/brighter_ptbr/experiments/imbalance_loss_summary.json",
+      "source_field": "experiments.L1.training_seconds",
+      "experimental_protocol": "5-fold OOF aggregate",
+      "scientific_status": "LEAKAGE_SAFE_ESTIMATE"
+    },
+    {
+      "claim_id": "C_L1_PARAMETER_COUNT",
+      "description": "L1 parameter_count",
+      "value": 108927750,
+      "unit": "score",
+      "source_file": "metadata/brighter_ptbr/experiments/imbalance_loss_summary.json",
+      "source_field": "experiments.L1.parameter_count",
+      "experimental_protocol": "5-fold OOF aggregate",
+      "scientific_status": "LEAKAGE_SAFE_ESTIMATE"
+    },
+    {
+      "claim_id": "C_L2_MACRO_F1",
+      "description": "L2 macro_f1",
+      "value": 0.3788797600430264,
+      "unit": "score",
+      "source_file": "metadata/brighter_ptbr/experiments/imbalance_loss_summary.json",
+      "source_field": "experiments.L2.macro_f1",
+      "experimental_protocol": "5-fold OOF aggregate",
+      "scientific_status": "LEAKAGE_SAFE_ESTIMATE"
+    },
+    {
+      "claim_id": "C_L2_MACRO_F1_STD",
+      "description": "L2 macro_f1_std",
+      "value": 0.008118950094225936,
+      "unit": "score",
+      "source_file": "metadata/brighter_ptbr/experiments/imbalance_loss_summary.json",
+      "source_field": "experiments.L2.macro_f1_std",
+      "experimental_protocol": "5-fold OOF aggregate",
+      "scientific_status": "LEAKAGE_SAFE_ESTIMATE"
+    },
+    {
+      "claim_id": "C_L2_MICRO_F1",
+      "description": "L2 micro_f1",
+      "value": 0.6343889034284219,
+      "unit": "score",
+      "source_file": "reports/brighter_ptbr/experiments/imbalance_loss_per_label.csv",
+      "source_field": "model=L2; micro_f1",
+      "experimental_protocol": "5-fold OOF aggregate",
+      "scientific_status": "LEAKAGE_SAFE_ESTIMATE"
+    },
+    {
+      "claim_id": "C_L2_NEUTRAL_FP",
+      "description": "L2 neutral_fp",
+      "value": 0.3097345132743363,
+      "unit": "score",
+      "source_file": "reports/brighter_ptbr/experiments/imbalance_loss_per_label.csv",
+      "source_field": "model=L2; neutral_fp",
+      "experimental_protocol": "5-fold OOF aggregate",
+      "scientific_status": "LEAKAGE_SAFE_ESTIMATE"
+    },
+    {
+      "claim_id": "C_L2_PREDICTED_CARDINALITY",
+      "description": "L2 predicted_cardinality",
+      "value": 0.69291014,
+      "unit": "score",
+      "source_file": "reports/brighter_ptbr/experiments/imbalance_loss_per_label.csv",
+      "source_field": "model=L2; predicted_cardinality",
+      "experimental_protocol": "5-fold OOF aggregate",
+      "scientific_status": "LEAKAGE_SAFE_ESTIMATE"
+    },
+    {
+      "claim_id": "C_L2_DISGUST_F1",
+      "description": "L2 disgust_f1",
+      "value": 0.0,
+      "unit": "score",
+      "source_file": "reports/brighter_ptbr/experiments/imbalance_loss_per_label.csv",
+      "source_field": "model=L2; disgust_f1",
+      "experimental_protocol": "5-fold OOF aggregate",
+      "scientific_status": "LEAKAGE_SAFE_ESTIMATE"
+    },
+    {
+      "claim_id": "C_L2_FEAR_F1",
+      "description": "L2 fear_f1",
+      "value": 0.01694915,
+      "unit": "score",
+      "source_file": "reports/brighter_ptbr/experiments/imbalance_loss_per_label.csv",
+      "source_field": "model=L2; fear_f1",
+      "experimental_protocol": "5-fold OOF aggregate",
+      "scientific_status": "LEAKAGE_SAFE_ESTIMATE"
+    },
+    {
+      "claim_id": "C_L2_SURPRISE_F1",
+      "description": "L2 surprise_f1",
+      "value": 0.22222222,
+      "unit": "score",
+      "source_file": "reports/brighter_ptbr/experiments/imbalance_loss_per_label.csv",
+      "source_field": "model=L2; surprise_f1",
+      "experimental_protocol": "5-fold OOF aggregate",
+      "scientific_status": "LEAKAGE_SAFE_ESTIMATE"
+    },
+    {
+      "claim_id": "C_L2_TRAINING_SECONDS",
+      "description": "L2 training_seconds",
+      "value": 450.67919189998065,
+      "unit": "score",
+      "source_file": "metadata/brighter_ptbr/experiments/imbalance_loss_summary.json",
+      "source_field": "experiments.L2.training_seconds",
+      "experimental_protocol": "5-fold OOF aggregate",
+      "scientific_status": "LEAKAGE_SAFE_ESTIMATE"
+    },
+    {
+      "claim_id": "C_L2_PARAMETER_COUNT",
+      "description": "L2 parameter_count",
+      "value": 108927750,
+      "unit": "score",
+      "source_file": "metadata/brighter_ptbr/experiments/imbalance_loss_summary.json",
+      "source_field": "experiments.L2.parameter_count",
+      "experimental_protocol": "5-fold OOF aggregate",
+      "scientific_status": "LEAKAGE_SAFE_ESTIMATE"
+    },
+    {
+      "claim_id": "C_L3_MACRO_F1",
+      "description": "L3 macro_f1",
+      "value": 0.40235533655901956,
+      "unit": "score",
+      "source_file": "metadata/brighter_ptbr/experiments/imbalance_loss_summary.json",
+      "source_field": "experiments.L3.macro_f1",
+      "experimental_protocol": "5-fold OOF aggregate",
+      "scientific_status": "LEAKAGE_SAFE_ESTIMATE"
+    },
+    {
+      "claim_id": "C_L3_MACRO_F1_STD",
+      "description": "L3 macro_f1_std",
+      "value": 0.023824989322853683,
+      "unit": "score",
+      "source_file": "metadata/brighter_ptbr/experiments/imbalance_loss_summary.json",
+      "source_field": "experiments.L3.macro_f1_std",
+      "experimental_protocol": "5-fold OOF aggregate",
+      "scientific_status": "LEAKAGE_SAFE_ESTIMATE"
+    },
+    {
+      "claim_id": "C_L3_MICRO_F1",
+      "description": "L3 micro_f1",
+      "value": 0.5745092618191872,
+      "unit": "score",
+      "source_file": "reports/brighter_ptbr/experiments/imbalance_loss_per_label.csv",
+      "source_field": "model=L3; micro_f1",
+      "experimental_protocol": "5-fold OOF aggregate",
+      "scientific_status": "LEAKAGE_SAFE_ESTIMATE"
+    },
+    {
+      "claim_id": "C_L3_NEUTRAL_FP",
+      "description": "L3 neutral_fp",
+      "value": 0.2551622418879056,
+      "unit": "score",
+      "source_file": "reports/brighter_ptbr/experiments/imbalance_loss_per_label.csv",
+      "source_field": "model=L3; neutral_fp",
+      "experimental_protocol": "5-fold OOF aggregate",
+      "scientific_status": "LEAKAGE_SAFE_ESTIMATE"
+    },
+    {
+      "claim_id": "C_L3_PREDICTED_CARDINALITY",
+      "description": "L3 predicted_cardinality",
+      "value": 0.6088211,
+      "unit": "score",
+      "source_file": "reports/brighter_ptbr/experiments/imbalance_loss_per_label.csv",
+      "source_field": "model=L3; predicted_cardinality",
+      "experimental_protocol": "5-fold OOF aggregate",
+      "scientific_status": "LEAKAGE_SAFE_ESTIMATE"
+    },
+    {
+      "claim_id": "C_L3_DISGUST_F1",
+      "description": "L3 disgust_f1",
+      "value": 0.1980198,
+      "unit": "score",
+      "source_file": "reports/brighter_ptbr/experiments/imbalance_loss_per_label.csv",
+      "source_field": "model=L3; disgust_f1",
+      "experimental_protocol": "5-fold OOF aggregate",
+      "scientific_status": "LEAKAGE_SAFE_ESTIMATE"
+    },
+    {
+      "claim_id": "C_L3_FEAR_F1",
+      "description": "L3 fear_f1",
+      "value": 0.09230769,
+      "unit": "score",
+      "source_file": "reports/brighter_ptbr/experiments/imbalance_loss_per_label.csv",
+      "source_field": "model=L3; fear_f1",
+      "experimental_protocol": "5-fold OOF aggregate",
+      "scientific_status": "LEAKAGE_SAFE_ESTIMATE"
+    },
+    {
+      "claim_id": "C_L3_SURPRISE_F1",
+      "description": "L3 surprise_f1",
+      "value": 0.28828829,
+      "unit": "score",
+      "source_file": "reports/brighter_ptbr/experiments/imbalance_loss_per_label.csv",
+      "source_field": "model=L3; surprise_f1",
+      "experimental_protocol": "5-fold OOF aggregate",
+      "scientific_status": "LEAKAGE_SAFE_ESTIMATE"
+    },
+    {
+      "claim_id": "C_L3_TRAINING_SECONDS",
+      "description": "L3 training_seconds",
+      "value": 466.9718218999915,
+      "unit": "score",
+      "source_file": "metadata/brighter_ptbr/experiments/imbalance_loss_summary.json",
+      "source_field": "experiments.L3.training_seconds",
+      "experimental_protocol": "5-fold OOF aggregate",
+      "scientific_status": "LEAKAGE_SAFE_ESTIMATE"
+    },
+    {
+      "claim_id": "C_L3_PARAMETER_COUNT",
+      "description": "L3 parameter_count",
+      "value": 108927750,
+      "unit": "score",
+      "source_file": "metadata/brighter_ptbr/experiments/imbalance_loss_summary.json",
+      "source_field": "experiments.L3.parameter_count",
+      "experimental_protocol": "5-fold OOF aggregate",
+      "scientific_status": "LEAKAGE_SAFE_ESTIMATE"
+    },
+    {
+      "claim_id": "C_L4_MACRO_F1",
+      "description": "L4 macro_f1",
+      "value": 0.4617199198901151,
+      "unit": "score",
+      "source_file": "metadata/brighter_ptbr/experiments/imbalance_loss_summary.json",
+      "source_field": "experiments.L4.macro_f1",
+      "experimental_protocol": "5-fold OOF aggregate",
+      "scientific_status": "LEAKAGE_SAFE_ESTIMATE"
+    },
+    {
+      "claim_id": "C_L4_MACRO_F1_STD",
+      "description": "L4 macro_f1_std",
+      "value": 0.01996921344870742,
+      "unit": "score",
+      "source_file": "metadata/brighter_ptbr/experiments/imbalance_loss_summary.json",
+      "source_field": "experiments.L4.macro_f1_std",
+      "experimental_protocol": "5-fold OOF aggregate",
+      "scientific_status": "LEAKAGE_SAFE_ESTIMATE"
+    },
+    {
+      "claim_id": "C_L4_MICRO_F1",
+      "description": "L4 micro_f1",
+      "value": 0.587323458491216,
+      "unit": "score",
+      "source_file": "reports/brighter_ptbr/experiments/imbalance_loss_per_label.csv",
+      "source_field": "model=L4; micro_f1",
+      "experimental_protocol": "5-fold OOF aggregate",
+      "scientific_status": "LEAKAGE_SAFE_ESTIMATE"
+    },
+    {
+      "claim_id": "C_L4_NEUTRAL_FP",
+      "description": "L4 neutral_fp",
+      "value": 0.7728613569321534,
+      "unit": "score",
+      "source_file": "reports/brighter_ptbr/experiments/imbalance_loss_per_label.csv",
+      "source_field": "model=L4; neutral_fp",
+      "experimental_protocol": "5-fold OOF aggregate",
+      "scientific_status": "LEAKAGE_SAFE_ESTIMATE"
+    },
+    {
+      "claim_id": "C_L4_PREDICTED_CARDINALITY",
+      "description": "L4 predicted_cardinality",
+      "value": 1.51112942,
+      "unit": "score",
+      "source_file": "reports/brighter_ptbr/experiments/imbalance_loss_per_label.csv",
+      "source_field": "model=L4; predicted_cardinality",
+      "experimental_protocol": "5-fold OOF aggregate",
+      "scientific_status": "LEAKAGE_SAFE_ESTIMATE"
+    },
+    {
+      "claim_id": "C_L4_DISGUST_F1",
+      "description": "L4 disgust_f1",
+      "value": 0.216,
+      "unit": "score",
+      "source_file": "reports/brighter_ptbr/experiments/imbalance_loss_per_label.csv",
+      "source_field": "model=L4; disgust_f1",
+      "experimental_protocol": "5-fold OOF aggregate",
+      "scientific_status": "LEAKAGE_SAFE_ESTIMATE"
+    },
+    {
+      "claim_id": "C_L4_FEAR_F1",
+      "description": "L4 fear_f1",
+      "value": 0.27062706,
+      "unit": "score",
+      "source_file": "reports/brighter_ptbr/experiments/imbalance_loss_per_label.csv",
+      "source_field": "model=L4; fear_f1",
+      "experimental_protocol": "5-fold OOF aggregate",
+      "scientific_status": "LEAKAGE_SAFE_ESTIMATE"
+    },
+    {
+      "claim_id": "C_L4_SURPRISE_F1",
+      "description": "L4 surprise_f1",
+      "value": 0.36573311,
+      "unit": "score",
+      "source_file": "reports/brighter_ptbr/experiments/imbalance_loss_per_label.csv",
+      "source_field": "model=L4; surprise_f1",
+      "experimental_protocol": "5-fold OOF aggregate",
+      "scientific_status": "LEAKAGE_SAFE_ESTIMATE"
+    },
+    {
+      "claim_id": "C_L4_TRAINING_SECONDS",
+      "description": "L4 training_seconds",
+      "value": 457.58409910002956,
+      "unit": "score",
+      "source_file": "metadata/brighter_ptbr/experiments/imbalance_loss_summary.json",
+      "source_field": "experiments.L4.training_seconds",
+      "experimental_protocol": "5-fold OOF aggregate",
+      "scientific_status": "LEAKAGE_SAFE_ESTIMATE"
+    },
+    {
+      "claim_id": "C_L4_PARAMETER_COUNT",
+      "description": "L4 parameter_count",
+      "value": 108927750,
+      "unit": "score",
+      "source_file": "metadata/brighter_ptbr/experiments/imbalance_loss_summary.json",
+      "source_field": "experiments.L4.parameter_count",
+      "experimental_protocol": "5-fold OOF aggregate",
+      "scientific_status": "LEAKAGE_SAFE_ESTIMATE"
+    },
+    {
+      "claim_id": "C_E1_MACRO_F1",
+      "description": "E1 macro_f1",
+      "value": 0.3263008503292454,
+      "unit": "score",
+      "source_file": "metadata/brighter_ptbr/experiments/encoder_summary.json",
+      "source_field": "experiments.E1.metrics.macro_f1",
+      "experimental_protocol": "5-fold OOF aggregate",
+      "scientific_status": "LEAKAGE_SAFE_ESTIMATE"
+    },
+    {
+      "claim_id": "C_E1_MICRO_F1",
+      "description": "E1 micro_f1",
+      "value": 0.6343758649321893,
+      "unit": "score",
+      "source_file": "metadata/brighter_ptbr/experiments/encoder_summary.json",
+      "source_field": "experiments.E1.metrics.micro_f1",
+      "experimental_protocol": "5-fold OOF aggregate",
+      "scientific_status": "LEAKAGE_SAFE_ESTIMATE"
+    },
+    {
+      "claim_id": "C_E1_NEUTRAL_FP",
+      "description": "E1 neutral_fp",
+      "value": 0.2669616519174042,
+      "unit": "score",
+      "source_file": "metadata/brighter_ptbr/experiments/encoder_summary.json",
+      "source_field": "experiments.E1.metrics.neutral_fp",
+      "experimental_protocol": "5-fold OOF aggregate",
+      "scientific_status": "LEAKAGE_SAFE_ESTIMATE"
+    },
+    {
+      "claim_id": "C_E1_PREDICTED_CARDINALITY",
+      "description": "E1 predicted_cardinality",
+      "value": 0.6071723000824403,
+      "unit": "score",
+      "source_file": "metadata/brighter_ptbr/experiments/encoder_summary.json",
+      "source_field": "experiments.E1.metrics.predicted_cardinality",
+      "experimental_protocol": "5-fold OOF aggregate",
+      "scientific_status": "LEAKAGE_SAFE_ESTIMATE"
+    },
+    {
+      "claim_id": "C_E1_DISGUST_F1",
+      "description": "E1 disgust_f1",
+      "value": 0.0,
+      "unit": "score",
+      "source_file": "metadata/brighter_ptbr/experiments/encoder_summary.json",
+      "source_field": "experiments.E1.metrics.disgust_f1",
+      "experimental_protocol": "5-fold OOF aggregate",
+      "scientific_status": "LEAKAGE_SAFE_ESTIMATE"
+    },
+    {
+      "claim_id": "C_E1_FEAR_F1",
+      "description": "E1 fear_f1",
+      "value": 0.0,
+      "unit": "score",
+      "source_file": "metadata/brighter_ptbr/experiments/encoder_summary.json",
+      "source_field": "experiments.E1.metrics.fear_f1",
+      "experimental_protocol": "5-fold OOF aggregate",
+      "scientific_status": "LEAKAGE_SAFE_ESTIMATE"
+    },
+    {
+      "claim_id": "C_E1_SURPRISE_F1",
+      "description": "E1 surprise_f1",
+      "value": 0.0,
+      "unit": "score",
+      "source_file": "metadata/brighter_ptbr/experiments/encoder_summary.json",
+      "source_field": "experiments.E1.metrics.surprise_f1",
+      "experimental_protocol": "5-fold OOF aggregate",
+      "scientific_status": "LEAKAGE_SAFE_ESTIMATE"
+    },
+    {
+      "claim_id": "C_E1_TRAINING_SECONDS",
+      "description": "E1 training_seconds",
+      "value": 507.7700871,
+      "unit": "score",
+      "source_file": "metadata/brighter_ptbr/experiments/encoder_summary.json",
+      "source_field": "experiments.E1.metrics.training_seconds",
+      "experimental_protocol": "5-fold OOF aggregate",
+      "scientific_status": "LEAKAGE_SAFE_ESTIMATE"
+    },
+    {
+      "claim_id": "C_E1_PARAMETER_COUNT",
+      "description": "E1 parameter_count",
+      "value": 134907654.0,
+      "unit": "score",
+      "source_file": "metadata/brighter_ptbr/experiments/encoder_summary.json",
+      "source_field": "experiments.E1.metrics.parameter_count",
+      "experimental_protocol": "5-fold OOF aggregate",
+      "scientific_status": "LEAKAGE_SAFE_ESTIMATE"
+    },
+    {
+      "claim_id": "C_E2_MACRO_F1",
+      "description": "E2 macro_f1",
+      "value": 0.39737644371332353,
+      "unit": "score",
+      "source_file": "metadata/brighter_ptbr/experiments/encoder_summary.json",
+      "source_field": "experiments.E2.metrics.macro_f1",
+      "experimental_protocol": "5-fold OOF aggregate",
+      "scientific_status": "LEAKAGE_SAFE_ESTIMATE"
+    },
+    {
+      "claim_id": "C_E2_MICRO_F1",
+      "description": "E2 micro_f1",
+      "value": 0.5901355638880876,
+      "unit": "score",
+      "source_file": "metadata/brighter_ptbr/experiments/encoder_summary.json",
+      "source_field": "experiments.E2.metrics.micro_f1",
+      "experimental_protocol": "5-fold OOF aggregate",
+      "scientific_status": "LEAKAGE_SAFE_ESTIMATE"
+    },
+    {
+      "claim_id": "C_E2_NEUTRAL_FP",
+      "description": "E2 neutral_fp",
+      "value": 0.21238938053097345,
+      "unit": "score",
+      "source_file": "metadata/brighter_ptbr/experiments/encoder_summary.json",
+      "source_field": "experiments.E2.metrics.neutral_fp",
+      "experimental_protocol": "5-fold OOF aggregate",
+      "scientific_status": "LEAKAGE_SAFE_ESTIMATE"
+    },
+    {
+      "claim_id": "C_E2_PREDICTED_CARDINALITY",
+      "description": "E2 predicted_cardinality",
+      "value": 0.5469909315746084,
+      "unit": "score",
+      "source_file": "metadata/brighter_ptbr/experiments/encoder_summary.json",
+      "source_field": "experiments.E2.metrics.predicted_cardinality",
+      "experimental_protocol": "5-fold OOF aggregate",
+      "scientific_status": "LEAKAGE_SAFE_ESTIMATE"
+    },
+    {
+      "claim_id": "C_E2_DISGUST_F1",
+      "description": "E2 disgust_f1",
+      "value": 0.14736842105263157,
+      "unit": "score",
+      "source_file": "metadata/brighter_ptbr/experiments/encoder_summary.json",
+      "source_field": "experiments.E2.metrics.disgust_f1",
+      "experimental_protocol": "5-fold OOF aggregate",
+      "scientific_status": "LEAKAGE_SAFE_ESTIMATE"
+    },
+    {
+      "claim_id": "C_E2_FEAR_F1",
+      "description": "E2 fear_f1",
+      "value": 0.15267175572519084,
+      "unit": "score",
+      "source_file": "metadata/brighter_ptbr/experiments/encoder_summary.json",
+      "source_field": "experiments.E2.metrics.fear_f1",
+      "experimental_protocol": "5-fold OOF aggregate",
+      "scientific_status": "LEAKAGE_SAFE_ESTIMATE"
+    },
+    {
+      "claim_id": "C_E2_SURPRISE_F1",
+      "description": "E2 surprise_f1",
+      "value": 0.25120772946859904,
+      "unit": "score",
+      "source_file": "metadata/brighter_ptbr/experiments/encoder_summary.json",
+      "source_field": "experiments.E2.metrics.surprise_f1",
+      "experimental_protocol": "5-fold OOF aggregate",
+      "scientific_status": "LEAKAGE_SAFE_ESTIMATE"
+    },
+    {
+      "claim_id": "C_E2_TRAINING_SECONDS",
+      "description": "E2 training_seconds",
+      "value": 530.5590622,
+      "unit": "score",
+      "source_file": "metadata/brighter_ptbr/experiments/encoder_summary.json",
+      "source_field": "experiments.E2.metrics.training_seconds",
+      "experimental_protocol": "5-fold OOF aggregate",
+      "scientific_status": "LEAKAGE_SAFE_ESTIMATE"
+    },
+    {
+      "claim_id": "C_E2_PARAMETER_COUNT",
+      "description": "E2 parameter_count",
+      "value": 134907654.0,
+      "unit": "score",
+      "source_file": "metadata/brighter_ptbr/experiments/encoder_summary.json",
+      "source_field": "experiments.E2.metrics.parameter_count",
+      "experimental_protocol": "5-fold OOF aggregate",
+      "scientific_status": "LEAKAGE_SAFE_ESTIMATE"
+    },
+    {
+      "claim_id": "C_E3_MACRO_F1",
+      "description": "E3 macro_f1",
+      "value": 0.5257865229905082,
+      "unit": "score",
+      "source_file": "metadata/brighter_ptbr/experiments/encoder_summary.json",
+      "source_field": "experiments.E3.metrics.macro_f1",
+      "experimental_protocol": "5-fold OOF aggregate",
+      "scientific_status": "LEAKAGE_SAFE_ESTIMATE"
+    },
+    {
+      "claim_id": "C_E3_MICRO_F1",
+      "description": "E3 micro_f1",
+      "value": 0.6408351026185422,
+      "unit": "score",
+      "source_file": "metadata/brighter_ptbr/experiments/encoder_summary.json",
+      "source_field": "experiments.E3.metrics.micro_f1",
+      "experimental_protocol": "5-fold OOF aggregate",
+      "scientific_status": "LEAKAGE_SAFE_ESTIMATE"
+    },
+    {
+      "claim_id": "C_E3_NEUTRAL_FP",
+      "description": "E3 neutral_fp",
+      "value": 0.7256637168141593,
+      "unit": "score",
+      "source_file": "metadata/brighter_ptbr/experiments/encoder_summary.json",
+      "source_field": "experiments.E3.metrics.neutral_fp",
+      "experimental_protocol": "5-fold OOF aggregate",
+      "scientific_status": "LEAKAGE_SAFE_ESTIMATE"
+    },
+    {
+      "claim_id": "C_E3_PREDICTED_CARDINALITY",
+      "description": "E3 predicted_cardinality",
+      "value": 1.4476504534212695,
+      "unit": "score",
+      "source_file": "metadata/brighter_ptbr/experiments/encoder_summary.json",
+      "source_field": "experiments.E3.metrics.predicted_cardinality",
+      "experimental_protocol": "5-fold OOF aggregate",
+      "scientific_status": "LEAKAGE_SAFE_ESTIMATE"
+    },
+    {
+      "claim_id": "C_E3_DISGUST_F1",
+      "description": "E3 disgust_f1",
+      "value": 0.2631578947368421,
+      "unit": "score",
+      "source_file": "metadata/brighter_ptbr/experiments/encoder_summary.json",
+      "source_field": "experiments.E3.metrics.disgust_f1",
+      "experimental_protocol": "5-fold OOF aggregate",
+      "scientific_status": "LEAKAGE_SAFE_ESTIMATE"
+    },
+    {
+      "claim_id": "C_E3_FEAR_F1",
+      "description": "E3 fear_f1",
+      "value": 0.34375,
+      "unit": "score",
+      "source_file": "metadata/brighter_ptbr/experiments/encoder_summary.json",
+      "source_field": "experiments.E3.metrics.fear_f1",
+      "experimental_protocol": "5-fold OOF aggregate",
+      "scientific_status": "LEAKAGE_SAFE_ESTIMATE"
+    },
+    {
+      "claim_id": "C_E3_SURPRISE_F1",
+      "description": "E3 surprise_f1",
+      "value": 0.47058823529411764,
+      "unit": "score",
+      "source_file": "metadata/brighter_ptbr/experiments/encoder_summary.json",
+      "source_field": "experiments.E3.metrics.surprise_f1",
+      "experimental_protocol": "5-fold OOF aggregate",
+      "scientific_status": "LEAKAGE_SAFE_ESTIMATE"
+    },
+    {
+      "claim_id": "C_E3_TRAINING_SECONDS",
+      "description": "E3 training_seconds",
+      "value": 509.9235201,
+      "unit": "score",
+      "source_file": "metadata/brighter_ptbr/experiments/encoder_summary.json",
+      "source_field": "experiments.E3.metrics.training_seconds",
+      "experimental_protocol": "5-fold OOF aggregate",
+      "scientific_status": "LEAKAGE_SAFE_ESTIMATE"
+    },
+    {
+      "claim_id": "C_E3_PARAMETER_COUNT",
+      "description": "E3 parameter_count",
+      "value": 134907654.0,
+      "unit": "score",
+      "source_file": "metadata/brighter_ptbr/experiments/encoder_summary.json",
+      "source_field": "experiments.E3.metrics.parameter_count",
+      "experimental_protocol": "5-fold OOF aggregate",
+      "scientific_status": "LEAKAGE_SAFE_ESTIMATE"
+    },
+    {
+      "claim_id": "C_E4_MACRO_F1",
+      "description": "E4 macro_f1",
+      "value": 0.2803630051224055,
+      "unit": "score",
+      "source_file": "metadata/brighter_ptbr/experiments/encoder_summary.json",
+      "source_field": "experiments.E4.metrics.macro_f1",
+      "experimental_protocol": "5-fold OOF aggregate",
+      "scientific_status": "LEAKAGE_SAFE_ESTIMATE"
+    },
+    {
+      "claim_id": "C_E4_MICRO_F1",
+      "description": "E4 micro_f1",
+      "value": 0.5326209223847019,
+      "unit": "score",
+      "source_file": "metadata/brighter_ptbr/experiments/encoder_summary.json",
+      "source_field": "experiments.E4.metrics.micro_f1",
+      "experimental_protocol": "5-fold OOF aggregate",
+      "scientific_status": "LEAKAGE_SAFE_ESTIMATE"
+    },
+    {
+      "claim_id": "C_E4_NEUTRAL_FP",
+      "description": "E4 neutral_fp",
+      "value": 0.29646017699115046,
+      "unit": "score",
+      "source_file": "metadata/brighter_ptbr/experiments/encoder_summary.json",
+      "source_field": "experiments.E4.metrics.neutral_fp",
+      "experimental_protocol": "5-fold OOF aggregate",
+      "scientific_status": "LEAKAGE_SAFE_ESTIMATE"
+    },
+    {
+      "claim_id": "C_E4_PREDICTED_CARDINALITY",
+      "description": "E4 predicted_cardinality",
+      "value": 0.5836768342951361,
+      "unit": "score",
+      "source_file": "metadata/brighter_ptbr/experiments/encoder_summary.json",
+      "source_field": "experiments.E4.metrics.predicted_cardinality",
+      "experimental_protocol": "5-fold OOF aggregate",
+      "scientific_status": "LEAKAGE_SAFE_ESTIMATE"
+    },
+    {
+      "claim_id": "C_E4_DISGUST_F1",
+      "description": "E4 disgust_f1",
+      "value": 0.0,
+      "unit": "score",
+      "source_file": "metadata/brighter_ptbr/experiments/encoder_summary.json",
+      "source_field": "experiments.E4.metrics.disgust_f1",
+      "experimental_protocol": "5-fold OOF aggregate",
+      "scientific_status": "LEAKAGE_SAFE_ESTIMATE"
+    },
+    {
+      "claim_id": "C_E4_FEAR_F1",
+      "description": "E4 fear_f1",
+      "value": 0.0,
+      "unit": "score",
+      "source_file": "metadata/brighter_ptbr/experiments/encoder_summary.json",
+      "source_field": "experiments.E4.metrics.fear_f1",
+      "experimental_protocol": "5-fold OOF aggregate",
+      "scientific_status": "LEAKAGE_SAFE_ESTIMATE"
+    },
+    {
+      "claim_id": "C_E4_SURPRISE_F1",
+      "description": "E4 surprise_f1",
+      "value": 0.0,
+      "unit": "score",
+      "source_file": "metadata/brighter_ptbr/experiments/encoder_summary.json",
+      "source_field": "experiments.E4.metrics.surprise_f1",
+      "experimental_protocol": "5-fold OOF aggregate",
+      "scientific_status": "LEAKAGE_SAFE_ESTIMATE"
+    },
+    {
+      "claim_id": "C_E4_TRAINING_SECONDS",
+      "description": "E4 training_seconds",
+      "value": 974.2903281,
+      "unit": "score",
+      "source_file": "metadata/brighter_ptbr/experiments/encoder_summary.json",
+      "source_field": "experiments.E4.metrics.training_seconds",
+      "experimental_protocol": "5-fold OOF aggregate",
+      "scientific_status": "LEAKAGE_SAFE_ESTIMATE"
+    },
+    {
+      "claim_id": "C_E4_PARAMETER_COUNT",
+      "description": "E4 parameter_count",
+      "value": 139196934.0,
+      "unit": "score",
+      "source_file": "metadata/brighter_ptbr/experiments/encoder_summary.json",
+      "source_field": "experiments.E4.metrics.parameter_count",
+      "experimental_protocol": "5-fold OOF aggregate",
+      "scientific_status": "LEAKAGE_SAFE_ESTIMATE"
+    },
+    {
+      "claim_id": "C_E5_MACRO_F1",
+      "description": "E5 macro_f1",
+      "value": 0.26639442477698755,
+      "unit": "score",
+      "source_file": "metadata/brighter_ptbr/experiments/encoder_summary.json",
+      "source_field": "experiments.E5.metrics.macro_f1",
+      "experimental_protocol": "5-fold OOF aggregate",
+      "scientific_status": "LEAKAGE_SAFE_ESTIMATE"
+    },
+    {
+      "claim_id": "C_E5_MICRO_F1",
+      "description": "E5 micro_f1",
+      "value": 0.44032158317872605,
+      "unit": "score",
+      "source_file": "metadata/brighter_ptbr/experiments/encoder_summary.json",
+      "source_field": "experiments.E5.metrics.micro_f1",
+      "experimental_protocol": "5-fold OOF aggregate",
+      "scientific_status": "LEAKAGE_SAFE_ESTIMATE"
+    },
+    {
+      "claim_id": "C_E5_NEUTRAL_FP",
+      "description": "E5 neutral_fp",
+      "value": 0.20501474926253682,
+      "unit": "score",
+      "source_file": "metadata/brighter_ptbr/experiments/encoder_summary.json",
+      "source_field": "experiments.E5.metrics.neutral_fp",
+      "experimental_protocol": "5-fold OOF aggregate",
+      "scientific_status": "LEAKAGE_SAFE_ESTIMATE"
+    },
+    {
+      "claim_id": "C_E5_PREDICTED_CARDINALITY",
+      "description": "E5 predicted_cardinality",
+      "value": 0.45094806265457543,
+      "unit": "score",
+      "source_file": "metadata/brighter_ptbr/experiments/encoder_summary.json",
+      "source_field": "experiments.E5.metrics.predicted_cardinality",
+      "experimental_protocol": "5-fold OOF aggregate",
+      "scientific_status": "LEAKAGE_SAFE_ESTIMATE"
+    },
+    {
+      "claim_id": "C_E5_DISGUST_F1",
+      "description": "E5 disgust_f1",
+      "value": 0.02197802197802198,
+      "unit": "score",
+      "source_file": "metadata/brighter_ptbr/experiments/encoder_summary.json",
+      "source_field": "experiments.E5.metrics.disgust_f1",
+      "experimental_protocol": "5-fold OOF aggregate",
+      "scientific_status": "LEAKAGE_SAFE_ESTIMATE"
+    },
+    {
+      "claim_id": "C_E5_FEAR_F1",
+      "description": "E5 fear_f1",
+      "value": 0.046153846153846156,
+      "unit": "score",
+      "source_file": "metadata/brighter_ptbr/experiments/encoder_summary.json",
+      "source_field": "experiments.E5.metrics.fear_f1",
+      "experimental_protocol": "5-fold OOF aggregate",
+      "scientific_status": "LEAKAGE_SAFE_ESTIMATE"
+    },
+    {
+      "claim_id": "C_E5_SURPRISE_F1",
+      "description": "E5 surprise_f1",
+      "value": 0.18518518518518517,
+      "unit": "score",
+      "source_file": "metadata/brighter_ptbr/experiments/encoder_summary.json",
+      "source_field": "experiments.E5.metrics.surprise_f1",
+      "experimental_protocol": "5-fold OOF aggregate",
+      "scientific_status": "LEAKAGE_SAFE_ESTIMATE"
+    },
+    {
+      "claim_id": "C_E5_TRAINING_SECONDS",
+      "description": "E5 training_seconds",
+      "value": 1045.3972215,
+      "unit": "score",
+      "source_file": "metadata/brighter_ptbr/experiments/encoder_summary.json",
+      "source_field": "experiments.E5.metrics.training_seconds",
+      "experimental_protocol": "5-fold OOF aggregate",
+      "scientific_status": "LEAKAGE_SAFE_ESTIMATE"
+    },
+    {
+      "claim_id": "C_E5_PARAMETER_COUNT",
+      "description": "E5 parameter_count",
+      "value": 139196934.0,
+      "unit": "score",
+      "source_file": "metadata/brighter_ptbr/experiments/encoder_summary.json",
+      "source_field": "experiments.E5.metrics.parameter_count",
+      "experimental_protocol": "5-fold OOF aggregate",
+      "scientific_status": "LEAKAGE_SAFE_ESTIMATE"
+    },
+    {
+      "claim_id": "C_E6_MACRO_F1",
+      "description": "E6 macro_f1",
+      "value": 0.3953111111089953,
+      "unit": "score",
+      "source_file": "metadata/brighter_ptbr/experiments/encoder_summary.json",
+      "source_field": "experiments.E6.metrics.macro_f1",
+      "experimental_protocol": "5-fold OOF aggregate",
+      "scientific_status": "LEAKAGE_SAFE_ESTIMATE"
+    },
+    {
+      "claim_id": "C_E6_MICRO_F1",
+      "description": "E6 micro_f1",
+      "value": 0.5321829163071613,
+      "unit": "score",
+      "source_file": "metadata/brighter_ptbr/experiments/encoder_summary.json",
+      "source_field": "experiments.E6.metrics.micro_f1",
+      "experimental_protocol": "5-fold OOF aggregate",
+      "scientific_status": "LEAKAGE_SAFE_ESTIMATE"
+    },
+    {
+      "claim_id": "C_E6_NEUTRAL_FP",
+      "description": "E6 neutral_fp",
+      "value": 0.8230088495575221,
+      "unit": "score",
+      "source_file": "metadata/brighter_ptbr/experiments/encoder_summary.json",
+      "source_field": "experiments.E6.metrics.neutral_fp",
+      "experimental_protocol": "5-fold OOF aggregate",
+      "scientific_status": "LEAKAGE_SAFE_ESTIMATE"
+    },
+    {
+      "claim_id": "C_E6_PREDICTED_CARDINALITY",
+      "description": "E6 predicted_cardinality",
+      "value": 1.5065952184666116,
+      "unit": "score",
+      "source_file": "metadata/brighter_ptbr/experiments/encoder_summary.json",
+      "source_field": "experiments.E6.metrics.predicted_cardinality",
+      "experimental_protocol": "5-fold OOF aggregate",
+      "scientific_status": "LEAKAGE_SAFE_ESTIMATE"
+    },
+    {
+      "claim_id": "C_E6_DISGUST_F1",
+      "description": "E6 disgust_f1",
+      "value": 0.16080402010050251,
+      "unit": "score",
+      "source_file": "metadata/brighter_ptbr/experiments/encoder_summary.json",
+      "source_field": "experiments.E6.metrics.disgust_f1",
+      "experimental_protocol": "5-fold OOF aggregate",
+      "scientific_status": "LEAKAGE_SAFE_ESTIMATE"
+    },
+    {
+      "claim_id": "C_E6_FEAR_F1",
+      "description": "E6 fear_f1",
+      "value": 0.17682926829268292,
+      "unit": "score",
+      "source_file": "metadata/brighter_ptbr/experiments/encoder_summary.json",
+      "source_field": "experiments.E6.metrics.fear_f1",
+      "experimental_protocol": "5-fold OOF aggregate",
+      "scientific_status": "LEAKAGE_SAFE_ESTIMATE"
+    },
+    {
+      "claim_id": "C_E6_SURPRISE_F1",
+      "description": "E6 surprise_f1",
+      "value": 0.29327902240325865,
+      "unit": "score",
+      "source_file": "metadata/brighter_ptbr/experiments/encoder_summary.json",
+      "source_field": "experiments.E6.metrics.surprise_f1",
+      "experimental_protocol": "5-fold OOF aggregate",
+      "scientific_status": "LEAKAGE_SAFE_ESTIMATE"
+    },
+    {
+      "claim_id": "C_E6_TRAINING_SECONDS",
+      "description": "E6 training_seconds",
+      "value": 973.1161867,
+      "unit": "score",
+      "source_file": "metadata/brighter_ptbr/experiments/encoder_summary.json",
+      "source_field": "experiments.E6.metrics.training_seconds",
+      "experimental_protocol": "5-fold OOF aggregate",
+      "scientific_status": "LEAKAGE_SAFE_ESTIMATE"
+    },
+    {
+      "claim_id": "C_E6_PARAMETER_COUNT",
+      "description": "E6 parameter_count",
+      "value": 139196934.0,
+      "unit": "score",
+      "source_file": "metadata/brighter_ptbr/experiments/encoder_summary.json",
+      "source_field": "experiments.E6.metrics.parameter_count",
+      "experimental_protocol": "5-fold OOF aggregate",
+      "scientific_status": "LEAKAGE_SAFE_ESTIMATE"
+    },
+    {
+      "claim_id": "C_T1_MACRO_F1",
+      "description": "T1 macro_f1",
+      "value": 0.5152489719084659,
+      "unit": "score",
+      "source_file": "metadata/brighter_ptbr/experiments/threshold_calibration_summary.json",
+      "source_field": "main_results[system=T1].macro_f1",
+      "experimental_protocol": "nested 5x3 cross-fitted OOF aggregate",
+      "scientific_status": "LEAKAGE_SAFE_ESTIMATE"
+    },
+    {
+      "claim_id": "C_T1_MICRO_F1",
+      "description": "T1 micro_f1",
+      "value": 0.6197237891460805,
+      "unit": "score",
+      "source_file": "metadata/brighter_ptbr/experiments/threshold_calibration_summary.json",
+      "source_field": "main_results[system=T1].micro_f1",
+      "experimental_protocol": "nested 5x3 cross-fitted OOF aggregate",
+      "scientific_status": "LEAKAGE_SAFE_ESTIMATE"
+    },
+    {
+      "claim_id": "C_T1_NEUTRAL_FP",
+      "description": "T1 neutral_fp",
+      "value": 0.6179941002949852,
+      "unit": "score",
+      "source_file": "metadata/brighter_ptbr/experiments/threshold_calibration_summary.json",
+      "source_field": "main_results[system=T1].neutral_fp",
+      "experimental_protocol": "nested 5x3 cross-fitted OOF aggregate",
+      "scientific_status": "LEAKAGE_SAFE_ESTIMATE"
+    },
+    {
+      "claim_id": "C_T1_PREDICTED_CARDINALITY",
+      "description": "T1 predicted_cardinality",
+      "value": 1.2370156636438583,
+      "unit": "score",
+      "source_file": "metadata/brighter_ptbr/experiments/threshold_calibration_summary.json",
+      "source_field": "main_results[system=T1].predicted_cardinality",
+      "experimental_protocol": "nested 5x3 cross-fitted OOF aggregate",
+      "scientific_status": "LEAKAGE_SAFE_ESTIMATE"
+    },
+    {
+      "claim_id": "C_T1_DISGUST_F1",
+      "description": "T1 disgust_f1",
+      "value": 0.2721518987341772,
+      "unit": "score",
+      "source_file": "metadata/brighter_ptbr/experiments/threshold_calibration_summary.json",
+      "source_field": "main_results[system=T1].disgust_f1",
+      "experimental_protocol": "nested 5x3 cross-fitted OOF aggregate",
+      "scientific_status": "LEAKAGE_SAFE_ESTIMATE"
+    },
+    {
+      "claim_id": "C_T1_FEAR_F1",
+      "description": "T1 fear_f1",
+      "value": 0.3556851311953353,
+      "unit": "score",
+      "source_file": "metadata/brighter_ptbr/experiments/threshold_calibration_summary.json",
+      "source_field": "main_results[system=T1].fear_f1",
+      "experimental_protocol": "nested 5x3 cross-fitted OOF aggregate",
+      "scientific_status": "LEAKAGE_SAFE_ESTIMATE"
+    },
+    {
+      "claim_id": "C_T1_SURPRISE_F1",
+      "description": "T1 surprise_f1",
+      "value": 0.4528301886792453,
+      "unit": "score",
+      "source_file": "metadata/brighter_ptbr/experiments/threshold_calibration_summary.json",
+      "source_field": "main_results[system=T1].surprise_f1",
+      "experimental_protocol": "nested 5x3 cross-fitted OOF aggregate",
+      "scientific_status": "LEAKAGE_SAFE_ESTIMATE"
+    },
+    {
+      "claim_id": "C_T2_MACRO_F1",
+      "description": "T2 macro_f1",
+      "value": 0.5585138660403824,
+      "unit": "score",
+      "source_file": "metadata/brighter_ptbr/experiments/threshold_calibration_summary.json",
+      "source_field": "main_results[system=T2].macro_f1",
+      "experimental_protocol": "nested 5x3 cross-fitted OOF aggregate",
+      "scientific_status": "LEAKAGE_SAFE_ESTIMATE"
+    },
+    {
+      "claim_id": "C_T2_MICRO_F1",
+      "description": "T2 micro_f1",
+      "value": 0.6749792186201163,
+      "unit": "score",
+      "source_file": "metadata/brighter_ptbr/experiments/threshold_calibration_summary.json",
+      "source_field": "main_results[system=T2].micro_f1",
+      "experimental_protocol": "nested 5x3 cross-fitted OOF aggregate",
+      "scientific_status": "LEAKAGE_SAFE_ESTIMATE"
+    },
+    {
+      "claim_id": "C_T2_NEUTRAL_FP",
+      "description": "T2 neutral_fp",
+      "value": 0.4424778761061947,
+      "unit": "score",
+      "source_file": "metadata/brighter_ptbr/experiments/threshold_calibration_summary.json",
+      "source_field": "main_results[system=T2].neutral_fp",
+      "experimental_protocol": "nested 5x3 cross-fitted OOF aggregate",
+      "scientific_status": "LEAKAGE_SAFE_ESTIMATE"
+    },
+    {
+      "claim_id": "C_T2_PREDICTED_CARDINALITY",
+      "description": "T2 predicted_cardinality",
+      "value": 1.101401483924155,
+      "unit": "score",
+      "source_file": "metadata/brighter_ptbr/experiments/threshold_calibration_summary.json",
+      "source_field": "main_results[system=T2].predicted_cardinality",
+      "experimental_protocol": "nested 5x3 cross-fitted OOF aggregate",
+      "scientific_status": "LEAKAGE_SAFE_ESTIMATE"
+    },
+    {
+      "claim_id": "C_T2_DISGUST_F1",
+      "description": "T2 disgust_f1",
+      "value": 0.2714285714285714,
+      "unit": "score",
+      "source_file": "metadata/brighter_ptbr/experiments/threshold_calibration_summary.json",
+      "source_field": "main_results[system=T2].disgust_f1",
+      "experimental_protocol": "nested 5x3 cross-fitted OOF aggregate",
+      "scientific_status": "LEAKAGE_SAFE_ESTIMATE"
+    },
+    {
+      "claim_id": "C_T2_FEAR_F1",
+      "description": "T2 fear_f1",
+      "value": 0.3536231884057971,
+      "unit": "score",
+      "source_file": "metadata/brighter_ptbr/experiments/threshold_calibration_summary.json",
+      "source_field": "main_results[system=T2].fear_f1",
+      "experimental_protocol": "nested 5x3 cross-fitted OOF aggregate",
+      "scientific_status": "LEAKAGE_SAFE_ESTIMATE"
+    },
+    {
+      "claim_id": "C_T2_SURPRISE_F1",
+      "description": "T2 surprise_f1",
+      "value": 0.491869918699187,
+      "unit": "score",
+      "source_file": "metadata/brighter_ptbr/experiments/threshold_calibration_summary.json",
+      "source_field": "main_results[system=T2].surprise_f1",
+      "experimental_protocol": "nested 5x3 cross-fitted OOF aggregate",
+      "scientific_status": "LEAKAGE_SAFE_ESTIMATE"
+    },
+    {
+      "claim_id": "C_T3_MACRO_F1",
+      "description": "T3 macro_f1",
+      "value": 0.5022780104099068,
+      "unit": "score",
+      "source_file": "metadata/brighter_ptbr/experiments/threshold_calibration_summary.json",
+      "source_field": "main_results[system=T3].macro_f1",
+      "experimental_protocol": "nested 5x3 cross-fitted OOF aggregate",
+      "scientific_status": "LEAKAGE_SAFE_ESTIMATE"
+    },
+    {
+      "claim_id": "C_T3_MICRO_F1",
+      "description": "T3 micro_f1",
+      "value": 0.6248156730566674,
+      "unit": "score",
+      "source_file": "metadata/brighter_ptbr/experiments/threshold_calibration_summary.json",
+      "source_field": "main_results[system=T3].micro_f1",
+      "experimental_protocol": "nested 5x3 cross-fitted OOF aggregate",
+      "scientific_status": "LEAKAGE_SAFE_ESTIMATE"
+    },
+    {
+      "claim_id": "C_T3_NEUTRAL_FP",
+      "description": "T3 neutral_fp",
+      "value": 0.42920353982300885,
+      "unit": "score",
+      "source_file": "metadata/brighter_ptbr/experiments/threshold_calibration_summary.json",
+      "source_field": "main_results[system=T3].neutral_fp",
+      "experimental_protocol": "nested 5x3 cross-fitted OOF aggregate",
+      "scientific_status": "LEAKAGE_SAFE_ESTIMATE"
+    },
+    {
+      "claim_id": "C_T3_PREDICTED_CARDINALITY",
+      "description": "T3 predicted_cardinality",
+      "value": 1.074608408903545,
+      "unit": "score",
+      "source_file": "metadata/brighter_ptbr/experiments/threshold_calibration_summary.json",
+      "source_field": "main_results[system=T3].predicted_cardinality",
+      "experimental_protocol": "nested 5x3 cross-fitted OOF aggregate",
+      "scientific_status": "LEAKAGE_SAFE_ESTIMATE"
+    },
+    {
+      "claim_id": "C_T3_DISGUST_F1",
+      "description": "T3 disgust_f1",
+      "value": 0.2146341463414634,
+      "unit": "score",
+      "source_file": "metadata/brighter_ptbr/experiments/threshold_calibration_summary.json",
+      "source_field": "main_results[system=T3].disgust_f1",
+      "experimental_protocol": "nested 5x3 cross-fitted OOF aggregate",
+      "scientific_status": "LEAKAGE_SAFE_ESTIMATE"
+    },
+    {
+      "claim_id": "C_T3_FEAR_F1",
+      "description": "T3 fear_f1",
+      "value": 0.28641975308641976,
+      "unit": "score",
+      "source_file": "metadata/brighter_ptbr/experiments/threshold_calibration_summary.json",
+      "source_field": "main_results[system=T3].fear_f1",
+      "experimental_protocol": "nested 5x3 cross-fitted OOF aggregate",
+      "scientific_status": "LEAKAGE_SAFE_ESTIMATE"
+    },
+    {
+      "claim_id": "C_T3_SURPRISE_F1",
+      "description": "T3 surprise_f1",
+      "value": 0.4288747346072187,
+      "unit": "score",
+      "source_file": "metadata/brighter_ptbr/experiments/threshold_calibration_summary.json",
+      "source_field": "main_results[system=T3].surprise_f1",
+      "experimental_protocol": "nested 5x3 cross-fitted OOF aggregate",
+      "scientific_status": "LEAKAGE_SAFE_ESTIMATE"
+    },
+    {
+      "claim_id": "C_EN1_MACRO_F1",
+      "description": "EN1 macro_f1",
+      "value": 0.5548468557155537,
+      "unit": "score",
+      "source_file": "metadata/brighter_ptbr/experiments/ensemble_summary.json",
+      "source_field": "main_results[system=EN1].macro_f1",
+      "experimental_protocol": "nested 5x3 cross-fitted ensemble OOF",
+      "scientific_status": "LEAKAGE_SAFE_ESTIMATE"
+    },
+    {
+      "claim_id": "C_EN1_MICRO_F1",
+      "description": "EN1 micro_f1",
+      "value": 0.6657485736769624,
+      "unit": "score",
+      "source_file": "metadata/brighter_ptbr/experiments/ensemble_summary.json",
+      "source_field": "main_results[system=EN1].micro_f1",
+      "experimental_protocol": "nested 5x3 cross-fitted ensemble OOF",
+      "scientific_status": "LEAKAGE_SAFE_ESTIMATE"
+    },
+    {
+      "claim_id": "C_EN1_NEUTRAL_FP",
+      "description": "EN1 neutral_fp",
+      "value": 0.4970501474926253,
+      "unit": "score",
+      "source_file": "metadata/brighter_ptbr/experiments/ensemble_summary.json",
+      "source_field": "main_results[system=EN1].neutral_fp",
+      "experimental_protocol": "nested 5x3 cross-fitted ensemble OOF",
+      "scientific_status": "LEAKAGE_SAFE_ESTIMATE"
+    },
+    {
+      "claim_id": "C_EN1_PREDICTED_CARDINALITY",
+      "description": "EN1 predicted_cardinality",
+      "value": 1.2131079967023908,
+      "unit": "score",
+      "source_file": "metadata/brighter_ptbr/experiments/ensemble_summary.json",
+      "source_field": "main_results[system=EN1].predicted_cardinality",
+      "experimental_protocol": "nested 5x3 cross-fitted ensemble OOF",
+      "scientific_status": "LEAKAGE_SAFE_ESTIMATE"
+    },
+    {
+      "claim_id": "C_EN1_DISGUST_F1",
+      "description": "EN1 disgust_f1",
+      "value": 0.26829268,
+      "unit": "score",
+      "source_file": "metadata/brighter_ptbr/experiments/ensemble_summary.json",
+      "source_field": "main_results[system=EN1].disgust_f1",
+      "experimental_protocol": "nested 5x3 cross-fitted ensemble OOF",
+      "scientific_status": "LEAKAGE_SAFE_ESTIMATE"
+    },
+    {
+      "claim_id": "C_EN1_FEAR_F1",
+      "description": "EN1 fear_f1",
+      "value": 0.37075718,
+      "unit": "score",
+      "source_file": "metadata/brighter_ptbr/experiments/ensemble_summary.json",
+      "source_field": "main_results[system=EN1].fear_f1",
+      "experimental_protocol": "nested 5x3 cross-fitted ensemble OOF",
+      "scientific_status": "LEAKAGE_SAFE_ESTIMATE"
+    },
+    {
+      "claim_id": "C_EN1_SURPRISE_F1",
+      "description": "EN1 surprise_f1",
+      "value": 0.49180328,
+      "unit": "score",
+      "source_file": "metadata/brighter_ptbr/experiments/ensemble_summary.json",
+      "source_field": "main_results[system=EN1].surprise_f1",
+      "experimental_protocol": "nested 5x3 cross-fitted ensemble OOF",
+      "scientific_status": "LEAKAGE_SAFE_ESTIMATE"
+    },
+    {
+      "claim_id": "C_EN1_PARAMETER_COUNT",
+      "description": "EN1 parameter_count",
+      "value": 469310220,
+      "unit": "score",
+      "source_file": "metadata/brighter_ptbr/experiments/ensemble_summary.json",
+      "source_field": "main_results[system=EN1].parameter_count",
+      "experimental_protocol": "nested 5x3 cross-fitted ensemble OOF",
+      "scientific_status": "LEAKAGE_SAFE_ESTIMATE"
+    },
+    {
+      "claim_id": "C_EN2_MACRO_F1",
+      "description": "EN2 macro_f1",
+      "value": 0.5691254630769899,
+      "unit": "score",
+      "source_file": "metadata/brighter_ptbr/experiments/ensemble_summary.json",
+      "source_field": "main_results[system=EN2].macro_f1",
+      "experimental_protocol": "nested 5x3 cross-fitted ensemble OOF",
+      "scientific_status": "LEAKAGE_SAFE_ESTIMATE"
+    },
+    {
+      "claim_id": "C_EN2_MICRO_F1",
+      "description": "EN2 micro_f1",
+      "value": 0.6846007201864012,
+      "unit": "score",
+      "source_file": "metadata/brighter_ptbr/experiments/ensemble_summary.json",
+      "source_field": "main_results[system=EN2].micro_f1",
+      "experimental_protocol": "nested 5x3 cross-fitted ensemble OOF",
+      "scientific_status": "LEAKAGE_SAFE_ESTIMATE"
+    },
+    {
+      "claim_id": "C_EN2_NEUTRAL_FP",
+      "description": "EN2 neutral_fp",
+      "value": 0.415929203539823,
+      "unit": "score",
+      "source_file": "metadata/brighter_ptbr/experiments/ensemble_summary.json",
+      "source_field": "main_results[system=EN2].neutral_fp",
+      "experimental_protocol": "nested 5x3 cross-fitted ensemble OOF",
+      "scientific_status": "LEAKAGE_SAFE_ESTIMATE"
+    },
+    {
+      "claim_id": "C_EN2_PREDICTED_CARDINALITY",
+      "description": "EN2 predicted_cardinality",
+      "value": 1.063891178895301,
+      "unit": "score",
+      "source_file": "metadata/brighter_ptbr/experiments/ensemble_summary.json",
+      "source_field": "main_results[system=EN2].predicted_cardinality",
+      "experimental_protocol": "nested 5x3 cross-fitted ensemble OOF",
+      "scientific_status": "LEAKAGE_SAFE_ESTIMATE"
+    },
+    {
+      "claim_id": "C_EN2_DISGUST_F1",
+      "description": "EN2 disgust_f1",
+      "value": 0.27799228,
+      "unit": "score",
+      "source_file": "metadata/brighter_ptbr/experiments/ensemble_summary.json",
+      "source_field": "main_results[system=EN2].disgust_f1",
+      "experimental_protocol": "nested 5x3 cross-fitted ensemble OOF",
+      "scientific_status": "LEAKAGE_SAFE_ESTIMATE"
+    },
+    {
+      "claim_id": "C_EN2_FEAR_F1",
+      "description": "EN2 fear_f1",
+      "value": 0.38461538,
+      "unit": "score",
+      "source_file": "metadata/brighter_ptbr/experiments/ensemble_summary.json",
+      "source_field": "main_results[system=EN2].fear_f1",
+      "experimental_protocol": "nested 5x3 cross-fitted ensemble OOF",
+      "scientific_status": "LEAKAGE_SAFE_ESTIMATE"
+    },
+    {
+      "claim_id": "C_EN2_SURPRISE_F1",
+      "description": "EN2 surprise_f1",
+      "value": 0.4989605,
+      "unit": "score",
+      "source_file": "metadata/brighter_ptbr/experiments/ensemble_summary.json",
+      "source_field": "main_results[system=EN2].surprise_f1",
+      "experimental_protocol": "nested 5x3 cross-fitted ensemble OOF",
+      "scientific_status": "LEAKAGE_SAFE_ESTIMATE"
+    },
+    {
+      "claim_id": "C_EN2_PARAMETER_COUNT",
+      "description": "EN2 parameter_count",
+      "value": 469310220,
+      "unit": "score",
+      "source_file": "metadata/brighter_ptbr/experiments/ensemble_summary.json",
+      "source_field": "main_results[system=EN2].parameter_count",
+      "experimental_protocol": "nested 5x3 cross-fitted ensemble OOF",
+      "scientific_status": "LEAKAGE_SAFE_ESTIMATE"
+    },
+    {
+      "claim_id": "C_FINAL_EN2_MACRO_F1",
+      "description": "FINAL_EN2 macro_f1",
+      "value": 0.2851799354682137,
+      "unit": "score",
+      "source_file": "reports/brighter_ptbr/final/final_test_results.json",
+      "source_field": "primary.metrics.macro_f1",
+      "experimental_protocol": "one-time official Track A test",
+      "scientific_status": "FINAL_TEST"
+    },
+    {
+      "claim_id": "C_FINAL_EN2_MICRO_F1",
+      "description": "FINAL_EN2 micro_f1",
+      "value": 0.42209217264081933,
+      "unit": "score",
+      "source_file": "reports/brighter_ptbr/final/final_test_results.json",
+      "source_field": "primary.metrics.micro_f1",
+      "experimental_protocol": "one-time official Track A test",
+      "scientific_status": "FINAL_TEST"
+    },
+    {
+      "claim_id": "C_FINAL_EN2_NEUTRAL_FP",
+      "description": "FINAL_EN2 neutral_fp",
+      "value": 0.0941558441558441,
+      "unit": "score",
+      "source_file": "reports/brighter_ptbr/final/final_test_results.json",
+      "source_field": "primary.metrics.neutral_fp",
+      "experimental_protocol": "one-time official Track A test",
+      "scientific_status": "FINAL_TEST"
+    },
+    {
+      "claim_id": "C_FINAL_EN2_PREDICTED_CARDINALITY",
+      "description": "FINAL_EN2 predicted_cardinality",
+      "value": 0.34591194968553457,
+      "unit": "score",
+      "source_file": "reports/brighter_ptbr/final/final_test_results.json",
+      "source_field": "primary.metrics.predicted_cardinality",
+      "experimental_protocol": "one-time official Track A test",
+      "scientific_status": "FINAL_TEST"
+    },
+    {
+      "claim_id": "C_FINAL_EN2_DISGUST_F1",
+      "description": "FINAL_EN2 disgust_f1",
+      "value": 0.02702702702702703,
+      "unit": "score",
+      "source_file": "reports/brighter_ptbr/final/final_test_results.json",
+      "source_field": "primary.metrics.disgust_f1",
+      "experimental_protocol": "one-time official Track A test",
+      "scientific_status": "FINAL_TEST"
+    },
+    {
+      "claim_id": "C_FINAL_EN2_FEAR_F1",
+      "description": "FINAL_EN2 fear_f1",
+      "value": 0.14012738853503184,
+      "unit": "score",
+      "source_file": "reports/brighter_ptbr/final/final_test_results.json",
+      "source_field": "primary.metrics.fear_f1",
+      "experimental_protocol": "one-time official Track A test",
+      "scientific_status": "FINAL_TEST"
+    },
+    {
+      "claim_id": "C_FINAL_EN2_SURPRISE_F1",
+      "description": "FINAL_EN2 surprise_f1",
+      "value": 0.4423076923076923,
+      "unit": "score",
+      "source_file": "reports/brighter_ptbr/final/final_test_results.json",
+      "source_field": "primary.metrics.surprise_f1",
+      "experimental_protocol": "one-time official Track A test",
+      "scientific_status": "FINAL_TEST"
+    },
+    {
+      "claim_id": "C_FINAL_EN2_PARAMETER_COUNT",
+      "description": "FINAL_EN2 parameter_count",
+      "value": 469310220,
+      "unit": "score",
+      "source_file": "reports/brighter_ptbr/final/final_test_results.json",
+      "source_field": "primary.metrics.parameter_count",
+      "experimental_protocol": "one-time official Track A test",
+      "scientific_status": "FINAL_TEST"
+    },
+    {
+      "claim_id": "C_FINAL_T2_MACRO_F1",
+      "description": "FINAL_T2 macro_f1",
+      "value": 0.15691169825594717,
+      "unit": "score",
+      "source_file": "reports/brighter_ptbr/final/final_test_results.json",
+      "source_field": "secondary.metrics.macro_f1",
+      "experimental_protocol": "one-time official Track A test",
+      "scientific_status": "FINAL_TEST"
+    },
+    {
+      "claim_id": "C_FINAL_T2_MICRO_F1",
+      "description": "FINAL_T2 micro_f1",
+      "value": 0.24052004333694474,
+      "unit": "score",
+      "source_file": "reports/brighter_ptbr/final/final_test_results.json",
+      "source_field": "secondary.metrics.micro_f1",
+      "experimental_protocol": "one-time official Track A test",
+      "scientific_status": "FINAL_TEST"
+    },
+    {
+      "claim_id": "C_FINAL_T2_NEUTRAL_FP",
+      "description": "FINAL_T2 neutral_fp",
+      "value": 0.18668831168831168,
+      "unit": "score",
+      "source_file": "reports/brighter_ptbr/final/final_test_results.json",
+      "source_field": "secondary.metrics.neutral_fp",
+      "experimental_protocol": "one-time official Track A test",
+      "scientific_status": "FINAL_TEST"
+    },
+    {
+      "claim_id": "C_FINAL_T2_PREDICTED_CARDINALITY",
+      "description": "FINAL_T2 predicted_cardinality",
+      "value": 0.36163522012578614,
+      "unit": "score",
+      "source_file": "reports/brighter_ptbr/final/final_test_results.json",
+      "source_field": "secondary.metrics.predicted_cardinality",
+      "experimental_protocol": "one-time official Track A test",
+      "scientific_status": "FINAL_TEST"
+    },
+    {
+      "claim_id": "C_FINAL_T2_DISGUST_F1",
+      "description": "FINAL_T2 disgust_f1",
+      "value": 0.0,
+      "unit": "score",
+      "source_file": "reports/brighter_ptbr/final/final_test_results.json",
+      "source_field": "secondary.metrics.disgust_f1",
+      "experimental_protocol": "one-time official Track A test",
+      "scientific_status": "FINAL_TEST"
+    },
+    {
+      "claim_id": "C_FINAL_T2_FEAR_F1",
+      "description": "FINAL_T2 fear_f1",
+      "value": 0.014084507042253521,
+      "unit": "score",
+      "source_file": "reports/brighter_ptbr/final/final_test_results.json",
+      "source_field": "secondary.metrics.fear_f1",
+      "experimental_protocol": "one-time official Track A test",
+      "scientific_status": "FINAL_TEST"
+    },
+    {
+      "claim_id": "C_FINAL_T2_SURPRISE_F1",
+      "description": "FINAL_T2 surprise_f1",
+      "value": 0.3274336283185841,
+      "unit": "score",
+      "source_file": "reports/brighter_ptbr/final/final_test_results.json",
+      "source_field": "secondary.metrics.surprise_f1",
+      "experimental_protocol": "one-time official Track A test",
+      "scientific_status": "FINAL_TEST"
+    },
+    {
+      "claim_id": "C_FINAL_T2_PARAMETER_COUNT",
+      "description": "FINAL_T2 parameter_count",
+      "value": 134907654,
+      "unit": "score",
+      "source_file": "reports/brighter_ptbr/final/final_test_results.json",
+      "source_field": "secondary.metrics.parameter_count",
+      "experimental_protocol": "one-time official Track A test",
+      "scientific_status": "FINAL_TEST"
+    },
+    {
+      "claim_id": "C_DEPLOY_EN2_T_ANGER",
+      "description": "Frozen EN2 threshold for anger",
+      "value": 0.67,
+      "unit": "probability",
+      "source_file": "reports/brighter_ptbr/final/final_test_results.json",
+      "source_field": "en2_thresholds.anger",
+      "experimental_protocol": "full-OOF deployment calibration",
+      "scientific_status": "DEPLOYMENT_CALIBRATION_ONLY"
+    },
+    {
+      "claim_id": "C_DEPLOY_EN2_T_DISGUST",
+      "description": "Frozen EN2 threshold for disgust",
+      "value": 0.36,
+      "unit": "probability",
+      "source_file": "reports/brighter_ptbr/final/final_test_results.json",
+      "source_field": "en2_thresholds.disgust",
+      "experimental_protocol": "full-OOF deployment calibration",
+      "scientific_status": "DEPLOYMENT_CALIBRATION_ONLY"
+    },
+    {
+      "claim_id": "C_DEPLOY_EN2_T_FEAR",
+      "description": "Frozen EN2 threshold for fear",
+      "value": 0.43,
+      "unit": "probability",
+      "source_file": "reports/brighter_ptbr/final/final_test_results.json",
+      "source_field": "en2_thresholds.fear",
+      "experimental_protocol": "full-OOF deployment calibration",
+      "scientific_status": "DEPLOYMENT_CALIBRATION_ONLY"
+    },
+    {
+      "claim_id": "C_DEPLOY_EN2_T_JOY",
+      "description": "Frozen EN2 threshold for joy",
+      "value": 0.65,
+      "unit": "probability",
+      "source_file": "reports/brighter_ptbr/final/final_test_results.json",
+      "source_field": "en2_thresholds.joy",
+      "experimental_protocol": "full-OOF deployment calibration",
+      "scientific_status": "DEPLOYMENT_CALIBRATION_ONLY"
+    },
+    {
+      "claim_id": "C_DEPLOY_EN2_T_SADNESS",
+      "description": "Frozen EN2 threshold for sadness",
+      "value": 0.58,
+      "unit": "probability",
+      "source_file": "reports/brighter_ptbr/final/final_test_results.json",
+      "source_field": "en2_thresholds.sadness",
+      "experimental_protocol": "full-OOF deployment calibration",
+      "scientific_status": "DEPLOYMENT_CALIBRATION_ONLY"
+    },
+    {
+      "claim_id": "C_DEPLOY_EN2_T_SURPRISE",
+      "description": "Frozen EN2 threshold for surprise",
+      "value": 0.49,
+      "unit": "probability",
+      "source_file": "reports/brighter_ptbr/final/final_test_results.json",
+      "source_field": "en2_thresholds.surprise",
+      "experimental_protocol": "full-OOF deployment calibration",
+      "scientific_status": "DEPLOYMENT_CALIBRATION_ONLY"
+    },
+    {
+      "claim_id": "C_DEPLOY_ALPHA_T2",
+      "description": "Frozen EN2 T2 weight",
+      "value": 0.7,
+      "unit": "weight",
+      "source_file": "reports/brighter_ptbr/final/final_test_results.json",
+      "source_field": "alpha_t2",
+      "experimental_protocol": "full-OOF deployment calibration",
+      "scientific_status": "DEPLOYMENT_CALIBRATION_ONLY"
+    },
+    {
+      "claim_id": "C_DEPLOY_WEIGHT_T3",
+      "description": "Frozen EN2 T3 weight",
+      "value": 0.3,
+      "unit": "weight",
+      "source_file": "reports/brighter_ptbr/final/final_test_results.json",
+      "source_field": "weight_t3",
+      "experimental_protocol": "full-OOF deployment calibration",
+      "scientific_status": "DEPLOYMENT_CALIBRATION_ONLY"
+    },
+    {
+      "claim_id": "C_DEPLOY_T2_T_ANGER",
+      "description": "Frozen T2 standalone threshold for anger",
+      "value": 0.66,
+      "unit": "probability",
+      "source_file": "reports/brighter_ptbr/final/final_test_results.json",
+      "source_field": "t2_thresholds.anger",
+      "experimental_protocol": "full-OOF deployment calibration",
+      "scientific_status": "DEPLOYMENT_CALIBRATION_ONLY"
+    },
+    {
+      "claim_id": "C_DEPLOY_T2_T_DISGUST",
+      "description": "Frozen T2 standalone threshold for disgust",
+      "value": 0.53,
+      "unit": "probability",
+      "source_file": "reports/brighter_ptbr/final/final_test_results.json",
+      "source_field": "t2_thresholds.disgust",
+      "experimental_protocol": "full-OOF deployment calibration",
+      "scientific_status": "DEPLOYMENT_CALIBRATION_ONLY"
+    },
+    {
+      "claim_id": "C_DEPLOY_T2_T_FEAR",
+      "description": "Frozen T2 standalone threshold for fear",
+      "value": 0.52,
+      "unit": "probability",
+      "source_file": "reports/brighter_ptbr/final/final_test_results.json",
+      "source_field": "t2_thresholds.fear",
+      "experimental_protocol": "full-OOF deployment calibration",
+      "scientific_status": "DEPLOYMENT_CALIBRATION_ONLY"
+    },
+    {
+      "claim_id": "C_DEPLOY_T2_T_JOY",
+      "description": "Frozen T2 standalone threshold for joy",
+      "value": 0.75,
+      "unit": "probability",
+      "source_file": "reports/brighter_ptbr/final/final_test_results.json",
+      "source_field": "t2_thresholds.joy",
+      "experimental_protocol": "full-OOF deployment calibration",
+      "scientific_status": "DEPLOYMENT_CALIBRATION_ONLY"
+    },
+    {
+      "claim_id": "C_DEPLOY_T2_T_SADNESS",
+      "description": "Frozen T2 standalone threshold for sadness",
+      "value": 0.65,
+      "unit": "probability",
+      "source_file": "reports/brighter_ptbr/final/final_test_results.json",
+      "source_field": "t2_thresholds.sadness",
+      "experimental_protocol": "full-OOF deployment calibration",
+      "scientific_status": "DEPLOYMENT_CALIBRATION_ONLY"
+    },
+    {
+      "claim_id": "C_DEPLOY_T2_T_SURPRISE",
+      "description": "Frozen T2 standalone threshold for surprise",
+      "value": 0.57,
+      "unit": "probability",
+      "source_file": "reports/brighter_ptbr/final/final_test_results.json",
+      "source_field": "t2_thresholds.surprise",
+      "experimental_protocol": "full-OOF deployment calibration",
+      "scientific_status": "DEPLOYMENT_CALIBRATION_ONLY"
+    },
+    {
+      "claim_id": "C_DEPLOY_EN2_SCORE",
+      "description": "EN2 full-OOF deployment calibration Macro-F1",
+      "value": 0.5896568184803863,
+      "unit": "Macro-F1",
+      "source_file": "reports/brighter_ptbr/final/final_test_results.json",
+      "source_field": "development.EN2_deployment_calibration_macro_f1",
+      "experimental_protocol": "same-OOF deployment calibration",
+      "scientific_status": "DEPLOYMENT_CALIBRATION_ONLY"
+    },
+    {
+      "claim_id": "C_DEPLOY_T2_SCORE",
+      "description": "T2 full-OOF deployment calibration Macro-F1",
+      "value": 0.5787498908447,
+      "unit": "Macro-F1",
+      "source_file": "reports/brighter_ptbr/final/final_test_results.json",
+      "source_field": "development.T2_deployment_calibration_macro_f1",
+      "experimental_protocol": "same-OOF deployment calibration",
+      "scientific_status": "DEPLOYMENT_CALIBRATION_ONLY"
+    },
+    {
+      "claim_id": "C_GAP_EN2",
+      "description": "EN2 development-to-test Macro-F1 difference",
+      "value": -0.28394552760877617,
+      "unit": "Macro-F1",
+      "source_file": "metadata/brighter_ptbr/final/generalization_gap_summary.json",
+      "source_field": "main_results",
+      "experimental_protocol": "frozen development vs final test",
+      "scientific_status": "POST_HOC_DIAGNOSTIC"
+    },
+    {
+      "claim_id": "C_GAP_T2",
+      "description": "T2 development-to-test Macro-F1 difference",
+      "value": -0.40160216778443525,
+      "unit": "Macro-F1",
+      "source_file": "metadata/brighter_ptbr/final/generalization_gap_summary.json",
+      "source_field": "main_results",
+      "experimental_protocol": "frozen development vs final test",
+      "scientific_status": "POST_HOC_DIAGNOSTIC"
+    },
+    {
+      "claim_id": "C_CARD_RATIO_EN2",
+      "description": "EN2 predicted-cardinality test/development ratio",
+      "value": 0.32513846956106424,
+      "unit": "ratio",
+      "source_file": "metadata/brighter_ptbr/final/generalization_gap_summary.json",
+      "source_field": "predicted_cardinality",
+      "experimental_protocol": "post-hoc frozen artifact comparison",
+      "scientific_status": "POST_HOC_DIAGNOSTIC"
+    },
+    {
+      "claim_id": "C_CARD_RATIO_T2",
+      "description": "T2 predicted-cardinality test/development ratio",
+      "value": 0.3283409595902534,
+      "unit": "ratio",
+      "source_file": "metadata/brighter_ptbr/final/generalization_gap_summary.json",
+      "source_field": "predicted_cardinality",
+      "experimental_protocol": "post-hoc frozen artifact comparison",
+      "scientific_status": "POST_HOC_DIAGNOSTIC"
+    },
+    {
+      "claim_id": "C_AP_EN2_DEVELOPMENT",
+      "description": "EN2 Macro-AP on development",
+      "value": 0.600249917343447,
+      "unit": "Average Precision",
+      "source_file": "metadata/brighter_ptbr/final/generalization_gap_summary.json",
+      "source_field": "macro_calibration",
+      "experimental_protocol": "post-hoc threshold-free diagnostic",
+      "scientific_status": "POST_HOC_DIAGNOSTIC"
+    },
+    {
+      "claim_id": "C_AP_EN2_TEST",
+      "description": "EN2 Macro-AP on test",
+      "value": 0.5041886031754256,
+      "unit": "Average Precision",
+      "source_file": "metadata/brighter_ptbr/final/generalization_gap_summary.json",
+      "source_field": "macro_calibration",
+      "experimental_protocol": "post-hoc threshold-free diagnostic",
+      "scientific_status": "POST_HOC_DIAGNOSTIC"
+    },
+    {
+      "claim_id": "C_AP_T2_DEVELOPMENT",
+      "description": "T2 Macro-AP on development",
+      "value": 0.6017500046574954,
+      "unit": "Average Precision",
+      "source_file": "metadata/brighter_ptbr/final/generalization_gap_summary.json",
+      "source_field": "macro_calibration",
+      "experimental_protocol": "post-hoc threshold-free diagnostic",
+      "scientific_status": "POST_HOC_DIAGNOSTIC"
+    },
+    {
+      "claim_id": "C_AP_T2_TEST",
+      "description": "T2 Macro-AP on test",
+      "value": 0.25908513564440244,
+      "unit": "Average Precision",
+      "source_file": "metadata/brighter_ptbr/final/generalization_gap_summary.json",
+      "source_field": "macro_calibration",
+      "experimental_protocol": "post-hoc threshold-free diagnostic",
+      "scientific_status": "POST_HOC_DIAGNOSTIC"
+    },
+    {
+      "claim_id": "C_EN2_BOOT_DELTA",
+      "description": "EN2 minus T2 nested Macro-F1",
+      "value": 0.010611597036607412,
+      "unit": "Macro-F1",
+      "source_file": "metadata/brighter_ptbr/experiments/ensemble_summary.json",
+      "source_field": "bootstrap.EN2_vs_T2.delta",
+      "experimental_protocol": "nested cross-fitted paired bootstrap",
+      "scientific_status": "LEAKAGE_SAFE_ESTIMATE"
+    },
+    {
+      "claim_id": "C_EN2_BOOT_CI_2_5",
+      "description": "EN2 minus T2 bootstrap CI lower bound",
+      "value": 0.001057911914036053,
+      "unit": "Macro-F1",
+      "source_file": "metadata/brighter_ptbr/experiments/ensemble_summary.json",
+      "source_field": "bootstrap.EN2_vs_T2.ci_2_5",
+      "experimental_protocol": "nested cross-fitted paired bootstrap",
+      "scientific_status": "LEAKAGE_SAFE_ESTIMATE"
+    },
+    {
+      "claim_id": "C_EN2_BOOT_CI_97_5",
+      "description": "EN2 minus T2 bootstrap CI upper bound",
+      "value": 0.020179003733575607,
+      "unit": "Macro-F1",
+      "source_file": "metadata/brighter_ptbr/experiments/ensemble_summary.json",
+      "source_field": "bootstrap.EN2_vs_T2.ci_97_5",
+      "experimental_protocol": "nested cross-fitted paired bootstrap",
+      "scientific_status": "LEAKAGE_SAFE_ESTIMATE"
+    },
+    {
+      "claim_id": "C_EN2_ALPHA_MEAN",
+      "description": "Nested EN2 T2 alpha mean",
+      "value": 0.8699999999999999,
+      "unit": "weight",
+      "source_file": "metadata/brighter_ptbr/experiments/ensemble_summary.json",
+      "source_field": "alpha_by_fold.mean",
+      "experimental_protocol": "nested cross-fitted ensemble",
+      "scientific_status": "LEAKAGE_SAFE_ESTIMATE"
+    },
+    {
+      "claim_id": "C_EN2_ALPHA_STD",
+      "description": "Nested EN2 T2 alpha std",
+      "value": 0.0758287544405155,
+      "unit": "weight",
+      "source_file": "metadata/brighter_ptbr/experiments/ensemble_summary.json",
+      "source_field": "alpha_by_fold.std",
+      "experimental_protocol": "nested cross-fitted ensemble",
+      "scientific_status": "LEAKAGE_SAFE_ESTIMATE"
+    },
+    {
+      "claim_id": "C_EN2_ALPHA_MIN",
+      "description": "Nested EN2 T2 alpha min",
+      "value": 0.75,
+      "unit": "weight",
+      "source_file": "metadata/brighter_ptbr/experiments/ensemble_summary.json",
+      "source_field": "alpha_by_fold.min",
+      "experimental_protocol": "nested cross-fitted ensemble",
+      "scientific_status": "LEAKAGE_SAFE_ESTIMATE"
+    },
+    {
+      "claim_id": "C_EN2_ALPHA_MAX",
+      "description": "Nested EN2 T2 alpha max",
+      "value": 0.95,
+      "unit": "weight",
+      "source_file": "metadata/brighter_ptbr/experiments/ensemble_summary.json",
+      "source_field": "alpha_by_fold.max",
+      "experimental_protocol": "nested cross-fitted ensemble",
+      "scientific_status": "LEAKAGE_SAFE_ESTIMATE"
+    },
+    {
+      "claim_id": "C_FINAL_EN2_MACRO_PRECISION",
+      "description": "Final test EN2 macro_precision",
+      "value": 0.6325002011145081,
+      "unit": "score",
+      "source_file": "reports/brighter_ptbr/final/final_test_results.json",
+      "source_field": "primary.metrics.macro_precision",
+      "experimental_protocol": "one-time official Track A test",
+      "scientific_status": "FINAL_TEST"
+    },
+    {
+      "claim_id": "C_FINAL_EN2_MACRO_RECALL",
+      "description": "Final test EN2 macro_recall",
+      "value": 0.22771227384869383,
+      "unit": "score",
+      "source_file": "reports/brighter_ptbr/final/final_test_results.json",
+      "source_field": "primary.metrics.macro_recall",
+      "experimental_protocol": "one-time official Track A test",
+      "scientific_status": "FINAL_TEST"
+    },
+    {
+      "claim_id": "C_FINAL_EN2_MACRO_AVERAGE_PRECISION",
+      "description": "Final test EN2 macro_average_precision",
+      "value": 0.5041886031754255,
+      "unit": "score",
+      "source_file": "reports/brighter_ptbr/final/final_test_results.json",
+      "source_field": "primary.metrics.macro_average_precision",
+      "experimental_protocol": "one-time official Track A test",
+      "scientific_status": "FINAL_TEST"
+    },
+    {
+      "claim_id": "C_FINAL_EN2_HAMMING_LOSS",
+      "description": "Final test EN2 hamming_loss",
+      "value": 0.11829889188379754,
+      "unit": "score",
+      "source_file": "reports/brighter_ptbr/final/final_test_results.json",
+      "source_field": "primary.metrics.hamming_loss",
+      "experimental_protocol": "one-time official Track A test",
+      "scientific_status": "FINAL_TEST"
+    },
+    {
+      "claim_id": "C_FINAL_EN2_JACCARD_SAMPLES",
+      "description": "Final test EN2 jaccard_samples",
+      "value": 0.2151841868823001,
+      "unit": "score",
+      "source_file": "reports/brighter_ptbr/final/final_test_results.json",
+      "source_field": "primary.metrics.jaccard_samples",
+      "experimental_protocol": "one-time official Track A test",
+      "scientific_status": "FINAL_TEST"
+    },
+    {
+      "claim_id": "C_FINAL_EN2_SUBSET_ACCURACY",
+      "description": "Final test EN2 subset_accuracy",
+      "value": 0.4353099730458221,
+      "unit": "score",
+      "source_file": "reports/brighter_ptbr/final/final_test_results.json",
+      "source_field": "primary.metrics.subset_accuracy",
+      "experimental_protocol": "one-time official Track A test",
+      "scientific_status": "FINAL_TEST"
+    },
+    {
+      "claim_id": "C_FINAL_EN2_GOLD_LABEL_CARDINALITY",
+      "description": "Final test EN2 gold_label_cardinality",
+      "value": 0.8823000898472596,
+      "unit": "score",
+      "source_file": "reports/brighter_ptbr/final/final_test_results.json",
+      "source_field": "primary.metrics.gold_label_cardinality",
+      "experimental_protocol": "one-time official Track A test",
+      "scientific_status": "FINAL_TEST"
+    },
+    {
+      "claim_id": "C_FINAL_EN2_PERLABEL_ANGER_PRECISION",
+      "description": "Final test EN2 anger precision",
+      "value": 0.7894736842105263,
+      "unit": "score",
+      "source_file": "reports/brighter_ptbr/final/final_test_results.json",
+      "source_field": "primary.metrics.per_label.anger.precision",
+      "experimental_protocol": "one-time official Track A test",
+      "scientific_status": "FINAL_TEST"
+    },
+    {
+      "claim_id": "C_FINAL_EN2_PERLABEL_ANGER_RECALL",
+      "description": "Final test EN2 anger recall",
+      "value": 0.2575107296137339,
+      "unit": "score",
+      "source_file": "reports/brighter_ptbr/final/final_test_results.json",
+      "source_field": "primary.metrics.per_label.anger.recall",
+      "experimental_protocol": "one-time official Track A test",
+      "scientific_status": "FINAL_TEST"
+    },
+    {
+      "claim_id": "C_FINAL_EN2_PERLABEL_ANGER_F1",
+      "description": "Final test EN2 anger f1",
+      "value": 0.3883495145631068,
+      "unit": "score",
+      "source_file": "reports/brighter_ptbr/final/final_test_results.json",
+      "source_field": "primary.metrics.per_label.anger.f1",
+      "experimental_protocol": "one-time official Track A test",
+      "scientific_status": "FINAL_TEST"
+    },
+    {
+      "claim_id": "C_FINAL_EN2_PERLABEL_ANGER_AVERAGE_PRECISION",
+      "description": "Final test EN2 anger average_precision",
+      "value": 0.6987169421078867,
+      "unit": "score",
+      "source_file": "reports/brighter_ptbr/final/final_test_results.json",
+      "source_field": "primary.metrics.per_label.anger.average_precision",
+      "experimental_protocol": "one-time official Track A test",
+      "scientific_status": "FINAL_TEST"
+    },
+    {
+      "claim_id": "C_FINAL_EN2_PERLABEL_ANGER_SUPPORT",
+      "description": "Final test EN2 anger support",
+      "value": 699,
+      "unit": "score",
+      "source_file": "reports/brighter_ptbr/final/final_test_results.json",
+      "source_field": "primary.metrics.per_label.anger.support",
+      "experimental_protocol": "one-time official Track A test",
+      "scientific_status": "FINAL_TEST"
+    },
+    {
+      "claim_id": "C_FINAL_EN2_PERLABEL_ANGER_PREDICTED_PREVALENCE",
+      "description": "Final test EN2 anger predicted_prevalence",
+      "value": 0.10242587601078167,
+      "unit": "score",
+      "source_file": "reports/brighter_ptbr/final/final_test_results.json",
+      "source_field": "primary.metrics.per_label.anger.predicted_prevalence",
+      "experimental_protocol": "one-time official Track A test",
+      "scientific_status": "FINAL_TEST"
+    },
+    {
+      "claim_id": "C_FINAL_EN2_PERLABEL_DISGUST_PRECISION",
+      "description": "Final test EN2 disgust precision",
+      "value": 0.3333333333333333,
+      "unit": "score",
+      "source_file": "reports/brighter_ptbr/final/final_test_results.json",
+      "source_field": "primary.metrics.per_label.disgust.precision",
+      "experimental_protocol": "one-time official Track A test",
+      "scientific_status": "FINAL_TEST"
+    },
+    {
+      "claim_id": "C_FINAL_EN2_PERLABEL_DISGUST_RECALL",
+      "description": "Final test EN2 disgust recall",
+      "value": 0.014084507042253521,
+      "unit": "score",
+      "source_file": "reports/brighter_ptbr/final/final_test_results.json",
+      "source_field": "primary.metrics.per_label.disgust.recall",
+      "experimental_protocol": "one-time official Track A test",
+      "scientific_status": "FINAL_TEST"
+    },
+    {
+      "claim_id": "C_FINAL_EN2_PERLABEL_DISGUST_F1",
+      "description": "Final test EN2 disgust f1",
+      "value": 0.02702702702702703,
+      "unit": "score",
+      "source_file": "reports/brighter_ptbr/final/final_test_results.json",
+      "source_field": "primary.metrics.per_label.disgust.f1",
+      "experimental_protocol": "one-time official Track A test",
+      "scientific_status": "FINAL_TEST"
+    },
+    {
+      "claim_id": "C_FINAL_EN2_PERLABEL_DISGUST_AVERAGE_PRECISION",
+      "description": "Final test EN2 disgust average_precision",
+      "value": 0.1288044028861721,
+      "unit": "score",
+      "source_file": "reports/brighter_ptbr/final/final_test_results.json",
+      "source_field": "primary.metrics.per_label.disgust.average_precision",
+      "experimental_protocol": "one-time official Track A test",
+      "scientific_status": "FINAL_TEST"
+    },
+    {
+      "claim_id": "C_FINAL_EN2_PERLABEL_DISGUST_SUPPORT",
+      "description": "Final test EN2 disgust support",
+      "value": 71,
+      "unit": "score",
+      "source_file": "reports/brighter_ptbr/final/final_test_results.json",
+      "source_field": "primary.metrics.per_label.disgust.support",
+      "experimental_protocol": "one-time official Track A test",
+      "scientific_status": "FINAL_TEST"
+    },
+    {
+      "claim_id": "C_FINAL_EN2_PERLABEL_DISGUST_PREDICTED_PREVALENCE",
+      "description": "Final test EN2 disgust predicted_prevalence",
+      "value": 0.0013477088948787063,
+      "unit": "score",
+      "source_file": "reports/brighter_ptbr/final/final_test_results.json",
+      "source_field": "primary.metrics.per_label.disgust.predicted_prevalence",
+      "experimental_protocol": "one-time official Track A test",
+      "scientific_status": "FINAL_TEST"
+    },
+    {
+      "claim_id": "C_FINAL_EN2_PERLABEL_FEAR_PRECISION",
+      "description": "Final test EN2 fear precision",
+      "value": 0.6111111111111112,
+      "unit": "score",
+      "source_file": "reports/brighter_ptbr/final/final_test_results.json",
+      "source_field": "primary.metrics.per_label.fear.precision",
+      "experimental_protocol": "one-time official Track A test",
+      "scientific_status": "FINAL_TEST"
+    },
+    {
+      "claim_id": "C_FINAL_EN2_PERLABEL_FEAR_RECALL",
+      "description": "Final test EN2 fear recall",
+      "value": 0.07913669064748201,
+      "unit": "score",
+      "source_file": "reports/brighter_ptbr/final/final_test_results.json",
+      "source_field": "primary.metrics.per_label.fear.recall",
+      "experimental_protocol": "one-time official Track A test",
+      "scientific_status": "FINAL_TEST"
+    },
+    {
+      "claim_id": "C_FINAL_EN2_PERLABEL_FEAR_F1",
+      "description": "Final test EN2 fear f1",
+      "value": 0.14012738853503184,
+      "unit": "score",
+      "source_file": "reports/brighter_ptbr/final/final_test_results.json",
+      "source_field": "primary.metrics.per_label.fear.f1",
+      "experimental_protocol": "one-time official Track A test",
+      "scientific_status": "FINAL_TEST"
+    },
+    {
+      "claim_id": "C_FINAL_EN2_PERLABEL_FEAR_AVERAGE_PRECISION",
+      "description": "Final test EN2 fear average_precision",
+      "value": 0.28839241172372254,
+      "unit": "score",
+      "source_file": "reports/brighter_ptbr/final/final_test_results.json",
+      "source_field": "primary.metrics.per_label.fear.average_precision",
+      "experimental_protocol": "one-time official Track A test",
+      "scientific_status": "FINAL_TEST"
+    },
+    {
+      "claim_id": "C_FINAL_EN2_PERLABEL_FEAR_SUPPORT",
+      "description": "Final test EN2 fear support",
+      "value": 139,
+      "unit": "score",
+      "source_file": "reports/brighter_ptbr/final/final_test_results.json",
+      "source_field": "primary.metrics.per_label.fear.support",
+      "experimental_protocol": "one-time official Track A test",
+      "scientific_status": "FINAL_TEST"
+    },
+    {
+      "claim_id": "C_FINAL_EN2_PERLABEL_FEAR_PREDICTED_PREVALENCE",
+      "description": "Final test EN2 fear predicted_prevalence",
+      "value": 0.008086253369272238,
+      "unit": "score",
+      "source_file": "reports/brighter_ptbr/final/final_test_results.json",
+      "source_field": "primary.metrics.per_label.fear.predicted_prevalence",
+      "experimental_protocol": "one-time official Track A test",
+      "scientific_status": "FINAL_TEST"
+    },
+    {
+      "claim_id": "C_FINAL_EN2_PERLABEL_JOY_PRECISION",
+      "description": "Final test EN2 joy precision",
+      "value": 0.8659217877094972,
+      "unit": "score",
+      "source_file": "reports/brighter_ptbr/final/final_test_results.json",
+      "source_field": "primary.metrics.per_label.joy.precision",
+      "experimental_protocol": "one-time official Track A test",
+      "scientific_status": "FINAL_TEST"
+    },
+    {
+      "claim_id": "C_FINAL_EN2_PERLABEL_JOY_RECALL",
+      "description": "Final test EN2 joy recall",
+      "value": 0.5585585585585585,
+      "unit": "score",
+      "source_file": "reports/brighter_ptbr/final/final_test_results.json",
+      "source_field": "primary.metrics.per_label.joy.recall",
+      "experimental_protocol": "one-time official Track A test",
+      "scientific_status": "FINAL_TEST"
+    },
+    {
+      "claim_id": "C_FINAL_EN2_PERLABEL_JOY_F1",
+      "description": "Final test EN2 joy f1",
+      "value": 0.6790799561883899,
+      "unit": "score",
+      "source_file": "reports/brighter_ptbr/final/final_test_results.json",
+      "source_field": "primary.metrics.per_label.joy.f1",
+      "experimental_protocol": "one-time official Track A test",
+      "scientific_status": "FINAL_TEST"
+    },
+    {
+      "claim_id": "C_FINAL_EN2_PERLABEL_JOY_AVERAGE_PRECISION",
+      "description": "Final test EN2 joy average_precision",
+      "value": 0.7908699980009627,
+      "unit": "score",
+      "source_file": "reports/brighter_ptbr/final/final_test_results.json",
+      "source_field": "primary.metrics.per_label.joy.average_precision",
+      "experimental_protocol": "one-time official Track A test",
+      "scientific_status": "FINAL_TEST"
+    },
+    {
+      "claim_id": "C_FINAL_EN2_PERLABEL_JOY_SUPPORT",
+      "description": "Final test EN2 joy support",
+      "value": 555,
+      "unit": "score",
+      "source_file": "reports/brighter_ptbr/final/final_test_results.json",
+      "source_field": "primary.metrics.per_label.joy.support",
+      "experimental_protocol": "one-time official Track A test",
+      "scientific_status": "FINAL_TEST"
+    },
+    {
+      "claim_id": "C_FINAL_EN2_PERLABEL_JOY_PREDICTED_PREVALENCE",
+      "description": "Final test EN2 joy predicted_prevalence",
+      "value": 0.16082659478885894,
+      "unit": "score",
+      "source_file": "reports/brighter_ptbr/final/final_test_results.json",
+      "source_field": "primary.metrics.per_label.joy.predicted_prevalence",
+      "experimental_protocol": "one-time official Track A test",
+      "scientific_status": "FINAL_TEST"
+    },
+    {
+      "claim_id": "C_FINAL_EN2_PERLABEL_SADNESS_PRECISION",
+      "description": "Final test EN2 sadness precision",
+      "value": 0.75,
+      "unit": "score",
+      "source_file": "reports/brighter_ptbr/final/final_test_results.json",
+      "source_field": "primary.metrics.per_label.sadness.precision",
+      "experimental_protocol": "one-time official Track A test",
+      "scientific_status": "FINAL_TEST"
+    },
+    {
+      "claim_id": "C_FINAL_EN2_PERLABEL_SADNESS_RECALL",
+      "description": "Final test EN2 sadness recall",
+      "value": 0.01749271137026239,
+      "unit": "score",
+      "source_file": "reports/brighter_ptbr/final/final_test_results.json",
+      "source_field": "primary.metrics.per_label.sadness.recall",
+      "experimental_protocol": "one-time official Track A test",
+      "scientific_status": "FINAL_TEST"
+    },
+    {
+      "claim_id": "C_FINAL_EN2_PERLABEL_SADNESS_F1",
+      "description": "Final test EN2 sadness f1",
+      "value": 0.03418803418803419,
+      "unit": "score",
+      "source_file": "reports/brighter_ptbr/final/final_test_results.json",
+      "source_field": "primary.metrics.per_label.sadness.f1",
+      "experimental_protocol": "one-time official Track A test",
+      "scientific_status": "FINAL_TEST"
+    },
+    {
+      "claim_id": "C_FINAL_EN2_PERLABEL_SADNESS_AVERAGE_PRECISION",
+      "description": "Final test EN2 sadness average_precision",
+      "value": 0.6694782868788859,
+      "unit": "score",
+      "source_file": "reports/brighter_ptbr/final/final_test_results.json",
+      "source_field": "primary.metrics.per_label.sadness.average_precision",
+      "experimental_protocol": "one-time official Track A test",
+      "scientific_status": "FINAL_TEST"
+    },
+    {
+      "claim_id": "C_FINAL_EN2_PERLABEL_SADNESS_SUPPORT",
+      "description": "Final test EN2 sadness support",
+      "value": 343,
+      "unit": "score",
+      "source_file": "reports/brighter_ptbr/final/final_test_results.json",
+      "source_field": "primary.metrics.per_label.sadness.support",
+      "experimental_protocol": "one-time official Track A test",
+      "scientific_status": "FINAL_TEST"
+    },
+    {
+      "claim_id": "C_FINAL_EN2_PERLABEL_SADNESS_PREDICTED_PREVALENCE",
+      "description": "Final test EN2 sadness predicted_prevalence",
+      "value": 0.0035938903863432167,
+      "unit": "score",
+      "source_file": "reports/brighter_ptbr/final/final_test_results.json",
+      "source_field": "primary.metrics.per_label.sadness.predicted_prevalence",
+      "experimental_protocol": "one-time official Track A test",
+      "scientific_status": "FINAL_TEST"
+    },
+    {
+      "claim_id": "C_FINAL_EN2_PERLABEL_SURPRISE_PRECISION",
+      "description": "Final test EN2 surprise precision",
+      "value": 0.44516129032258067,
+      "unit": "score",
+      "source_file": "reports/brighter_ptbr/final/final_test_results.json",
+      "source_field": "primary.metrics.per_label.surprise.precision",
+      "experimental_protocol": "one-time official Track A test",
+      "scientific_status": "FINAL_TEST"
+    },
+    {
+      "claim_id": "C_FINAL_EN2_PERLABEL_SURPRISE_RECALL",
+      "description": "Final test EN2 surprise recall",
+      "value": 0.4394904458598726,
+      "unit": "score",
+      "source_file": "reports/brighter_ptbr/final/final_test_results.json",
+      "source_field": "primary.metrics.per_label.surprise.recall",
+      "experimental_protocol": "one-time official Track A test",
+      "scientific_status": "FINAL_TEST"
+    },
+    {
+      "claim_id": "C_FINAL_EN2_PERLABEL_SURPRISE_F1",
+      "description": "Final test EN2 surprise f1",
+      "value": 0.4423076923076923,
+      "unit": "score",
+      "source_file": "reports/brighter_ptbr/final/final_test_results.json",
+      "source_field": "primary.metrics.per_label.surprise.f1",
+      "experimental_protocol": "one-time official Track A test",
+      "scientific_status": "FINAL_TEST"
+    },
+    {
+      "claim_id": "C_FINAL_EN2_PERLABEL_SURPRISE_AVERAGE_PRECISION",
+      "description": "Final test EN2 surprise average_precision",
+      "value": 0.44886957745492323,
+      "unit": "score",
+      "source_file": "reports/brighter_ptbr/final/final_test_results.json",
+      "source_field": "primary.metrics.per_label.surprise.average_precision",
+      "experimental_protocol": "one-time official Track A test",
+      "scientific_status": "FINAL_TEST"
+    },
+    {
+      "claim_id": "C_FINAL_EN2_PERLABEL_SURPRISE_SUPPORT",
+      "description": "Final test EN2 surprise support",
+      "value": 157,
+      "unit": "score",
+      "source_file": "reports/brighter_ptbr/final/final_test_results.json",
+      "source_field": "primary.metrics.per_label.surprise.support",
+      "experimental_protocol": "one-time official Track A test",
+      "scientific_status": "FINAL_TEST"
+    },
+    {
+      "claim_id": "C_FINAL_EN2_PERLABEL_SURPRISE_PREDICTED_PREVALENCE",
+      "description": "Final test EN2 surprise predicted_prevalence",
+      "value": 0.06963162623539983,
+      "unit": "score",
+      "source_file": "reports/brighter_ptbr/final/final_test_results.json",
+      "source_field": "primary.metrics.per_label.surprise.predicted_prevalence",
+      "experimental_protocol": "one-time official Track A test",
+      "scientific_status": "FINAL_TEST"
+    },
+    {
+      "claim_id": "C_FINAL_T2_MACRO_PRECISION",
+      "description": "Final test T2 macro_precision",
+      "value": 0.4034225769884179,
+      "unit": "score",
+      "source_file": "reports/brighter_ptbr/final/final_test_results.json",
+      "source_field": "secondary.metrics.macro_precision",
+      "experimental_protocol": "one-time official Track A test",
+      "scientific_status": "FINAL_TEST"
+    },
+    {
+      "claim_id": "C_FINAL_T2_MACRO_RECALL",
+      "description": "Final test T2 macro_recall",
+      "value": 0.14863366950819085,
+      "unit": "score",
+      "source_file": "reports/brighter_ptbr/final/final_test_results.json",
+      "source_field": "secondary.metrics.macro_recall",
+      "experimental_protocol": "one-time official Track A test",
+      "scientific_status": "FINAL_TEST"
+    },
+    {
+      "claim_id": "C_FINAL_T2_MACRO_AVERAGE_PRECISION",
+      "description": "Final test T2 macro_average_precision",
+      "value": 0.25908513564440244,
+      "unit": "score",
+      "source_file": "reports/brighter_ptbr/final/final_test_results.json",
+      "source_field": "secondary.metrics.macro_average_precision",
+      "experimental_protocol": "one-time official Track A test",
+      "scientific_status": "FINAL_TEST"
+    },
+    {
+      "claim_id": "C_FINAL_T2_HAMMING_LOSS",
+      "description": "Final test T2 hamming_loss",
+      "value": 0.15745732255166217,
+      "unit": "score",
+      "source_file": "reports/brighter_ptbr/final/final_test_results.json",
+      "source_field": "secondary.metrics.hamming_loss",
+      "experimental_protocol": "one-time official Track A test",
+      "scientific_status": "FINAL_TEST"
+    },
+    {
+      "claim_id": "C_FINAL_T2_JACCARD_SAMPLES",
+      "description": "Final test T2 jaccard_samples",
+      "value": 0.10587002096436059,
+      "unit": "score",
+      "source_file": "reports/brighter_ptbr/final/final_test_results.json",
+      "source_field": "secondary.metrics.jaccard_samples",
+      "experimental_protocol": "one-time official Track A test",
+      "scientific_status": "FINAL_TEST"
+    },
+    {
+      "claim_id": "C_FINAL_T2_SUBSET_ACCURACY",
+      "description": "Final test T2 subset_accuracy",
+      "value": 0.30143755615453727,
+      "unit": "score",
+      "source_file": "reports/brighter_ptbr/final/final_test_results.json",
+      "source_field": "secondary.metrics.subset_accuracy",
+      "experimental_protocol": "one-time official Track A test",
+      "scientific_status": "FINAL_TEST"
+    },
+    {
+      "claim_id": "C_FINAL_T2_GOLD_LABEL_CARDINALITY",
+      "description": "Final test T2 gold_label_cardinality",
+      "value": 0.8823000898472596,
+      "unit": "score",
+      "source_file": "reports/brighter_ptbr/final/final_test_results.json",
+      "source_field": "secondary.metrics.gold_label_cardinality",
+      "experimental_protocol": "one-time official Track A test",
+      "scientific_status": "FINAL_TEST"
+    },
+    {
+      "claim_id": "C_FINAL_T2_PERLABEL_ANGER_PRECISION",
+      "description": "Final test T2 anger precision",
+      "value": 0.4378698224852071,
+      "unit": "score",
+      "source_file": "reports/brighter_ptbr/final/final_test_results.json",
+      "source_field": "secondary.metrics.per_label.anger.precision",
+      "experimental_protocol": "one-time official Track A test",
+      "scientific_status": "FINAL_TEST"
+    },
+    {
+      "claim_id": "C_FINAL_T2_PERLABEL_ANGER_RECALL",
+      "description": "Final test T2 anger recall",
+      "value": 0.2117310443490701,
+      "unit": "score",
+      "source_file": "reports/brighter_ptbr/final/final_test_results.json",
+      "source_field": "secondary.metrics.per_label.anger.recall",
+      "experimental_protocol": "one-time official Track A test",
+      "scientific_status": "FINAL_TEST"
+    },
+    {
+      "claim_id": "C_FINAL_T2_PERLABEL_ANGER_F1",
+      "description": "Final test T2 anger f1",
+      "value": 0.2854387656702025,
+      "unit": "score",
+      "source_file": "reports/brighter_ptbr/final/final_test_results.json",
+      "source_field": "secondary.metrics.per_label.anger.f1",
+      "experimental_protocol": "one-time official Track A test",
+      "scientific_status": "FINAL_TEST"
+    },
+    {
+      "claim_id": "C_FINAL_T2_PERLABEL_ANGER_AVERAGE_PRECISION",
+      "description": "Final test T2 anger average_precision",
+      "value": 0.40871132937840904,
+      "unit": "score",
+      "source_file": "reports/brighter_ptbr/final/final_test_results.json",
+      "source_field": "secondary.metrics.per_label.anger.average_precision",
+      "experimental_protocol": "one-time official Track A test",
+      "scientific_status": "FINAL_TEST"
+    },
+    {
+      "claim_id": "C_FINAL_T2_PERLABEL_ANGER_SUPPORT",
+      "description": "Final test T2 anger support",
+      "value": 699,
+      "unit": "score",
+      "source_file": "reports/brighter_ptbr/final/final_test_results.json",
+      "source_field": "secondary.metrics.per_label.anger.support",
+      "experimental_protocol": "one-time official Track A test",
+      "scientific_status": "FINAL_TEST"
+    },
+    {
+      "claim_id": "C_FINAL_T2_PERLABEL_ANGER_PREDICTED_PREVALENCE",
+      "description": "Final test T2 anger predicted_prevalence",
+      "value": 0.1518418688230009,
+      "unit": "score",
+      "source_file": "reports/brighter_ptbr/final/final_test_results.json",
+      "source_field": "secondary.metrics.per_label.anger.predicted_prevalence",
+      "experimental_protocol": "one-time official Track A test",
+      "scientific_status": "FINAL_TEST"
+    },
+    {
+      "claim_id": "C_FINAL_T2_PERLABEL_DISGUST_PRECISION",
+      "description": "Final test T2 disgust precision",
+      "value": 0.0,
+      "unit": "score",
+      "source_file": "reports/brighter_ptbr/final/final_test_results.json",
+      "source_field": "secondary.metrics.per_label.disgust.precision",
+      "experimental_protocol": "one-time official Track A test",
+      "scientific_status": "FINAL_TEST"
+    },
+    {
+      "claim_id": "C_FINAL_T2_PERLABEL_DISGUST_RECALL",
+      "description": "Final test T2 disgust recall",
+      "value": 0.0,
+      "unit": "score",
+      "source_file": "reports/brighter_ptbr/final/final_test_results.json",
+      "source_field": "secondary.metrics.per_label.disgust.recall",
+      "experimental_protocol": "one-time official Track A test",
+      "scientific_status": "FINAL_TEST"
+    },
+    {
+      "claim_id": "C_FINAL_T2_PERLABEL_DISGUST_F1",
+      "description": "Final test T2 disgust f1",
+      "value": 0.0,
+      "unit": "score",
+      "source_file": "reports/brighter_ptbr/final/final_test_results.json",
+      "source_field": "secondary.metrics.per_label.disgust.f1",
+      "experimental_protocol": "one-time official Track A test",
+      "scientific_status": "FINAL_TEST"
+    },
+    {
+      "claim_id": "C_FINAL_T2_PERLABEL_DISGUST_AVERAGE_PRECISION",
+      "description": "Final test T2 disgust average_precision",
+      "value": 0.05705304669016581,
+      "unit": "score",
+      "source_file": "reports/brighter_ptbr/final/final_test_results.json",
+      "source_field": "secondary.metrics.per_label.disgust.average_precision",
+      "experimental_protocol": "one-time official Track A test",
+      "scientific_status": "FINAL_TEST"
+    },
+    {
+      "claim_id": "C_FINAL_T2_PERLABEL_DISGUST_SUPPORT",
+      "description": "Final test T2 disgust support",
+      "value": 71,
+      "unit": "score",
+      "source_file": "reports/brighter_ptbr/final/final_test_results.json",
+      "source_field": "secondary.metrics.per_label.disgust.support",
+      "experimental_protocol": "one-time official Track A test",
+      "scientific_status": "FINAL_TEST"
+    },
+    {
+      "claim_id": "C_FINAL_T2_PERLABEL_DISGUST_PREDICTED_PREVALENCE",
+      "description": "Final test T2 disgust predicted_prevalence",
+      "value": 0.0,
+      "unit": "score",
+      "source_file": "reports/brighter_ptbr/final/final_test_results.json",
+      "source_field": "secondary.metrics.per_label.disgust.predicted_prevalence",
+      "experimental_protocol": "one-time official Track A test",
+      "scientific_status": "FINAL_TEST"
+    },
+    {
+      "claim_id": "C_FINAL_T2_PERLABEL_FEAR_PRECISION",
+      "description": "Final test T2 fear precision",
+      "value": 0.3333333333333333,
+      "unit": "score",
+      "source_file": "reports/brighter_ptbr/final/final_test_results.json",
+      "source_field": "secondary.metrics.per_label.fear.precision",
+      "experimental_protocol": "one-time official Track A test",
+      "scientific_status": "FINAL_TEST"
+    },
+    {
+      "claim_id": "C_FINAL_T2_PERLABEL_FEAR_RECALL",
+      "description": "Final test T2 fear recall",
+      "value": 0.007194244604316547,
+      "unit": "score",
+      "source_file": "reports/brighter_ptbr/final/final_test_results.json",
+      "source_field": "secondary.metrics.per_label.fear.recall",
+      "experimental_protocol": "one-time official Track A test",
+      "scientific_status": "FINAL_TEST"
+    },
+    {
+      "claim_id": "C_FINAL_T2_PERLABEL_FEAR_F1",
+      "description": "Final test T2 fear f1",
+      "value": 0.014084507042253521,
+      "unit": "score",
+      "source_file": "reports/brighter_ptbr/final/final_test_results.json",
+      "source_field": "secondary.metrics.per_label.fear.f1",
+      "experimental_protocol": "one-time official Track A test",
+      "scientific_status": "FINAL_TEST"
+    },
+    {
+      "claim_id": "C_FINAL_T2_PERLABEL_FEAR_AVERAGE_PRECISION",
+      "description": "Final test T2 fear average_precision",
+      "value": 0.07984322880273999,
+      "unit": "score",
+      "source_file": "reports/brighter_ptbr/final/final_test_results.json",
+      "source_field": "secondary.metrics.per_label.fear.average_precision",
+      "experimental_protocol": "one-time official Track A test",
+      "scientific_status": "FINAL_TEST"
+    },
+    {
+      "claim_id": "C_FINAL_T2_PERLABEL_FEAR_SUPPORT",
+      "description": "Final test T2 fear support",
+      "value": 139,
+      "unit": "score",
+      "source_file": "reports/brighter_ptbr/final/final_test_results.json",
+      "source_field": "secondary.metrics.per_label.fear.support",
+      "experimental_protocol": "one-time official Track A test",
+      "scientific_status": "FINAL_TEST"
+    },
+    {
+      "claim_id": "C_FINAL_T2_PERLABEL_FEAR_PREDICTED_PREVALENCE",
+      "description": "Final test T2 fear predicted_prevalence",
+      "value": 0.0013477088948787063,
+      "unit": "score",
+      "source_file": "reports/brighter_ptbr/final/final_test_results.json",
+      "source_field": "secondary.metrics.per_label.fear.predicted_prevalence",
+      "experimental_protocol": "one-time official Track A test",
+      "scientific_status": "FINAL_TEST"
+    },
+    {
+      "claim_id": "C_FINAL_T2_PERLABEL_JOY_PRECISION",
+      "description": "Final test T2 joy precision",
+      "value": 0.6484848484848484,
+      "unit": "score",
+      "source_file": "reports/brighter_ptbr/final/final_test_results.json",
+      "source_field": "secondary.metrics.per_label.joy.precision",
+      "experimental_protocol": "one-time official Track A test",
+      "scientific_status": "FINAL_TEST"
+    },
+    {
+      "claim_id": "C_FINAL_T2_PERLABEL_JOY_RECALL",
+      "description": "Final test T2 joy recall",
+      "value": 0.1927927927927928,
+      "unit": "score",
+      "source_file": "reports/brighter_ptbr/final/final_test_results.json",
+      "source_field": "secondary.metrics.per_label.joy.recall",
+      "experimental_protocol": "one-time official Track A test",
+      "scientific_status": "FINAL_TEST"
+    },
+    {
+      "claim_id": "C_FINAL_T2_PERLABEL_JOY_F1",
+      "description": "Final test T2 joy f1",
+      "value": 0.2972222222222222,
+      "unit": "score",
+      "source_file": "reports/brighter_ptbr/final/final_test_results.json",
+      "source_field": "secondary.metrics.per_label.joy.f1",
+      "experimental_protocol": "one-time official Track A test",
+      "scientific_status": "FINAL_TEST"
+    },
+    {
+      "claim_id": "C_FINAL_T2_PERLABEL_JOY_AVERAGE_PRECISION",
+      "description": "Final test T2 joy average_precision",
+      "value": 0.49492301792813825,
+      "unit": "score",
+      "source_file": "reports/brighter_ptbr/final/final_test_results.json",
+      "source_field": "secondary.metrics.per_label.joy.average_precision",
+      "experimental_protocol": "one-time official Track A test",
+      "scientific_status": "FINAL_TEST"
+    },
+    {
+      "claim_id": "C_FINAL_T2_PERLABEL_JOY_SUPPORT",
+      "description": "Final test T2 joy support",
+      "value": 555,
+      "unit": "score",
+      "source_file": "reports/brighter_ptbr/final/final_test_results.json",
+      "source_field": "secondary.metrics.per_label.joy.support",
+      "experimental_protocol": "one-time official Track A test",
+      "scientific_status": "FINAL_TEST"
+    },
+    {
+      "claim_id": "C_FINAL_T2_PERLABEL_JOY_PREDICTED_PREVALENCE",
+      "description": "Final test T2 joy predicted_prevalence",
+      "value": 0.07412398921832884,
+      "unit": "score",
+      "source_file": "reports/brighter_ptbr/final/final_test_results.json",
+      "source_field": "secondary.metrics.per_label.joy.predicted_prevalence",
+      "experimental_protocol": "one-time official Track A test",
+      "scientific_status": "FINAL_TEST"
+    },
+    {
+      "claim_id": "C_FINAL_T2_PERLABEL_SADNESS_PRECISION",
+      "description": "Final test T2 sadness precision",
+      "value": 0.75,
+      "unit": "score",
+      "source_file": "reports/brighter_ptbr/final/final_test_results.json",
+      "source_field": "secondary.metrics.per_label.sadness.precision",
+      "experimental_protocol": "one-time official Track A test",
+      "scientific_status": "FINAL_TEST"
+    },
+    {
+      "claim_id": "C_FINAL_T2_PERLABEL_SADNESS_RECALL",
+      "description": "Final test T2 sadness recall",
+      "value": 0.008746355685131196,
+      "unit": "score",
+      "source_file": "reports/brighter_ptbr/final/final_test_results.json",
+      "source_field": "secondary.metrics.per_label.sadness.recall",
+      "experimental_protocol": "one-time official Track A test",
+      "scientific_status": "FINAL_TEST"
+    },
+    {
+      "claim_id": "C_FINAL_T2_PERLABEL_SADNESS_F1",
+      "description": "Final test T2 sadness f1",
+      "value": 0.01729106628242075,
+      "unit": "score",
+      "source_file": "reports/brighter_ptbr/final/final_test_results.json",
+      "source_field": "secondary.metrics.per_label.sadness.f1",
+      "experimental_protocol": "one-time official Track A test",
+      "scientific_status": "FINAL_TEST"
+    },
+    {
+      "claim_id": "C_FINAL_T2_PERLABEL_SADNESS_AVERAGE_PRECISION",
+      "description": "Final test T2 sadness average_precision",
+      "value": 0.22860666812084918,
+      "unit": "score",
+      "source_file": "reports/brighter_ptbr/final/final_test_results.json",
+      "source_field": "secondary.metrics.per_label.sadness.average_precision",
+      "experimental_protocol": "one-time official Track A test",
+      "scientific_status": "FINAL_TEST"
+    },
+    {
+      "claim_id": "C_FINAL_T2_PERLABEL_SADNESS_SUPPORT",
+      "description": "Final test T2 sadness support",
+      "value": 343,
+      "unit": "score",
+      "source_file": "reports/brighter_ptbr/final/final_test_results.json",
+      "source_field": "secondary.metrics.per_label.sadness.support",
+      "experimental_protocol": "one-time official Track A test",
+      "scientific_status": "FINAL_TEST"
+    },
+    {
+      "claim_id": "C_FINAL_T2_PERLABEL_SADNESS_PREDICTED_PREVALENCE",
+      "description": "Final test T2 sadness predicted_prevalence",
+      "value": 0.0017969451931716084,
+      "unit": "score",
+      "source_file": "reports/brighter_ptbr/final/final_test_results.json",
+      "source_field": "secondary.metrics.per_label.sadness.predicted_prevalence",
+      "experimental_protocol": "one-time official Track A test",
+      "scientific_status": "FINAL_TEST"
+    },
+    {
+      "claim_id": "C_FINAL_T2_PERLABEL_SURPRISE_PRECISION",
+      "description": "Final test T2 surprise precision",
+      "value": 0.25084745762711863,
+      "unit": "score",
+      "source_file": "reports/brighter_ptbr/final/final_test_results.json",
+      "source_field": "secondary.metrics.per_label.surprise.precision",
+      "experimental_protocol": "one-time official Track A test",
+      "scientific_status": "FINAL_TEST"
+    },
+    {
+      "claim_id": "C_FINAL_T2_PERLABEL_SURPRISE_RECALL",
+      "description": "Final test T2 surprise recall",
+      "value": 0.4713375796178344,
+      "unit": "score",
+      "source_file": "reports/brighter_ptbr/final/final_test_results.json",
+      "source_field": "secondary.metrics.per_label.surprise.recall",
+      "experimental_protocol": "one-time official Track A test",
+      "scientific_status": "FINAL_TEST"
+    },
+    {
+      "claim_id": "C_FINAL_T2_PERLABEL_SURPRISE_F1",
+      "description": "Final test T2 surprise f1",
+      "value": 0.3274336283185841,
+      "unit": "score",
+      "source_file": "reports/brighter_ptbr/final/final_test_results.json",
+      "source_field": "secondary.metrics.per_label.surprise.f1",
+      "experimental_protocol": "one-time official Track A test",
+      "scientific_status": "FINAL_TEST"
+    },
+    {
+      "claim_id": "C_FINAL_T2_PERLABEL_SURPRISE_AVERAGE_PRECISION",
+      "description": "Final test T2 surprise average_precision",
+      "value": 0.28537352294611257,
+      "unit": "score",
+      "source_file": "reports/brighter_ptbr/final/final_test_results.json",
+      "source_field": "secondary.metrics.per_label.surprise.average_precision",
+      "experimental_protocol": "one-time official Track A test",
+      "scientific_status": "FINAL_TEST"
+    },
+    {
+      "claim_id": "C_FINAL_T2_PERLABEL_SURPRISE_SUPPORT",
+      "description": "Final test T2 surprise support",
+      "value": 157,
+      "unit": "score",
+      "source_file": "reports/brighter_ptbr/final/final_test_results.json",
+      "source_field": "secondary.metrics.per_label.surprise.support",
+      "experimental_protocol": "one-time official Track A test",
+      "scientific_status": "FINAL_TEST"
+    },
+    {
+      "claim_id": "C_FINAL_T2_PERLABEL_SURPRISE_PREDICTED_PREVALENCE",
+      "description": "Final test T2 surprise predicted_prevalence",
+      "value": 0.13252470799640612,
+      "unit": "score",
+      "source_file": "reports/brighter_ptbr/final/final_test_results.json",
+      "source_field": "secondary.metrics.per_label.surprise.predicted_prevalence",
+      "experimental_protocol": "one-time official Track A test",
+      "scientific_status": "FINAL_TEST"
+    },
+    {
+      "claim_id": "C_POSTHOC_PREV_EN2_ANGER_GOLD_DEV",
+      "description": "Post-hoc EN2 anger gold_dev",
+      "value": 0.3198680956,
+      "unit": "prevalence",
+      "source_file": "reports/brighter_ptbr/final/generalization_prevalence.csv",
+      "source_field": "label=anger; gold_dev",
+      "experimental_protocol": "post-hoc frozen artifact comparison",
+      "scientific_status": "POST_HOC_DIAGNOSTIC"
+    },
+    {
+      "claim_id": "C_POSTHOC_PREV_EN2_ANGER_PRED_DEV_EN2_NESTED",
+      "description": "Post-hoc EN2 anger pred_dev_en2_nested",
+      "value": 0.3244023083,
+      "unit": "prevalence",
+      "source_file": "reports/brighter_ptbr/final/generalization_prevalence.csv",
+      "source_field": "label=anger; pred_dev_en2_nested",
+      "experimental_protocol": "post-hoc frozen artifact comparison",
+      "scientific_status": "POST_HOC_DIAGNOSTIC"
+    },
+    {
+      "claim_id": "C_POSTHOC_PREV_EN2_ANGER_GOLD_TEST",
+      "description": "Post-hoc EN2 anger gold_test",
+      "value": 0.3140161725,
+      "unit": "prevalence",
+      "source_file": "reports/brighter_ptbr/final/generalization_prevalence.csv",
+      "source_field": "label=anger; gold_test",
+      "experimental_protocol": "post-hoc frozen artifact comparison",
+      "scientific_status": "POST_HOC_DIAGNOSTIC"
+    },
+    {
+      "claim_id": "C_POSTHOC_PREV_EN2_ANGER_PRED_TEST_EN2",
+      "description": "Post-hoc EN2 anger pred_test_en2",
+      "value": 0.102425876,
+      "unit": "prevalence",
+      "source_file": "reports/brighter_ptbr/final/generalization_prevalence.csv",
+      "source_field": "label=anger; pred_test_en2",
+      "experimental_protocol": "post-hoc frozen artifact comparison",
+      "scientific_status": "POST_HOC_DIAGNOSTIC"
+    },
+    {
+      "claim_id": "C_POSTHOC_PREV_EN2_ANGER_PREDICTION_ERROR_DEV",
+      "description": "Post-hoc EN2 anger prediction_error_dev",
+      "value": 0.0045342127,
+      "unit": "prevalence",
+      "source_file": "reports/brighter_ptbr/final/generalization_prevalence.csv",
+      "source_field": "label=anger; prediction_error_dev",
+      "experimental_protocol": "post-hoc frozen artifact comparison",
+      "scientific_status": "POST_HOC_DIAGNOSTIC"
+    },
+    {
+      "claim_id": "C_POSTHOC_PREV_EN2_ANGER_PREDICTION_ERROR_TEST",
+      "description": "Post-hoc EN2 anger prediction_error_test",
+      "value": -0.2115902965,
+      "unit": "prevalence",
+      "source_file": "reports/brighter_ptbr/final/generalization_prevalence.csv",
+      "source_field": "label=anger; prediction_error_test",
+      "experimental_protocol": "post-hoc frozen artifact comparison",
+      "scientific_status": "POST_HOC_DIAGNOSTIC"
+    },
+    {
+      "claim_id": "C_POSTHOC_PREV_EN2_DISGUST_GOLD_DEV",
+      "description": "Post-hoc EN2 disgust gold_dev",
+      "value": 0.0329760923,
+      "unit": "prevalence",
+      "source_file": "reports/brighter_ptbr/final/generalization_prevalence.csv",
+      "source_field": "label=disgust; gold_dev",
+      "experimental_protocol": "post-hoc frozen artifact comparison",
+      "scientific_status": "POST_HOC_DIAGNOSTIC"
+    },
+    {
+      "claim_id": "C_POSTHOC_PREV_EN2_DISGUST_PRED_DEV_EN2_NESTED",
+      "description": "Post-hoc EN2 disgust pred_dev_en2_nested",
+      "value": 0.0737840066,
+      "unit": "prevalence",
+      "source_file": "reports/brighter_ptbr/final/generalization_prevalence.csv",
+      "source_field": "label=disgust; pred_dev_en2_nested",
+      "experimental_protocol": "post-hoc frozen artifact comparison",
+      "scientific_status": "POST_HOC_DIAGNOSTIC"
+    },
+    {
+      "claim_id": "C_POSTHOC_PREV_EN2_DISGUST_GOLD_TEST",
+      "description": "Post-hoc EN2 disgust gold_test",
+      "value": 0.0318957772,
+      "unit": "prevalence",
+      "source_file": "reports/brighter_ptbr/final/generalization_prevalence.csv",
+      "source_field": "label=disgust; gold_test",
+      "experimental_protocol": "post-hoc frozen artifact comparison",
+      "scientific_status": "POST_HOC_DIAGNOSTIC"
+    },
+    {
+      "claim_id": "C_POSTHOC_PREV_EN2_DISGUST_PRED_TEST_EN2",
+      "description": "Post-hoc EN2 disgust pred_test_en2",
+      "value": 0.0013477089,
+      "unit": "prevalence",
+      "source_file": "reports/brighter_ptbr/final/generalization_prevalence.csv",
+      "source_field": "label=disgust; pred_test_en2",
+      "experimental_protocol": "post-hoc frozen artifact comparison",
+      "scientific_status": "POST_HOC_DIAGNOSTIC"
+    },
+    {
+      "claim_id": "C_POSTHOC_PREV_EN2_DISGUST_PREDICTION_ERROR_DEV",
+      "description": "Post-hoc EN2 disgust prediction_error_dev",
+      "value": 0.0408079143,
+      "unit": "prevalence",
+      "source_file": "reports/brighter_ptbr/final/generalization_prevalence.csv",
+      "source_field": "label=disgust; prediction_error_dev",
+      "experimental_protocol": "post-hoc frozen artifact comparison",
+      "scientific_status": "POST_HOC_DIAGNOSTIC"
+    },
+    {
+      "claim_id": "C_POSTHOC_PREV_EN2_DISGUST_PREDICTION_ERROR_TEST",
+      "description": "Post-hoc EN2 disgust prediction_error_test",
+      "value": -0.0305480683,
+      "unit": "prevalence",
+      "source_file": "reports/brighter_ptbr/final/generalization_prevalence.csv",
+      "source_field": "label=disgust; prediction_error_test",
+      "experimental_protocol": "post-hoc frozen artifact comparison",
+      "scientific_status": "POST_HOC_DIAGNOSTIC"
+    },
+    {
+      "claim_id": "C_POSTHOC_PREV_EN2_FEAR_GOLD_DEV",
+      "description": "Post-hoc EN2 fear gold_dev",
+      "value": 0.048227535,
+      "unit": "prevalence",
+      "source_file": "reports/brighter_ptbr/final/generalization_prevalence.csv",
+      "source_field": "label=fear; gold_dev",
+      "experimental_protocol": "post-hoc frozen artifact comparison",
+      "scientific_status": "POST_HOC_DIAGNOSTIC"
+    },
+    {
+      "claim_id": "C_POSTHOC_PREV_EN2_FEAR_PRED_DEV_EN2_NESTED",
+      "description": "Post-hoc EN2 fear pred_dev_en2_nested",
+      "value": 0.0910964551,
+      "unit": "prevalence",
+      "source_file": "reports/brighter_ptbr/final/generalization_prevalence.csv",
+      "source_field": "label=fear; pred_dev_en2_nested",
+      "experimental_protocol": "post-hoc frozen artifact comparison",
+      "scientific_status": "POST_HOC_DIAGNOSTIC"
+    },
+    {
+      "claim_id": "C_POSTHOC_PREV_EN2_FEAR_GOLD_TEST",
+      "description": "Post-hoc EN2 fear gold_test",
+      "value": 0.0624438455,
+      "unit": "prevalence",
+      "source_file": "reports/brighter_ptbr/final/generalization_prevalence.csv",
+      "source_field": "label=fear; gold_test",
+      "experimental_protocol": "post-hoc frozen artifact comparison",
+      "scientific_status": "POST_HOC_DIAGNOSTIC"
+    },
+    {
+      "claim_id": "C_POSTHOC_PREV_EN2_FEAR_PRED_TEST_EN2",
+      "description": "Post-hoc EN2 fear pred_test_en2",
+      "value": 0.0080862534,
+      "unit": "prevalence",
+      "source_file": "reports/brighter_ptbr/final/generalization_prevalence.csv",
+      "source_field": "label=fear; pred_test_en2",
+      "experimental_protocol": "post-hoc frozen artifact comparison",
+      "scientific_status": "POST_HOC_DIAGNOSTIC"
+    },
+    {
+      "claim_id": "C_POSTHOC_PREV_EN2_FEAR_PREDICTION_ERROR_DEV",
+      "description": "Post-hoc EN2 fear prediction_error_dev",
+      "value": 0.04286892,
+      "unit": "prevalence",
+      "source_file": "reports/brighter_ptbr/final/generalization_prevalence.csv",
+      "source_field": "label=fear; prediction_error_dev",
+      "experimental_protocol": "post-hoc frozen artifact comparison",
+      "scientific_status": "POST_HOC_DIAGNOSTIC"
+    },
+    {
+      "claim_id": "C_POSTHOC_PREV_EN2_FEAR_PREDICTION_ERROR_TEST",
+      "description": "Post-hoc EN2 fear prediction_error_test",
+      "value": -0.0543575921,
+      "unit": "prevalence",
+      "source_file": "reports/brighter_ptbr/final/generalization_prevalence.csv",
+      "source_field": "label=fear; prediction_error_test",
+      "experimental_protocol": "post-hoc frozen artifact comparison",
+      "scientific_status": "POST_HOC_DIAGNOSTIC"
+    },
+    {
+      "claim_id": "C_POSTHOC_PREV_EN2_JOY_GOLD_DEV",
+      "description": "Post-hoc EN2 joy gold_dev",
+      "value": 0.2650453421,
+      "unit": "prevalence",
+      "source_file": "reports/brighter_ptbr/final/generalization_prevalence.csv",
+      "source_field": "label=joy; gold_dev",
+      "experimental_protocol": "post-hoc frozen artifact comparison",
+      "scientific_status": "POST_HOC_DIAGNOSTIC"
+    },
+    {
+      "claim_id": "C_POSTHOC_PREV_EN2_JOY_PRED_DEV_EN2_NESTED",
+      "description": "Post-hoc EN2 joy pred_dev_en2_nested",
+      "value": 0.2650453421,
+      "unit": "prevalence",
+      "source_file": "reports/brighter_ptbr/final/generalization_prevalence.csv",
+      "source_field": "label=joy; pred_dev_en2_nested",
+      "experimental_protocol": "post-hoc frozen artifact comparison",
+      "scientific_status": "POST_HOC_DIAGNOSTIC"
+    },
+    {
+      "claim_id": "C_POSTHOC_PREV_EN2_JOY_GOLD_TEST",
+      "description": "Post-hoc EN2 joy gold_test",
+      "value": 0.2493261456,
+      "unit": "prevalence",
+      "source_file": "reports/brighter_ptbr/final/generalization_prevalence.csv",
+      "source_field": "label=joy; gold_test",
+      "experimental_protocol": "post-hoc frozen artifact comparison",
+      "scientific_status": "POST_HOC_DIAGNOSTIC"
+    },
+    {
+      "claim_id": "C_POSTHOC_PREV_EN2_JOY_PRED_TEST_EN2",
+      "description": "Post-hoc EN2 joy pred_test_en2",
+      "value": 0.1608265948,
+      "unit": "prevalence",
+      "source_file": "reports/brighter_ptbr/final/generalization_prevalence.csv",
+      "source_field": "label=joy; pred_test_en2",
+      "experimental_protocol": "post-hoc frozen artifact comparison",
+      "scientific_status": "POST_HOC_DIAGNOSTIC"
+    },
+    {
+      "claim_id": "C_POSTHOC_PREV_EN2_JOY_PREDICTION_ERROR_DEV",
+      "description": "Post-hoc EN2 joy prediction_error_dev",
+      "value": 0.0,
+      "unit": "prevalence",
+      "source_file": "reports/brighter_ptbr/final/generalization_prevalence.csv",
+      "source_field": "label=joy; prediction_error_dev",
+      "experimental_protocol": "post-hoc frozen artifact comparison",
+      "scientific_status": "POST_HOC_DIAGNOSTIC"
+    },
+    {
+      "claim_id": "C_POSTHOC_PREV_EN2_JOY_PREDICTION_ERROR_TEST",
+      "description": "Post-hoc EN2 joy prediction_error_test",
+      "value": -0.0884995508,
+      "unit": "prevalence",
+      "source_file": "reports/brighter_ptbr/final/generalization_prevalence.csv",
+      "source_field": "label=joy; prediction_error_test",
+      "experimental_protocol": "post-hoc frozen artifact comparison",
+      "scientific_status": "POST_HOC_DIAGNOSTIC"
+    },
+    {
+      "claim_id": "C_POSTHOC_PREV_EN2_SADNESS_GOLD_DEV",
+      "description": "Post-hoc EN2 sadness gold_dev",
+      "value": 0.144270404,
+      "unit": "prevalence",
+      "source_file": "reports/brighter_ptbr/final/generalization_prevalence.csv",
+      "source_field": "label=sadness; gold_dev",
+      "experimental_protocol": "post-hoc frozen artifact comparison",
+      "scientific_status": "POST_HOC_DIAGNOSTIC"
+    },
+    {
+      "claim_id": "C_POSTHOC_PREV_EN2_SADNESS_PRED_DEV_EN2_NESTED",
+      "description": "Post-hoc EN2 sadness pred_dev_en2_nested",
+      "value": 0.1830173124,
+      "unit": "prevalence",
+      "source_file": "reports/brighter_ptbr/final/generalization_prevalence.csv",
+      "source_field": "label=sadness; pred_dev_en2_nested",
+      "experimental_protocol": "post-hoc frozen artifact comparison",
+      "scientific_status": "POST_HOC_DIAGNOSTIC"
+    },
+    {
+      "claim_id": "C_POSTHOC_PREV_EN2_SADNESS_GOLD_TEST",
+      "description": "Post-hoc EN2 sadness gold_test",
+      "value": 0.1540880503,
+      "unit": "prevalence",
+      "source_file": "reports/brighter_ptbr/final/generalization_prevalence.csv",
+      "source_field": "label=sadness; gold_test",
+      "experimental_protocol": "post-hoc frozen artifact comparison",
+      "scientific_status": "POST_HOC_DIAGNOSTIC"
+    },
+    {
+      "claim_id": "C_POSTHOC_PREV_EN2_SADNESS_PRED_TEST_EN2",
+      "description": "Post-hoc EN2 sadness pred_test_en2",
+      "value": 0.0035938904,
+      "unit": "prevalence",
+      "source_file": "reports/brighter_ptbr/final/generalization_prevalence.csv",
+      "source_field": "label=sadness; pred_test_en2",
+      "experimental_protocol": "post-hoc frozen artifact comparison",
+      "scientific_status": "POST_HOC_DIAGNOSTIC"
+    },
+    {
+      "claim_id": "C_POSTHOC_PREV_EN2_SADNESS_PREDICTION_ERROR_DEV",
+      "description": "Post-hoc EN2 sadness prediction_error_dev",
+      "value": 0.0387469085,
+      "unit": "prevalence",
+      "source_file": "reports/brighter_ptbr/final/generalization_prevalence.csv",
+      "source_field": "label=sadness; prediction_error_dev",
+      "experimental_protocol": "post-hoc frozen artifact comparison",
+      "scientific_status": "POST_HOC_DIAGNOSTIC"
+    },
+    {
+      "claim_id": "C_POSTHOC_PREV_EN2_SADNESS_PREDICTION_ERROR_TEST",
+      "description": "Post-hoc EN2 sadness prediction_error_test",
+      "value": -0.1504941599,
+      "unit": "prevalence",
+      "source_file": "reports/brighter_ptbr/final/generalization_prevalence.csv",
+      "source_field": "label=sadness; prediction_error_test",
+      "experimental_protocol": "post-hoc frozen artifact comparison",
+      "scientific_status": "POST_HOC_DIAGNOSTIC"
+    },
+    {
+      "claim_id": "C_POSTHOC_PREV_EN2_SURPRISE_GOLD_DEV",
+      "description": "Post-hoc EN2 surprise gold_dev",
+      "value": 0.0717230008,
+      "unit": "prevalence",
+      "source_file": "reports/brighter_ptbr/final/generalization_prevalence.csv",
+      "source_field": "label=surprise; gold_dev",
+      "experimental_protocol": "post-hoc frozen artifact comparison",
+      "scientific_status": "POST_HOC_DIAGNOSTIC"
+    },
+    {
+      "claim_id": "C_POSTHOC_PREV_EN2_SURPRISE_PRED_DEV_EN2_NESTED",
+      "description": "Post-hoc EN2 surprise pred_dev_en2_nested",
+      "value": 0.1265457543,
+      "unit": "prevalence",
+      "source_file": "reports/brighter_ptbr/final/generalization_prevalence.csv",
+      "source_field": "label=surprise; pred_dev_en2_nested",
+      "experimental_protocol": "post-hoc frozen artifact comparison",
+      "scientific_status": "POST_HOC_DIAGNOSTIC"
+    },
+    {
+      "claim_id": "C_POSTHOC_PREV_EN2_SURPRISE_GOLD_TEST",
+      "description": "Post-hoc EN2 surprise gold_test",
+      "value": 0.0705300988,
+      "unit": "prevalence",
+      "source_file": "reports/brighter_ptbr/final/generalization_prevalence.csv",
+      "source_field": "label=surprise; gold_test",
+      "experimental_protocol": "post-hoc frozen artifact comparison",
+      "scientific_status": "POST_HOC_DIAGNOSTIC"
+    },
+    {
+      "claim_id": "C_POSTHOC_PREV_EN2_SURPRISE_PRED_TEST_EN2",
+      "description": "Post-hoc EN2 surprise pred_test_en2",
+      "value": 0.0696316262,
+      "unit": "prevalence",
+      "source_file": "reports/brighter_ptbr/final/generalization_prevalence.csv",
+      "source_field": "label=surprise; pred_test_en2",
+      "experimental_protocol": "post-hoc frozen artifact comparison",
+      "scientific_status": "POST_HOC_DIAGNOSTIC"
+    },
+    {
+      "claim_id": "C_POSTHOC_PREV_EN2_SURPRISE_PREDICTION_ERROR_DEV",
+      "description": "Post-hoc EN2 surprise prediction_error_dev",
+      "value": 0.0548227535,
+      "unit": "prevalence",
+      "source_file": "reports/brighter_ptbr/final/generalization_prevalence.csv",
+      "source_field": "label=surprise; prediction_error_dev",
+      "experimental_protocol": "post-hoc frozen artifact comparison",
+      "scientific_status": "POST_HOC_DIAGNOSTIC"
+    },
+    {
+      "claim_id": "C_POSTHOC_PREV_EN2_SURPRISE_PREDICTION_ERROR_TEST",
+      "description": "Post-hoc EN2 surprise prediction_error_test",
+      "value": -0.0008984726,
+      "unit": "prevalence",
+      "source_file": "reports/brighter_ptbr/final/generalization_prevalence.csv",
+      "source_field": "label=surprise; prediction_error_test",
+      "experimental_protocol": "post-hoc frozen artifact comparison",
+      "scientific_status": "POST_HOC_DIAGNOSTIC"
+    },
+    {
+      "claim_id": "C_POSTHOC_CROSS_EN2_ANGER_THRESHOLD",
+      "description": "Post-hoc EN2 anger threshold crossing threshold",
+      "value": 0.67,
+      "unit": "rate",
+      "source_file": "reports/brighter_ptbr/final/generalization_threshold_crossing.csv",
+      "source_field": "system=EN2; label=anger; threshold",
+      "experimental_protocol": "post-hoc frozen probability comparison",
+      "scientific_status": "POST_HOC_DIAGNOSTIC"
+    },
+    {
+      "claim_id": "C_POSTHOC_CROSS_EN2_ANGER_DEVELOPMENT_CROSSING_RATE",
+      "description": "Post-hoc EN2 anger threshold crossing development_crossing_rate",
+      "value": 0.3042044518,
+      "unit": "rate",
+      "source_file": "reports/brighter_ptbr/final/generalization_threshold_crossing.csv",
+      "source_field": "system=EN2; label=anger; development_crossing_rate",
+      "experimental_protocol": "post-hoc frozen probability comparison",
+      "scientific_status": "POST_HOC_DIAGNOSTIC"
+    },
+    {
+      "claim_id": "C_POSTHOC_CROSS_EN2_ANGER_TEST_CROSSING_RATE",
+      "description": "Post-hoc EN2 anger threshold crossing test_crossing_rate",
+      "value": 0.102425876,
+      "unit": "rate",
+      "source_file": "reports/brighter_ptbr/final/generalization_threshold_crossing.csv",
+      "source_field": "system=EN2; label=anger; test_crossing_rate",
+      "experimental_protocol": "post-hoc frozen probability comparison",
+      "scientific_status": "POST_HOC_DIAGNOSTIC"
+    },
+    {
+      "claim_id": "C_POSTHOC_CROSS_EN2_ANGER_DELTA",
+      "description": "Post-hoc EN2 anger threshold crossing delta",
+      "value": -0.2017785758,
+      "unit": "rate",
+      "source_file": "reports/brighter_ptbr/final/generalization_threshold_crossing.csv",
+      "source_field": "system=EN2; label=anger; delta",
+      "experimental_protocol": "post-hoc frozen probability comparison",
+      "scientific_status": "POST_HOC_DIAGNOSTIC"
+    },
+    {
+      "claim_id": "C_POSTHOC_CROSS_EN2_DISGUST_THRESHOLD",
+      "description": "Post-hoc EN2 disgust threshold crossing threshold",
+      "value": 0.36,
+      "unit": "rate",
+      "source_file": "reports/brighter_ptbr/final/generalization_threshold_crossing.csv",
+      "source_field": "system=EN2; label=disgust; threshold",
+      "experimental_protocol": "post-hoc frozen probability comparison",
+      "scientific_status": "POST_HOC_DIAGNOSTIC"
+    },
+    {
+      "claim_id": "C_POSTHOC_CROSS_EN2_DISGUST_DEVELOPMENT_CROSSING_RATE",
+      "description": "Post-hoc EN2 disgust threshold crossing development_crossing_rate",
+      "value": 0.1104699093,
+      "unit": "rate",
+      "source_file": "reports/brighter_ptbr/final/generalization_threshold_crossing.csv",
+      "source_field": "system=EN2; label=disgust; development_crossing_rate",
+      "experimental_protocol": "post-hoc frozen probability comparison",
+      "scientific_status": "POST_HOC_DIAGNOSTIC"
+    },
+    {
+      "claim_id": "C_POSTHOC_CROSS_EN2_DISGUST_TEST_CROSSING_RATE",
+      "description": "Post-hoc EN2 disgust threshold crossing test_crossing_rate",
+      "value": 0.0013477089,
+      "unit": "rate",
+      "source_file": "reports/brighter_ptbr/final/generalization_threshold_crossing.csv",
+      "source_field": "system=EN2; label=disgust; test_crossing_rate",
+      "experimental_protocol": "post-hoc frozen probability comparison",
+      "scientific_status": "POST_HOC_DIAGNOSTIC"
+    },
+    {
+      "claim_id": "C_POSTHOC_CROSS_EN2_DISGUST_DELTA",
+      "description": "Post-hoc EN2 disgust threshold crossing delta",
+      "value": -0.1091222004,
+      "unit": "rate",
+      "source_file": "reports/brighter_ptbr/final/generalization_threshold_crossing.csv",
+      "source_field": "system=EN2; label=disgust; delta",
+      "experimental_protocol": "post-hoc frozen probability comparison",
+      "scientific_status": "POST_HOC_DIAGNOSTIC"
+    },
+    {
+      "claim_id": "C_POSTHOC_CROSS_EN2_FEAR_THRESHOLD",
+      "description": "Post-hoc EN2 fear threshold crossing threshold",
+      "value": 0.43,
+      "unit": "rate",
+      "source_file": "reports/brighter_ptbr/final/generalization_threshold_crossing.csv",
+      "source_field": "system=EN2; label=fear; threshold",
+      "experimental_protocol": "post-hoc frozen probability comparison",
+      "scientific_status": "POST_HOC_DIAGNOSTIC"
+    },
+    {
+      "claim_id": "C_POSTHOC_CROSS_EN2_FEAR_DEVELOPMENT_CROSSING_RATE",
+      "description": "Post-hoc EN2 fear threshold crossing development_crossing_rate",
+      "value": 0.0515251443,
+      "unit": "rate",
+      "source_file": "reports/brighter_ptbr/final/generalization_threshold_crossing.csv",
+      "source_field": "system=EN2; label=fear; development_crossing_rate",
+      "experimental_protocol": "post-hoc frozen probability comparison",
+      "scientific_status": "POST_HOC_DIAGNOSTIC"
+    },
+    {
+      "claim_id": "C_POSTHOC_CROSS_EN2_FEAR_TEST_CROSSING_RATE",
+      "description": "Post-hoc EN2 fear threshold crossing test_crossing_rate",
+      "value": 0.0080862534,
+      "unit": "rate",
+      "source_file": "reports/brighter_ptbr/final/generalization_threshold_crossing.csv",
+      "source_field": "system=EN2; label=fear; test_crossing_rate",
+      "experimental_protocol": "post-hoc frozen probability comparison",
+      "scientific_status": "POST_HOC_DIAGNOSTIC"
+    },
+    {
+      "claim_id": "C_POSTHOC_CROSS_EN2_FEAR_DELTA",
+      "description": "Post-hoc EN2 fear threshold crossing delta",
+      "value": -0.0434388909,
+      "unit": "rate",
+      "source_file": "reports/brighter_ptbr/final/generalization_threshold_crossing.csv",
+      "source_field": "system=EN2; label=fear; delta",
+      "experimental_protocol": "post-hoc frozen probability comparison",
+      "scientific_status": "POST_HOC_DIAGNOSTIC"
+    },
+    {
+      "claim_id": "C_POSTHOC_CROSS_EN2_JOY_THRESHOLD",
+      "description": "Post-hoc EN2 joy threshold crossing threshold",
+      "value": 0.65,
+      "unit": "rate",
+      "source_file": "reports/brighter_ptbr/final/generalization_threshold_crossing.csv",
+      "source_field": "system=EN2; label=joy; threshold",
+      "experimental_protocol": "post-hoc frozen probability comparison",
+      "scientific_status": "POST_HOC_DIAGNOSTIC"
+    },
+    {
+      "claim_id": "C_POSTHOC_CROSS_EN2_JOY_DEVELOPMENT_CROSSING_RATE",
+      "description": "Post-hoc EN2 joy threshold crossing development_crossing_rate",
+      "value": 0.2600989283,
+      "unit": "rate",
+      "source_file": "reports/brighter_ptbr/final/generalization_threshold_crossing.csv",
+      "source_field": "system=EN2; label=joy; development_crossing_rate",
+      "experimental_protocol": "post-hoc frozen probability comparison",
+      "scientific_status": "POST_HOC_DIAGNOSTIC"
+    },
+    {
+      "claim_id": "C_POSTHOC_CROSS_EN2_JOY_TEST_CROSSING_RATE",
+      "description": "Post-hoc EN2 joy threshold crossing test_crossing_rate",
+      "value": 0.1608265948,
+      "unit": "rate",
+      "source_file": "reports/brighter_ptbr/final/generalization_threshold_crossing.csv",
+      "source_field": "system=EN2; label=joy; test_crossing_rate",
+      "experimental_protocol": "post-hoc frozen probability comparison",
+      "scientific_status": "POST_HOC_DIAGNOSTIC"
+    },
+    {
+      "claim_id": "C_POSTHOC_CROSS_EN2_JOY_DELTA",
+      "description": "Post-hoc EN2 joy threshold crossing delta",
+      "value": -0.0992723335,
+      "unit": "rate",
+      "source_file": "reports/brighter_ptbr/final/generalization_threshold_crossing.csv",
+      "source_field": "system=EN2; label=joy; delta",
+      "experimental_protocol": "post-hoc frozen probability comparison",
+      "scientific_status": "POST_HOC_DIAGNOSTIC"
+    },
+    {
+      "claim_id": "C_POSTHOC_CROSS_EN2_SADNESS_THRESHOLD",
+      "description": "Post-hoc EN2 sadness threshold crossing threshold",
+      "value": 0.58,
+      "unit": "rate",
+      "source_file": "reports/brighter_ptbr/final/generalization_threshold_crossing.csv",
+      "source_field": "system=EN2; label=sadness; threshold",
+      "experimental_protocol": "post-hoc frozen probability comparison",
+      "scientific_status": "POST_HOC_DIAGNOSTIC"
+    },
+    {
+      "claim_id": "C_POSTHOC_CROSS_EN2_SADNESS_DEVELOPMENT_CROSSING_RATE",
+      "description": "Post-hoc EN2 sadness threshold crossing development_crossing_rate",
+      "value": 0.1574608409,
+      "unit": "rate",
+      "source_file": "reports/brighter_ptbr/final/generalization_threshold_crossing.csv",
+      "source_field": "system=EN2; label=sadness; development_crossing_rate",
+      "experimental_protocol": "post-hoc frozen probability comparison",
+      "scientific_status": "POST_HOC_DIAGNOSTIC"
+    },
+    {
+      "claim_id": "C_POSTHOC_CROSS_EN2_SADNESS_TEST_CROSSING_RATE",
+      "description": "Post-hoc EN2 sadness threshold crossing test_crossing_rate",
+      "value": 0.0035938904,
+      "unit": "rate",
+      "source_file": "reports/brighter_ptbr/final/generalization_threshold_crossing.csv",
+      "source_field": "system=EN2; label=sadness; test_crossing_rate",
+      "experimental_protocol": "post-hoc frozen probability comparison",
+      "scientific_status": "POST_HOC_DIAGNOSTIC"
+    },
+    {
+      "claim_id": "C_POSTHOC_CROSS_EN2_SADNESS_DELTA",
+      "description": "Post-hoc EN2 sadness threshold crossing delta",
+      "value": -0.1538669505,
+      "unit": "rate",
+      "source_file": "reports/brighter_ptbr/final/generalization_threshold_crossing.csv",
+      "source_field": "system=EN2; label=sadness; delta",
+      "experimental_protocol": "post-hoc frozen probability comparison",
+      "scientific_status": "POST_HOC_DIAGNOSTIC"
+    },
+    {
+      "claim_id": "C_POSTHOC_CROSS_EN2_SURPRISE_THRESHOLD",
+      "description": "Post-hoc EN2 surprise threshold crossing threshold",
+      "value": 0.49,
+      "unit": "rate",
+      "source_file": "reports/brighter_ptbr/final/generalization_threshold_crossing.csv",
+      "source_field": "system=EN2; label=surprise; threshold",
+      "experimental_protocol": "post-hoc frozen probability comparison",
+      "scientific_status": "POST_HOC_DIAGNOSTIC"
+    },
+    {
+      "claim_id": "C_POSTHOC_CROSS_EN2_SURPRISE_DEVELOPMENT_CROSSING_RATE",
+      "description": "Post-hoc EN2 surprise threshold crossing development_crossing_rate",
+      "value": 0.0581203627,
+      "unit": "rate",
+      "source_file": "reports/brighter_ptbr/final/generalization_threshold_crossing.csv",
+      "source_field": "system=EN2; label=surprise; development_crossing_rate",
+      "experimental_protocol": "post-hoc frozen probability comparison",
+      "scientific_status": "POST_HOC_DIAGNOSTIC"
+    },
+    {
+      "claim_id": "C_POSTHOC_CROSS_EN2_SURPRISE_TEST_CROSSING_RATE",
+      "description": "Post-hoc EN2 surprise threshold crossing test_crossing_rate",
+      "value": 0.0696316262,
+      "unit": "rate",
+      "source_file": "reports/brighter_ptbr/final/generalization_threshold_crossing.csv",
+      "source_field": "system=EN2; label=surprise; test_crossing_rate",
+      "experimental_protocol": "post-hoc frozen probability comparison",
+      "scientific_status": "POST_HOC_DIAGNOSTIC"
+    },
+    {
+      "claim_id": "C_POSTHOC_CROSS_EN2_SURPRISE_DELTA",
+      "description": "Post-hoc EN2 surprise threshold crossing delta",
+      "value": 0.0115112635,
+      "unit": "rate",
+      "source_file": "reports/brighter_ptbr/final/generalization_threshold_crossing.csv",
+      "source_field": "system=EN2; label=surprise; delta",
+      "experimental_protocol": "post-hoc frozen probability comparison",
+      "scientific_status": "POST_HOC_DIAGNOSTIC"
+    }
+  ],
+  "master_results": "reports/brighter_ptbr/paper/master_results.csv"
+}

@@ -1,0 +1,12 @@
+{
+  "metadata/brighter_ptbr/eda/eda_summary.json": "b8d5d04b16b6152c80fb9ab50976d960afb6fda172b67c6badd07224d9444976",
+  "metadata/brighter_ptbr/experiments/baseline_summary.json": "528cd587eca149e296b66533b87676724378fee56a2bb472b1a89835f249fa1e",
+  "metadata/brighter_ptbr/experiments/imbalance_loss_summary.json": "8e9a01930d155de3fac19f1e6415ff04699aeed95125d846289092485c4a6923",
+  "metadata/brighter_ptbr/experiments/encoder_summary.json": "c48516ab3915835959ba6bd18e0c672bbec95d4eceeccf91e1d6a706ec582c87",
+  "metadata/brighter_ptbr/experiments/threshold_calibration_summary.json": "22921644f4032123c9b5ff88712e4aa5a44bb6a81656083b5a8fb48e0f1074ec",
+  "metadata/brighter_ptbr/experiments/ensemble_summary.json": "4278828bfaab3947e7dc2df6e4a70b4c67f5879c85a78d9608616e8d56a89f7a",
+  "metadata/brighter_ptbr/final/final_experiment_manifest.json": "218c47b27606949c3bc6a99253a55aac8843250f6ca9bfae19bcdc0b89053bdc",
+  "reports/brighter_ptbr/final/final_test_results.json": "e39d9a3919fd6019a39e032057bf74f4b27125377a7a106137e2029abfe02d43",
+  "metadata/brighter_ptbr/final/generalization_gap_summary.json": "c81f1778fab08a756cda4abf4cea0545261aaf41a0aacb1903132fffc8f1eae8",
+  "reports/brighter_ptbr/experiments/experiment_registry.csv": "0a0d727ceeee14da9fb973299128291a63e630119e30c2cb2ee5a10d9e833281"
+}

@@ -1,0 +1,31 @@
+system: EN2
+role: PRIMARY
+frozen: true
+dataset_revision: 419566ac8f46f951b51584be36c13e5363008144
+development_examples: 2426
+models:
+  t2:
+    path: artifacts/models/final/t2_bertweetbr_asl
+    checkpoint: melll-uff/bertweetbr
+  t3:
+    path: artifacts/models/final/t3_bertimbau_large_bce
+    checkpoint: neuralmind/bert-large-portuguese-cased
+alpha_t2: 0.7
+weight_t3: 0.30000000000000004
+thresholds:
+  anger: 0.67
+  disgust: 0.36
+  fear: 0.43
+  joy: 0.65
+  sadness: 0.58
+  surprise: 0.49
+label_order:
+- anger
+- disgust
+- fear
+- joy
+- sadness
+- surprise
+max_length: 128
+preprocessing: none
+test_policy: SEALED_UNTIL_SEPARATELY_AUTHORIZED

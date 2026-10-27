@@ -1,0 +1,13 @@
+\begin{tabular}{lrrr}
+\toprule
+Hypothesis & Evidence supporting & Evidence against & Status \\
+\midrule
+H1 label prevalence shift & Largest absolute per-label prevalence change was 0.0157. & Gold cardinality changed only +0.000190; prevalence changes are modest relative to the performance gap. & NOT SUPPORTED \\
+H2 probability calibration shift & Mean score shifts averaged -0.0286 for EN2 and predicted cardinality fell -0.7180; crossing rates collapsed for most labels. & EN2 macro Brier did not deteriorate (0.1275→0.1215), and score movement conflates retraining with test-distribution effects. & PARTIALLY SUPPORTED \\
+H3 ranking degradation & EN2 macro AP changed 0.6002→0.5042, so threshold-free ranking also degraded. & Some labels, especially surprise and joy, retained materially better ranking/recall than the rare conservative labels. & PARTIALLY SUPPORTED \\
+H4 final-model retraining shift & Frozen final models moved probability scales relative to fold OOF: mean shifts T2=-0.0379, T3=-0.0070. & No matched inference of fold and final models on the same held-out texts exists, so retraining cannot be isolated from test shift. & PARTIALLY SUPPORTED \\
+H5 T2-specific failure & T2 had the largest standalone test gap and mean score shift -0.0379, versus only -0.0070 for T3. & EN2 also remained conservative and some T2 labels shifted upward, so the failure was heterogeneous rather than uniformly T2-wide. & PARTIALLY SUPPORTED \\
+H6 ensemble failure & The frozen fusion inherited low component scores and remained far below nested development. & EN2 test Macro-F1 0.2852 exceeded T2 0.1569; T3 therefore mitigated rather than solely caused T2 conservatism. & NOT SUPPORTED \\
+H7 textual/domain shift & Development-to-test score and ranking changes are compatible with covariate/domain differences. & No permitted frozen text-level representation supports direct covariate analysis in this task. & INCONCLUSIVE \\
+\bottomrule
+\end{tabular}

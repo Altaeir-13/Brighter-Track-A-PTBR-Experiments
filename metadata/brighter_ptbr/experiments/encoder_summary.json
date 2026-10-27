@@ -1,0 +1,1275 @@
+{
+  "development_examples": 2426,
+  "folds": 5,
+  "threshold": 0.5,
+  "dataset_hashes": {
+    "train": "3fe02f1a979dde450a883c97b8aa648528c1f5d2dd70eaec1d7d1e8aeac2cb91",
+    "dev": "4d23f9d2dedbfeb99c5fcb68001b01a6de30d897a8663d4bd505839f030105ba"
+  },
+  "test_policy": "SEALED — NOT LOADED OR EVALUATED",
+  "selected_systems": [
+    "E3_BERTWEETBR_ASL",
+    "E2_BERTWEETBR_WEIGHTED_FOCAL",
+    "B2_BERTIMBAU_LARGE_BCE"
+  ],
+  "main_results": [
+    {
+      "model": "B1",
+      "encoder": "BERTimbau Base",
+      "loss": "BCE",
+      "macro_f1": 0.32441996704757076,
+      "micro_f1": 0.6121898597626753,
+      "macro_average_precision": 0.41295136195974785,
+      "neutral_false_positive_rate": 0.2846607669616519,
+      "ap_disgust": 0.09371104593560609,
+      "f1_disgust": 0.0,
+      "ap_fear": 0.0872737280009283,
+      "f1_fear": 0.0,
+      "ap_surprise": 0.15473908744110235,
+      "f1_surprise": 0.0
+    },
+    {
+      "model": "L3",
+      "encoder": "BERTimbau Base",
+      "loss": "Weighted Focal",
+      "macro_f1": 0.40235533655901956,
+      "micro_f1": 0.5745092618191872,
+      "macro_average_precision": 0.48081122057254766,
+      "neutral_false_positive_rate": 0.2551622418879056,
+      "ap_disgust": 0.19865953361688315,
+      "f1_disgust": 0.19801980198019803,
+      "ap_fear": 0.2302241675140692,
+      "f1_fear": 0.09230769230769231,
+      "ap_surprise": 0.3947564534320168,
+      "f1_surprise": 0.2882882882882883
+    },
+    {
+      "model": "L4",
+      "encoder": "BERTimbau Base",
+      "loss": "ASL",
+      "macro_f1": 0.4617199198901151,
+      "micro_f1": 0.587323458491216,
+      "macro_average_precision": 0.49231583819043206,
+      "neutral_false_positive_rate": 0.7728613569321534,
+      "ap_disgust": 0.12969614909969351,
+      "f1_disgust": 0.216,
+      "ap_fear": 0.20288705083388262,
+      "f1_fear": 0.2706270627062706,
+      "ap_surprise": 0.37511264025155217,
+      "f1_surprise": 0.3657331136738056
+    },
+    {
+      "model": "B2",
+      "encoder": "BERTimbau Large",
+      "loss": "BCE",
+      "macro_f1": 0.3976347842733952,
+      "micro_f1": 0.6460732984293194,
+      "macro_average_precision": 0.5359509217554123,
+      "neutral_false_positive_rate": 0.2935103244837758,
+      "ap_disgust": 0.15501460118177454,
+      "f1_disgust": 0.0,
+      "ap_fear": 0.3101707049989153,
+      "f1_fear": 0.06504065040650407,
+      "ap_surprise": 0.4528047339185869,
+      "f1_surprise": 0.2641509433962264
+    },
+    {
+      "model": "E1",
+      "encoder": "BERTweetBR",
+      "loss": "BCE",
+      "macro_f1": 0.3263008503292454,
+      "micro_f1": 0.6343758649321893,
+      "macro_average_precision": 0.45711660825262773,
+      "neutral_false_positive_rate": 0.2669616519174042,
+      "ap_disgust": 0.16750118669164715,
+      "f1_disgust": 0.0,
+      "ap_fear": 0.12727841980232163,
+      "f1_fear": 0.0,
+      "ap_surprise": 0.14804882123372853,
+      "f1_surprise": 0.0
+    },
+    {
+      "model": "E2",
+      "encoder": "BERTweetBR",
+      "loss": "Weighted Focal",
+      "macro_f1": 0.39737644371332353,
+      "micro_f1": 0.5901355638880876,
+      "macro_average_precision": 0.5486904019353459,
+      "neutral_false_positive_rate": 0.21238938053097345,
+      "ap_disgust": 0.2465753358918814,
+      "f1_disgust": 0.14736842105263157,
+      "ap_fear": 0.3570537399451095,
+      "f1_fear": 0.15267175572519084,
+      "ap_surprise": 0.4766543111964764,
+      "f1_surprise": 0.25120772946859904
+    },
+    {
+      "model": "E3",
+      "encoder": "BERTweetBR",
+      "loss": "ASL",
+      "macro_f1": 0.5257865229905082,
+      "micro_f1": 0.6408351026185422,
+      "macro_average_precision": 0.6017500046574953,
+      "neutral_false_positive_rate": 0.7256637168141593,
+      "ap_disgust": 0.23409537261367863,
+      "f1_disgust": 0.2631578947368421,
+      "ap_fear": 0.3656136178278492,
+      "f1_fear": 0.34375,
+      "ap_surprise": 0.5523776597181581,
+      "f1_surprise": 0.47058823529411764
+    },
+    {
+      "model": "E4",
+      "encoder": "Albertina 100M PT-BR",
+      "loss": "BCE",
+      "macro_f1": 0.2803630051224055,
+      "micro_f1": 0.5326209223847019,
+      "macro_average_precision": 0.3838548753319133,
+      "neutral_false_positive_rate": 0.29646017699115046,
+      "ap_disgust": 0.09796436162829458,
+      "f1_disgust": 0.0,
+      "ap_fear": 0.11211888159608954,
+      "f1_fear": 0.0,
+      "ap_surprise": 0.2109524794304856,
+      "f1_surprise": 0.0
+    },
+    {
+      "model": "E5",
+      "encoder": "Albertina 100M PT-BR",
+      "loss": "Weighted Focal",
+      "macro_f1": 0.26639442477698755,
+      "micro_f1": 0.44032158317872605,
+      "macro_average_precision": 0.3513560009433195,
+      "neutral_false_positive_rate": 0.20501474926253682,
+      "ap_disgust": 0.09449197275235699,
+      "f1_disgust": 0.02197802197802198,
+      "ap_fear": 0.12002874377986611,
+      "f1_fear": 0.046153846153846156,
+      "ap_surprise": 0.2287203722789668,
+      "f1_surprise": 0.18518518518518517
+    },
+    {
+      "model": "E6",
+      "encoder": "Albertina 100M PT-BR",
+      "loss": "ASL",
+      "macro_f1": 0.3953111111089953,
+      "micro_f1": 0.5321829163071613,
+      "macro_average_precision": 0.3967232440712462,
+      "neutral_false_positive_rate": 0.8230088495575221,
+      "ap_disgust": 0.11418677384671219,
+      "f1_disgust": 0.16080402010050251,
+      "ap_fear": 0.11911723579527027,
+      "f1_fear": 0.17682926829268292,
+      "ap_surprise": 0.23929210185135497,
+      "f1_surprise": 0.29327902240325865
+    }
+  ],
+  "effect_decomposition": [
+    {
+      "comparison": "E1 - B1",
+      "macro_f1": 0.001880883281674628,
+      "micro_f1": 0.022186005169514078,
+      "neutral_fp": -0.017699115044247704,
+      "ap_disgust": 0.07379014075604107,
+      "ap_fear": 0.040004691801393336,
+      "ap_surprise": -0.006690266207373813
+    },
+    {
+      "comparison": "E2 - E1",
+      "macro_f1": 0.07107559338407815,
+      "micro_f1": -0.044240301044101704,
+      "neutral_fp": -0.054572271386430726,
+      "ap_disgust": 0.07907414920023426,
+      "ap_fear": 0.2297753201427879,
+      "ap_surprise": 0.32860548996274785
+    },
+    {
+      "comparison": "E3 - E1",
+      "macro_f1": 0.19948567266126283,
+      "micro_f1": 0.0064592376863528145,
+      "neutral_fp": 0.45870206489675514,
+      "ap_disgust": 0.06659418592203148,
+      "ap_fear": 0.23833519802552755,
+      "ap_surprise": 0.4043288384844296
+    },
+    {
+      "comparison": "E4 - B1",
+      "macro_f1": -0.04405696192516528,
+      "micro_f1": -0.07956893737797333,
+      "neutral_fp": 0.01179941002949858,
+      "ap_disgust": 0.004253315692688497,
+      "ap_fear": 0.02484515359516125,
+      "ap_surprise": 0.05621339198938324
+    },
+    {
+      "comparison": "E5 - E4",
+      "macro_f1": -0.013968580345417925,
+      "micro_f1": -0.09229933920597588,
+      "neutral_fp": -0.09144542772861364,
+      "ap_disgust": -0.003472388875937593,
+      "ap_fear": 0.007909862183776567,
+      "ap_surprise": 0.01776789284848121
+    },
+    {
+      "comparison": "E6 - E4",
+      "macro_f1": 0.11494810598658983,
+      "micro_f1": -0.00043800607754063137,
+      "neutral_fp": 0.5265486725663716,
+      "ap_disgust": 0.01622241221841761,
+      "ap_fear": 0.006998354199180726,
+      "ap_surprise": 0.028339622420869376
+    },
+    {
+      "comparison": "E2 - L3",
+      "macro_f1": -0.004978892845696026,
+      "micro_f1": 0.015626302068900477,
+      "neutral_fp": -0.042772861356932146,
+      "ap_disgust": 0.047915802274998254,
+      "ap_fear": 0.12682957243104032,
+      "ap_surprise": 0.08189785776445957
+    },
+    {
+      "comparison": "E3 - L4",
+      "macro_f1": 0.06406660310039308,
+      "micro_f1": 0.05351164412732612,
+      "neutral_fp": -0.0471976401179941,
+      "ap_disgust": 0.10439922351398512,
+      "ap_fear": 0.16272656699396656,
+      "ap_surprise": 0.17726501946660594
+    },
+    {
+      "comparison": "E5 - L3",
+      "macro_f1": -0.135960911782032,
+      "micro_f1": -0.1341876786404611,
+      "neutral_fp": -0.05014749262536877,
+      "ap_disgust": -0.10416756086452617,
+      "ap_fear": -0.1101954237342031,
+      "ap_surprise": -0.16603608115305002
+    },
+    {
+      "comparison": "E6 - L4",
+      "macro_f1": -0.06640880878111982,
+      "micro_f1": -0.05514054218405473,
+      "neutral_fp": 0.05014749262536866,
+      "ap_disgust": -0.015509375252981322,
+      "ap_fear": -0.08376981503861235,
+      "ap_surprise": -0.1358205384001972
+    }
+  ],
+  "cardinality": [
+    {
+      "model": "B1",
+      "encoder": "BERTimbau Base",
+      "loss": "BCE",
+      "gold_label_cardinality": 0.8821104699093157,
+      "predicted_label_cardinality": 0.6463314097279472,
+      "delta": -0.23577906018136852
+    },
+    {
+      "model": "L3",
+      "encoder": "BERTimbau Base",
+      "loss": "Weighted Focal",
+      "gold_label_cardinality": 0.8821104699093157,
+      "predicted_label_cardinality": 0.6088211046990931,
+      "delta": -0.2732893652102226
+    },
+    {
+      "model": "L4",
+      "encoder": "BERTimbau Base",
+      "loss": "ASL",
+      "gold_label_cardinality": 0.8821104699093157,
+      "predicted_label_cardinality": 1.5111294311624073,
+      "delta": 0.6290189612530915
+    },
+    {
+      "model": "B2",
+      "encoder": "BERTimbau Large",
+      "loss": "BCE",
+      "gold_label_cardinality": 0.8821104699093157,
+      "predicted_label_cardinality": 0.6924979389942292,
+      "delta": -0.18961253091508656
+    },
+    {
+      "model": "E1",
+      "encoder": "BERTweetBR",
+      "loss": "BCE",
+      "gold_label_cardinality": 0.8821104699093157,
+      "predicted_label_cardinality": 0.6071723000824403,
+      "delta": -0.27493816982687547
+    },
+    {
+      "model": "E2",
+      "encoder": "BERTweetBR",
+      "loss": "Weighted Focal",
+      "gold_label_cardinality": 0.8821104699093157,
+      "predicted_label_cardinality": 0.5469909315746084,
+      "delta": -0.3351195383347073
+    },
+    {
+      "model": "E3",
+      "encoder": "BERTweetBR",
+      "loss": "ASL",
+      "gold_label_cardinality": 0.8821104699093157,
+      "predicted_label_cardinality": 1.4476504534212695,
+      "delta": 0.5655399835119538
+    },
+    {
+      "model": "E4",
+      "encoder": "Albertina 100M PT-BR",
+      "loss": "BCE",
+      "gold_label_cardinality": 0.8821104699093157,
+      "predicted_label_cardinality": 0.5836768342951361,
+      "delta": -0.2984336356141797
+    },
+    {
+      "model": "E5",
+      "encoder": "Albertina 100M PT-BR",
+      "loss": "Weighted Focal",
+      "gold_label_cardinality": 0.8821104699093157,
+      "predicted_label_cardinality": 0.45094806265457543,
+      "delta": -0.4311624072547403
+    },
+    {
+      "model": "E6",
+      "encoder": "Albertina 100M PT-BR",
+      "loss": "ASL",
+      "gold_label_cardinality": 0.8821104699093157,
+      "predicted_label_cardinality": 1.5065952184666116,
+      "delta": 0.6244847485572959
+    }
+  ],
+  "cost": [
+    {
+      "model": "E1",
+      "encoder": "BERTweetBR",
+      "loss": "BCE",
+      "parameters": 134907654,
+      "macro_f1": 0.3263008503292454,
+      "training_seconds_total": 507.77008710001246,
+      "training_seconds_mean_fold": 101.5540174200025,
+      "inference_seconds_oof": 4.2956475999963,
+      "peak_vram_bytes": 2473490432,
+      "physical_batch": 8,
+      "accumulation": 2,
+      "effective_batch": 16,
+      "examples_per_second": 76.44404620541313,
+      "macro_f1_gain_per_training_minute": 0.00022225215657150298
+    },
+    {
+      "model": "E2",
+      "encoder": "BERTweetBR",
+      "loss": "Weighted Focal",
+      "parameters": 134907654,
+      "macro_f1": 0.39737644371332353,
+      "training_seconds_total": 530.5590621999872,
+      "training_seconds_mean_fold": 106.11181243999745,
+      "inference_seconds_oof": 4.989539100060938,
+      "peak_vram_bytes": 2473490432,
+      "physical_batch": 8,
+      "accumulation": 2,
+      "effective_batch": 16,
+      "examples_per_second": 73.16056357429406,
+      "macro_f1_gain_per_training_minute": -0.000563054317653249
+    },
+    {
+      "model": "E3",
+      "encoder": "BERTweetBR",
+      "loss": "ASL",
+      "parameters": 134907654,
+      "macro_f1": 0.5257865229905082,
+      "training_seconds_total": 509.92352009998285,
+      "training_seconds_mean_fold": 101.98470401999657,
+      "inference_seconds_oof": 4.618124800006626,
+      "peak_vram_bytes": 2473490432,
+      "physical_batch": 8,
+      "accumulation": 2,
+      "effective_batch": 16,
+      "examples_per_second": 76.12121910436527,
+      "macro_f1_gain_per_training_minute": 0.007538377883157609
+    },
+    {
+      "model": "E4",
+      "encoder": "Albertina 100M PT-BR",
+      "loss": "BCE",
+      "parameters": 139196934,
+      "macro_f1": 0.2803630051224055,
+      "training_seconds_total": 974.2903281000035,
+      "training_seconds_mean_fold": 194.8580656200007,
+      "inference_seconds_oof": 10.472183200006839,
+      "peak_vram_bytes": 2490352128,
+      "physical_batch": 8,
+      "accumulation": 2,
+      "effective_batch": 16,
+      "examples_per_second": 39.8402805411159,
+      "macro_f1_gain_per_training_minute": -0.002713172490036861
+    },
+    {
+      "model": "E5",
+      "encoder": "Albertina 100M PT-BR",
+      "loss": "Weighted Focal",
+      "parameters": 139196934,
+      "macro_f1": 0.26639442477698755,
+      "training_seconds_total": 1045.397221500025,
+      "training_seconds_mean_fold": 209.07944430000498,
+      "inference_seconds_oof": 10.947284800000489,
+      "peak_vram_bytes": 2490352128,
+      "physical_batch": 8,
+      "accumulation": 2,
+      "effective_batch": 16,
+      "examples_per_second": 37.130383744758284,
+      "macro_f1_gain_per_training_minute": -0.007803401940572047
+    },
+    {
+      "model": "E6",
+      "encoder": "Albertina 100M PT-BR",
+      "loss": "ASL",
+      "parameters": 139196934,
+      "macro_f1": 0.3953111111089953,
+      "training_seconds_total": 973.1161867000046,
+      "training_seconds_mean_fold": 194.6232373400009,
+      "inference_seconds_oof": 10.45078170002671,
+      "peak_vram_bytes": 2490352128,
+      "physical_batch": 8,
+      "accumulation": 2,
+      "effective_batch": 16,
+      "examples_per_second": 39.888350980607335,
+      "macro_f1_gain_per_training_minute": -0.004094607181881717
+    }
+  ],
+  "experiments": {
+    "E1": {
+      "experiment_id": "E1_BERTWEETBR_BCE",
+      "oof_path": "artifacts/predictions/bertweetbr_bce_oof.parquet",
+      "oof_sha256": "04c64a2cce725c137201b6787c7e37d369ab3ad2450fd2d62214918fc100ef6f",
+      "metrics": {
+        "threshold": 0.5,
+        "macro_f1": 0.3263008503292454,
+        "micro_f1": 0.6343758649321893,
+        "macro_average_precision": 0.45711660825262773,
+        "macro_precision": 0.3892875584948756,
+        "macro_recall": 0.2960307197865919,
+        "hamming_loss": 0.0907529541082715,
+        "jaccard_samples": 0.41144545204726574,
+        "subset_accuracy": 0.5655399835119538,
+        "gold_label_cardinality": 0.8821104699093157,
+        "predicted_label_cardinality": 0.6071723000824403,
+        "per_label": {
+          "anger": {
+            "precision": 0.7655826558265583,
+            "recall": 0.7280927835051546,
+            "f1": 0.7463672391017173,
+            "support": 776,
+            "average_precision": 0.8303391978500229,
+            "gold_prevalence": 0.31986809563066776,
+            "predicted_prevalence": 0.30420445177246497,
+            "prevalence_delta": -0.01566364385820279,
+            "confusion": {
+              "tn": 1477,
+              "fp": 173,
+              "fn": 211,
+              "tp": 565
+            }
+          },
+          "disgust": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "support": 80,
+            "average_precision": 0.16750118669164715,
+            "gold_prevalence": 0.03297609233305853,
+            "predicted_prevalence": 0.0,
+            "prevalence_delta": -0.03297609233305853,
+            "confusion": {
+              "tn": 2346,
+              "fp": 0,
+              "fn": 80,
+              "tp": 0
+            }
+          },
+          "fear": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "support": 117,
+            "average_precision": 0.12727841980232163,
+            "gold_prevalence": 0.048227535037098104,
+            "predicted_prevalence": 0.0,
+            "prevalence_delta": -0.048227535037098104,
+            "confusion": {
+              "tn": 2309,
+              "fp": 0,
+              "fn": 117,
+              "tp": 0
+            }
+          },
+          "joy": {
+            "precision": 0.793918918918919,
+            "recall": 0.7309486780715396,
+            "f1": 0.7611336032388664,
+            "support": 643,
+            "average_precision": 0.8456222795993042,
+            "gold_prevalence": 0.26504534212695796,
+            "predicted_prevalence": 0.24402308326463315,
+            "prevalence_delta": -0.02102225886232481,
+            "confusion": {
+              "tn": 1661,
+              "fp": 122,
+              "fn": 173,
+              "tp": 470
+            }
+          },
+          "sadness": {
+            "precision": 0.7762237762237763,
+            "recall": 0.3171428571428571,
+            "f1": 0.45030425963488846,
+            "support": 350,
+            "average_precision": 0.623909744338742,
+            "gold_prevalence": 0.1442704039571311,
+            "predicted_prevalence": 0.05894476504534213,
+            "prevalence_delta": -0.08532563891178896,
+            "confusion": {
+              "tn": 2044,
+              "fp": 32,
+              "fn": 239,
+              "tp": 111
+            }
+          },
+          "surprise": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "support": 174,
+            "average_precision": 0.14804882123372853,
+            "gold_prevalence": 0.0717230008244023,
+            "predicted_prevalence": 0.0,
+            "prevalence_delta": -0.0717230008244023,
+            "confusion": {
+              "tn": 2252,
+              "fp": 0,
+              "fn": 174,
+              "tp": 0
+            }
+          }
+        },
+        "zero_label": {
+          "support": 678,
+          "exact_neutral_accuracy": 0.7330383480825958,
+          "neutral_false_positive_rate": 0.2669616519174042
+        },
+        "groups": {
+          "single_label": {
+            "support": 1390,
+            "macro_f1": 0.3570609250865136,
+            "micro_f1": 0.7345058626465661,
+            "subset_accuracy": 0.6201438848920864,
+            "jaccard_samples": 0.6255395683453238,
+            "hamming_loss": 0.07601918465227818
+          },
+          "multi_label": {
+            "support": 358,
+            "macro_f1": 0.30667620306492593,
+            "micro_f1": 0.5153256704980843,
+            "subset_accuracy": 0.036312849162011177,
+            "jaccard_samples": 0.3594040968342645,
+            "hamming_loss": 0.23556797020484171
+          }
+        }
+      }
+    },
+    "E2": {
+      "experiment_id": "E2_BERTWEETBR_WEIGHTED_FOCAL",
+      "oof_path": "artifacts/predictions/bertweetbr_weighted_focal_oof.parquet",
+      "oof_sha256": "857f6a1b9dce4c0b55792ab3450a4444c8423d1843e135423655ea1eb7c09cc4",
+      "metrics": {
+        "threshold": 0.5,
+        "macro_f1": 0.39737644371332353,
+        "micro_f1": 0.5901355638880876,
+        "macro_average_precision": 0.5486904019353459,
+        "macro_precision": 0.7097974334928351,
+        "macro_recall": 0.3134524563804038,
+        "hamming_loss": 0.09762297334432536,
+        "jaccard_samples": 0.35377164056059357,
+        "subset_accuracy": 0.5239076669414674,
+        "gold_label_cardinality": 0.8821104699093157,
+        "predicted_label_cardinality": 0.5469909315746084,
+        "per_label": {
+          "anger": {
+            "precision": 0.7554806070826307,
+            "recall": 0.5773195876288659,
+            "f1": 0.6544923301680059,
+            "support": 776,
+            "average_precision": 0.767134240648294,
+            "gold_prevalence": 0.31986809563066776,
+            "predicted_prevalence": 0.24443528441879636,
+            "prevalence_delta": -0.0754328112118714,
+            "confusion": {
+              "tn": 1505,
+              "fp": 145,
+              "fn": 328,
+              "tp": 448
+            }
+          },
+          "disgust": {
+            "precision": 0.4666666666666667,
+            "recall": 0.0875,
+            "f1": 0.14736842105263157,
+            "support": 80,
+            "average_precision": 0.2465753358918814,
+            "gold_prevalence": 0.03297609233305853,
+            "predicted_prevalence": 0.006183017312448475,
+            "prevalence_delta": -0.026793075020610055,
+            "confusion": {
+              "tn": 2338,
+              "fp": 8,
+              "fn": 73,
+              "tp": 7
+            }
+          },
+          "fear": {
+            "precision": 0.7142857142857143,
+            "recall": 0.08547008547008547,
+            "f1": 0.15267175572519084,
+            "support": 117,
+            "average_precision": 0.3570537399451095,
+            "gold_prevalence": 0.048227535037098104,
+            "predicted_prevalence": 0.005770816158285243,
+            "prevalence_delta": -0.04245671887881286,
+            "confusion": {
+              "tn": 2305,
+              "fp": 4,
+              "fn": 107,
+              "tp": 10
+            }
+          },
+          "joy": {
+            "precision": 0.8149606299212598,
+            "recall": 0.6438569206842923,
+            "f1": 0.7193744569939183,
+            "support": 643,
+            "average_precision": 0.8226283922068094,
+            "gold_prevalence": 0.26504534212695796,
+            "predicted_prevalence": 0.20939818631492169,
+            "prevalence_delta": -0.055647155812036275,
+            "confusion": {
+              "tn": 1689,
+              "fp": 94,
+              "fn": 229,
+              "tp": 414
+            }
+          },
+          "sadness": {
+            "precision": 0.7195121951219512,
+            "recall": 0.33714285714285713,
+            "f1": 0.4591439688715953,
+            "support": 350,
+            "average_precision": 0.6220963917235046,
+            "gold_prevalence": 0.1442704039571311,
+            "predicted_prevalence": 0.06760098928276999,
+            "prevalence_delta": -0.0766694146743611,
+            "confusion": {
+              "tn": 2030,
+              "fp": 46,
+              "fn": 232,
+              "tp": 118
+            }
+          },
+          "surprise": {
+            "precision": 0.7878787878787878,
+            "recall": 0.14942528735632185,
+            "f1": 0.25120772946859904,
+            "support": 174,
+            "average_precision": 0.4766543111964764,
+            "gold_prevalence": 0.0717230008244023,
+            "predicted_prevalence": 0.013602638087386645,
+            "prevalence_delta": -0.05812036273701566,
+            "confusion": {
+              "tn": 2245,
+              "fp": 7,
+              "fn": 148,
+              "tp": 26
+            }
+          }
+        },
+        "zero_label": {
+          "support": 678,
+          "exact_neutral_accuracy": 0.7876106194690266,
+          "neutral_false_positive_rate": 0.21238938053097345
+        },
+        "groups": {
+          "single_label": {
+            "support": 1390,
+            "macro_f1": 0.39505262866077007,
+            "micro_f1": 0.6649099692577953,
+            "subset_accuracy": 0.5107913669064749,
+            "jaccard_samples": 0.5275779376498801,
+            "hamming_loss": 0.09148681055155876
+          },
+          "multi_label": {
+            "support": 358,
+            "macro_f1": 0.3925719022887024,
+            "micro_f1": 0.509090909090909,
+            "subset_accuracy": 0.07541899441340782,
+            "jaccard_samples": 0.3489292364990689,
+            "hamming_loss": 0.2388268156424581
+          }
+        }
+      }
+    },
+    "E3": {
+      "experiment_id": "E3_BERTWEETBR_ASL",
+      "oof_path": "artifacts/predictions/bertweetbr_asl_oof.parquet",
+      "oof_sha256": "86d2d0bd959431c58a0527d565751946266d8e8f6a8b4143f994ade39d0266ba",
+      "metrics": {
+        "threshold": 0.5,
+        "macro_f1": 0.5257865229905082,
+        "micro_f1": 0.6408351026185422,
+        "macro_average_precision": 0.6017500046574953,
+        "macro_precision": 0.4164151171111154,
+        "macro_recall": 0.7336892619804184,
+        "hamming_loss": 0.13946139049189338,
+        "jaccard_samples": 0.4905674635888981,
+        "subset_accuracy": 0.42044517724649627,
+        "gold_label_cardinality": 0.8821104699093157,
+        "predicted_label_cardinality": 1.4476504534212695,
+        "per_label": {
+          "anger": {
+            "precision": 0.6410730804810361,
+            "recall": 0.8930412371134021,
+            "f1": 0.7463651050080775,
+            "support": 776,
+            "average_precision": 0.8593786463535746,
+            "gold_prevalence": 0.31986809563066776,
+            "predicted_prevalence": 0.44558944765045344,
+            "prevalence_delta": 0.12572135201978568,
+            "confusion": {
+              "tn": 1262,
+              "fp": 388,
+              "fn": 83,
+              "tp": 693
+            }
+          },
+          "disgust": {
+            "precision": 0.1881720430107527,
+            "recall": 0.4375,
+            "f1": 0.2631578947368421,
+            "support": 80,
+            "average_precision": 0.23409537261367863,
+            "gold_prevalence": 0.03297609233305853,
+            "predicted_prevalence": 0.07666941467436109,
+            "prevalence_delta": 0.043693322341302555,
+            "confusion": {
+              "tn": 2195,
+              "fp": 151,
+              "fn": 45,
+              "tp": 35
+            }
+          },
+          "fear": {
+            "precision": 0.24719101123595505,
+            "recall": 0.5641025641025641,
+            "f1": 0.34375,
+            "support": 117,
+            "average_precision": 0.3656136178278492,
+            "gold_prevalence": 0.048227535037098104,
+            "predicted_prevalence": 0.11005770816158285,
+            "prevalence_delta": 0.061830173124484744,
+            "confusion": {
+              "tn": 2108,
+              "fp": 201,
+              "fn": 51,
+              "tp": 66
+            }
+          },
+          "joy": {
+            "precision": 0.64340239912759,
+            "recall": 0.9175738724727839,
+            "f1": 0.7564102564102564,
+            "support": 643,
+            "average_precision": 0.8798538523552122,
+            "gold_prevalence": 0.26504534212695796,
+            "predicted_prevalence": 0.3779884583676834,
+            "prevalence_delta": 0.11294311624072545,
+            "confusion": {
+              "tn": 1456,
+              "fp": 327,
+              "fn": 53,
+              "tp": 590
+            }
+          },
+          "sadness": {
+            "precision": 0.43270622286541244,
+            "recall": 0.8542857142857143,
+            "f1": 0.574447646493756,
+            "support": 350,
+            "average_precision": 0.7191808790764994,
+            "gold_prevalence": 0.1442704039571311,
+            "predicted_prevalence": 0.2848309975267931,
+            "prevalence_delta": 0.140560593569662,
+            "confusion": {
+              "tn": 1684,
+              "fp": 392,
+              "fn": 51,
+              "tp": 299
+            }
+          },
+          "surprise": {
+            "precision": 0.34594594594594597,
+            "recall": 0.735632183908046,
+            "f1": 0.47058823529411764,
+            "support": 174,
+            "average_precision": 0.5523776597181581,
+            "gold_prevalence": 0.0717230008244023,
+            "predicted_prevalence": 0.15251442704039572,
+            "prevalence_delta": 0.08079142621599342,
+            "confusion": {
+              "tn": 2010,
+              "fp": 242,
+              "fn": 46,
+              "tp": 128
+            }
+          }
+        },
+        "zero_label": {
+          "support": 678,
+          "exact_neutral_accuracy": 0.2743362831858407,
+          "neutral_false_positive_rate": 0.7256637168141593
+        },
+        "groups": {
+          "single_label": {
+            "support": 1390,
+            "macro_f1": 0.5144718027070968,
+            "micro_f1": 0.7194452470384282,
+            "subset_accuracy": 0.5266187050359712,
+            "jaccard_samples": 0.692242206235012,
+            "hamming_loss": 0.11642685851318944
+          },
+          "multi_label": {
+            "support": 358,
+            "macro_f1": 0.6869840589778423,
+            "micro_f1": 0.7491727332892124,
+            "subset_accuracy": 0.2849162011173184,
+            "jaccard_samples": 0.6365921787709496,
+            "hamming_loss": 0.17644320297951582
+          }
+        }
+      }
+    },
+    "E4": {
+      "experiment_id": "E4_ALBERTINA100M_BCE",
+      "oof_path": "artifacts/predictions/albertina100m_bce_oof.parquet",
+      "oof_sha256": "84ac43287e8dc8e4f4e111b3c14cc4fd254b61acda2844b6ff966d31fc7924af",
+      "metrics": {
+        "threshold": 0.5,
+        "macro_f1": 0.2803630051224055,
+        "micro_f1": 0.5326209223847019,
+        "macro_average_precision": 0.3838548753319133,
+        "macro_precision": 0.3189625849380054,
+        "macro_recall": 0.25299280190503676,
+        "hamming_loss": 0.11417971970321517,
+        "jaccard_samples": 0.340821654300632,
+        "subset_accuracy": 0.49422918384171477,
+        "gold_label_cardinality": 0.8821104699093157,
+        "predicted_label_cardinality": 0.5836768342951361,
+        "per_label": {
+          "anger": {
+            "precision": 0.6967071057192374,
+            "recall": 0.5180412371134021,
+            "f1": 0.5942350332594235,
+            "support": 776,
+            "average_precision": 0.6751240779883184,
+            "gold_prevalence": 0.31986809563066776,
+            "predicted_prevalence": 0.23784006595218465,
+            "prevalence_delta": -0.0820280296784831,
+            "confusion": {
+              "tn": 1475,
+              "fp": 175,
+              "fn": 374,
+              "tp": 402
+            }
+          },
+          "disgust": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "support": 80,
+            "average_precision": 0.09796436162829458,
+            "gold_prevalence": 0.03297609233305853,
+            "predicted_prevalence": 0.0,
+            "prevalence_delta": -0.03297609233305853,
+            "confusion": {
+              "tn": 2346,
+              "fp": 0,
+              "fn": 80,
+              "tp": 0
+            }
+          },
+          "fear": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "support": 117,
+            "average_precision": 0.11211888159608954,
+            "gold_prevalence": 0.048227535037098104,
+            "predicted_prevalence": 0.0,
+            "prevalence_delta": -0.048227535037098104,
+            "confusion": {
+              "tn": 2309,
+              "fp": 0,
+              "fn": 117,
+              "tp": 0
+            }
+          },
+          "joy": {
+            "precision": 0.6970684039087948,
+            "recall": 0.6656298600311042,
+            "f1": 0.6809864757358791,
+            "support": 643,
+            "average_precision": 0.7484691148107454,
+            "gold_prevalence": 0.26504534212695796,
+            "predicted_prevalence": 0.25309150865622426,
+            "prevalence_delta": -0.011953833470733699,
+            "confusion": {
+              "tn": 1597,
+              "fp": 186,
+              "fn": 215,
+              "tp": 428
+            }
+          },
+          "sadness": {
+            "precision": 0.52,
+            "recall": 0.3342857142857143,
+            "f1": 0.40695652173913044,
+            "support": 350,
+            "average_precision": 0.45850033653754635,
+            "gold_prevalence": 0.1442704039571311,
+            "predicted_prevalence": 0.09274525968672712,
+            "prevalence_delta": -0.05152514427040397,
+            "confusion": {
+              "tn": 1968,
+              "fp": 108,
+              "fn": 233,
+              "tp": 117
+            }
+          },
+          "surprise": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "support": 174,
+            "average_precision": 0.2109524794304856,
+            "gold_prevalence": 0.0717230008244023,
+            "predicted_prevalence": 0.0,
+            "prevalence_delta": -0.0717230008244023,
+            "confusion": {
+              "tn": 2252,
+              "fp": 0,
+              "fn": 174,
+              "tp": 0
+            }
+          }
+        },
+        "zero_label": {
+          "support": 678,
+          "exact_neutral_accuracy": 0.7035398230088495,
+          "neutral_false_positive_rate": 0.29646017699115046
+        },
+        "groups": {
+          "single_label": {
+            "support": 1390,
+            "macro_f1": 0.3074863350343343,
+            "micro_f1": 0.6286449399656947,
+            "subset_accuracy": 0.5158273381294964,
+            "jaccard_samples": 0.5215827338129496,
+            "hamming_loss": 0.1038369304556355
+          },
+          "multi_label": {
+            "support": 358,
+            "macro_f1": 0.2576851851851852,
+            "micro_f1": 0.41919686581782567,
+            "subset_accuracy": 0.013966480446927373,
+            "jaccard_samples": 0.2844506517690875,
+            "hamming_loss": 0.27607076350093107
+          }
+        }
+      }
+    },
+    "E5": {
+      "experiment_id": "E5_ALBERTINA100M_WEIGHTED_FOCAL",
+      "oof_path": "artifacts/predictions/albertina100m_weighted_focal_oof.parquet",
+      "oof_sha256": "123a7ba8102d2eb35c9d041415857c94ec4ace090499a4167c44168f5bbdcd2c",
+      "metrics": {
+        "threshold": 0.5,
+        "macro_f1": 0.26639442477698755,
+        "micro_f1": 0.44032158317872605,
+        "macro_average_precision": 0.3513560009433195,
+        "macro_precision": 0.4434643092633667,
+        "macro_recall": 0.20631471952020808,
+        "hamming_loss": 0.12434734817257488,
+        "jaccard_samples": 0.24917559769167355,
+        "subset_accuracy": 0.4361088211046991,
+        "gold_label_cardinality": 0.8821104699093157,
+        "predicted_label_cardinality": 0.45094806265457543,
+        "per_label": {
+          "anger": {
+            "precision": 0.6606683804627249,
+            "recall": 0.33118556701030927,
+            "f1": 0.4412017167381974,
+            "support": 776,
+            "average_precision": 0.5936190463461769,
+            "gold_prevalence": 0.31986809563066776,
+            "predicted_prevalence": 0.16034624896949712,
+            "prevalence_delta": -0.15952184666117064,
+            "confusion": {
+              "tn": 1518,
+              "fp": 132,
+              "fn": 519,
+              "tp": 257
+            }
+          },
+          "disgust": {
+            "precision": 0.09090909090909091,
+            "recall": 0.0125,
+            "f1": 0.02197802197802198,
+            "support": 80,
+            "average_precision": 0.09449197275235699,
+            "gold_prevalence": 0.03297609233305853,
+            "predicted_prevalence": 0.004534212695795548,
+            "prevalence_delta": -0.028441879637262982,
+            "confusion": {
+              "tn": 2336,
+              "fp": 10,
+              "fn": 79,
+              "tp": 1
+            }
+          },
+          "fear": {
+            "precision": 0.23076923076923078,
+            "recall": 0.02564102564102564,
+            "f1": 0.046153846153846156,
+            "support": 117,
+            "average_precision": 0.12002874377986611,
+            "gold_prevalence": 0.048227535037098104,
+            "predicted_prevalence": 0.0053586150041220115,
+            "prevalence_delta": -0.04286892003297609,
+            "confusion": {
+              "tn": 2299,
+              "fp": 10,
+              "fn": 114,
+              "tp": 3
+            }
+          },
+          "joy": {
+            "precision": 0.7281746031746031,
+            "recall": 0.5707620528771384,
+            "f1": 0.6399302528334786,
+            "support": 643,
+            "average_precision": 0.7106807826252746,
+            "gold_prevalence": 0.26504534212695796,
+            "predicted_prevalence": 0.20774938169826876,
+            "prevalence_delta": -0.0572959604286892,
+            "confusion": {
+              "tn": 1646,
+              "fp": 137,
+              "fn": 276,
+              "tp": 367
+            }
+          },
+          "sadness": {
+            "precision": 0.4740740740740741,
+            "recall": 0.18285714285714286,
+            "f1": 0.2639175257731959,
+            "support": 350,
+            "average_precision": 0.3605950878772757,
+            "gold_prevalence": 0.1442704039571311,
+            "predicted_prevalence": 0.055647155812036275,
+            "prevalence_delta": -0.08862324814509481,
+            "confusion": {
+              "tn": 2005,
+              "fp": 71,
+              "fn": 286,
+              "tp": 64
+            }
+          },
+          "surprise": {
+            "precision": 0.47619047619047616,
+            "recall": 0.11494252873563218,
+            "f1": 0.18518518518518517,
+            "support": 174,
+            "average_precision": 0.2287203722789668,
+            "gold_prevalence": 0.0717230008244023,
+            "predicted_prevalence": 0.01731244847485573,
+            "prevalence_delta": -0.05441055234954657,
+            "confusion": {
+              "tn": 2230,
+              "fp": 22,
+              "fn": 154,
+              "tp": 20
+            }
+          }
+        },
+        "zero_label": {
+          "support": 678,
+          "exact_neutral_accuracy": 0.7949852507374632,
+          "neutral_false_positive_rate": 0.20501474926253682
+        },
+        "groups": {
+          "single_label": {
+            "support": 1390,
+            "macro_f1": 0.26068162893604135,
+            "micro_f1": 0.5158242796410014,
+            "subset_accuracy": 0.3661870503597122,
+            "jaccard_samples": 0.37937649880095925,
+            "hamming_loss": 0.12290167865707434
+          },
+          "multi_label": {
+            "support": 358,
+            "macro_f1": 0.25835827190553556,
+            "micro_f1": 0.34156378600823045,
+            "subset_accuracy": 0.027932960893854747,
+            "jaccard_samples": 0.21554934823091246,
+            "hamming_loss": 0.297951582867784
+          }
+        }
+      }
+    },
+    "E6": {
+      "experiment_id": "E6_ALBERTINA100M_ASL",
+      "oof_path": "artifacts/predictions/albertina100m_asl_oof.parquet",
+      "oof_sha256": "d15c1a0da1ee4ffb5972014166aa2e48ce33e24edcb48ed2dbd8d4df197e3cfa",
+      "metrics": {
+        "threshold": 0.5,
+        "macro_f1": 0.3953111111089953,
+        "micro_f1": 0.5321829163071613,
+        "macro_average_precision": 0.3967232440712462,
+        "macro_precision": 0.3133400454105852,
+        "macro_recall": 0.5419239092395495,
+        "hamming_loss": 0.18624622148942016,
+        "jaccard_samples": 0.40735779060181365,
+        "subset_accuracy": 0.31863149216817804,
+        "gold_label_cardinality": 0.8821104699093157,
+        "predicted_label_cardinality": 1.5065952184666116,
+        "per_label": {
+          "anger": {
+            "precision": 0.5155993431855501,
+            "recall": 0.8092783505154639,
+            "f1": 0.629889669007021,
+            "support": 776,
+            "average_precision": 0.6731431466886987,
+            "gold_prevalence": 0.31986809563066776,
+            "predicted_prevalence": 0.5020610057708161,
+            "prevalence_delta": 0.18219291014014838,
+            "confusion": {
+              "tn": 1060,
+              "fp": 590,
+              "fn": 148,
+              "tp": 628
+            }
+          },
+          "disgust": {
+            "precision": 0.13445378151260504,
+            "recall": 0.2,
+            "f1": 0.16080402010050251,
+            "support": 80,
+            "average_precision": 0.11418677384671219,
+            "gold_prevalence": 0.03297609233305853,
+            "predicted_prevalence": 0.04905193734542457,
+            "prevalence_delta": 0.016075845012366037,
+            "confusion": {
+              "tn": 2243,
+              "fp": 103,
+              "fn": 64,
+              "tp": 16
+            }
+          },
+          "fear": {
+            "precision": 0.13744075829383887,
+            "recall": 0.24786324786324787,
+            "f1": 0.17682926829268292,
+            "support": 117,
+            "average_precision": 0.11911723579527027,
+            "gold_prevalence": 0.048227535037098104,
+            "predicted_prevalence": 0.08697444352844189,
+            "prevalence_delta": 0.03874690849134378,
+            "confusion": {
+              "tn": 2127,
+              "fp": 182,
+              "fn": 88,
+              "tp": 29
+            }
+          },
+          "joy": {
+            "precision": 0.5286561264822134,
+            "recall": 0.8320373250388803,
+            "f1": 0.6465256797583081,
+            "support": 643,
+            "average_precision": 0.7493647128386226,
+            "gold_prevalence": 0.26504534212695796,
+            "predicted_prevalence": 0.4171475680131904,
+            "prevalence_delta": 0.15210222588623246,
+            "confusion": {
+              "tn": 1306,
+              "fp": 477,
+              "fn": 108,
+              "tp": 535
+            }
+          },
+          "sadness": {
+            "precision": 0.33676092544987146,
+            "recall": 0.7485714285714286,
+            "f1": 0.4645390070921986,
+            "support": 350,
+            "average_precision": 0.48523549340681893,
+            "gold_prevalence": 0.1442704039571311,
+            "predicted_prevalence": 0.32069249793899424,
+            "prevalence_delta": 0.17642209398186315,
+            "confusion": {
+              "tn": 1560,
+              "fp": 516,
+              "fn": 88,
+              "tp": 262
+            }
+          },
+          "surprise": {
+            "precision": 0.22712933753943218,
+            "recall": 0.41379310344827586,
+            "f1": 0.29327902240325865,
+            "support": 174,
+            "average_precision": 0.23929210185135497,
+            "gold_prevalence": 0.0717230008244023,
+            "predicted_prevalence": 0.13066776586974443,
+            "prevalence_delta": 0.05894476504534213,
+            "confusion": {
+              "tn": 2007,
+              "fp": 245,
+              "fn": 102,
+              "tp": 72
+            }
+          }
+        },
+        "zero_label": {
+          "support": 678,
+          "exact_neutral_accuracy": 0.17699115044247787,
+          "neutral_false_positive_rate": 0.8230088495575221
+        },
+        "groups": {
+          "single_label": {
+            "support": 1390,
+            "macro_f1": 0.3849649609469495,
+            "micro_f1": 0.6082738944365192,
+            "subset_accuracy": 0.42302158273381296,
+            "jaccard_samples": 0.5759592326139088,
+            "hamming_loss": 0.16462829736211032
+          },
+          "multi_label": {
+            "support": 358,
+            "macro_f1": 0.5388802058358272,
+            "micro_f1": 0.6507177033492823,
+            "subset_accuracy": 0.18156424581005587,
+            "jaccard_samples": 0.5242085661080074,
+            "hamming_loss": 0.2378957169459963
+          }
+        }
+      }
+    }
+  }
+}

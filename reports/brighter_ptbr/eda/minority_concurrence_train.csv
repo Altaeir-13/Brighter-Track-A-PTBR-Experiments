@@ -1,0 +1,4 @@
+minority_label,positive_examples,alone,with_majority_label,most_frequent_co_label,most_frequent_co_label_count,p_most_frequent_co_label_given_minority
+disgust,75,8,65,anger,60,0.80000000
+fear,109,52,48,anger,28,0.25688073
+surprise,153,61,83,anger,47,0.30718954

@@ -1,0 +1,905 @@
+{
+  "dataset": "brighter-dataset/BRIGHTER-emotion-categories",
+  "configuration": "ptbr",
+  "revision": "419566ac8f46f951b51584be36c13e5363008144",
+  "track": "A",
+  "experimental_protocol": {
+    "development_data": [
+      "train",
+      "dev"
+    ],
+    "test_policy": "TEST SET — DESCRIPTIVE ONLY",
+    "test_not_used_for_method_selection": true
+  },
+  "input_curated_sha256": {
+    "train": "3fe02f1a979dde450a883c97b8aa648528c1f5d2dd70eaec1d7d1e8aeac2cb91",
+    "dev": "4d23f9d2dedbfeb99c5fcb68001b01a6de30d897a8663d4bd505839f030105ba",
+    "test": "6e12c6df679189bc2343506f7902baf2daa0c336a990a3d9551589d47efea278"
+  },
+  "splits": {
+    "train": {
+      "rows": 2226,
+      "unique_texts": 2226,
+      "unique_ids": 2226,
+      "labels": {
+        "anger": {
+          "positive": 718,
+          "negative": 1508,
+          "prevalence_percentage": 32.25516621743037,
+          "positive_negative_ratio": 0.4761273209549072
+        },
+        "disgust": {
+          "positive": 75,
+          "negative": 2151,
+          "prevalence_percentage": 3.3692722371967654,
+          "positive_negative_ratio": 0.03486750348675035
+        },
+        "fear": {
+          "positive": 109,
+          "negative": 2117,
+          "prevalence_percentage": 4.896675651392632,
+          "positive_negative_ratio": 0.05148795465281058
+        },
+        "joy": {
+          "positive": 581,
+          "negative": 1645,
+          "prevalence_percentage": 26.10062893081761,
+          "positive_negative_ratio": 0.35319148936170214
+        },
+        "sadness": {
+          "positive": 322,
+          "negative": 1904,
+          "prevalence_percentage": 14.465408805031446,
+          "positive_negative_ratio": 0.16911764705882354
+        },
+        "surprise": {
+          "positive": 153,
+          "negative": 2073,
+          "prevalence_percentage": 6.873315363881401,
+          "positive_negative_ratio": 0.07380607814761216
+        }
+      },
+      "num_labels_distribution": {
+        "0": 632,
+        "1": 1261,
+        "2": 303,
+        "3": 29,
+        "4": 1,
+        "5": 0,
+        "6": 0
+      },
+      "zero_label_examples": 632,
+      "zero_label_percentage": 28.39173405211141,
+      "single_label_examples": 1261,
+      "single_label_percentage": 56.64869721473495,
+      "multi_label_examples": 333,
+      "multi_label_percentage": 14.959568733153638,
+      "label_cardinality": 0.8796046720575023,
+      "label_density": 0.14660077867625038,
+      "emotional_examples": 1594,
+      "emotional_label_cardinality": 1.2283563362609786,
+      "emotional_label_density": 0.20472605604349645
+    },
+    "dev": {
+      "rows": 200,
+      "unique_texts": 200,
+      "unique_ids": 200,
+      "labels": {
+        "anger": {
+          "positive": 58,
+          "negative": 142,
+          "prevalence_percentage": 29.0,
+          "positive_negative_ratio": 0.4084507042253521
+        },
+        "disgust": {
+          "positive": 5,
+          "negative": 195,
+          "prevalence_percentage": 2.5,
+          "positive_negative_ratio": 0.02564102564102564
+        },
+        "fear": {
+          "positive": 8,
+          "negative": 192,
+          "prevalence_percentage": 4.0,
+          "positive_negative_ratio": 0.041666666666666664
+        },
+        "joy": {
+          "positive": 62,
+          "negative": 138,
+          "prevalence_percentage": 31.0,
+          "positive_negative_ratio": 0.4492753623188406
+        },
+        "sadness": {
+          "positive": 28,
+          "negative": 172,
+          "prevalence_percentage": 14.0,
+          "positive_negative_ratio": 0.16279069767441862
+        },
+        "surprise": {
+          "positive": 21,
+          "negative": 179,
+          "prevalence_percentage": 10.5,
+          "positive_negative_ratio": 0.11731843575418995
+        }
+      },
+      "num_labels_distribution": {
+        "0": 46,
+        "1": 129,
+        "2": 22,
+        "3": 3,
+        "4": 0,
+        "5": 0,
+        "6": 0
+      },
+      "zero_label_examples": 46,
+      "zero_label_percentage": 23.0,
+      "single_label_examples": 129,
+      "single_label_percentage": 64.5,
+      "multi_label_examples": 25,
+      "multi_label_percentage": 12.5,
+      "label_cardinality": 0.91,
+      "label_density": 0.15166666666666667,
+      "emotional_examples": 154,
+      "emotional_label_cardinality": 1.1818181818181819,
+      "emotional_label_density": 0.196969696969697
+    },
+    "test": {
+      "rows": 2226,
+      "unique_texts": 2226,
+      "unique_ids": 2226,
+      "labels": {
+        "anger": {
+          "positive": 699,
+          "negative": 1527,
+          "prevalence_percentage": 31.401617250673855,
+          "positive_negative_ratio": 0.4577603143418468
+        },
+        "disgust": {
+          "positive": 71,
+          "negative": 2155,
+          "prevalence_percentage": 3.1895777178796045,
+          "positive_negative_ratio": 0.032946635730858466
+        },
+        "fear": {
+          "positive": 139,
+          "negative": 2087,
+          "prevalence_percentage": 6.2443845462713385,
+          "positive_negative_ratio": 0.06660277910876856
+        },
+        "joy": {
+          "positive": 555,
+          "negative": 1671,
+          "prevalence_percentage": 24.932614555256066,
+          "positive_negative_ratio": 0.33213644524236985
+        },
+        "sadness": {
+          "positive": 343,
+          "negative": 1883,
+          "prevalence_percentage": 15.40880503144654,
+          "positive_negative_ratio": 0.1821561338289963
+        },
+        "surprise": {
+          "positive": 157,
+          "negative": 2069,
+          "prevalence_percentage": 7.053009883198563,
+          "positive_negative_ratio": 0.07588206863218946
+        }
+      },
+      "num_labels_distribution": {
+        "0": 616,
+        "1": 1280,
+        "2": 306,
+        "3": 24,
+        "4": 0,
+        "5": 0,
+        "6": 0
+      },
+      "zero_label_examples": 616,
+      "zero_label_percentage": 27.67295597484277,
+      "single_label_examples": 1280,
+      "single_label_percentage": 57.502246181491465,
+      "multi_label_examples": 330,
+      "multi_label_percentage": 14.824797843665769,
+      "label_cardinality": 0.8823000898472596,
+      "label_density": 0.14705001497454326,
+      "emotional_examples": 1610,
+      "emotional_label_cardinality": 1.2198757763975154,
+      "emotional_label_density": 0.20331262939958591
+    }
+  },
+  "label_prevalence": {
+    "train": {
+      "anger": 32.25516621743037,
+      "disgust": 3.3692722371967654,
+      "fear": 4.896675651392632,
+      "joy": 26.10062893081761,
+      "sadness": 14.465408805031446,
+      "surprise": 6.873315363881401
+    },
+    "dev": {
+      "anger": 29.0,
+      "disgust": 2.5,
+      "fear": 4.0,
+      "joy": 31.0,
+      "sadness": 14.0,
+      "surprise": 10.5
+    },
+    "test": {
+      "anger": 31.401617250673855,
+      "disgust": 3.1895777178796045,
+      "fear": 6.2443845462713385,
+      "joy": 24.932614555256066,
+      "sadness": 15.40880503144654,
+      "surprise": 7.053009883198563
+    }
+  },
+  "zero_label_rate": {
+    "train": 28.39173405211141,
+    "dev": 23.0,
+    "test": 27.67295597484277
+  },
+  "multi_label_rate": {
+    "train": 14.959568733153638,
+    "dev": 12.5,
+    "test": 14.824797843665769
+  },
+  "label_cardinality": {
+    "train": 0.8796046720575023,
+    "dev": 0.91,
+    "test": 0.8823000898472596
+  },
+  "label_density": {
+    "train": 0.14660077867625038,
+    "dev": 0.15166666666666667,
+    "test": 0.14705001497454326
+  },
+  "labelsets": {
+    "train": {
+      "observed": 32,
+      "possible": 64,
+      "appearing_once": 8,
+      "appearing_fewer_than_5": 12,
+      "top_20": [
+        {
+          "labelset": "none",
+          "count": 632
+        },
+        {
+          "labelset": "joy",
+          "count": 494
+        },
+        {
+          "labelset": "anger",
+          "count": 475
+        },
+        {
+          "labelset": "sadness",
+          "count": 171
+        },
+        {
+          "labelset": "anger+sadness",
+          "count": 90
+        },
+        {
+          "labelset": "surprise",
+          "count": 61
+        },
+        {
+          "labelset": "fear",
+          "count": 52
+        },
+        {
+          "labelset": "anger+disgust",
+          "count": 49
+        },
+        {
+          "labelset": "anger+surprise",
+          "count": 36
+        },
+        {
+          "labelset": "joy+surprise",
+          "count": 32
+        },
+        {
+          "labelset": "anger+joy",
+          "count": 24
+        },
+        {
+          "labelset": "joy+sadness",
+          "count": 20
+        },
+        {
+          "labelset": "anger+fear",
+          "count": 17
+        },
+        {
+          "labelset": "fear+sadness",
+          "count": 13
+        },
+        {
+          "labelset": "anger+disgust+sadness",
+          "count": 9
+        },
+        {
+          "labelset": "disgust",
+          "count": 8
+        },
+        {
+          "labelset": "fear+surprise",
+          "count": 8
+        },
+        {
+          "labelset": "fear+joy",
+          "count": 6
+        },
+        {
+          "labelset": "anger+fear+sadness",
+          "count": 5
+        },
+        {
+          "labelset": "anger+fear+surprise",
+          "count": 5
+        }
+      ]
+    },
+    "dev": {
+      "observed": 17,
+      "possible": 64,
+      "appearing_once": 6,
+      "appearing_fewer_than_5": 11,
+      "top_20": [
+        {
+          "labelset": "joy",
+          "count": 52
+        },
+        {
+          "labelset": "anger",
+          "count": 47
+        },
+        {
+          "labelset": "none",
+          "count": 46
+        },
+        {
+          "labelset": "sadness",
+          "count": 20
+        },
+        {
+          "labelset": "joy+surprise",
+          "count": 9
+        },
+        {
+          "labelset": "surprise",
+          "count": 6
+        },
+        {
+          "labelset": "fear",
+          "count": 4
+        },
+        {
+          "labelset": "anger+sadness",
+          "count": 3
+        },
+        {
+          "labelset": "anger+surprise",
+          "count": 3
+        },
+        {
+          "labelset": "anger+disgust",
+          "count": 2
+        },
+        {
+          "labelset": "fear+sadness",
+          "count": 2
+        },
+        {
+          "labelset": "anger+disgust+sadness",
+          "count": 1
+        },
+        {
+          "labelset": "anger+disgust+surprise",
+          "count": 1
+        },
+        {
+          "labelset": "anger+fear",
+          "count": 1
+        },
+        {
+          "labelset": "disgust+sadness+surprise",
+          "count": 1
+        },
+        {
+          "labelset": "fear+surprise",
+          "count": 1
+        },
+        {
+          "labelset": "joy+sadness",
+          "count": 1
+        }
+      ]
+    },
+    "test": {
+      "observed": 29,
+      "possible": 64,
+      "appearing_once": 2,
+      "appearing_fewer_than_5": 10,
+      "top_20": [
+        {
+          "labelset": "none",
+          "count": 616
+        },
+        {
+          "labelset": "joy",
+          "count": 476
+        },
+        {
+          "labelset": "anger",
+          "count": 465
+        },
+        {
+          "labelset": "sadness",
+          "count": 196
+        },
+        {
+          "labelset": "anger+sadness",
+          "count": 88
+        },
+        {
+          "labelset": "fear",
+          "count": 76
+        },
+        {
+          "labelset": "surprise",
+          "count": 59
+        },
+        {
+          "labelset": "anger+disgust",
+          "count": 43
+        },
+        {
+          "labelset": "joy+surprise",
+          "count": 38
+        },
+        {
+          "labelset": "anger+surprise",
+          "count": 34
+        },
+        {
+          "labelset": "anger+joy",
+          "count": 25
+        },
+        {
+          "labelset": "anger+fear",
+          "count": 22
+        },
+        {
+          "labelset": "fear+sadness",
+          "count": 21
+        },
+        {
+          "labelset": "disgust+sadness",
+          "count": 9
+        },
+        {
+          "labelset": "joy+sadness",
+          "count": 9
+        },
+        {
+          "labelset": "disgust",
+          "count": 8
+        },
+        {
+          "labelset": "fear+surprise",
+          "count": 8
+        },
+        {
+          "labelset": "anger+disgust+sadness",
+          "count": 6
+        },
+        {
+          "labelset": "sadness+surprise",
+          "count": 5
+        },
+        {
+          "labelset": "anger+disgust+surprise",
+          "count": 3
+        }
+      ]
+    }
+  },
+  "imbalance": {
+    "irlbl": {
+      "anger": 1.0,
+      "disgust": 9.573333333333334,
+      "fear": 6.587155963302752,
+      "joy": 1.2358003442340793,
+      "sadness": 2.229813664596273,
+      "surprise": 4.69281045751634
+    },
+    "mean_ir": 4.21981896049713,
+    "scumble": 0.037881607840401725,
+    "scumble_lbl": {
+      "anger": 0.06757554397818538,
+      "disgust": 0.3355281775300542,
+      "fear": 0.10900158220898147,
+      "joy": 0.016275141031044344,
+      "sadness": 0.049990257131330575,
+      "surprise": 0.11522545013002035
+    },
+    "scumble_instances_used": 1594,
+    "scumble_zero_label_instances_excluded": 632,
+    "minority_labels": [
+      "disgust",
+      "fear",
+      "surprise"
+    ],
+    "majority_labels": [
+      "anger",
+      "joy",
+      "sadness"
+    ],
+    "minority_concurrence": [
+      {
+        "minority_label": "disgust",
+        "positive_examples": 75,
+        "alone": 8,
+        "with_majority_label": 65,
+        "most_frequent_co_label": "anger",
+        "most_frequent_co_label_count": 60,
+        "p_most_frequent_co_label_given_minority": 0.8
+      },
+      {
+        "minority_label": "fear",
+        "positive_examples": 109,
+        "alone": 52,
+        "with_majority_label": 48,
+        "most_frequent_co_label": "anger",
+        "most_frequent_co_label_count": 28,
+        "p_most_frequent_co_label_given_minority": 0.25688073394495414
+      },
+      {
+        "minority_label": "surprise",
+        "positive_examples": 153,
+        "alone": 61,
+        "with_majority_label": 83,
+        "most_frequent_co_label": "anger",
+        "most_frequent_co_label_count": 47,
+        "p_most_frequent_co_label_given_minority": 0.30718954248366015
+      }
+    ]
+  },
+  "irlbl": {
+    "anger": 1.0,
+    "disgust": 9.573333333333334,
+    "fear": 6.587155963302752,
+    "joy": 1.2358003442340793,
+    "sadness": 2.229813664596273,
+    "surprise": 4.69281045751634
+  },
+  "mean_ir": 4.21981896049713,
+  "scumble": 0.037881607840401725,
+  "text_lengths": {
+    "characters": {
+      "min": 11,
+      "mean": 113.58445642407906,
+      "std": 133.8882019324915,
+      "p25": 45.0,
+      "p50": 76.0,
+      "p75": 141.0,
+      "p90": 240.0,
+      "p95": 280.0,
+      "p97_5": 382.125,
+      "p99": 578.5,
+      "max": 2665
+    },
+    "words": {
+      "min": 3,
+      "mean": 20.738095238095237,
+      "std": 23.81619040964945,
+      "p25": 8.0,
+      "p50": 14.0,
+      "p75": 26.0,
+      "p90": 43.0,
+      "p95": 53.0,
+      "p97_5": 67.0,
+      "p99": 104.0,
+      "max": 463
+    },
+    "lines": {
+      "min": 1,
+      "mean": 1.0,
+      "std": 0.0,
+      "p25": 1.0,
+      "p50": 1.0,
+      "p75": 1.0,
+      "p90": 1.0,
+      "p95": 1.0,
+      "p97_5": 1.0,
+      "p99": 1.0,
+      "max": 1
+    }
+  },
+  "social_media_features": [
+    {
+      "feature": "url",
+      "count": 0,
+      "percentage": 0.0
+    },
+    {
+      "feature": "mention",
+      "count": 0,
+      "percentage": 0.0
+    },
+    {
+      "feature": "hashtag",
+      "count": 0,
+      "percentage": 0.0
+    },
+    {
+      "feature": "emoji",
+      "count": 0,
+      "percentage": 0.0
+    },
+    {
+      "feature": "text_emoticon",
+      "count": 159,
+      "percentage": 7.142857142857143
+    },
+    {
+      "feature": "uppercase_character",
+      "count": 0,
+      "percentage": 0.0
+    },
+    {
+      "feature": "uppercase_word",
+      "count": 0,
+      "percentage": 0.0
+    },
+    {
+      "feature": "repeated_exclamation",
+      "count": 67,
+      "percentage": 3.0098831985624437
+    },
+    {
+      "feature": "repeated_question",
+      "count": 58,
+      "percentage": 2.605570530098832
+    },
+    {
+      "feature": "mixed_question_exclamation",
+      "count": 10,
+      "percentage": 0.44923629829290207
+    },
+    {
+      "feature": "line_break",
+      "count": 0,
+      "percentage": 0.0
+    },
+    {
+      "feature": "number",
+      "count": 260,
+      "percentage": 11.680143755615454
+    },
+    {
+      "feature": "non_ascii",
+      "count": 1719,
+      "percentage": 77.22371967654986
+    },
+    {
+      "feature": "possible_html_entity",
+      "count": 18,
+      "percentage": 0.8086253369272237
+    }
+  ],
+  "emoji": {
+    "texts_with_emoji": 0,
+    "texts_with_emoji_percentage": 0.0,
+    "total_emojis": 0,
+    "top_20": [],
+    "label_association": {
+      "anger": {
+        "emoji_text_positive": 0,
+        "emoji_text_total": 0,
+        "emoji_text_prevalence_percentage": 0.0,
+        "non_emoji_text_positive": 718,
+        "non_emoji_text_total": 2226,
+        "non_emoji_text_prevalence_percentage": 32.25516621743037
+      },
+      "disgust": {
+        "emoji_text_positive": 0,
+        "emoji_text_total": 0,
+        "emoji_text_prevalence_percentage": 0.0,
+        "non_emoji_text_positive": 75,
+        "non_emoji_text_total": 2226,
+        "non_emoji_text_prevalence_percentage": 3.3692722371967654
+      },
+      "fear": {
+        "emoji_text_positive": 0,
+        "emoji_text_total": 0,
+        "emoji_text_prevalence_percentage": 0.0,
+        "non_emoji_text_positive": 109,
+        "non_emoji_text_total": 2226,
+        "non_emoji_text_prevalence_percentage": 4.896675651392632
+      },
+      "joy": {
+        "emoji_text_positive": 0,
+        "emoji_text_total": 0,
+        "emoji_text_prevalence_percentage": 0.0,
+        "non_emoji_text_positive": 581,
+        "non_emoji_text_total": 2226,
+        "non_emoji_text_prevalence_percentage": 26.10062893081761
+      },
+      "sadness": {
+        "emoji_text_positive": 0,
+        "emoji_text_total": 0,
+        "emoji_text_prevalence_percentage": 0.0,
+        "non_emoji_text_positive": 322,
+        "non_emoji_text_total": 2226,
+        "non_emoji_text_prevalence_percentage": 14.465408805031446
+      },
+      "surprise": {
+        "emoji_text_positive": 0,
+        "emoji_text_total": 0,
+        "emoji_text_prevalence_percentage": 0.0,
+        "non_emoji_text_positive": 153,
+        "non_emoji_text_total": 2226,
+        "non_emoji_text_prevalence_percentage": 6.873315363881402
+      }
+    }
+  },
+  "tokenizer": {
+    "model": "neuralmind/bert-base-portuguese-cased",
+    "revision": "94d69c95f98f7d5b2a8700c420230ae10def0baa",
+    "add_special_tokens": true,
+    "truncation": false
+  },
+  "token_lengths": {
+    "distribution": {
+      "min": 5,
+      "mean": 31.060646900269543,
+      "std": 31.851190602116322,
+      "p25": 14.0,
+      "p50": 22.0,
+      "p75": 38.0,
+      "p90": 62.0,
+      "p95": 76.0,
+      "p97_5": 93.375,
+      "p99": 144.75,
+      "max": 585
+    },
+    "truncation": {
+      "64": {
+        "truncated_examples": 191,
+        "truncated_percentage": 8.58041329739443
+      },
+      "128": {
+        "truncated_examples": 28,
+        "truncated_percentage": 1.2578616352201257
+      },
+      "256": {
+        "truncated_examples": 6,
+        "truncated_percentage": 0.2695417789757412
+      },
+      "512": {
+        "truncated_examples": 2,
+        "truncated_percentage": 0.08984725965858041
+      }
+    }
+  },
+  "recommended_max_length_candidates": [
+    128,
+    256,
+    512
+  ],
+  "train_dev_comparison": {
+    "label_prevalence_differences": [
+      {
+        "emotion": "anger",
+        "train_prevalence_percentage": 32.25516621743037,
+        "dev_prevalence_percentage": 29.0,
+        "absolute_difference_percentage_points": 3.2551662174303715
+      },
+      {
+        "emotion": "disgust",
+        "train_prevalence_percentage": 3.3692722371967654,
+        "dev_prevalence_percentage": 2.5,
+        "absolute_difference_percentage_points": 0.8692722371967654
+      },
+      {
+        "emotion": "fear",
+        "train_prevalence_percentage": 4.896675651392632,
+        "dev_prevalence_percentage": 4.0,
+        "absolute_difference_percentage_points": 0.8966756513926324
+      },
+      {
+        "emotion": "joy",
+        "train_prevalence_percentage": 26.10062893081761,
+        "dev_prevalence_percentage": 31.0,
+        "absolute_difference_percentage_points": 4.89937106918239
+      },
+      {
+        "emotion": "sadness",
+        "train_prevalence_percentage": 14.465408805031446,
+        "dev_prevalence_percentage": 14.0,
+        "absolute_difference_percentage_points": 0.465408805031446
+      },
+      {
+        "emotion": "surprise",
+        "train_prevalence_percentage": 6.873315363881401,
+        "dev_prevalence_percentage": 10.5,
+        "absolute_difference_percentage_points": 3.6266846361185987
+      }
+    ],
+    "largest_label": "joy",
+    "largest_absolute_difference_percentage_points": 4.89937106918239,
+    "cardinality_absolute_difference": 0.030395327942497774,
+    "density_absolute_difference": 0.005065887990416296,
+    "dev_label_positive_counts": {
+      "anger": 58,
+      "disgust": 5,
+      "fear": 8,
+      "joy": 62,
+      "sadness": 28,
+      "surprise": 21
+    }
+  },
+  "known_train_test_overlap": {
+    "count": 1,
+    "removed": 0,
+    "report": "reports/brighter_ptbr/cross_split_leakage.md",
+    "used_for_method_selection": false
+  },
+  "dataset_modifications": {
+    "text_preprocessing": "none",
+    "label_modification": "none",
+    "balancing": "none",
+    "sampling": "none",
+    "augmentation": "none",
+    "synthetic_data": "none"
+  },
+  "warnings": [
+    "TEST SET — DESCRIPTIVE ONLY; do not use test statistics for methodological choices.",
+    "SCUMBLE excludes zero-label instances because the active-label formulation is undefined for empty labelsets.",
+    "The official dev split is small; rare-label threshold calibration may be unstable.",
+    "One exact train-test text overlap is documented and left untouched."
+  ],
+  "artifacts": {
+    "report": "reports/brighter_ptbr/eda/multilabel_eda.md",
+    "figures": [
+      "figures/brighter_ptbr/eda/01_label_distribution_train.pdf",
+      "figures/brighter_ptbr/eda/01_label_distribution_train.png",
+      "figures/brighter_ptbr/eda/02_label_count_distribution_train.pdf",
+      "figures/brighter_ptbr/eda/02_label_count_distribution_train.png",
+      "figures/brighter_ptbr/eda/labelset_upset_train.pdf",
+      "figures/brighter_ptbr/eda/labelset_upset_train.png",
+      "figures/brighter_ptbr/eda/03_labelset_upset_train.pdf",
+      "figures/brighter_ptbr/eda/03_labelset_upset_train.png",
+      "figures/brighter_ptbr/eda/cooccurrence_train.pdf",
+      "figures/brighter_ptbr/eda/cooccurrence_train.png",
+      "figures/brighter_ptbr/eda/04_cooccurrence_train.pdf",
+      "figures/brighter_ptbr/eda/04_cooccurrence_train.png",
+      "figures/brighter_ptbr/eda/cooccurrence_dev.pdf",
+      "figures/brighter_ptbr/eda/cooccurrence_dev.png",
+      "figures/brighter_ptbr/eda/conditional_probability_train.pdf",
+      "figures/brighter_ptbr/eda/conditional_probability_train.png",
+      "figures/brighter_ptbr/eda/05_conditional_probability_train.pdf",
+      "figures/brighter_ptbr/eda/05_conditional_probability_train.png",
+      "figures/brighter_ptbr/eda/jaccard_labels_train.pdf",
+      "figures/brighter_ptbr/eda/jaccard_labels_train.png",
+      "figures/brighter_ptbr/eda/lift_train.pdf",
+      "figures/brighter_ptbr/eda/lift_train.png",
+      "figures/brighter_ptbr/eda/irlbl_train.pdf",
+      "figures/brighter_ptbr/eda/irlbl_train.png",
+      "figures/brighter_ptbr/eda/06_irlbl_train.pdf",
+      "figures/brighter_ptbr/eda/06_irlbl_train.png",
+      "figures/brighter_ptbr/eda/text_length_chars_train.pdf",
+      "figures/brighter_ptbr/eda/text_length_chars_train.png",
+      "figures/brighter_ptbr/eda/text_length_words_train.pdf",
+      "figures/brighter_ptbr/eda/text_length_words_train.png",
+      "figures/brighter_ptbr/eda/07_text_length_tokens_train.pdf",
+      "figures/brighter_ptbr/eda/07_text_length_tokens_train.png"
+    ],
+    "latex_directory": "reports/brighter_ptbr/eda/latex",
+    "machine_readable_summary": "metadata/brighter_ptbr/eda/eda_summary.json"
+  }
+}
